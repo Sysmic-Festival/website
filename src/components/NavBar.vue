@@ -1,0 +1,263 @@
+<script setup>
+import { onMounted, reactive } from 'vue'
+
+const state = reactive({
+  sticky: false,
+  stickyPosition: 0,
+  navbar: null,
+  root: null
+})
+
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+openNav( () => {
+  document.getElementById("mySidebar").style.width = "250px";
+})
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+closeNav( () =>  {
+  document.getElementById("mySidebar").style.width = "0";
+})
+
+onMounted(() => {
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {onScroll()};
+
+  // Get the navbar
+  state.navbar = document.getElementById("navbar");
+  state.root = document.documentElement;
+
+  // Get the offset position of the navbar
+  state.stickyPosition = navbar.offsetTop;
+})
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// the minus part is so that the header sticks as soon as the top margin is reached, so it doesn't jump (removing the "px" from the margin)
+function onScroll() {
+  if (state.navbar && window.pageYOffset >= state.stickyPosition) {
+    state.sticky = true
+  } else {
+    state.sticky = false
+  }
+}
+</script>
+
+<template>
+
+  <div id="mySidebar" class="sidebar">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+  <nav :class="{ sticky: state.sticky }" id="navbar" ref="main-navbar">
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img class = img-responsive src="@/assets/images/logo.svg" />
+      </a>
+      <ul class="bar-menu">
+        <li><a href="#!">Line-up</a></li>
+        <li><a href="#!">Infos</a></li>
+        <li><a href="#!">Sponsors</a></li>
+        <li><a href="#!">Qui sommes-nous?</a></li>
+      </ul>
+
+        <input type="checkbox" id="burger-toggle" onchange="openNav()">
+        <label for="burger-toggle" class="burger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+
+    </div>
+  </nav>
+</template>
+
+<style scoped>
+#navbar{
+  z-index: 100;
+  position: absolute;
+  padding-top:calc(var(--global-margin)/2);
+  height: calc(var(--navbar-height) + var(--global-margin));
+  width: 100%;
+  top: calc(100vh - var(--navbar-height) - var(--global-margin));
+  background-color: var(--primary);
+}
+
+#navbar .container{  
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar .container .logo{
+  height: var(--navbar-height);
+  /* adjusting Y axis to align with menu */
+  /*transform: translateY(calc(-0.05*var(--navbar-height))); */
+}
+
+#navbar .container .logo img{
+  max-height: 100%;
+  max-width: none;
+}
+
+
+.container{
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: var(--global-margin);
+  margin-right: var(--global-margin);
+  display: flex;
+}
+
+/* bar menu for large enough screens + hover properties for whole navbar */
+@media screen and (min-width: 790px){
+  .bar-menu li a:hover {
+    color: var(--third);
+  }
+
+  .burger-menu:hover .line::after {
+    transform: translateX(0);
+  }
+
+  .bar-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--global-margin);
+    list-style: none;
+  }
+  
+  .bar-menu li {
+    width: auto;
+    height: auto;
+    margin-right: 10%;
+  }
+  .bar-menu li a {
+    font-size: 2vw;
+    color: var(--white);
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+  
+}
+
+
+@media screen and (max-width: 790px){
+  
+  .bar-menu {
+    display: block;
+    width: 100%;
+    list-style: none;
+  }
+
+  .bar-menu li{
+    display: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .bar-menu li a {
+    font-size: 23px;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+  }
+  
+}
+
+#burger-toggle {
+  appearance: none;
+  opacity: 0;
+}
+
+input[id = burger-toggle]:checked ~ .side-menu {
+  transform: scaleX(1);
+}
+
+#burger-toggle:checked ~ .side-menu .sidebar-item span div,
+#burger-toggle:checked ~ .side-menu img,
+#burger-toggle:checked ~ .side-menu .sidebar-item {
+  transform: translateY(0);
+  transition: 0.5s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
+}
+
+#burger-toggle:checked ~ .burger-menu .line::after {
+  transform: translateX(0);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(1) {
+  transform: translateY(calc(var(--navbar-height) / 5)) rotate(45deg);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(2) {
+  transition-duration: 0.1s;
+  transform: scaleX(0);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(3) {
+  transform: translateY(calc(var(--navbar-height) / -5)) rotate(-45deg);
+}
+
+.burger-container{
+  width: var(--navbar-height);
+  height: var(--navbar-height);
+}
+
+.burger-menu {
+  min-width: var(--navbar-height);
+  height: var(--navbar-height);
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+.burger-menu .line {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 4px;
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.burger-menu .line:nth-child(1) {
+  top: 30%;
+}
+.burger-menu .line:nth-child(2) {
+  top: 50%;
+}
+.burger-menu .line:nth-child(3) {
+  top: 70%;
+}
+.burger-menu .line::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--third);
+  transform: translateX(-100%);
+  transition: 0.25s;
+}
+.burger-menu .line:nth-child(2)::after {
+  transition-delay: 0.1s;
+}
+.burger-menu .line:nth-child(3)::after {
+  transition-delay: 0.2s;
+}
+
+#navbar.sticky {
+  position: fixed;
+  top: 0;
+}
+
+#navbar.img-responsive {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
+</style>

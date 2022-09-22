@@ -1,0 +1,202 @@
+.navbar{
+  
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: var(--global-margin);
+  height: var(--navbar-height);
+  width: auto;
+}
+
+.navbar .container{  
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container .logo{
+  height: var(--navbar-height);
+  /* adjusting Y axis to align with menu */
+  transform: translateY(calc(-0.05*var(--navbar-height)));
+}
+
+/* bar menu for large enough screens + hover properties for whole navbar */
+@media screen and (min-width: 535px){
+  .bar-menu li a:hover {
+    color: #d94f5c;
+  }
+
+  .burger-menu:hover .line::after {
+    transform: translateX(0);
+  }
+
+  .bar-menu {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: var(--navbar-height);
+    margin-right:  var(--navbar-right-margin);
+    list-style: none;
+  }
+  
+  .bar-menu li {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .bar-menu li a {
+    font-size: 23px;
+    color: rgba(43, 61, 79, 0.3);
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+  
+  .bar-menu li:not(:last-child) {
+    margin-right: var(--global-margin);
+  }
+}
+
+@media screen and (max-width: 535px){
+  
+  .bar-menu {
+    display: block;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .bar-menu .mobile-container{
+    display:flex;
+  }
+
+  .bar-menu .mobile-container .mobile-arrow{
+    height: calc(var(--navbar-height)/2);
+    align-self:center;
+    transform: translateY(2px);
+  }
+
+  .bar-menu li:not(:first-child){
+    display: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .bar-menu li a {
+    font-size: 23px;
+    color: rgba(43, 61, 79, 0.3);
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+  }
+
+  .active{
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+}
+
+.bar-menu .mobile-container .mobile-arrow{
+  display: none;
+}
+
+#burger-toggle {
+  appearance: none;
+  opacity: 0;
+}
+
+input[id = burger-toggle]:checked ~ .side-menu {
+  transform: scaleX(1);
+}
+
+#burger-toggle:checked ~ .side-menu .sidebar-item span div,
+#burger-toggle:checked ~ .side-menu img,
+#burger-toggle:checked ~ .side-menu .sidebar-item {
+  transform: translateY(0);
+  transition: 0.5s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
+}
+
+#burger-toggle:checked ~ .burger-menu .line::after {
+  transform: translateX(0);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(1) {
+  transform: translateY(calc(var(--navbar-height) / 5)) rotate(45deg);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(2) {
+  transition-duration: 0.1s;
+  transform: scaleX(0);
+}
+#burger-toggle:checked ~ .burger-menu .line:nth-child(3) {
+  transform: translateY(calc(var(--navbar-height) / -5)) rotate(-45deg);
+}
+
+.burger-container{
+  min-width: var(--navbar-height);
+  height: var(--navbar-height);
+  justify-content: right;
+}
+
+.burger-menu {
+  position: absolute;
+  width: var(--navbar-height);
+  height: var(--navbar-height);
+  top: 0;
+  right: var(--global-margin);
+  z-index: 100;
+  display: block;
+  --burger-menu-radius: 4em;
+  outline: none;
+  cursor: pointer;
+}
+.burger-menu .line {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 4px;
+  background: rgba(43, 61, 79, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.burger-menu .line:nth-child(1) {
+  top: 30%;
+}
+.burger-menu .line:nth-child(2) {
+  top: 50%;
+}
+.burger-menu .line:nth-child(3) {
+  top: 70%;
+}
+.burger-menu .line::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color-darker);
+  transform: translateX(-100%);
+  transition: 0.25s;
+}
+.burger-menu .line:nth-child(2)::after {
+  transition-delay: 0.1s;
+}
+.burger-menu .line:nth-child(3)::after {
+  transition-delay: 0.2s;
+}
+
+.sticky {
+  position: fixed;
+  top: var(--global-margin);
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.img-responsive{
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
