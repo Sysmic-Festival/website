@@ -1,6 +1,17 @@
 <script setup>
+import { reactive } from 'vue';
+import Player from './Player.vue';
 
 defineProps(["open"])
+
+const state = reactive({
+  playerDisplayed: false,
+})
+
+function displayPlayer(e) {
+  e.preventDefault();
+  state.playerDisplayed = true
+}
 
 </script>
 
@@ -10,6 +21,8 @@ defineProps(["open"])
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
+        <a href="#" @click="displayPlayer">Player</a>
+        <Player :displayed="state.playerDisplayed" @displayedUpdated="val => state.playerDisplayed = val"></Player>
     </div>
 </template>
   
