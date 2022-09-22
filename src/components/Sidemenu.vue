@@ -1,9 +1,11 @@
-<script>
+<script setup>
+
+defineProps(["open"])
 
 </script>
 
 <template>
-    <div id="mySidebar" class="sidebar">
+    <div id="mySidebar" :class="open ? 'sidebar opened' : 'sidebar'">
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Clients</a>
@@ -30,6 +32,10 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+.sidebar.opened {
+  width: 250px;
 }
 
 /* The sidebar links */

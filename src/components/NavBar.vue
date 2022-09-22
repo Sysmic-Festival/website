@@ -1,21 +1,13 @@
 <script setup>
 import { onMounted, reactive } from 'vue'
+import Sidemenu from './Sidemenu.vue'
 
 const state = reactive({
   sticky: false,
   stickyPosition: 0,
   navbar: null,
-  root: null
-})
-
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-openNav( () => {
-  document.getElementById("mySidebar").style.width = "250px";
-})
-
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-closeNav( () =>  {
-  document.getElementById("mySidebar").style.width = "0";
+  root: null,
+  sideMenuOpened: false
 })
 
 onMounted(() => {
@@ -43,12 +35,7 @@ function onScroll() {
 
 <template>
 
-  <div id="mySidebar" class="sidebar">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
+  <Sidemenu :open="state.sideMenuOpened"></Sidemenu>
 
   <nav :class="{ sticky: state.sticky }" id="navbar" ref="main-navbar">
     <div class="container">
@@ -62,8 +49,8 @@ function onScroll() {
         <li><a href="#!">Qui sommes-nous?</a></li>
       </ul>
 
-        <input type="checkbox" id="burger-toggle" onchange="openNav()">
-        <label for="burger-toggle" class="burger-menu">
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-menu" @click="state.sideMenuOpened = !state.sideMenuOpened">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>

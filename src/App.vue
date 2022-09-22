@@ -16,7 +16,7 @@ import Sidemenu from './components/Sidemenu.vue';
     <NavBar />
    
     <div class="line-up">
-      <img class="img-responsive" src = "@/assets/images/Photogallery/1.jpg" />
+      <img class="img-responsive" src = "@/assets/images/PhotoGallery/1.jpg" />
       <button class="main-page-button">Programmation complète →</button>
     </div>
 
