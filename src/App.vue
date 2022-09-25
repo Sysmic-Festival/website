@@ -394,7 +394,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
   }
 
   .photo-gallery{
-    height: 60vh;
+    /* height: 60vh; */
     background-color: var(--third);
   }
 

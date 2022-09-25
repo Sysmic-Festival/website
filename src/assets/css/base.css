@@ -41,13 +41,13 @@ html{
   color: var(--primary);
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing:border-box;
   position: relative;
   font-weight: normal;
-}
+} */
 
 body {
   margin: auto;
