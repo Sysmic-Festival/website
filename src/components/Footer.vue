@@ -104,8 +104,8 @@
         }
 
         p{
-          font-size: calc(11pt + 0.5vw) !important;
-          color: var(--primary) !important;
+          font-size: calc(11pt + 0.5vw) ;
+          color: var(--primary) ;
           text-align: right ;
         }
 
@@ -162,6 +162,7 @@
           width:100% !important;
           position: relative;
         }
+
         .copyright:hover{
           color: var(--secondary);
         }
@@ -179,6 +180,10 @@
           opacity: 0.90 ;
         }
 
+        .copyright p{
+          color: var(--white);
+          text-align: center;
+        }
 
         /******** FOOTER FOR PHONE ********/
       @media only screen and (max-width: 790px){

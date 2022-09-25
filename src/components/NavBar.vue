@@ -38,7 +38,7 @@ function onScroll() {
   <Sidemenu :open="state.sideMenuOpened"></Sidemenu>
 
   <nav :class="{ sticky: state.sticky }" id="navbar" ref="main-navbar">
-    <div class="container">
+    <div class="container-navbar">
       <a class="logo" href="index.html">
         <img class = img-responsive src="@/assets/images/logo.svg" />
       </a>
@@ -48,7 +48,7 @@ function onScroll() {
         <li><a href="#!">Sponsors</a></li>
         <li><a href="#!">Qui sommes-nous?</a></li>
       </ul>
-
+      
         <input type="checkbox" id="burger-toggle">
         <label for="burger-toggle" class="burger-menu" @click="state.sideMenuOpened = !state.sideMenuOpened">
           <div class="line"></div>
@@ -62,34 +62,35 @@ function onScroll() {
 
 <style scoped>
 #navbar{
-  z-index: 100;
+  z-index: 901;
   position: absolute;
   padding-top:calc(var(--global-margin)/2);
   height: calc(var(--navbar-height) + var(--global-margin));
   width: 100%;
   top: calc(100vh - var(--navbar-height) - var(--global-margin));
   background-color: var(--primary);
+  box-shadow: 0px 0px 20px 30px rgba(0,0,0,.2);
 }
 
-#navbar .container{  
+#navbar .container-navbar{  
   height: var(--navbar-height);
   display: flex;
   justify-content: space-between;
 }
 
-#navbar .container .logo{
+#navbar .container-navbar .logo{
   height: var(--navbar-height);
   /* adjusting Y axis to align with menu */
   /*transform: translateY(calc(-0.05*var(--navbar-height))); */
 }
 
-#navbar .container .logo img{
+#navbar .container-navbar .logo img{
   max-height: 100%;
   max-width: none;
 }
 
 
-.container{
+.container-navbar{
   position: relative;
   align-items: center;
   justify-content: space-between;
@@ -194,6 +195,7 @@ input[id = burger-toggle]:checked ~ .side-menu {
 }
 
 .burger-menu {
+  position: relative;
   min-width: var(--navbar-height);
   height: var(--navbar-height);
   display: block;

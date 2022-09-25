@@ -17,12 +17,27 @@ function displayPlayer(e) {
 
 <template>
     <div id="mySidebar" :class="open ? 'sidebar opened' : 'sidebar'">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+      <section class="sidebar-section">
+        <a href="#">Line-up</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">Infos</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">Sponsors</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">Qui sommes-nous?</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">Programmation</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">À propos</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">Plan du Festival</a>
+        <hr class="sidebar-links-hr">
+        <a href="#">FAQ</a>
+      </section>
+      <section id="player-button">
         <a href="#" @click="displayPlayer">Player</a>
         <Player :displayed="state.playerDisplayed" @displayedUpdated="val => state.playerDisplayed = val"></Player>
+      </section>
     </div>
 </template>
   
@@ -35,35 +50,40 @@ function displayPlayer(e) {
 <style scoped>
      /* The sidebar menu */
 .sidebar {
+  z-index: 900;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
   top: 0;
-  left: 0;
-  background-color: #111; /* Black*/
+  right: 0;
+  background-color: var(--primary); /* Black*/
+  background-position: bottom;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: calc(var(--navbar-height) + var(--global-margin)); /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
 .sidebar.opened {
-  width: 250px;
+  width: 350px;
+  box-shadow: 0px 0px 20px 60px rgba(0,0,0,.1);
 }
 
 /* The sidebar links */
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  padding: 8px 8px 6px 0px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: var(--white);
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: var(--third);
 }
 
 /* Position and style the close button (top right corner) */
@@ -73,20 +93,6 @@ function displayPlayer(e) {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-/* The button used to open the sidebar */
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -100,4 +106,15 @@ function displayPlayer(e) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 } 
+
+#player-button{
+  position: absolute;
+  bottom: 0;
+}
+
+.sidebar-links-hr{
+  width: 80%;
+  color: var(--third);
+}
+
 </style>

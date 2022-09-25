@@ -1,0 +1,7 @@
+rendre la navbar modulable (changer les top links)
+
+passer le burger en component 
+
+sticky fonction reutilisable
+
+sticky reset offset on resize

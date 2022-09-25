@@ -1,0 +1,24 @@
+<svg width="615.29" height="564.22" version="1.1" viewBox="0 0 141.21 189.92" xmlns="http://www.w3.org/2000/svg">
+ <rect x="-32.948" y="-7.1054e-15" width="207.11" height="189.92" fill-opacity="0"/>
+ <g transform="translate(-33.881 -43.206)" fill="none" stroke="#5ed1b5" stroke-linejoin="round">
+  <rect x="65.079" y="122.39" width="18.536" height="14.669" stroke-width=".23865"/>
+  <g stroke-width=".24973">
+   <rect x="117.92" y="137.49" width="14.817" height="20.094"/>
+   <rect x="84.646" y="136.74" width="14.817" height="20.094"/>
+   <rect x="115.68" y="186.1" width="14.817" height="20.094"/>
+  </g>
+  <g stroke-width=".23865">
+   <rect x="81.665" y="122.63" width="18.536" height="14.669"/>
+   <rect x="143.73" y="72.907" width="18.536" height="14.669"/>
+   <rect x="48.015" y="71.785" width="18.536" height="14.669"/>
+   <rect x="10.253" y="173.85" width="18.536" height="14.669"/>
+  </g>
+  <rect x="181.85" y="153.94" width="14.817" height="20.094" stroke-width=".24973"/>
+  <rect x="133.4" y="123.08" width="13.02" height="13.02" stroke-width=".18844"/>
+  <g stroke-width=".22423">
+   <rect x="64.549" y="188.38" width="15.65" height="15.339"/>
+   <rect x="148.98" y="150.52" width="16.714" height="19.738"/>
+   <rect x="183.38" y="167.93" width="23.203" height="19.479"/>
+  </g>
+ </g>
+</svg>

@@ -50,7 +50,7 @@ function startTimer(){
 </script>
 
 <template>
-    <section>
+    <section class="timer-section">
 	    <div class="decompte">
 	    	<div class="decompteLine"><hr></div>
 	    	<div>
@@ -154,7 +154,7 @@ function startTimer(){
             font-size: 8.5vw;
             margin-left: 2vw;
             margin-right: 2vw;
-            padding-top: 2.3vw;
+            padding-top: 5.7vw;
         }
         .decompteLine{
             display:none;
@@ -170,6 +170,13 @@ function startTimer(){
             margin-left:4vw;
         }
 
+    }
+
+    .timer-section{
+        position:absolute;
+        bottom:100px;
+        align-self: center;
+        justify-content: center;
     }
 
     @media only screen and (max-width: 700px){

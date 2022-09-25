@@ -4,14 +4,18 @@ import NavBar from './components/NavBar.vue'
 import Timer from './components/Timer.vue';
 import Footer from './components/Footer.vue';
 import Sidemenu from './components/Sidemenu.vue';
+import Slideshow from './components/Slideshow.vue';
+import AnimatedLogo from './components/AnimatedLogo.vue';
 </script>
 
 <template>
-
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
   <div>
     <div class = "home-screen">
-      <Timer />
+      <AnimatedLogo/>
+      <Timer/>
+      
+
     </div>
     <NavBar />
    
@@ -21,7 +25,7 @@ import Sidemenu from './components/Sidemenu.vue';
     </div>
 
     <div class="photo-gallery">
-
+      <Slideshow />
     </div>
     
     <div class="infos">
@@ -75,7 +79,7 @@ import Sidemenu from './components/Sidemenu.vue';
 
     <div class="sponsors">
       <h1 class="h1-third-background">Nos Sponsors</h1>
-      <section class="sponsors-line">
+      <section class="sponsors-line ">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <img src="@/assets/images/sponsors/swisstech_village.svg">
           </a >
@@ -85,24 +89,25 @@ import Sidemenu from './components/Sidemenu.vue';
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <img src="@/assets/images/sponsors/swisstech_village.svg">
           </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="@/assets/images/sponsors/swisstech_village.svg">
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="@/assets/images/sponsors/swisstech_village.svg">
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="@/assets/images/sponsors/swisstech_village.svg">
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="@/assets/images/sponsors/swisstech_village.svg">
+          </a>
         </section>
-      <section class="sponsors-line">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
-          </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
-          </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
-          </a>
-      </section>
     </div>
 
 
     <div class="association">
         <h1 class="h1-primary-background">Qui sommes-nous?</h1>
-        <div class="container">
+        <div class="container container-vertical-phone">
           <section style="flex:1">   
             <p>
               Nous sommes un groupe composé d’une vingtaine d’étudiants motivés et dynamiques.
@@ -120,8 +125,11 @@ import Sidemenu from './components/Sidemenu.vue';
             <img src="@/assets/images/PhotoGallery/qui-sommes-nous-img.jpg" style="width: 100%;">
           </section>
         </div>
-        <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> à propos </a></span> !</p>
-
+        <div class="container">
+          <section>
+            <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> à propos </a></span> !</p>
+          </section>
+        </div>
         <hr class="comite-section-hr">
         <h1 class="h1-primary-background comite-title">Le Comité</h1>
 
@@ -171,6 +179,11 @@ import Sidemenu from './components/Sidemenu.vue';
               <img class="comite-img" src="@/assets/images/comite/absent.jpg">
             </div>
             <div class="comite-member">
+              <h4>Matej Soumillon</h4>
+              <p>Sécurité</p>
+              <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+            </div>
+            <div class="comite-member">
               <h4>Louis Le Guillouzic</h4>
               <p>Matériel</p>
               <img class="comite-img" src="@/assets/images/comite/louis.jpg">
@@ -179,11 +192,6 @@ import Sidemenu from './components/Sidemenu.vue';
               <h4>Ambroise Borbély</h4>
               <p>Élec/Light</p>
               <img class="comite-img" src="@/assets/images/comite/absent.jpg">
-            </div>
-            <div class="comite-member">
-              <h4>Raphaël Charozé</h4>
-              <p>Technique de scène</p>
-              <img class="comite-img" src="@/assets/images/comite/charo.jpg">
             </div>
           </section>
         </div>
@@ -200,6 +208,11 @@ import Sidemenu from './components/Sidemenu.vue';
               <p>Décoration</p>
               <img class="comite-img" src="@/assets/images/comite/daphne.jpg">
             </div>
+            <div class="comite-member">
+              <h4>Raphaël Charozé</h4>
+              <p>Technique de scène</p>
+            <img class="comite-img" src="@/assets/images/comite/charo.jpg">
+          </div>
           </section>
         </div>
 
@@ -363,33 +376,6 @@ import Sidemenu from './components/Sidemenu.vue';
     color: var(--secondary);
   }
 
-  .container{
-    display: flex;
-    max-width: 800px;
-    margin: auto;
-  }
-
-  .container-large{
-    display: flex;
-    max-width: 1200px;
-    margin: auto;
-  }
-
-  @media screen and (max-width: 1200px){
-    .container-large{
-      display: block;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .container-large *{
-      padding: 0;
-      display:inline-block;
-      text-align: center;
-      max-width: 800px;
-    }
-  }
-
   .line-up{
     height: 100vh;
     width: 100%;
@@ -458,11 +444,12 @@ import Sidemenu from './components/Sidemenu.vue';
   
   .comite-line{
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
   }
 
   .comite-member{
+          display: inline-block;
+
     align-items: center;
     width: 25%;
   }
@@ -482,13 +469,41 @@ import Sidemenu from './components/Sidemenu.vue';
     background-color: var(--primary)
   }
 
+  @media screen and (max-width: 850px) {
 
-  @media screen and (min-width: 1600px){
-    .container{
-      margin:auto;
-      max-width: 80%;
-      width:80vw;
-    }  
+    .info-section-hr{
+      max-width: 300px;
+      border: 2px solid var(--third) ;
+    }
+
+    .main-page-button{
+      width: 40%;
+      height: 30px;
+      font-weight: bold;
+      font-size: 2.5vw;
+      color: var((--primary));
+      background-color: var(--white);
+      cursor: pointer;
+      border-radius: 5px;
+      border: 0;
+    }
+
+    .sponsors-line{
+      width: 100% !important;
+    }
+
+    .sponsors section img{
+      width: 49%;
+    }
+
+    .comite-line {
+      width: 100% !important;
+    }
+
+    .comite-member{
+      width: 49% !important;
+    }
+
   }
 
 </style>
