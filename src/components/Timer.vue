@@ -76,10 +76,6 @@ function startTimer(){
 
 
 <style scoped>
-
-    section{
-        max-width: 600px;
-    }
     .decompte{  
 
         display: flex;
@@ -173,8 +169,7 @@ function startTimer(){
     }
 
     .timer-section{
-        position:absolute;
-        bottom:100px;
+        display: flex;
         align-self: center;
         justify-content: center;
     }

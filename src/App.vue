@@ -11,11 +11,9 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
 <template>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
   <div>
-    <div class = "home-screen">
+    <div class="home-screen">
       <AnimatedLogo/>
       <Timer/>
-      
-
     </div>
     <NavBar />
    
@@ -457,6 +455,8 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
   .comite-member p{
     text-align: center;
     margin:0;
+    display: flex;
+    flex-direction: column;
   }
 
   .comite-img{
@@ -464,9 +464,11 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
   }
 
   .home-screen{
+    height: calc(100vh - var(--navbar-height) - var(--global-margin));;
+    background-color: var(--primary);
     display: flex;
-    height: 100vh;
-    background-color: var(--primary)
+    flex-direction: column;
+    padding-bottom: 20px; 
   }
 
   @media screen and (max-width: 850px) {

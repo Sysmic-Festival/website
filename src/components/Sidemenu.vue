@@ -16,7 +16,7 @@ function displayPlayer(e) {
 </script>
 
 <template>
-    <div id="mySidebar" :class="open ? 'sidebar opened' : 'sidebar'">
+    <div :class="open ? 'sidebar opened' : 'sidebar'">
       <section class="sidebar-section">
         <a href="#">Line-up</a>
         <hr class="sidebar-links-hr">
@@ -40,12 +40,6 @@ function displayPlayer(e) {
       </section>
     </div>
 </template>
-  
-  <!-- <div id="main">
-    <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-    <h2>Collapsed Sidebar</h2>
-    <p>Content...</p>
-</div> -->
 
 <style scoped>
      /* The sidebar menu */
@@ -61,10 +55,14 @@ function displayPlayer(e) {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: calc(var(--navbar-height) + var(--global-margin)); /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .sidebar.opened {
-  width: 350px;
+  width: calc(min(350px, 100vw));
   box-shadow: 0px 0px 20px 60px rgba(0,0,0,.1);
 }
 
@@ -96,10 +94,10 @@ function displayPlayer(e) {
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s; /* If you want a transition effect */
+/* #main {
+  transition: margin-left .5s;
   padding: 20px;
-}
+} */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -108,8 +106,7 @@ function displayPlayer(e) {
 } 
 
 #player-button{
-  position: absolute;
-  bottom: 0;
+  flex-grow: 1;
 }
 
 .sidebar-links-hr{

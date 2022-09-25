@@ -141,10 +141,6 @@
           background-color: var(--secondary);
         }
 
-        .flexFooter div{
-          width: 33%;
-        }
-
         .footerPost{
           text-align:right !important;
           padding-right:30px;
