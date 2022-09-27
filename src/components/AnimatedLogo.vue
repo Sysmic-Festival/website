@@ -39,9 +39,8 @@
       <img id="layer19" src="@/assets/images/layers/19.svg"/>
     </div>
     <div class="titleBox">
-      <h1>Sysmic</h1>
-      <div>
-        <h2>Festival de la Microtechnique</h2>
+      <h1>Sysmic <br>&nbsp Festival</h1>
+      <div style="vertical-align:top">
         <h2>21.10.22</h2>
       </div>
     </div>
@@ -62,6 +61,7 @@ h1, h2 {
 }
 
 #invaderDiv{
+  overflow:visible;
   position: absolute;
   left: 50%;
   transform: translateX(-80%);
@@ -81,8 +81,11 @@ h1, h2 {
 }
 
 .titleBox {
+  
+  line-height: 90pt;
+  text-align: left;
   position: absolute;
-  left: calc(50% - 40px);
+  left: calc(50% - 50px);
   top: 80px;
   display: flex;
   flex-direction: column;
@@ -91,16 +94,18 @@ h1, h2 {
 }
 
 .titleBox > h1{
-  font-size: 90pt;
-  color: var(--third);
+  font-size: 82pt;
+  color: var(--white);
   /* font-family: Raleway-Light; */
 }
 
 .titleBox > div > h2 {
   font-size: 18pt;
-  color: var(--third);
+  color: var(--white);
   background-color: transparent;
   text-align: center;
+  vertical-align: top;
+  display: inline;
 }
 
 .invaderShow{
@@ -121,13 +126,14 @@ h1, h2 {
   }
 
   .titleBox {
+    line-height: 65pt;
     position: static;
     align-items: center;
-    margin-left: 0;
+    margin-left: 0; 
   }
 
   h1,h2 {
-    text-align: center;
+    text-align: left;
   }
 
   .titleBox > h1{

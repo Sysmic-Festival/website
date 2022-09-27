@@ -64,12 +64,14 @@ function onScroll() {
 #navbar{
   z-index: 901;
   position: absolute;
-  padding-top:calc(var(--global-margin)/2);
   height: calc(var(--navbar-height) + var(--global-margin));
   width: 100%;
   top: calc(100vh - var(--navbar-height) - var(--global-margin));
   background-color: var(--primary);
   box-shadow: 0px 0px 20px 30px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
 }
 
 #navbar .container-navbar{  

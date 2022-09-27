@@ -77,28 +77,43 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
 
     <div class="sponsors">
       <h1 class="h1-third-background">Nos Sponsors</h1>
-      <section class="sponsors-line ">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+      <section class="sponsors-line">
+        <div>
+          <a href="https://www.logitech.com/de-ch">
+            <img src="@/assets/images/sponsors/logitech-logo.svg">
           </a >
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+        </div>
+        <div>
+          <a href="https://fr.brio-mate.com/">
+            <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
           </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+        </div>
+        <div>
+          <a href="https://www.visilab.ch/fr/">
+            <img src="@/assets/images/sponsors/Visilab-couleur-logo.png">
           </a>
+        </div>
+        <div>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+            <img src="@/assets/images/sponsors/Rivella-logo.svg">
           </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+        </div>
+        <div>
+          <a href="https://www.forum-epfl.ch/">
+            <img src="@/assets/images/sponsors/Forum-epfl-logo.png">
           </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+        </div>
+        <div>
+          <a href="https://fastree3d.com/">
+            <img src="@/assets/images/sponsors/fastree3d-logo.png">
           </a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="@/assets/images/sponsors/swisstech_village.svg">
+        </div>
+        <div id="sponsor-space-filler"></div>
+        <div>
+          <a href="https://www.l-dudu.ch/">
+            <img src="@/assets/images/sponsors/L-DuDu-logo.png">
           </a>
+        </div>
         </section>
     </div>
 
@@ -414,12 +429,24 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
   }
 
   .sponsors .sponsors-line{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
     width: 66%;
     padding: 0;
   }
 
-  .sponsors section img{
+  .sponsors section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 33%;
+    transition-duration: 0.4s;
+  }
+
+  .sponsors section img{
+    transform: scale(0.95);
+    width: 100%;
     transition-duration: 0.4s;
   }
 
@@ -443,6 +470,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
   .comite-line{
     padding: 10px;
     display: inline-block;
+    width: 100%;
   }
 
   .comite-member{
@@ -482,7 +510,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
       width: 40%;
       height: 30px;
       font-weight: bold;
-      font-size: 2.5vw;
+      font-size: 2.5vw; 
       color: var((--primary));
       background-color: var(--white);
       cursor: pointer;
@@ -491,11 +519,15 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
     }
 
     .sponsors-line{
-      width: 100% !important;
+      width: 90% !important;
     }
 
-    .sponsors section img{
+    .sponsors section div{
       width: 49%;
+    }
+
+    #sponsor-space-filler{
+      width: 25%;
     }
 
     .comite-line {
@@ -507,5 +539,4 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
     }
 
   }
-
 </style>

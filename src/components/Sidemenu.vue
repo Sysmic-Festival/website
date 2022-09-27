@@ -53,7 +53,7 @@ function displayPlayer(e) {
   background-color: var(--primary); /* Black*/
   background-position: bottom;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: calc(var(--navbar-height) + var(--global-margin)); /* Place content 60px from the top */
+  padding-top: calc(var(--navbar-height) + 2*var(--global-margin)); /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 
   display: flex;

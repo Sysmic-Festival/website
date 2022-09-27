@@ -67,7 +67,7 @@ body {
 @media screen and (min-width: 850px) {
   :root{
     --global-margin: 25px;
-    --navbar-height: 80px;
+    --navbar-height: 60px;
   }
 
   h1{
@@ -93,8 +93,7 @@ body {
     margin: 0;
   }
 
-
-  /* section{
+    /* section{
     margin:auto;
     width: 100%; 
     padding: 25px;
