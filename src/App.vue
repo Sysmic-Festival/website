@@ -2,6 +2,7 @@
 import { reactive } from 'vue';
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue';
 
 const router = useRouter();
 
@@ -19,6 +20,7 @@ router.beforeEach(guard => {
       <div>
         <NavBar :fixed="data.navBarFixed" />
         <RouterView></RouterView>
+        <Footer></Footer>
       </div>
 </template>
 

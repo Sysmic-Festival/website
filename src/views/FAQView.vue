@@ -1,34 +1,8 @@
 <script setup>
-import NavBar from '../components/NavBar.vue'
-import Footer from '../components/Footer.vue';
-
-function togglePuce(that) {
-  console.log("CLICKED")
-  var plus = that.children[0];
-  var minus = that.children[1];
-
-  var content = that.children[3];
-
-  content.classList.toggle("opened");
-
-  if (content.clientHeight < content.scrollHeight) {
-
-    plus.style.display = "none";
-    minus.style.display = "inline-block";
-
-  } else {
-
-    minus.style.display = "none";
-    plus.style.display = "inline-block";
-
-  }
-
-}
 
 </script>
 
 <template>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   <div>
     <div class="faq-div">
       <section>
@@ -194,7 +168,6 @@ function togglePuce(that) {
 
       </section>
     </div>
-    <Footer></Footer>
   </div>
 
 </template>

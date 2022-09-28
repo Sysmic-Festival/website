@@ -2,7 +2,6 @@
 
 import NavBar from '../components/NavBar.vue'
 import Timer from '../components/Timer.vue';
-import Footer from '../components/Footer.vue';
 import Slideshow from '../components/Slideshow.vue';
 import AnimatedLogo from '../components/AnimatedLogo.vue';
 
@@ -323,9 +322,6 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
             </div>
 
         </div>
-
-        <Footer></Footer>
-
     </div>
 </template>
 
