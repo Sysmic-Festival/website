@@ -41,7 +41,7 @@ function onScroll() {
 
 <template>
 
-  <Sidemenu :open="state.sideMenuOpened"></Sidemenu>
+  <Sidemenu :open="state.sideMenuOpened" @openedUpdate="e => state.sideMenuOpened = e"></Sidemenu>
 
   <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
     <div class="container-navbar">
@@ -55,8 +55,7 @@ function onScroll() {
         <li><router-link to="/#association">Qui sommes-nous?</router-link></li>
       </ul>
       
-        <input type="checkbox" id="burger-toggle">
-        <label for="burger-toggle" class="burger-menu" @click="state.sideMenuOpened = !state.sideMenuOpened">
+        <label id="burger-menu" :class="state.sideMenuOpened ? 'burger-menu opened' : 'burger-menu'" @click="state.sideMenuOpened = !state.sideMenuOpened">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
@@ -181,28 +180,21 @@ ul.fixedOverride {
   opacity: 0;
 }
 
-input[id = burger-toggle]:checked ~ .side-menu {
+.side-menu.opened {
   transform: scaleX(1);
 }
 
-#burger-toggle:checked ~ .side-menu .sidebar-item span div,
-#burger-toggle:checked ~ .side-menu img,
-#burger-toggle:checked ~ .side-menu .sidebar-item {
-  transform: translateY(0);
-  transition: 0.5s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
-}
-
-#burger-toggle:checked ~ .burger-menu .line::after {
+.burger-menu.opened .line::after {
   transform: translateX(0);
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(1) {
+.burger-menu.opened .line:nth-child(1) {
   transform: translateY(calc(var(--navbar-height) / 5)) rotate(45deg);
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(2) {
+.burger-menu.opened .line:nth-child(2) {
   transition-duration: 0.1s;
   transform: scaleX(0);
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(3) {
+.burger-menu.opened .line:nth-child(3) {
   transform: translateY(calc(var(--navbar-height) / -5)) rotate(-45deg);
 }
 

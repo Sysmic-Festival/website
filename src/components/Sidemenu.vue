@@ -1,8 +1,10 @@
 <script setup>
 import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
 import Player from './Player.vue';
 
 defineProps(["open"])
+const emits = defineEmits(["openedUpdate"])
 
 const state = reactive({
   playerDisplayed: false,
@@ -12,6 +14,12 @@ function displayPlayer(e) {
   e.preventDefault();
   state.playerDisplayed = true
 }
+
+const router = useRouter();
+
+router.beforeEach(() => {
+  emits("openedUpdate", false);
+});
 
 </script>
 
