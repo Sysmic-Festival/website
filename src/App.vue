@@ -145,7 +145,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
         </div>
         <div class="container">
           <section>
-            <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a href="./a-propos.html"> à propos </a></span> !</p>
+            <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a style="text-decoration:underline" href="./a-propos.html"> à propos </a></span> !</p>
           </section>
         </div>
         <hr class="comite-section-hr">
@@ -486,7 +486,6 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
     width: 100%;
     background-color: var(--primary);
   }
-
   
   .container-comite{
     display: flex;
