@@ -1,4 +1,7 @@
 <script setup>
+import FAQRow from '../components/FAQRow.vue';
+
+
 
 </script>
 
@@ -18,32 +21,18 @@
 
         <h2>Le festival</h2>
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle"><span>Où</span> et <span>quand</span> se déroule le prochain festival ?</p>
-          <p class="openableContent">Le prochain festival se déroulera le 21 octobre 2022, dans le bâtiment CE de
-            l'EPFL. Entrées le long de l'avenue Piccard.</p>
-        </div>
+        <FAQRow title="Y a-t-il un vestiaire ?">
+          Durant le festival, nous mettons a votre disposition un vestiaire gratuit. Nous
+            déclinons toutefois toute responsabilité en cas de perte ou de vol.
+        </FAQRow>
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Y a-t-il un <span>vestiaire</span> ?</p>
-          <p class="openableContent">Durant le festival, nous mettons a votre disposition un vestiaire gratuit. Nous
-            déclinons toutefois toute responsabilité en cas de perte ou de vol.</p>
-        </div>
-
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Existe-il des <span>navettes</span> pour le retour ? <span
-              style="color:red "><b>&#9888</b></span></p>
-          <p class="openableContent">Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.
-            <br>
-            Elles partiront à 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
-            Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.</p>
-        </div>
+        <FAQRow title="Existe-il des navettes pour le retour ?">
+          Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.<br />
+          Elles partiront à 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
+          Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.
+        </FAQRow>
+        
+        <FAQRow title=""></FAQRow>
 
         <div class="container" @click="togglePuce(this)">
           <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
