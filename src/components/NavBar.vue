@@ -2,6 +2,12 @@
 import { onMounted, reactive } from 'vue'
 import Sidemenu from './Sidemenu.vue'
 
+defineProps({
+  fixed: {
+    default: false
+  }
+})
+
 const state = reactive({
   sticky: false,
   stickyPosition: 0,
@@ -22,22 +28,6 @@ onMounted(() => {
   state.stickyPosition = navbar.offsetTop;
 })
 
-function scrollToAnchorPoint(refName) {
-    const el = findRefByName(refName)
-    el.scrollIntoView({ behavior: 'smooth'})
-}
-
-function findRefByName(refName) {
-    let obj = this.$parent
-    while (obj) {
-      if (obj.$refs[refName]) {
-        return obj.$refs[refName]
-      }
-      obj = obj.$parent
-    }
-    return undefined
-  }
-
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 // the minus part is so that the header sticks as soon as the top margin is reached, so it doesn't jump (removing the "px" from the margin)
 function onScroll() {
@@ -53,16 +43,16 @@ function onScroll() {
 
   <Sidemenu :open="state.sideMenuOpened"></Sidemenu>
 
-  <nav :class="{ sticky: state.sticky }" id="navbar" ref="main-navbar">
+  <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
     <div class="container-navbar">
-      <a class="logo" href="index.html">
+      <router-link class="logo" to="/#">
         <img class = img-responsive src="@/assets/images/logo.svg" />
-      </a>
-      <ul class="bar-menu">
-        <li><a @click="scrollToAnchorPoint('line-up')">Line-up</a></li>
-        <li><a href="#!">Infos</a></li>
-        <li><a href="#!">Sponsors</a></li>
-        <li><a href="#!">Qui sommes-nous?</a></li>
+      </router-link>
+      <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
+        <li><router-link to="/#line-up">Line-up</router-link></li>
+        <li><router-link to="/#infos">Infos</router-link></li>
+        <li><router-link to="/#sponsors">Sponsors</router-link></li>
+        <li><router-link to="/#association">Qui sommes-nous?</router-link></li>
       </ul>
       
         <input type="checkbox" id="burger-toggle">
@@ -88,6 +78,15 @@ function onScroll() {
   display: flex;
   flex-direction: column; 
   justify-content: center;
+}
+
+#navbar.fixedOverride {
+  position: fixed !important;
+  top: 0 !important;
+}
+
+ul.fixedOverride {
+  display: none !important;
 }
 
 #navbar .container-navbar{  

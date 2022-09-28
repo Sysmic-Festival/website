@@ -18,19 +18,19 @@ function displayPlayer(e) {
 <template>
     <div :class="open ? 'sidebar opened' : 'sidebar'">
       <section class="sidebar-section">
-        <a href="#">Line-up</a>
+        <router-link to="/#line-up">Line-up</router-link>
         <hr class="sidebar-links-hr">
-        <a href="#">Infos</a>
+        <router-link to="/#infos">Infos</router-link>
         <hr class="sidebar-links-hr">
-        <a href="#">Sponsors</a>
+        <router-link to="/#sponsors">Sponsors</router-link>
         <hr class="sidebar-links-hr">
-        <a href="#">Qui sommes-nous?</a>
+        <router-link to="/#association">Qui sommes-nous?</router-link>
         <hr class="sidebar-links-hr">
-        <a href="././portfolio.html">Portfolio</a>
+        <router-link to="/portfolio">Portfolio</router-link>
         <hr class="sidebar-links-hr">
-        <a href="././a-propos.html">À propos</a>
+        <router-link to="/about-us">À propos</router-link>
         <hr class="sidebar-links-hr">
-        <a href="././faq.html">FAQ</a>
+        <router-link to="/faq">FAQ</router-link>
       </section>
       <section id="player-button">
         <a href="#" @click="displayPlayer">PLAYER BUTTON</a>

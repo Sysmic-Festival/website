@@ -7,9 +7,11 @@
 
 
     function animLogo(id){
-      id += Math.round((Math.random()))+1;
-      document.getElementById("layer"+id).classList.toggle("invaderShow");
-      setTimeout(animLogo, 200, id%18);
+      try {
+        id += Math.round((Math.random()))+1;
+        document.getElementById("layer"+id).classList.toggle("invaderShow");
+        setTimeout(animLogo, 200, id%18);
+      } catch (error) {}
     }
     
 </script>
