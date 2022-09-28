@@ -150,7 +150,6 @@ function startTimer(){
             font-size: 8.5vw;
             margin-left: 2vw;
             margin-right: 2vw;
-            padding-top: 5.7vw;
         }
         .decompteLine{
             display:none;

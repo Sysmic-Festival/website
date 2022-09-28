@@ -27,45 +27,49 @@ function backdropClicked(e) {
                             </iframe>
                         </div>
                         <div v-if="state.currentPlayer === 'spotify'">
-                            <iframe class="player-ui" style="border-radius:12px" src="https://open.spotify.com/embed/track/3Rmd1w81IxjgWKMeFhgNEn?utm_source=generator" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe class="player-ui" src="https://open.spotify.com/embed/track/3Rmd1w81IxjgWKMeFhgNEn?utm_source=generator" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                         <div v-if="state.currentPlayer === 'soundcloud-playlist'">
                             <iframe class="player-ui" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/156877674&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
                         </div>
+                        <div v-if="state.currentPlayer === 'spotify-playlist'">
+                            <iframe class="player-ui" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4XtQpWbRLKrxa3mbJDxSZD?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+
                     </div>
                     <div id="bottom-row">
                         <div @click="state.currentPlayer = 'soundclound-single'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Soundcloud Single</p>
                         </div>
                         <div @click="state.currentPlayer = 'spotify'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Spotify</p>
                         </div>
                         <div @click="state.currentPlayer = 'soundcloud-playlist'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Soundcloud Playlist</p>
                         </div>
-                        <div @click="state.currentPlayer = 'soundclound-single'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
-                            <p>Soundcloud Single</p>
+                        <div @click="state.currentPlayer = 'spotify-playlist'" class="artistButton">
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
+                            <p>Spotify Playlist</p>
                         </div>
                     </div>
                     <div id="bottom-row">
                         <div @click="state.currentPlayer = 'soundclound-single'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Soundcloud Single</p>
                         </div>
                         <div @click="state.currentPlayer = 'soundclound-single'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Soundcloud Single</p>
                         </div>
                         <div @click="state.currentPlayer = 'spotify'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Spotify</p>
                         </div>
                         <div @click="state.currentPlayer = 'soundcloud-playlist'" class="artistButton">
-                            <div>pHOTO du DuDe</div>
+                            <div><img class="artist-img" src="@/assets/images/comite/absent.jpg"></div>
                             <p>Soundcloud Playlist</p>
                         </div>
                     </div>
@@ -83,7 +87,6 @@ function backdropClicked(e) {
     height: 100vh;
     width: 100vw;
     z-index: 1000;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +103,13 @@ function backdropClicked(e) {
 }
 
 #modal {
+    align-self: center;
+    padding: 25px;
     z-index: 10000;
     background-color: var(--secondary);
     box-shadow: 0px 0px 30px 20px rgba(0,0,0,.1);
     max-width: 80vw;
+    border-radius: 20px;
 }
 
 #bottom-row {
@@ -121,13 +127,12 @@ function backdropClicked(e) {
     align-items: center;
 }
 .artistButton:hover {
-    background-color: rgb(68, 68, 68);
+    opacity: 0.8;
 }
 
-.artistButton > div {
+.artistButton > div > img{
     height: 140px;
     width: 140px;
-    background-color: lightgray;
 }
 
 .artistButton > p {
@@ -139,7 +144,32 @@ function backdropClicked(e) {
 }
 
 .player-ui{
-    max-height:300px;
+    height:300px;
+}
+
+
+@media only screen and (max-width: 850px){
+
+    #bottom-row{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .artistButton{
+        flex-direction: row;
+        width: 30%;
+        padding-left: 0;
+    }
+
+
+    .artistButton > div > img{
+        height: 40px;
+        width: 40px;
+        padding-right: 10px;
+
+    }
+
+
 }
 
 </style>

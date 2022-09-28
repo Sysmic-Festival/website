@@ -5,3 +5,13 @@ passer le burger en component
 sticky fonction reutilisable
 
 sticky reset offset on resize
+
+fixe animation du burger
+
+Pour le site : 
+    mettre la barre en haut quand le menu est ouvert, 
+    portfolio indiquer clairement le clic,
+    PArtie MT,
+    changer la police, couleurs?
+
+

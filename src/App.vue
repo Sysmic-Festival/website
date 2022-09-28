@@ -6,10 +6,13 @@ import Footer from './components/Footer.vue';
 import Sidemenu from './components/Sidemenu.vue';
 import Slideshow from './components/Slideshow.vue';
 import AnimatedLogo from './components/AnimatedLogo.vue';
+
+
 </script>
 
 <template>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
   <div>
     <div class="home-screen">
       <AnimatedLogo/>
@@ -17,8 +20,8 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
     </div>
     <NavBar />
    
-    <div class="line-up">
-      <img class="img-responsive" src = "@/assets/images/PhotoGallery/1.jpg" />
+    <div ref="line-up" class="line-up">
+      <img class="img-responsive" src = "@/assets/images/utilitaries/placeholder-img.png" />
       <button class="main-page-button">Programmation complète →</button>
     </div>
 
@@ -53,8 +56,10 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
         </section>
       </div>
       <br>
-      <section>
-        <button class="main-page-button">FAQ →</button>
+      <section class="button-section">
+        <a href="./faq.html">
+          <button class="main-page-button">FAQ →</button>
+        </a>
       </section>     
       <hr class="info-section-hr">
       <div class="container-large">
@@ -69,7 +74,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
           <img class="img-responsive" src="@/assets/images/plan-tempo.png">
         </section>
       </div>
-      <section>
+      <section class="button-section">
         <button class="main-page-button">Plan du Festival →</button>
       </section>
     </div>
@@ -83,7 +88,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
             <img src="@/assets/images/sponsors/logitech-logo.svg">
           </a >
         </div>
-        <div>
+        <div style="display:block">
           <a href="https://fr.brio-mate.com/">
             <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
           </a>
@@ -140,7 +145,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
         </div>
         <div class="container">
           <section>
-            <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> à propos </a></span> !</p>
+            <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à la page <span><a href="./a-propos.html"> à propos </a></span> !</p>
           </section>
         </div>
         <hr class="comite-section-hr">
@@ -297,6 +302,11 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
               <p>Escape Game</p>
               <img class="comite-img" src="@/assets/images/comite/absent.jpg">
             </div>
+            <div class="comite-member">
+              <h4>Tifaine Mezencev</h4>
+              <p>Escape Game</p>
+              <img class="comite-img" src="@/assets/images/comite/Tifaine.jpg">
+            </div>
           </section>
         </div>
 
@@ -334,7 +344,16 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
 
 <style scoped>
 
-
+  .button-section{
+    width: 100%; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section {
+    padding: 25px;
+  }
 
   h1, h2, h3{
     font-weight: 800;
@@ -378,6 +397,13 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
     border: 4px solid var(--third) ;
     border-radius: 50px;
     max-width: 1300px;
+    margin-top:25px;
+    margin-bottom:25px;
+  }
+
+  #date-hr{
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   .comite-section-hr{
@@ -391,8 +417,9 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
 
   .line-up{
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     padding: 20px;
+    padding-top: calc(var(--navbar-height) + var(--global-margin));
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -503,7 +530,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
 
     .info-section-hr{
       max-width: 300px;
-      border: 2px solid var(--third) ;
+      border: 2px solid var(--third);
     }
 
     .main-page-button{

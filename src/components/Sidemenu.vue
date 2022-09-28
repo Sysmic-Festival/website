@@ -26,16 +26,14 @@ function displayPlayer(e) {
         <hr class="sidebar-links-hr">
         <a href="#">Qui sommes-nous?</a>
         <hr class="sidebar-links-hr">
-        <a href="#">Programmation</a>
+        <a href="././portfolio.html">Portfolio</a>
         <hr class="sidebar-links-hr">
-        <a href="#">À propos</a>
+        <a href="././a-propos.html">À propos</a>
         <hr class="sidebar-links-hr">
-        <a href="#">Plan du Festival</a>
-        <hr class="sidebar-links-hr">
-        <a href="#">FAQ</a>
+        <a href="././faq.html">FAQ</a>
       </section>
       <section id="player-button">
-        <a href="#" @click="displayPlayer">Player</a>
+        <a href="#" @click="displayPlayer">PLAYER BUTTON</a>
         <Player :displayed="state.playerDisplayed" @displayedUpdated="val => state.playerDisplayed = val"></Player>
       </section>
     </div>
@@ -107,11 +105,13 @@ function displayPlayer(e) {
 
 #player-button{
   flex-grow: 1;
+  vertical-align: bottom;
 }
 
 .sidebar-links-hr{
   width: 80%;
   color: var(--third);
 }
+
 
 </style>

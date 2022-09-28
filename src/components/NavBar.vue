@@ -22,6 +22,22 @@ onMounted(() => {
   state.stickyPosition = navbar.offsetTop;
 })
 
+function scrollToAnchorPoint(refName) {
+    const el = findRefByName(refName)
+    el.scrollIntoView({ behavior: 'smooth'})
+}
+
+function findRefByName(refName) {
+    let obj = this.$parent
+    while (obj) {
+      if (obj.$refs[refName]) {
+        return obj.$refs[refName]
+      }
+      obj = obj.$parent
+    }
+    return undefined
+  }
+
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 // the minus part is so that the header sticks as soon as the top margin is reached, so it doesn't jump (removing the "px" from the margin)
 function onScroll() {
@@ -43,7 +59,7 @@ function onScroll() {
         <img class = img-responsive src="@/assets/images/logo.svg" />
       </a>
       <ul class="bar-menu">
-        <li><a href="#!">Line-up</a></li>
+        <li><a @click="scrollToAnchorPoint('line-up')">Line-up</a></li>
         <li><a href="#!">Infos</a></li>
         <li><a href="#!">Sponsors</a></li>
         <li><a href="#!">Qui sommes-nous?</a></li>

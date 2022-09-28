@@ -84,7 +84,7 @@
           margin-left: -5px;
           border-width: 5px;
           border-style: solid;
-          border-color: #555 transparent transparent transparent;
+          border-color: var(--primary) transparent transparent transparent;
         }   
 
         /* Show the tooltip text when you mouse over the tooltip container */
@@ -182,7 +182,7 @@
         }
 
         /******** FOOTER FOR PHONE ********/
-      @media only screen and (max-width: 790px){
+      @media only screen and (max-width: 850px){
         footer img{
           width: 5vw;
         }
@@ -191,13 +191,18 @@
             flex-direction: column;
             height: auto;
             padding: 10px;
+            align-items:unset;
+          
         }
         .flexFooter div{
             width: 100%;
         }
         .footerPost{
-            text-align: center;
+            display: flex;
+            justify-content: center;
         }
+
+
         footer svg{
             height: 8vw;
             width: 15vw;
@@ -205,7 +210,11 @@
         }
         footer p, footer a{
             font-size: 3.5vw;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
         }
+
+
         .onlyDisplayFooter{
             display:none;
         }

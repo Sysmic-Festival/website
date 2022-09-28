@@ -1,6 +1,7 @@
 
 html{
   background-color: var(--primary);
+  overflow-x: hidden;
 }
 
 /* Color palette */
@@ -52,10 +53,10 @@ html{
 body {
   margin: auto;
   max-height: 100%;
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
   background: var(--color-background);
-  font-family: Nunito;
+  font-family: Raleway;
   text-align: center;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -92,12 +93,6 @@ body {
     font-size: 20px;
     margin: 0;
   }
-
-    /* section{
-    margin:auto;
-    width: 100%; 
-    padding: 25px;
-  } */
 
 
   p{

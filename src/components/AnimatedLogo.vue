@@ -18,25 +18,25 @@
 <template>
   <section class="invaderSection">
     <div id="invaderDiv">
-      <img id="layer1"  src="@/assets/images/layers/01.svg"/>
-      <img id="layer2"  src="@/assets/images/layers/02.svg"/>
-      <img id="layer3"  src="@/assets/images/layers/03.svg"/>
-      <img id="layer4"  src="@/assets/images/layers/04.svg"/>
-      <img id="layer5"  src="@/assets/images/layers/05.svg"/>
-      <img id="layer6"  src="@/assets/images/layers/06.svg"/>
-      <img id="layer7"  src="@/assets/images/layers/07.svg"/>
-      <img id="layer8"  src="@/assets/images/layers/08.svg"/>
-      <img id="layer9"  src="@/assets/images/layers/09.svg"/>
-      <img id="layer10" src="@/assets/images/layers/10.svg"/>
-      <img id="layer11" src="@/assets/images/layers/11.svg"/>
-      <img id="layer12" src="@/assets/images/layers/12.svg"/>
-      <img id="layer13" src="@/assets/images/layers/13.svg"/>
-      <img id="layer14" src="@/assets/images/layers/14.svg"/>
-      <img id="layer15" src="@/assets/images/layers/15.svg"/>
-      <img id="layer16" src="@/assets/images/layers/16.svg"/>
-      <img id="layer17" src="@/assets/images/layers/17.svg"/>
-      <img id="layer18" src="@/assets/images/layers/18.svg"/>
-      <img id="layer19" src="@/assets/images/layers/19.svg"/>
+      <img class="layer" id="layer1"  src="@/assets/images/layers/01.svg"/>
+      <img class="layer" id="layer2"  src="@/assets/images/layers/02.svg"/>
+      <img class="layer" id="layer3"  src="@/assets/images/layers/03.svg"/>
+      <img class="layer" id="layer4"  src="@/assets/images/layers/04.svg"/>
+      <img class="layer" id="layer5"  src="@/assets/images/layers/05.svg"/>
+      <img class="layer" id="layer6"  src="@/assets/images/layers/06.svg"/>
+      <img class="layer" id="layer7"  src="@/assets/images/layers/07.svg"/>
+      <img class="layer" id="layer8"  src="@/assets/images/layers/08.svg"/>
+      <img class="layer" id="layer9"  src="@/assets/images/layers/09.svg"/>
+      <img class="layer" id="layer10" src="@/assets/images/layers/10.svg"/>
+      <img class="layer" id="layer11" src="@/assets/images/layers/11.svg"/>
+      <img class="layer" id="layer12" src="@/assets/images/layers/12.svg"/>
+      <img class="layer" id="layer13" src="@/assets/images/layers/13.svg"/>
+      <img class="layer" id="layer14" src="@/assets/images/layers/14.svg"/>
+      <img class="layer" id="layer15" src="@/assets/images/layers/15.svg"/>
+      <img class="layer" id="layer16" src="@/assets/images/layers/16.svg"/>
+      <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
+      <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
+      <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/>
     </div>
     <div class="titleBox">
       <h1>Sysmic <br>&nbsp Festival</h1>
@@ -69,6 +69,7 @@ h1, h2 {
   width: 500px;
 }
 
+
 #invaderDiv img{
   position: absolute;
   top: 0;
@@ -100,12 +101,12 @@ h1, h2 {
 }
 
 .titleBox > div > h2 {
+  display: ruby-text;
   font-size: 18pt;
   color: var(--white);
   background-color: transparent;
   text-align: center;
   vertical-align: top;
-  display: inline;
 }
 
 .invaderShow{
@@ -126,7 +127,7 @@ h1, h2 {
   }
 
   .titleBox {
-    line-height: 65pt;
+    line-height: 60pt;
     position: static;
     align-items: center;
     margin-left: 0; 
@@ -137,7 +138,7 @@ h1, h2 {
   }
 
   .titleBox > h1{
-    font-size: 60pt;
+    font-size: 55pt;
   }
 
   .titleBox > div > h2 {
