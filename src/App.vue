@@ -211,11 +211,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
               <p>Élec/Light</p>
               <img class="comite-img" src="@/assets/images/comite/absent.jpg">
             </div>
-          </section>
-        </div>
 
-        <div class="container-comite">
-          <section class="comite-line">
             <div class="comite-member">
               <h4>Flore Mueth</h4>
               <p>Décoration</p>
@@ -287,11 +283,7 @@ import AnimatedLogo from './components/AnimatedLogo.vue';
               <p>Programmation/Loges</p>
               <img class="comite-img" src="@/assets/images/comite/elena.jpg">
             </div>
-          </section>
-        </div>
 
-        <div class="container-comite">
-          <section class="comite-line">
             <div class="comite-member">
               <h4>Thomas Artru</h4>
               <p>Catering</p>
