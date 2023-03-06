@@ -10,7 +10,7 @@
               <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
             </p>
             <p class="mailContact">
-              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>  
+              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch&nbsp</a>  
                 <span class="tooltip"> <b>(?)</b>
               <span class="tooltiptext">Problèmes liés à l'informatique</span>
             </span> 
@@ -19,13 +19,13 @@
 
           <div class="footerSocial">
             <a target="_BLANK" href="https://www.facebook.com/sysmic2021/" >
-              <img class = img-responsive src="@/assets/images/facebook.svg" />
+              <img class = img-responsive src="@/assets/images/utilitaries/facebook.svg" />
             </a>
             <a target="_BLANK" href="https://www.instagram.com/festival_sysmic/" >
-              <img class = img-responsive src="@/assets/images/instagram.svg" />
+              <img class = img-responsive src="@/assets/images/utilitaries/instagram.svg" />
             </a>
             <a target="_BLANK" href="https://www.youtube.com/channel/UCRymRQ502yvvwe0nwhj1kIw" >
-              <img class = img-responsive src="@/assets/images/youtube.svg" />
+              <img class = img-responsive src="@/assets/images/utilitaries/youtube.svg" />
             </a>
           </div>  
 
@@ -105,12 +105,12 @@
 
         p{
           font-size: calc(11pt + 0.5vw) ;
-          color: var(--primary) ;
+          color: var(--grey-white) ;
           text-align: right ;
         }
 
         footer a{
-          color: var(--primary);
+          color: var(--grey-white);
         }
         footer a:hover{
           color: var(--primary-light);

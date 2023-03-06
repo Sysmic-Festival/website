@@ -19,18 +19,23 @@ const state = reactive({
 onMounted(() => {
   // When the user scrolls the page, execute myFunction
   window.onscroll = function() {onScroll()};
+  window.onresize = function() {onScroll()};
 
   // Get the navbar
   state.navbar = document.getElementById("navbar");
   state.root = document.documentElement;
 
-  // Get the offset position of the navbar
-  state.stickyPosition = navbar.offsetTop;
+  console.log("state navbar offsetTop : ", state.navbar.offsetTop)
+  state.stickyPosition = state.navbar.offsetTop;
 })
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 // the minus part is so that the header sticks as soon as the top margin is reached, so it doesn't jump (removing the "px" from the margin)
 function onScroll() {
+  if (state.navbar.offsetTop > 0) {
+    state.stickyPosition = state.navbar.offsetTop;
+  }
+
   if (state.navbar && window.pageYOffset >= state.stickyPosition) {
     state.sticky = true
   } else {
@@ -46,7 +51,7 @@ function onScroll() {
   <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
     <div class="container-navbar">
       <router-link class="logo" to="/#">
-        <img class = img-responsive src="@/assets/images/logo.svg" />
+        <img class = img-responsive src="@/assets/images/utilitaries/logo.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
         <li><router-link to="/#line-up">Line-up</router-link></li>
@@ -72,16 +77,19 @@ function onScroll() {
   height: calc(var(--navbar-height) + var(--global-margin));
   width: 100%;
   top: calc(100vh - var(--navbar-height) - var(--global-margin));
-  background-color: var(--primary);
+  background-color: var(--primary-transparent);
   box-shadow: 0px 0px 20px 30px rgba(0,0,0,.2);
   display: flex;
   flex-direction: column; 
   justify-content: center;
+
+  transition: opacity 0.5s cubic-bezier(.17,.67,.83,.67);
 }
 
 #navbar.fixedOverride {
   position: fixed !important;
   top: 0 !important;
+
 }
 
 ul.fixedOverride {

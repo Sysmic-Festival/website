@@ -18,7 +18,7 @@ const data = reactive({
         <div class="text">
             <p class="title">{{ title }}</p>
             <p :class="data.opened ? 'openableContent opened' : 'openableContent'">
-                <slot />
+                <slot/>
             </p>
         </div>
     </div>
@@ -65,7 +65,7 @@ div.img img {
 
 .title:hover,
 .title:hover span {
-  color: var(--secondary);
+  color: var(--third);
 }
 
 span {
@@ -81,8 +81,10 @@ span {
 
   .openableTitle,
   .openableContent {
-    font-size: 3.6vw;
+    font-size: 10pt;
     width: 85%;
+    text-align: left !important;
+
   }
 
   .cacheBlack {
@@ -91,7 +93,11 @@ span {
 
   .opened {
     max-height: 500px;
-    padding-bottom: 30px;
   }
+
+  div.img img{
+    top:8px
+  }
+
 }
 </style>

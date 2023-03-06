@@ -1,17 +1,13 @@
-rendre la navbar modulable (changer les top links)
+trouver une solution pour quand la navbar passe au dessus du sidemenu
+    peut être la snap au plus proche (haut ou bas de l'écran)
+    et update la marge du menu en fonction (marge en haut ou marge en bas)
 
-passer le burger en component 
+portfolio /!\
 
-sticky fonction reutilisable
+update titres en fonction de la page (Sysmic - A propos)
 
-sticky reset offset on resize
+higlight la page active dans le sidemenu
 
-fixe animation du burger
+animation cool pour le play button (désassembler le svg)
 
-Pour le site : 
-    mettre la barre en haut quand le menu est ouvert, 
-    portfolio indiquer clairement le clic,
-    PArtie MT,
-    changer la police, couleurs?
-
-
+police extra bold pour le titre

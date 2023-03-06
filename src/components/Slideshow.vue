@@ -2,28 +2,39 @@
 import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css'; 
 
-const slides = [
-  {
-    title: 'Slide #1',
-    content: 'Slide 1 content.'
-  },
-  {
-    title: 'Slide #2',
-    content: 'Slide 2 content.'
-  }
-]
+import slide1 from "@/assets/images/PhotoGallery/slideshow/1.jpg"
+import slide2 from "@/assets/images/PhotoGallery/slideshow/2.jpg"
+import slide3 from "@/assets/images/PhotoGallery/slideshow/3.jpg"
+import slide4 from "@/assets/images/PhotoGallery/slideshow/4.jpg"
+import slide5 from "@/assets/images/PhotoGallery/slideshow/5.jpg"
+import slide6 from "@/assets/images/PhotoGallery/slideshow/6.jpg"
+import slide7 from "@/assets/images/PhotoGallery/slideshow/7.jpg"
+import slide8 from "@/assets/images/PhotoGallery/slideshow/8.jpg"
+
+const slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8]
 </script>
 
 <template>
-  <vueper-slides :slide-ratio="1 / 3" fixed-height="60vh">
+  <vueper-slides id="slider" :slide-ratio="1 / 1" fixed-height="60vh" lazy lazy-load-on-drag :touchable="false" autoplay>
       <vueper-slide
         v-for="(slide, i) in slides"
         :key="i"
-        :title="slide.title"
-        :content="slide.content">
+        :image="slide">
       </vueper-slide>
     </vueper-slides>
 </template>
 
 <style scoped>
+  #slider{
+    max-width:1000px;
+    margin:auto;
+    margin-top:43px;
+  }
+
+  @media screen and (max-width: 850px) {
+    #slider{
+    margin-top: 0;
+    }
+  }
+
 </style>

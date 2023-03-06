@@ -1,4 +1,3 @@
-
 <script setup>
 import { onMounted } from 'vue'
 onMounted(() => {
@@ -7,7 +6,7 @@ onMounted(() => {
 
 /* TIMER */
 function startTimer() {
-    var goalDate = new Date(2022, 9, 21, 19, 30).getTime()
+    var goalDate = new Date(2023, 9, 20, 20, 0).getTime()
     var curDate = new Date().getTime()
 
     try {
@@ -46,7 +45,6 @@ function startTimer() {
             document.getElementById("secBox").innerHTML = 0
         }
     } catch (e) {
-
     }
 
     setTimeout(startTimer, 1000)
@@ -56,9 +54,6 @@ function startTimer() {
 <template>
     <section class="timer-section">
         <div class="decompte">
-            <div class="decompteLine">
-                <hr>
-            </div>
             <div>
                 <div id="daysBox" class="decompteNumber">000</div>
                 <div id="labelDay" class="numberLabel label1">Jours</div>
@@ -75,9 +70,6 @@ function startTimer() {
                 <div id="secBox" class="decompteNumber">00</div>
                 <div id="labelSec" class="numberLabel label4"> Secondes</div>
             </div>
-            <div class="decompteLine">
-                <hr>
-            </div>
         </div>
     </section>
 </template>
@@ -85,27 +77,33 @@ function startTimer() {
 
 <style scoped>
 .decompte {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .decompteNumber {
-    max-height: 120px;
-    max-width: 120px;
-    height: 14vw;
+    opacity: 1;
+
+    max-height: 80px;
+    max-width: 100px;
+    height: 10vw;
     width: 14vw;
 
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    color: var(--primary);
+    color: var(--white);
     font-size: 58pt;
     padding-top: 0px;
     font-weight: bold;
+
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 #daysBox {
@@ -134,19 +132,19 @@ function startTimer() {
 }
 
 .label1 {
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .label2 {
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .label3 {
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .label4 {
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .decompteLine hr {
@@ -154,6 +152,13 @@ function startTimer() {
     position: relative;
     top: -17px;
     border: 1px solid var(--secondary);
+}
+
+.timer-section {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    z-index: 100;
 }
 
 @media only screen and (max-width: 850px) {
@@ -186,11 +191,12 @@ function startTimer() {
 
 }
 
-.timer-section {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
+@media only screen and (max-height: 1280px){
+        .timer-section{
+            padding:0;
+            padding-top: 3px;
+        }
+    }
 
 @media only screen and (max-width: 700px) {
     .h2BorderContainer {
@@ -220,5 +226,10 @@ function startTimer() {
     .secondP {
         font-size: 5vw;
     }
+
+    .timer-section{
+            padding:25px
+        }
+
 }
 </style>

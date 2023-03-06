@@ -15,145 +15,107 @@ import FAQRow from '../components/FAQRow.vue';
         <hr class="title-hr">
 
         <h4>Infos utiles et réponses aux questions fréquemment posées</h4>
-        <p style="color:red; text-align:center">Certaines informations peuvent être obsolète pour le festival à venir
-          (21.10.2022) et peuvent donc être sujettes à changements, marquées d'un "&#9888"</p>
-        <hr>
+
 
         <h2>Le festival</h2>
 
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Durant le festival, nous mettons a votre disposition un vestiaire gratuit. Nous
+          Durant le festival, nous mettons à votre disposition un vestiaire gratuit. Nous
             déclinons toutefois toute responsabilité en cas de perte ou de vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
           Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.<br />
-          Elles partiront à 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
+          Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
           Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.
+          <br><br>
+          Les bus passeront par : <br>
+          UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde,
+          Planta,Chavannes-R, GlycineRenens, Gare Sud, 	Chêne, Rue du lac,  Longemalle,
+          Malley nord,Galicien,Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon
         </FAQRow>
         
-        <FAQRow title=""></FAQRow>
-
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Les <span>sacs</span> sont-ils autorisés ?</p>
-          <p class="openableContent">Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs lors
+        <FAQRow title="Les sacs sont-ils autorisés ?">
+          <p>Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs lors
             de la manifestation. Nous vous prions de venir sans sac à dos.</p>
-        </div>
+        </FAQRow>
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Comment puis-je obtenir des <span>prélocations</span> ? <span
-              style="color:red "><b>&#9888</b></span></p>
-          <p class="openableContent">Les prélocations seront mises en vente sur l'esplanade lors de la semaine précédent
-            le festival, de 12:00 à 13:15, le mercredi et le jeudi</p>
-        </div>
+        <FAQRow title="Comment puis-je obtenir des prélocations?">
+          Les prélocations seront mises en vente sur l'esplanade lors de la semaine précédant
+          le festival, de 12:00 à 13:15, le mardi et le mercredi
+        </FAQRow>
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Quelles sont les mesures concernant le <span>Coronavirus</span> ? <span
-              style="color:red "><b>&#9888</b></span></p>
-          <p class="openableContent">1. L'accès au festival <span>n'est plus</span> réservé aux personnes possédant un
-            certificat COVID valable.<br>
-            2. Il est tout de même interdit de venir à la manifestation en cas de symptômes d'une infection. <br>
-            3. Du gel hydroalcoolique sera mis à disposition à l'extérieur et dans le festival. Les surfaces fréquemment
-            utilisées (bar, etc.) seront désinfectées régulièrement.</p>
-        </div>
+        <FAQRow title="Puis-je venir au festival sans prélocation?">
+          Évidemment ! Nous vendons également plus de 100 places de plus le soir même du
+          festival, il n'y a pas de raison de ne pas venir à Sysmic ! <br><br>
+          Nous conseillons toutefois de posséder une prélocation, afin d'éviter du temps d'attente.
+        </FAQRow> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Puis-je venir au festival <span>sans prélocation</span> ? <span
-              style="color:red "><b>&#9888</b></span></p>
-          <p class="openableContent">Évidemment ! Nous vendons également plus de 100 places de plus le soir même du
-            festival, il n'y a pas de raison de ne pas venir à Sysmic ! <br><br>
-            Nous conseillons toutefois de posséder une prélocation, afin d'éviter du temps d'attente.</p>
-        </div>
+        <FAQRow title="Puis-je manger sur place ?">
+          Bien sûr ! Notre festival accueillera un foodtruck et un stand de nourriture servant de la nourriture de
+          qualité à prix étudiant.
+        </FAQRow> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Puis-je <span>manger</span> sur place ? <span style="color:red "><b>&#9888</b></span>
-          </p>
-          <p class="openableContent">Bien sûr ! Notre festival accueillera un foodtruck servant de la nourriture de
-            qualité à prix étudiant.</p>
-        </div>
+        <FAQRow title="Quelles activités sont prévues durant la soirée ?">
+          En plus des concerts, des bars et du foodtruck, nos proposons deux escape games
+          spécialement conçus par notre comité dans le thème de la soirée. Nous mettons également en place un espace
+          "Just Dance".
+        </FAQRow> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Quelles <span>activités</span> sont prévues durant la soirée ?</p>
-          <p class="openableContent">En plus des concerts, des bars et du foodtruck, nos proposons deux escape games
-            spécialement conçues par notre comité dans le thème de la soirée. Nous mettons également en place un espace
-            "Just Dance".</p>
-        </div>
+        <FAQRow title="Le festival est-il accessible aux personnes à mobilité réduite?">
+          L'ensemble du festival n'est pas accessible aux personnes à mobilité réduite. <br>
+          Comme nous traitons chaque cas séparément, merci de nous contacter à <a
+          href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
+        </FAQRow> 
 
+        <FAQRow title="Quels bâtiments seront fermés durant le festival ?">
+          Les bâtiments CH, BS, CE, CM, CO, BM et BP seront impactés par le festival. Des affiches
+          seront placées à l'entrée de ces bâtiments pour annoncer les heures exactes de fermeture.
+        </FAQRow> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg">
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg">
-          <p class="openableTitle">Le festival est-il accessible aux personnes à <span>mobilité réduite</span> ?</p>
-          <p class="openableContent">L'ensemble du festival n'est pas accessible aux personnes à mobilité réduite. <br>
-            Comme nous traitons chaque cas séparément, merci de nous contacter à <a
-              href="mailto:contact@sysmic.ch">contact@sysmic.ch</a></p>
-        </div>
-
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Quels <span>bâtiments seront fermés</span> durant le festival ?</p>
-          <p class="openableContent">Les bâtiments CE, CM, CO, BM et BP seront impactés par le festival. Des affiches
-            seront placées à l'entrée de ces bâtiments pour annoncer les heures exactes de fermeture.</p>
-        </div>
         <hr>
 
-        <h2>Pour les micros</h2>
+        <h2 id="micros">Pour les micros</h2> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Comment se déroule la soirée avec une <span>prélocation pour microtechnicien</span> ?
-            <span style="color:red "><b>&#9888</b></span></p>
-          <p class="openableContent">18:00 - Début de l'apéritif (emplacement bientôt annoncé) <br> 19:00 - Début du
-            repas au Native (ex Vinci, même sas d'entrée que Satellite) <br> 21:00 - Spectacle en CE6 <br> 22:00 -
-            Entrée dans le festival 🎉</p>
-        </div>
+        <FAQRow title="Comment se déroule la soirée avec une prélocation pour microtechnicien?">
+          18:00 - Début de l'apéritif en CM 1 120 <br> 19:00 - Début du
+          repas à l'Alpine
+           <br> 21:00 - Spectacle en CE6 <br> 22:00 -
+          Entrée dans le festival 🎉
+          
+        </FAQRow> 
+
+        <FAQRow title="Quelles sont les horaires de ventes pour microtechnicien?">
+         Dernières ventes, toutes années confondues : vendredi 14 dès 12h devant la salle Polyvalente, toute l'après-midi.
+         <br><br>
+         Prix: 30.- <br>
+         Payement par cash uniquement, camipro obligatoire lors du règlement. Une personne peut prendre une place pour une autre en nous communiquant sont sciper et en payant pour elle.
+        </FAQRow> 
+
         <hr>
 
         <h2>L'association</h2>
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Comment nous <span>contacter</span> ?</p>
-          <p class="openableContent">
-            Par mail, de préférence, à l'adresse suivante : <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
-            <span style="display:block ; margin-bottom:0.4em"></span>
-            En cas de problème de source informatique (par exemple sur le site), vous pouvez nous contacter directement
-            à l'adresse suivante : <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>
-            <span style="display:block ; margin-bottom:0.4em"></span>
-            Tu peux aussi nous contacter via nos réseaux sociaux principaux <a
-              href="https://www.facebook.com/sysmic2021/">Facebook</a> et <a
-              href="https://www.instagram.com/festival_sysmic/">Instagram</a>
-            <span style="display:block ; margin-bottom:0.4em"></span>
-            Nous possédons également une case postale : <b>Sysmic, EPFL-STI-BM, Station 17, 1015 Lausanne</b>
-          </p>
-        </div>
+        <FAQRow title="Comment nous contacter ?">
+          Par mail, de préférence, à l'adresse suivante : <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
+          <span style="display:block ; margin-bottom:0.4em"></span>
+          En cas de problème de source informatique (par exemple sur le site), tu peux nous contacter directement
+          à l'adresse suivante : <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>
+          <span style="display:block ; margin-bottom:0.4em"></span>
+          Tu peux aussi nous contacter via nos réseaux sociaux principaux <a
+          href="https://www.facebook.com/sysmic2021/">Facebook</a> et <a
+          href="https://www.instagram.com/festival_sysmic/">Instagram</a>
+          <span style="display:block ; margin-bottom:0.4em"></span>
+          Nous possédons également une case postale : <b>Sysmic, EPFL-STI-BM, Station 17, 1015 Lausanne</b>
+        </FAQRow> 
 
-        <div class="container" @click="togglePuce(this)">
-          <img class="minus" src="@/assets/images/utilitaries/minus.svg" />
-          <img class="plus" src="@/assets/images/utilitaries/plus.svg" />
-          <p class="openableTitle">Comment faire partie de <span style="color:var(--second-light);">Sysmic</span> ?</p>
-          <p class="openableContent">
-            Chaque année, quelques temps après le festival, un communiqué passe sur <a
-              href="https://www.facebook.com/sysmic2021/">Facebook</a> pour annoncer une assemblée générale durant
-            laquelle les postes à pourvoir seront annoncés, et tu pourras te présenter.<br>
-            Nous envoyons également un mail à tous les étudiants au même moment.
-          </p>
-        </div>
+        <FAQRow title="Comment faire partie de Sysmic ?">
+          Si tu veux nous aider à l’élaboration du Festival tu peux venir staffer chaque années pendant la semaine de montage du festival, et pendant la soirée! !
+            <br><br>
+            Si tu as envie de plus t’impliquer, chaque année après le festival a lieu notre Assemblée Générale où nous élisons le nouveau Comité de Direction. Cette année ce sera le dimanche 27 novembre à 18h, n’hésite pas à venir c’est ouvert à tous.te.s. Suite à ça le recrutement du comité est annoncé par mail et sur nos réseaux sociaux.
+            <br><br>
+          <!-- Le form de recrutement pour les posts à pourvoir est disponible <a href="/presentation posts.pdf" target="_blank" style="text-decoration: underline;">ici</a> ! -->
+        </FAQRow> 
 
       </section>
     </div>
@@ -168,12 +130,12 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary);
+  color: var(--white);
   text-align: center;
 }
 
 h4 {
-  color: var(--secondary);
+  color: var(--grey-white);
 }
 
 .title-hr {
@@ -218,6 +180,10 @@ section hr {
   display: none;
 }
 
+.mail-link :hover{
+  text-decoration: underline;
+}
+
 .openableContent {
   max-height: 0;
   padding-bottom: 0px;
@@ -259,7 +225,7 @@ span {
 
   .openableTitle,
   .openableContent {
-    font-size: 3.6vw;
+    font-size: 10p;
     width: 85%;
   }
 
@@ -271,5 +237,19 @@ span {
     max-height: 500px;
     padding-bottom: 30px;
   }
+
+  .faq-div section{
+    margin: 10px;
+  }
+
+  .title-hr{
+    max-width: 250px
+  }
+
+  section hr{
+    max-width: 320px;
+  }
+
 }
+
 </style>

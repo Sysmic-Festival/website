@@ -42,7 +42,7 @@
     </div>
     <div class="titleBox">
       <h1>Sysmic <br>&nbsp Festival</h1>
-      <div style="vertical-align:top">
+      <div id="title-date">
         <h2>21.10.22</h2>
       </div>
     </div>
@@ -54,9 +54,11 @@
 
 h1, h2 {
   margin: 0;
+  font-weight: extra;
 }
 
 .invaderSection {
+  z-index: 100;
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -68,7 +70,7 @@ h1, h2 {
   left: 50%;
   transform: translateX(-80%);
   height: 50%;
-  width: 500px;
+  width: 800px;
 }
 
 
@@ -84,7 +86,8 @@ h1, h2 {
 }
 
 .titleBox {
-  
+
+  font-family: Montserrat;
   line-height: 90pt;
   text-align: left;
   position: absolute;
@@ -94,6 +97,10 @@ h1, h2 {
   flex-direction: column;
   justify-content: center;
   align-items: end;
+}
+
+#title-date{
+  transform: translateY(-30px);
 }
 
 .titleBox > h1{
@@ -113,6 +120,16 @@ h1, h2 {
 
 .invaderShow{
   opacity: 1 !important;
+}
+
+@media only screen and (max-height: 700px){
+  #invaderDiv{
+    top:0 !important;  
+  }
+
+  .titleBox{
+    top:0 !important;
+  }
 }
 
 @media only screen and (max-width: 850px){
@@ -140,11 +157,15 @@ h1, h2 {
   }
 
   .titleBox > h1{
-    font-size: 55pt;
+    font-size: 47pt;
   }
 
   .titleBox > div > h2 {
     font-size: 15pt;
+  }
+
+  #title-date{
+    transform: translateY(0px);
   }
 
 }

@@ -4,19 +4,69 @@ import NavBar from '../components/NavBar.vue'
 import Timer from '../components/Timer.vue';
 import Slideshow from '../components/Slideshow.vue';
 import AnimatedLogo from '../components/AnimatedLogo.vue';
+import FAQRow from '../components/FAQRow.vue';
+
 
 </script>
 
 <template>
     <div>
         <div class="home-screen">
+            <div class="home-screen-bg"></div>
             <AnimatedLogo />
+            <div id="sponsors-bar">
+                <div class="sponsors-row">
+                    <div class="sponsor-el">
+                        <a href="https://www.forum-epfl.ch/">
+                            <img src="@/assets/images/sponsors/Forum-epfl-logo.png">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a href="https://www.logitech.com/de-ch">
+                            <img src="@/assets/images/sponsors/logitech-logo.svg">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a href="https://fr.brio-mate.com/">
+                            <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="sponsors-row">
+                    <div class="sponsor-el">
+                        <a href="https://www.l-dudu.ch/">
+                            <img src="@/assets/images/sponsors/L-DuDu-logo.png">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a href="https://www.visilab.ch/fr/">
+                            <img src="@/assets/images/sponsors/Visilab-couleur-logo.png">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a href="https://rivella.ch/fr/">
+                            <img src="@/assets/images/sponsors/Rivella-logo.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
             <Timer />
+        </div>
+
+        <div id="recrutement">
+            <hr class="mt-hr" style="max-width:250px">
+            <hr class="mt-hr" style="max-width:350px">
+            <hr class="mt-hr" style="max-width:450px">
+                <div class="" style="font-weight: 900;"><p style="text-align: center;">Sysmic recrute son <span style="color:var(--third)">comité 2023</span> ! Si tu veux nous rejoindre, ça se passe <a href="https://forms.gle/3GDGf3W1cptW5iyN7" target="_blank" style="text-decoration: underline;color:var(--third);">ici</a> !</p></div>
+            <hr class="mt-hr" style="max-width:450px">
+            <hr class="mt-hr" style="max-width:350px">
+            <hr class="mt-hr" style="max-width:250px">
+            <br>
         </div>
     
         <div id="line-up" class="line-up">
-            <img class="img-responsive" src="@/assets/images/utilitaries/placeholder-img.png" />
-            <button class="main-page-button">Programmation complète →</button>
+            <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
+            <a class="main-page-button"  href="/images/timeline.png" target="_blank">Programmation complète →</a>
         </div>
 
         <div class="photo-gallery">
@@ -25,38 +75,76 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
 
         <div id="infos" class="infos">
             <h1 class="h1-primary-background">Infos Pratiques</h1>
-            <div class="container">
-                <section style="flex: 2">
+            <div id="infos-container" class="container">
+                <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
-                    <p>
-                        Prélocation: 12CHF
-                        <br>
-                        Vente du XX au XX octobre à l'Esplanade à 12H00
+                    <p >
+                        Prélocation: <span class="higlight-text">12CHF</span>
+                        <br><br>
+                        Vente du <span class="higlight-text"> 18 au 19 octobre </span> à l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
                         Payement en Camipro ou en cash
-                        <br>
-                        Le soir même: 15CHF
+                        <br><br>
+                        Le soir même: <span class="higlight-text">15CHF</span>
                     </p>
                 </section>
                 <hr class="info-section-hr" id="date-hr">
-                <section style="flex: 1">
+                <section style="">
                     <h2 class="h2-primary-background">Date</h2>
                     <p>
-                        21 Octobre 2022 <br><br>
-                        Début: 19H45
+                        <span class="higlight-text">21 octobre 2022</span>
+                         <br><br>
+                        Début: <span class="higlight-text">20h</span>
                         <br>
-                        Fin: 03H00
+                        Début des concerts: <span class="higlight-text">20h30</span>
+                        <br>
+                        Fin: <span class="higlight-text">03H00</span>
                     </p>
                 </section>
             </div>
+            <hr class="mt-hr" style="max-width:150px">
+            <hr class="mt-hr" style="max-width:200px">
+            <hr class="mt-hr">
+            <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Pour la partie <span style="color:var(--third)">MT</span>, ça se passe <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
+            <hr class="mt-hr">
+            <hr class="mt-hr" style="max-width:200px">
+            <hr class="mt-hr" style="max-width:150px">
             <br>
+            <section style="display:flex; flex-direction:column;align-items:center">
+                
+        <FAQRow title="Y a-t-il un vestiaire ?">
+          Durant le festival, nous mettons a votre disposition un vestiaire gratuit. Nous
+            déclinons toutefois toute responsabilité en cas de perte ou de vol.
+        </FAQRow>
+
+        <FAQRow title="Existe-il des navettes pour le retour ?">
+            Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.<br />
+          Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
+          Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.
+          <br><br>
+          Les bus passeront par : <br>
+          UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde,
+          Planta,Chavannes-R, GlycineRenens, Gare Sud, 	Chêne, Rue du lac,  Longemalle,
+          Malley nord,Galicien,Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon
+        </FAQRow>
+        
+        <FAQRow title="Les sacs sont-ils autorisés ?">
+          <p>Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs lors
+            de la manifestation. Nous vous prions de venir sans sac à dos.</p>
+        </FAQRow>
+
+        <FAQRow title="Comment puis-je obtenir des prélocations?">
+          Les prélocations seront mises en vente sur l'esplanade lors de la semaine précédant
+          le festival, de 12:00 à 13:15, le mardi et le mercredi
+        </FAQRow>
+            </section>
             <section class="button-section">
                 <router-link to="/faq">
                     <button class="main-page-button">FAQ →</button>
                 </router-link>
             </section>
             <hr class="info-section-hr">
-            <div class="container-large">
+            <div class="container-large" style="margin-bottom:25px">
                 <section style="flex:1">
                     <h2 class="h2-primary-background" id="plan-title">Accès</h2>
                     <p id="plan-para">
@@ -67,52 +155,64 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                     </p>
                 </section>
                 <section id="plan-image" style="flex:1">
-                    <img class="img-responsive" src="@/assets/images/plan-tempo.png">
+                    <a href="https://www.google.com/maps/d/u/0/edit?mid=1CXFmGv1zlrAQgA84q9ZXzxnXD0qu938&usp=sharing" target="_blank">
+                        <img class="img-responsive" src="@/assets/images/utilitaries/plan_acces.png">
+                    </a>
                 </section>
             </div>
             <section class="button-section">
-                <button class="main-page-button">Plan du Festival →</button>
+                <a class="main-page-button" href="/images/plan_interieur.png" target="_blank">Plan du Festival →</a>
             </section>
         </div>
 
 
         <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Nos Sponsors</h1>
+            <h1 class="h1-third-background">Sponsors 2022</h1>
             <section class="sponsors-line">
                 <div>
-                    <a href="https://www.logitech.com/de-ch">
+                    <a target="_BLANK" href="https://www.logitech.com/de-ch">
                         <img src="@/assets/images/sponsors/logitech-logo.svg">
                     </a>
                 </div>
                 <div style="display:block">
-                    <a href="https://fr.brio-mate.com/">
+                    <a target="_BLANK" href="https://fr.brio-mate.com/">
                         <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.visilab.ch/fr/">
+                    <a target="_BLANK" href="https://www.visilab.ch/fr/">
                         <img src="@/assets/images/sponsors/Visilab-couleur-logo.png">
                     </a>
                 </div>
                 <div>
-                    <a href="https://rivella.ch/fr/">
+                    <a target="_BLANK" href="https://rivella.ch/fr/">
                         <img src="@/assets/images/sponsors/Rivella-logo.svg">
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.forum-epfl.ch/">
+                    <a target="_BLANK" href="https://www.forum-epfl.ch/">
                         <img src="@/assets/images/sponsors/Forum-epfl-logo.png">
                     </a>
                 </div>
                 <div>
-                    <a href="https://fastree3d.com/">
+                    <a target="_BLANK" href="https://fastree3d.com/">
                         <img src="@/assets/images/sponsors/fastree3d-logo.png">
                     </a>
                 </div>
-                <div id="sponsor-space-filler"></div>
                 <div>
-                    <a href="https://www.l-dudu.ch/">
+                    <a target="_BLANK" href="https://agepoly.ch/">
+                        <img src="@/assets/images/sponsors/AGEPoly.svg">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://www.l-dudu.ch/">
                         <img src="@/assets/images/sponsors/L-DuDu-logo.png">
+                    </a>
+                </div>
+                <div class="spacefiller-phone"></div>
+                <div>
+                    <a target="_BLANK" href="https://shop.morand.ch/fr/">
+                        <img src="@/assets/images/sponsors/mrnd21.svg">
                     </a>
                 </div>
             </section>
@@ -120,14 +220,13 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
 
 
         <div id="association" class="association">
-            <h1 class="h1-primary-background">Qui sommes-nous?</h1>
+            <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
             <div class="container container-vertical-phone">
-                <section style="flex:1">
+                <section style="flex:1 ; padding-top:0">
                     <p>
-                        Nous sommes un groupe composé d’une vingtaine d’étudiants motivés et dynamiques.
+                        Sysmic est constitué d’un comité de 25 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
-                        Nous appartenons à plusieurs sections différentes de l'EPFL et travaillons pour la section de
-                        Microtechnique.
+                        Originellement l’association est dédiée à la section de Microtechnique, pour laquelle nous organisons en parallèle du festival chaque année un apéro suivi d’un repas et d’un Spectacle !
                     </p>
                     <br>
                     <p>
@@ -138,19 +237,19 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                         possible !
                     </p>
                 </section>
-                <section style="flex:1">
-                    <img src="@/assets/images/PhotoGallery/qui-sommes-nous-img.jpg" style="width: 100%;">
+                <section id="qsn-img" style="flex:1">
+                    <img src="@/assets/images/PhotoGallery/qui-sommes-nous-img.jpg" style="width: 105%;">
                 </section>
             </div>
             <div class="container">
                 <section>
                     <p style="text-align: center;">Si tu veux en savoir plus à propos de l'association, jettes un oeil à
-                        la page <span><a style="text-decoration:underline" href="./a-propos.html"> à propos </a></span>
+                        la page <span ><router-link style="color:var(--white); text-decoration: underline;" to="/about-us">À propos</router-link></span>
                         !</p>
                 </section>
             </div>
             <hr class="comite-section-hr">
-            <h1 class="h1-primary-background comite-title">Le Comité</h1>
+            <h1 class="h1-primary-background comite-title">Comité 2022</h1>
 
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">
@@ -167,12 +266,12 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                     <div class="comite-member">
                         <h4>Davia Trannoy</h4>
                         <p>VP Communication</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/Davia.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Ludovic Mareemootoo</h4>
                         <p>VP Logistique</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/ludo.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Nicolas Termote</h4>
@@ -195,12 +294,12 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                     <div class="comite-member">
                         <h4>Amélie Senaud</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/amelie.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Matej Soumillon</h4>
+                        <h4>Matej Soumillion</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/matej.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Louis Le Guillouzic</h4>
@@ -210,7 +309,7 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                     <div class="comite-member">
                         <h4>Ambroise Borbély</h4>
                         <p>Élec/Light</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/ambroise.jpg">
                     </div>
 
                     <div class="comite-member">
@@ -293,7 +392,7 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
                     <div class="comite-member">
                         <h4>Aude-Line Fleury</h4>
                         <p>Escape Game</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/aude-line.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Tifaine Mezencev</h4>
@@ -328,8 +427,6 @@ import AnimatedLogo from '../components/AnimatedLogo.vue';
 <style scoped>
 .button-section {
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
     padding-left: 0;
     padding-right: 0;
 }
@@ -350,6 +447,7 @@ h3 {
 
 #plan-para {
     height: 100%;
+    margin-right: 50px;
 }
 
 .comite-title {
@@ -366,11 +464,10 @@ h3 {
 }
 
 .main-page-button {
-    width: 20%;
-    height: 50px;
+    margin:10px;
+    padding: 15px;
     font-weight: bold;
-    font-size: 1.5vw;
-    color: var((--primary));
+    color: var(--primary);
     background-color: var(--white);
     cursor: pointer;
     border-radius: 10px;
@@ -378,8 +475,9 @@ h3 {
 }
 
 
+
 .info-section-hr {
-    border: 4px solid var(--third);
+    border: 1px solid var(--third);
     border-radius: 50px;
     max-width: 1300px;
     margin-top: 25px;
@@ -400,30 +498,44 @@ span {
     color: var(--secondary);
 }
 
+#recrutement {
+    max-width: 100%;
+    padding: var(--global-margin);
+    padding-top: calc(var(--navbar-height) + var(--global-margin));
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary);
+    box-shadow: 0 8px 30px -4px black;
+}
+
+
 .line-up {
-    height: 100vh;
     max-width: 100%;
     padding: 20px;
     padding-top: calc(var(--navbar-height) + var(--global-margin));
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
     background-color: var(--secondary);
+
+    box-shadow: 0 8px 30px -4px black;
 }
 
 .line-up img {
-    height: 85vh;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .photo-gallery {
     /* height: 60vh; */
-    background-color: var(--third);
+    background-color: var(--primary);
 }
 
 .infos {
+    margin-bottom: 25px;
     display: block;
     width: 100%;
     background-color: var(--primary);
@@ -434,10 +546,15 @@ span {
     margin: 0;
 }
 
+.mt-hr{
+    border: 1px solid var(--third);
+    max-width: 300px;
+}
+
 .sponsors {
     display: inline-block;
     width: 100%;
-    background-color: var(--third);
+    background-color: var(--secondary);
 }
 
 .sponsors .sponsors-line {
@@ -464,6 +581,11 @@ span {
 
 .sponsors section img:hover {
     opacity: 0.80;
+}
+
+.sponsors section .spacefiller-phone{
+    width: 24%;
+    display: none;
 }
 
 .association {
@@ -494,6 +616,7 @@ span {
 .comite-member p {
     text-align: center;
     margin: 0;
+    padding-bottom: 7px;
     display: flex;
     flex-direction: column;
 }
@@ -502,27 +625,108 @@ span {
     width: 80%;
 }
 
+
 .home-screen {
     height: calc(100vh - var(--navbar-height) - var(--global-margin));
-    ;
-    background-color: var(--primary);
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.home-screen-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+.higlight-text{
+    color: var(--third);
+    font-weight: bolder;
+}
+
+#sponsors-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 100px;
+    z-index: 5;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.sponsors-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sponsor-el {
+    /* background-color: chartreuse; */
+    flex-grow: 1;
+    z-index: 10000;
+    max-width: 180px;
+    max-height: 250px;
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(10px);
+}
+
+.sponsor-el * {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-height: 700px){
+        #sponsors-bar{
+            height:50px;
+        }
+    }
+
+@media screen and (max-width: 650px) {
+    #sponsors-bar {
+        flex-direction: column;
+    }
+
+    .sponsor-el {
+        flex-wrap: wrap;
+        width: 20vw;
+    }
 }
 
 @media screen and (max-width: 850px) {
 
+    #sponsors-bar{
+        height: 100px;
+    }
+
     .info-section-hr {
-        max-width: 300px;
-        border: 2px solid var(--third);
+        display: none;
+    }
+
+    #plan-para {
+    margin-right: 0px;
+}
+
+    #date-hr{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .main-page-button {
-        width: 40%;
-        height: 30px;
         font-weight: bold;
-        font-size: 2.5vw;
         color: var((--primary));
         background-color: var(--white);
         cursor: pointer;
@@ -542,12 +746,41 @@ span {
         width: 25%;
     }
 
+    .sponsors section .spacefiller-phone{
+        display:flex
+    }
+
+    #qsn-img{
+        padding: 0;
+    }
+
     .comite-line {
         width: 100% !important;
     }
 
+    .comite-section-hr{
+        max-width: 330px;
+    }
+
     .comite-member {
         width: 49% !important;
+    }
+
+    .comite-member p {
+        padding-bottom: 4px;
+}
+
+    .home-screen-bg{
+        background-position: 45% 10%;
+    }
+
+    #infos-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #infos-container * {
+        text-align: center;
     }
 
 }
