@@ -41,7 +41,7 @@
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/>
     </div>
     <div class="titleBox">
-      <h1>Sysmic <br>&nbsp Festival</h1>
+      <h1>SYSMIC<br>&nbsp FESTIVAL</h1>
       <div id="title-date">
         <h2>21.10.22</h2>
       </div>
@@ -84,19 +84,19 @@ h1, h2 {
   height: 100%;
   max-width: 100%;
 }
-
 .titleBox {
 
-  font-family: Montserrat;
+  font-family: "Montserrat";
   line-height: 90pt;
   text-align: left;
   position: absolute;
   left: calc(50% - 50px);
-  top: 80px;
+  top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  margin-top: 30px;
 }
 
 #title-date{
@@ -105,6 +105,7 @@ h1, h2 {
 
 .titleBox > h1{
   font-size: 82pt;
+  font-weight: 900;
   color: var(--white);
   /* font-family: Raleway-Light; */
 }
@@ -112,6 +113,7 @@ h1, h2 {
 .titleBox > div > h2 {
   display: ruby-text;
   font-size: 18pt;
+  font-weight: 700;
   color: var(--white);
   background-color: transparent;
   text-align: center;
