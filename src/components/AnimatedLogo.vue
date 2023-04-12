@@ -41,7 +41,7 @@
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/>
     </div>
     <div class="titleBox">
-      <h1>SYSMIC<br>&nbsp FESTIVAL</h1>
+      <h1>SYSMIC<br>FESTIVAL</h1>
       <div id="title-date">
         <h2>21.10.22</h2>
       </div>
@@ -97,6 +97,7 @@ h1, h2 {
   justify-content: center;
   align-items: end;
   margin-top: 30px;
+  z-index: 100;
 }
 
 #title-date{
@@ -118,6 +119,8 @@ h1, h2 {
   background-color: transparent;
   text-align: center;
   vertical-align: top;
+  position:relative;
+  right: -40px;
 }
 
 .invaderShow{
@@ -155,7 +158,7 @@ h1, h2 {
   }
 
   h1,h2 {
-    text-align: left;
+    text-align: center;
   }
 
   .titleBox > h1{
@@ -164,6 +167,8 @@ h1, h2 {
 
   .titleBox > div > h2 {
     font-size: 15pt;
+    position:relative;
+    right:0px;
   }
 
   #title-date{

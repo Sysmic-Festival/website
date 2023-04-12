@@ -580,7 +580,7 @@ span {
 }
 
 .sponsors section img:hover {
-    opacity: 0.80;
+    opacity: 0.70;
 }
 
 .sponsors section .spacefiller-phone{
