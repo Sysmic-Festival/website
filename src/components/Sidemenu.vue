@@ -10,6 +10,10 @@ const state = reactive({
   playerDisplayed: false,
 })
 
+function closeSideMenu() {
+  emits("openedUpdate", false)
+}
+
 function displayPlayer(e) {
   e.preventDefault();
   state.playerDisplayed = true
@@ -26,7 +30,7 @@ router.beforeEach(() => {
 <template>
     <div :class="open ? 'sidebar opened' : 'sidebar'">
       <section class="sidebar-section">
-        <label class="cross" @click="open = !open">
+        <label class="cross" @click="closeSideMenu">
           <div class="line"></div>
           <div class="line"></div>
         </label>
