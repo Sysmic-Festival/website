@@ -26,6 +26,10 @@ router.beforeEach(() => {
 <template>
     <div :class="open ? 'sidebar opened' : 'sidebar'">
       <section class="sidebar-section">
+        <label class="cross" @click="open = !open">
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
         <router-link to="/#line-up">Line-up</router-link>
         <hr id="sidebar-links-hr">
         <router-link to="/#infos">Infos</router-link>
@@ -52,7 +56,7 @@ router.beforeEach(() => {
 <style scoped>
      /* The sidebar menu */
 .sidebar {
-  z-index: 900;
+  z-index: 902;
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   top: 0;
@@ -77,7 +81,7 @@ router.beforeEach(() => {
   white-space: nowrap;
   overflow: hidden;
   
-  padding: 8px 8px 6px 0px;
+  padding: 4px 8px 6px 0px;
   text-decoration: none;
   font-size: 25px;
   color: var(--white);
@@ -140,8 +144,55 @@ router.beforeEach(() => {
     font-size: 15px;
   }
 }
+.cross {
+  position: relative;
+  min-width: 20px;
+  height: 40px;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  left: 20px;
+  top: -50px;
+}
+.cross .line {
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  height: 4px;
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cross:hover .line::after {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+.cross .line:nth-child(1){
+    transform:  rotate(45deg);
+    top: 50%;
+}
 
+.cross .line:nth-child(2){
+    transform:  rotate(-45deg);
+    top: 50%;
+}
 
+.cross .line::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--third);
+  transform: translateX(-100%);
+}
+.cross .line:nth-child(1)::after {
+    transition: 0.1s;
+}
+.cross .line:nth-child(2)::after {
+    transition: 0.3s;
+}
 
 
 </style>

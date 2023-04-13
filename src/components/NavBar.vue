@@ -60,12 +60,11 @@ function onScroll() {
         <li><router-link to="/#association">Qui sommes-nous?</router-link></li>
       </ul>
       
-        <label id="burger-menu" :class="state.sideMenuOpened ? 'burger-menu opened' : 'burger-menu'" @click="state.sideMenuOpened = !state.sideMenuOpened">
+        <label class="burger-menu" @click="state.sideMenuOpened = !state.sideMenuOpened">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
         </label>
-
     </div>
   </nav>
 </template>
@@ -190,20 +189,6 @@ ul.fixedOverride {
 
 .side-menu.opened {
   transform: scaleX(1);
-}
-
-.burger-menu.opened .line::after {
-  transform: translateX(0);
-}
-.burger-menu.opened .line:nth-child(1) {
-  transform: translateY(calc(var(--navbar-height) / 5)) rotate(45deg);
-}
-.burger-menu.opened .line:nth-child(2) {
-  transition-duration: 0.1s;
-  transform: scaleX(0);
-}
-.burger-menu.opened .line:nth-child(3) {
-  transform: translateY(calc(var(--navbar-height) / -5)) rotate(-45deg);
 }
 
 .burger-container{
