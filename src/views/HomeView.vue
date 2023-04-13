@@ -13,7 +13,7 @@ import FAQRow from '../components/FAQRow.vue';
     <div>
         <div class="home-screen">
             <div class="home-screen-bg"></div>
-            <AnimatedLogo />
+            <AnimatedLogo id="Logo"/>
             <div id="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
@@ -53,7 +53,7 @@ import FAQRow from '../components/FAQRow.vue';
             <Timer />
         </div>
 
-        <div id="recrutement">
+        <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
             <hr class="mt-hr" style="max-width:350px">
             <hr class="mt-hr" style="max-width:450px">
@@ -62,7 +62,7 @@ import FAQRow from '../components/FAQRow.vue';
             <hr class="mt-hr" style="max-width:350px">
             <hr class="mt-hr" style="max-width:250px">
             <br>
-        </div>
+        </div> -->
     
         <div id="line-up" class="line-up">
             <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
