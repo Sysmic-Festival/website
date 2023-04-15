@@ -326,11 +326,6 @@ import FAQRow from '../components/FAQRow.vue';
                         <p>Technique de scène</p>
                         <img class="comite-img" src="@/assets/images/comite/raph.jpg">
                     </div>
-                    <div class="comite-member">
-                        <h4>Maxime Schwartz</h4>
-                        <p>Prévention/Durabilité</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
-                    </div>
                 </section>
             </div>
 
@@ -345,16 +340,15 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Mathieu Benard</h4>
-                        <p>IT/Webmaster</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
-                    </div>
-                    <div class="comite-member">
                         <h4>Maxime Teuber</h4>
                         <p>Graphisme</p>
                         <img class="comite-img" src="@/assets/images/comite/max.jpg">
                     </div>
-                    <div class="comite-filler"></div>
+                    <div class="comite-member">
+                        <h4>Mathieu Benard</h4>
+                        <p>IT/Webmaster</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                    </div>
                     <div class="comite-member">
                         <h4>Ludovic Mareemootoo</h4>
                         <p>RH</p>
@@ -363,6 +357,11 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Paloma Garcia Moron</h4>
                         <p>Community Manager</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Maxime Schwartz</h4>
+                        <p>Prévention/Durabilité</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                 </section>
