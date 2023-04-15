@@ -66,7 +66,7 @@ import FAQRow from '../components/FAQRow.vue';
     
         <div id="line-up" class="line-up">
             <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
-            <a class="main-page-button"  href="/images/timeline.png" target="_blank">Programmation complète →</a>
+            <a class="main-page-button"  href="/images/timeline.png" target="_blank">Programmation 2022 complète →</a>
         </div>
 
         <div class="photo-gallery">
@@ -79,20 +79,20 @@ import FAQRow from '../components/FAQRow.vue';
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
                     <p >
-                        Prélocation: <span class="higlight-text">12CHF</span>
+                        Prélocation: <span class="higlight-text">18CHF</span>
                         <br><br>
-                        Vente du <span class="higlight-text"> 18 au 19 octobre </span> à l'Esplanade à <span class="higlight-text">12H00</span>
+                        Vente du <span class="higlight-text"> 17 au 18 octobre </span> à l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
                         Payement en Camipro ou en cash
                         <br><br>
-                        Le soir même: <span class="higlight-text">15CHF</span>
+                        Le soir même: <span class="higlight-text">20CHF</span>
                     </p>
                 </section>
                 <hr class="info-section-hr" id="date-hr">
                 <section style="">
                     <h2 class="h2-primary-background">Date</h2>
                     <p>
-                        <span class="higlight-text">21 octobre 2022</span>
+                        <span class="higlight-text">20 octobre 2023</span>
                          <br><br>
                         Début: <span class="higlight-text">20h</span>
                         <br>
@@ -682,6 +682,10 @@ span {
     justify-content: center;
     flex-direction: column;
     transform: translateY(10px);
+}
+
+.sponsor-el:hover{
+    opacity: 0.7;
 }
 
 .sponsor-el * {

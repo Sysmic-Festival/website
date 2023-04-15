@@ -43,7 +43,7 @@
     <div class="titleBox">
       <h1>SYSMIC<br>FESTIVAL</h1>
       <div id="title-date">
-        <h2>21.10.23</h2>
+        <h2>20.10.23</h2>
       </div>
     </div>
   </section>
@@ -53,8 +53,10 @@
 <style scoped>
 
 h1, h2 {
-  margin: 0;
-  font-weight: extra;
+    position: relative;
+    bottom: -70px;
+    margin: 0px;
+    font-weight: extra;
 }
 
 .invaderSection {
@@ -89,6 +91,7 @@ h1, h2 {
   font-family: "Montserrat";
   line-height: 90pt;
   text-align: left;
+  height: 200px;
   position: absolute;
   left: calc(50% - 50px);
   top: 40px;
@@ -155,10 +158,12 @@ h1, h2 {
     position: static;
     align-items: center;
     margin-left: 0; 
+    height: auto;
   }
 
   h1,h2 {
     text-align: center;
+    bottom: 0px;
   }
 
   .titleBox > h1{
