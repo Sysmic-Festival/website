@@ -326,12 +326,16 @@ import FAQRow from '../components/FAQRow.vue';
                         <p>Technique de scène</p>
                         <img class="comite-img" src="@/assets/images/comite/raph.jpg">
                     </div>
+                    <div class="comite-member">
+                        <h4>Ludovic Mareemootoo</h4>
+                        <p>RH</p>
+                        <img class="comite-img" src="@/assets/images/comite/ludo.jpg">
+                    </div>
                 </section>
             </div>
 
             <hr class="comite-section-hr">
             <h2 class="h2-primary-background comite-title">Communication</h2>
-
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
@@ -340,19 +344,14 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Maxime Teuber</h4>
-                        <p>Graphisme</p>
-                        <img class="comite-img" src="@/assets/images/comite/max.jpg">
-                    </div>
-                    <div class="comite-member">
                         <h4>Mathieu Benard</h4>
                         <p>IT/Webmaster</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Ludovic Mareemootoo</h4>
-                        <p>RH</p>
-                        <img class="comite-img" src="@/assets/images/comite/ludo.jpg">
+                        <h4>Maxime Teuber</h4>
+                        <p>Graphisme</p>
+                        <img class="comite-img" src="@/assets/images/comite/max.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Paloma Garcia Moron</h4>
