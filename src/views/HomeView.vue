@@ -79,7 +79,7 @@ import FAQRow from '../components/FAQRow.vue';
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
                     <p >
-                        Prélocation: <span class="higlight-text">18CHF</span>
+                        Prélocation: <span class="higlight-text">15CHF</span>
                         <br><br>
                         Vente du <span class="higlight-text"> 17 au 18 octobre </span> à l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
