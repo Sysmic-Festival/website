@@ -249,7 +249,7 @@ import FAQRow from '../components/FAQRow.vue';
                 </section>
             </div>
             <hr class="comite-section-hr">
-            <h1 class="h1-primary-background comite-title">Comité 2022</h1>
+            <h1 class="h1-primary-background comite-title">Comité</h1>
 
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">
