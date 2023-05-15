@@ -39,7 +39,7 @@
 
         </div>
         <div class="copyright">
-          <p>© Sysmic 2022</p>
+          <p>© Sysmic 2022-2023</p>
         </div>    
 
       </footer>

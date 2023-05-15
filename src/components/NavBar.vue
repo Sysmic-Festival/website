@@ -51,7 +51,7 @@ function onScroll() {
   <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
     <div class="container-navbar">
       <router-link class="logo" to="/#">
-        <img class = img-responsive src="@/assets/images/utilitaries/logo.svg" />
+        <img class = img-responsive src="@/assets/images/utilitaries/logo1.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
         <li><router-link to="/#line-up">Line-up</router-link></li>
