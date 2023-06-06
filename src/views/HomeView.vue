@@ -51,17 +51,6 @@ import FAQRow from '../components/FAQRow.vue';
             </div>
             <Timer />
         </div>
-
-        <!-- <div id="recrutement">
-            <hr class="mt-hr" style="max-width:250px">
-            <hr class="mt-hr" style="max-width:350px">
-            <hr class="mt-hr" style="max-width:450px">
-                <div class="" style="font-weight: 900;"><p style="text-align: center;">Sysmic recrute son <span style="color:var(--third)">comité 2023</span> ! Si tu veux nous rejoindre, ça se passe <a href="https://forms.gle/3GDGf3W1cptW5iyN7" target="_blank" style="text-decoration: underline;color:var(--third);">ici</a> !</p></div>
-            <hr class="mt-hr" style="max-width:450px">
-            <hr class="mt-hr" style="max-width:350px">
-            <hr class="mt-hr" style="max-width:250px">
-            <br>
-        </div> -->
     
         <div id="line-up" class="line-up">
             <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
@@ -215,6 +204,17 @@ import FAQRow from '../components/FAQRow.vue';
                     </a>
                 </div>
             </section>
+        </div>
+
+        <div id="recrutement">
+            <hr class="mt-hr" style="max-width:250px">
+            <hr class="mt-hr" style="max-width:350px">
+            <hr class="mt-hr" style="max-width:450px">
+                <div class="" style="font-weight: 900;"><p style="text-align: center;">Vous cherchez à faire partie des <span style="color:var(--third)">Sponsors 2023</span> ? Cela se passe <a href="https://sysmic.ch/dossier_sponsoring_2023_FR.pdf" target="_blank" style="text-decoration: underline;color:var(--third);">ici</a> !</p></div>
+            <hr class="mt-hr" style="max-width:450px">
+            <hr class="mt-hr" style="max-width:350px">
+            <hr class="mt-hr" style="max-width:250px">
+            <br>
         </div>
 
         <div id="association" class="association">
