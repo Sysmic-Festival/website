@@ -16,7 +16,7 @@
           <p style="margin-top:0">
                         Sysmic est constitué d’un comité de 25 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
-                        Originellement l’association est dédiée à la section de Microtechnique, pour laquelle nous organisons en parallèle du festival chaque année un apéro suivi d’un repas et d’un Spectacle !
+                        Originellement l’association est dédiée à la section de Microtechnique. Nous organisons pour celle-ci,en parallèle du festival, un apéro, un repas et un spectacle !
                     </p>
                     <br>
                     <p>
@@ -42,9 +42,9 @@
         <section>
           <p style="margin-top: 0;">
             Sysmic est le dernier festival du premier semestre, et a lieu chaque année vers la fin octobre.
-            Nous avons plusieurs scènes et bars, des stands de nourriture, mais nous sommes le seul festival du campus avec un Just Dance et des salles d’Escape Game !
+            Nous avons plusieurs scènes et bars, des stands de nourriture, en plus d'être le seul festival du campus avec un Just Dance et des salles d’Escape Game !
             <br><br>
-            Tu peux aussi nous retrouver lors d’autres évènements tout au long de l’année car nous tenons fréquemment des stands à Balélec, Vivapoly etc.. en 2022 nous avons même organisé un tremplin pour la première fois !
+            Tu peux aussi nous retrouver lors d’autres évènements tout au long de l’année : Balélec, Vivapoly etc.. Nous organisons même un tremplin annuellement !
           </p>
           <br>
 
@@ -58,7 +58,7 @@
         <section style="padding-bottom:0 ; margin-top: 0;">
           <p style="margin:0;margin-bottom: 25px;">
             Nous cherchons continuellement à améliorer notre festival pour ses participant.es.            <br><br>
-            Afin de s’assurer de leur bien-être en milieu festif nous avons décidé de prendre des mesures de prévention (sexualité, alcool, drogues) et adhérons désormais à la <a href="https://www.festiplus.ch/" target="_BLANK">Charte Festiplus</a>. Sera aussi présent sur notre site un stand de l’association Nightlife si tu as envie de discuter ou t’informer sur ces thématiques durant ta soirée !          </p>
+            Afin de s’assurer de leur bien-être en milieu festif, nous avons décidé de prendre des mesures de prévention (sexualité, alcool, drogues) et adhérons désormais à la <a href="https://www.festiplus.ch/" target="_BLANK">Charte Festiplus</a>. Un stand de l’association Nightlife sera aussi présent sur notre site  si tu as envie de discuter ou t’informer sur ces thématiques durant ta soirée !          </p>
         </section>
       </div>
 
@@ -68,9 +68,9 @@
       <div class="container container-vertical-phone" style="flex-direction: column">
         <section style="padding-bottom:0 ; margin-top: 0;">
           <p style="margin:0;margin-bottom: 25px;">
-            Si tu veux nous aider à l’élaboration du Festival tu peux venir staffer chaque années pendant la semaine de montage du festival, et pendant la soirée! !
+            Si tu veux nous aider à l’élaboration du Festival, tu peux venir staffer chaque année pendant la semaine de montage et/ou pendant la soirée! !
             <br><br>
-            Si tu as envie de plus t’impliquer, chaque année après le festival a lieu notre Assemblée Générale où nous élisons le nouveau Comité de Direction. Cette année ce sera le dimanche 27 novembre à 18h, n’hésite pas à venir c’est ouvert à tous.te.s. Suite à ça le recrutement du comité est annoncé par mail et sur nos réseaux sociaux.
+            Si tu as envie de plus t’impliquer, chaque année après le festival a lieu notre Assemblée Générale où nous élisons le nouveau Comité de Direction. Suite à ça le recrutement du comité est annoncé par mail et sur nos réseaux sociaux.
             <br><br>
             <!-- Le form de recrutement pour les posts à pourvoir est disponible <a href="/presentation posts.pdf" target="_blank" style="text-decoration: underline;">ici</a> ! -->
           </p>

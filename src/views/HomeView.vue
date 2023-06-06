@@ -204,9 +204,12 @@ import FAQRow from '../components/FAQRow.vue';
                     </a>
                 </div>
             </section>
+        <a href="https://sysmic.ch/dossier_sponsoring_2023_FR.pdf" target="_blank">
+            <button class="main-page-button">Dossier Sponsoring →</button>
+        </a>
         </div>
 
-        <div id="recrutement">
+        <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
             <hr class="mt-hr" style="max-width:350px">
             <hr class="mt-hr" style="max-width:450px">
@@ -215,8 +218,8 @@ import FAQRow from '../components/FAQRow.vue';
             <hr class="mt-hr" style="max-width:350px">
             <hr class="mt-hr" style="max-width:250px">
             <br>
-        </div>
-
+        </div> -->
+        
         <div id="association" class="association">
             <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
             <div class="container container-vertical-phone">
@@ -224,7 +227,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <p>
                         Sysmic est constitué d’un comité de 26 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
-                        Originellement l’association est dédiée à la section de Microtechnique, pour laquelle nous organisons en parallèle du festival chaque année un apéro suivi d’un repas et d’un Spectacle !
+                        Originellement l’association est dédiée à la section de Microtechnique. Nous organisons pour celle-ci,en parallèle du festival, un apéro, un repas et un spectacle !
                     </p>
                     <br>
                     <p>
