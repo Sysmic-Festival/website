@@ -217,13 +217,12 @@ import FAQRow from '../components/FAQRow.vue';
             </section>
         </div>
 
-
         <div id="association" class="association">
             <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
             <div class="container container-vertical-phone">
                 <section style="flex:1 ; padding-top:0">
                     <p>
-                        Sysmic est constitué d’un comité de 25 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
+                        Sysmic est constitué d’un comité de 26 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
                         Originellement l’association est dédiée à la section de Microtechnique, pour laquelle nous organisons en parallèle du festival chaque année un apéro suivi d’un repas et d’un Spectacle !
                     </p>
