@@ -20,57 +20,51 @@ import FAQRow from '../components/FAQRow.vue';
         <h2>Le festival</h2>
 
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Durant le festival, nous mettons à votre disposition un vestiaire gratuit. Nous
-            déclinons toutefois toute responsabilité en cas de perte ou de vol.
+          Oui ! Un vestiaire est disponible gratuitement, cependant nous déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-          Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.<br />
-          Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
-          Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.
-          <br><br>
-          Les bus passeront par : <br>
-          UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde,
-          Planta,Chavannes-R, GlycineRenens, Gare Sud, 	Chêne, Rue du lac,  Longemalle,
-          Malley nord,Galicien,Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon
+          Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
+            Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
+            <br>
+            Les navettes desserviront les arrêts :<br>
+            UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde, Planta, Chavannes-R, Glycine, 
+            Renens Gare Sud, Chêne, Rue du lac, Longemalle, Malley nord, Galicien, Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon.
         </FAQRow>
         
         <FAQRow title="Les sacs sont-ils autorisés ?">
-          <p>Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs lors
-            de la manifestation. Nous vous prions de venir sans sac à dos.</p>
+          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs dans l’enceinte de la manifestation.
+          Nous vous prions de venir sans sac.
         </FAQRow>
 
-        <FAQRow title="Comment puis-je obtenir des prélocations?">
-          Les prélocations seront mises en vente sur l'esplanade lors de la semaine précédant
-          le festival, de 12:00 à 13:15, le mardi et le mercredi
+        <FAQRow title="Comment puis-je obtenir un Ticket?">
+          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, 
+          de 12:00 à 13:15, le mardi et mercredi.
         </FAQRow>
 
         <FAQRow title="Puis-je venir au festival sans prélocation?">
-          Évidemment ! Nous vendons également plus de 100 places de plus le soir même du
-          festival, il n'y a pas de raison de ne pas venir à Sysmic ! <br><br>
-          Nous conseillons toutefois de posséder une prélocation, afin d'éviter du temps d'attente.
+          Oui ! Nous vendons environ 100 tickets le soir du festival.
+          Nous vous conseillons toutefois d’acheter un ticket durant les préventes, afin d'éviter toute attente ou déception.
         </FAQRow> 
 
         <FAQRow title="Puis-je manger sur place ?">
-          Bien sûr ! Notre festival accueillera un foodtruck et un stand de nourriture servant de la nourriture de
-          qualité à prix étudiant.
+          Oui ! Vous trouverez dans le festival un foodtruck et un stand de nourriture à prix étudiant.
         </FAQRow> 
 
         <FAQRow title="Quelles activités sont prévues durant la soirée ?">
-          En plus des concerts, des bars et du foodtruck, nos proposons deux escape games
-          spécialement conçus par notre comité dans le thème de la soirée. Nous mettons également en place un espace
-          "Just Dance".
+          En plus des concerts, des bars et du foodtruck, vous pourrez profiter de deux escape games dans le thème de la soirée. 
+          De plus, un espace dédié à "Just Dance" sera également à votre disposition.
         </FAQRow> 
 
         <FAQRow title="Le festival est-il accessible aux personnes à mobilité réduite?">
-          L'ensemble du festival n'est pas accessible aux personnes à mobilité réduite. <br>
-          Comme nous traitons chaque cas séparément, merci de nous contacter à <a
-          href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
+          Le festival n'est pas entièrement accessible aux personnes à mobilité réduite. 
+          Pour prendre en compte les besoins spécifiques de chaque personne, 
+          veuillez nous contacter à l'adresse <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
         </FAQRow> 
 
         <FAQRow title="Quels bâtiments seront fermés durant le festival ?">
-          Les bâtiments CH, BS, CE, CM, CO, BM et BP seront impactés par le festival. Des affiches
-          seront placées à l'entrée de ces bâtiments pour annoncer les heures exactes de fermeture.
+          Les bâtiments CH, BS, CE, CM, CO, BM et BP seront impactés par le festival. 
+          Des affiches vous informeront des horaires précises de fermeture et réouverture.
         </FAQRow> 
 
         <hr>
@@ -97,23 +91,19 @@ import FAQRow from '../components/FAQRow.vue';
         <h2>L'association</h2>
 
         <FAQRow title="Comment nous contacter ?">
-          Par mail, de préférence, à l'adresse suivante : <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
-          <span style="display:block ; margin-bottom:0.4em"></span>
-          En cas de problème de source informatique (par exemple sur le site), tu peux nous contacter directement
-          à l'adresse suivante : <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>
-          <span style="display:block ; margin-bottom:0.4em"></span>
-          Tu peux aussi nous contacter via nos réseaux sociaux principaux <a
-          href="https://www.facebook.com/sysmic2021/">Facebook</a> et <a
-          href="https://www.instagram.com/festival_sysmic/">Instagram</a>
-          <span style="display:block ; margin-bottom:0.4em"></span>
-          Nous possédons également une case postale : <b>Sysmic, EPFL-STI-BM, Station 17, 1015 Lausanne</b>
+          Par mail, à l'adresse suivante : <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a> .<br>
+          Sur Instagram @festival_sysmic .<br>
+          Ou par courrier : Sysmic, EPFL-STI-BM, Station 17, 1015 Lausanne .
         </FAQRow> 
 
         <FAQRow title="Comment faire partie de Sysmic ?">
-          Si tu veux nous aider à l’élaboration du Festival tu peux venir staffer chaque années pendant la semaine de montage du festival, et pendant la soirée! !
-            <br><br>
-            Si tu as envie de plus t’impliquer, chaque année après le festival a lieu notre Assemblée Générale où nous élisons le nouveau Comité de Direction. Cette année ce sera le dimanche 27 novembre à 18h, n’hésite pas à venir c’est ouvert à tous.te.s. Suite à ça le recrutement du comité est annoncé par mail et sur nos réseaux sociaux.
-            <br><br>
+          Si tu souhaites contribuer à l'organisation du Festival, 
+          tu as la possibilité de participer en tant que staff pendant la semaine de montage et/ou durant la soirée !<br>
+          <br>
+          Si tu as envie de t'impliquer davantage, notre Assemblée Générale a lieu chaque année après le festival, où nous élisons le nouveau Comité de Direction. 
+          Cette année, elle se tiendra le dimanche 27 novembre à 18h. N'hésite pas à venir, car c'est ouvert à tous.tes. 
+          Par la suite, le recrutement du comité est annoncé par mail et sur nos réseaux sociaux.
+
           <!-- Le form de recrutement pour les posts à pourvoir est disponible <a href="/presentation posts.pdf" target="_blank" style="text-decoration: underline;">ici</a> ! -->
         </FAQRow> 
 

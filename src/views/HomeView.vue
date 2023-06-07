@@ -67,9 +67,9 @@ import FAQRow from '../components/FAQRow.vue';
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
                     <p >
-                        Prélocation: <span class="higlight-text">15CHF</span>
+                        Billet: <span class="higlight-text">15CHF</span>
                         <br><br>
-                        Vente du <span class="higlight-text"> 17 au 18 octobre </span> à l'Esplanade à <span class="higlight-text">12H00</span>
+                        Vente du <span class="higlight-text"> 17 au 18 octobre </span> sur l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
                         Payement en Camipro ou en cash
                         <br><br>
@@ -93,7 +93,7 @@ import FAQRow from '../components/FAQRow.vue';
             <hr class="mt-hr" style="max-width:150px">
             <hr class="mt-hr" style="max-width:200px">
             <hr class="mt-hr">
-            <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Pour la partie <span style="color:var(--third)">MT</span>, ça se passe <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
+            <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Plus d'infos sur la partie <span style="color:var(--third)">MT</span> <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
             <hr class="mt-hr">
             <hr class="mt-hr" style="max-width:200px">
             <hr class="mt-hr" style="max-width:150px">
@@ -101,29 +101,24 @@ import FAQRow from '../components/FAQRow.vue';
             <section style="display:flex; flex-direction:column;align-items:center">
                 
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Durant le festival, nous mettons a votre disposition un vestiaire gratuit. Nous
-            déclinons toutefois toute responsabilité en cas de perte ou de vol.
+            Oui ! Un vestiaire est disponible gratuitement, cependant nous déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-            Oui! En plus des transports en commun normaux, il y aura des navettes spéciales.<br />
-          Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival) et passant par
-          Renens-Gare, Malley et Lausanne-Flon ainsi que tous les principaux arrêts de bus sur le chemin.
-          <br><br>
-          Les bus passeront par : <br>
-          UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde,
-          Planta,Chavannes-R, GlycineRenens, Gare Sud, 	Chêne, Rue du lac,  Longemalle,
-          Malley nord,Galicien,Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon
+            Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
+            Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
+            <br>
+            Les navettes desserviront les arrêts :<br>
+            UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde, Planta, Chavannes-R, Glycine, Renens Gare Sud, Chêne, Rue du lac, Longemalle, Malley nord, Galicien, Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon.
         </FAQRow>
         
         <FAQRow title="Les sacs sont-ils autorisés ?">
-          <p>Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs lors
-            de la manifestation. Nous vous prions de venir sans sac à dos.</p>
+            Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs dans l’enceinte de la manifestation.
+            Nous vous prions de venir sans sac à dos.
         </FAQRow>
 
-        <FAQRow title="Comment puis-je obtenir des prélocations?">
-          Les prélocations seront mises en vente sur l'esplanade lors de la semaine précédant
-          le festival, de 12:00 à 13:15, le mardi et le mercredi
+        <FAQRow title="Comment puis-je obtenir un Ticket?">
+            Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, de 12:00 à 13:15, le mardi et mercredi.
         </FAQRow>
             </section>
             <section class="button-section">
@@ -131,15 +126,15 @@ import FAQRow from '../components/FAQRow.vue';
                     <button class="main-page-button">FAQ →</button>
                 </router-link>
             </section>
-            <hr class="info-section-hr">
+            <hr class="comite-section-hr">
             <div class="container-large" style="margin-bottom:25px">
                 <section style="flex:1">
                     <h2 class="h2-primary-background" id="plan-title">Accès</h2>
                     <p id="plan-para">
-                        Le festival se déroule dans le batiment CE sur le site de L’EPFL situé sur la commune
-                        d’Ecublens. Il est accessible en transports en commun par le métro M1 et se situe près de
-                        l’autoroute A1 (sortie EPFL-UNIL).
-                        Prenez le métro M1 jusqu’à l’arrêt EPFL ou UNIL SORGE.
+                        Le festival a lieu dans le batiment CE à L’EPFL dans la commune d’Ecublens. 
+                        Il est accessible en transports en commun par le métro M1 (arrêt EPFL ou UNIL SORGE), le bus 701,31,705 (arrêt Argand, Paqueret ou Piccard) 
+                        et se situe près de l’autoroute A1 (sortie EPFL-UNIL).
+
                     </p>
                 </section>
                 <section id="plan-image" style="flex:1">
@@ -225,17 +220,17 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container container-vertical-phone">
                 <section style="flex:1 ; padding-top:0">
                     <p>
-                        Sysmic est constitué d’un comité de 26 personnes de toutes années et sections confondues. Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
+                        Sysmic est constitué d’un comité de 26 personnes de toutes années et sections confondues. 
+                        Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
-                        Originellement l’association est dédiée à la section de Microtechnique. Nous organisons pour celle-ci,en parallèle du festival, un apéro, un repas et un spectacle !
+                        Originellement, l’association est dédiée à la section de Microtechnique pour laquelle nous organisons,
+                        en parallèle du festival, un apéro suivi d’un repas et un Spectacle !
                     </p>
                     <br>
                     <p>
-                        Notre plus grande qualité se trouve dans notre détermination à faire de Sysmic l’un des
-                        meilleurs festivals estudiantins du campus.
+                        Notre plus grande qualité se trouve dans notre détermination à faire de Sysmic l’un des meilleurs festivals estudiantins du campus.
                         <br><br>
-                        Le comité Sysmic est cette année prêt à tout donner pour t’assurer la meilleure expérience
-                        possible !
+                        Le comité Sysmic est cette année prêt à tout donner pour t’assurer la meilleure expérience possible !
                     </p>
                 </section>
                 <section id="qsn-img" style="flex:1">

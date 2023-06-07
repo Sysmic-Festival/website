@@ -150,13 +150,13 @@ router.beforeEach(() => {
 }
 .cross {
   position: relative;
-  min-width: 20px;
+  width: 50px;
   height: 40px;
   display: block;
   outline: none;
   cursor: pointer;
-  left: 20px;
-  top: -50px;
+  left: 75%;
+  top: -7vw;
 }
 .cross .line {
   position: absolute;
