@@ -66,10 +66,10 @@ import FAQRow from '../components/FAQRow.vue';
             <div id="infos-container" class="container">
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
-                    <p >
+                    <p  >
                         Billet: <span class="higlight-text">15CHF</span>
                         <br><br>
-                        Vente du <span class="higlight-text"> 17 au 18 octobre </span> sur l'Esplanade à <span class="higlight-text">12H00</span>
+                        Vente du <span class="higlight-text">17 au 18 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
                         Payement en Camipro ou en cash
                         <br><br>

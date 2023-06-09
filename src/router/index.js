@@ -22,6 +22,62 @@ const router = createRouter({
       component: () => import('../views/FAQView.vue')
     },
     {
+      path: '/portfolio/2022',
+      component: () => import('../components/portfolio_vues/2022.vue')
+    },
+    {
+      path: '/portfolio/2021',
+      component: () => import('../components/portfolio_vues/2021.vue')
+    },
+    {
+      path: '/portfolio/2019',
+      component: () => import('../components/portfolio_vues/2019.vue')
+    },
+    {
+      path: '/portfolio/2018',
+      component: () => import('../components/portfolio_vues/2018.vue')
+    },
+    {
+      path: '/portfolio/2017',
+      component: () => import('../components/portfolio_vues/2017.vue')
+    },
+    {
+      path: '/portfolio/2016',
+      component: () => import('../components/portfolio_vues/2016.vue')
+    },
+    {
+      path: '/portfolio/2015',
+      component: () => import('../components/portfolio_vues/2015.vue')
+    },
+    {
+      path: '/portfolio/2014',
+      component: () => import('../components/portfolio_vues/2014.vue')
+    },
+    {
+      path: '/portfolio/2013',
+      component: () => import('../components/portfolio_vues/2013.vue')
+    },
+    {
+      path: '/portfolio/2012',
+      component: () => import('../components/portfolio_vues/2012.vue')
+    },
+    {
+      path: '/portfolio/2011',
+      component: () => import('../components/portfolio_vues/2011.vue')
+    },
+    {
+      path: '/portfolio/2010',
+      component: () => import('../components/portfolio_vues/2010.vue')
+    },
+    {
+      path: '/portfolio/2009',
+      component: () => import('../components/portfolio_vues/2009.vue')
+    },
+    {
+      path: '/portfolio/2008',
+      component: () => import('../components/portfolio_vues/2008.vue')
+    },
+    {
       path: "/:pathMatch(.*)*",
       redirect: '/'
     }
