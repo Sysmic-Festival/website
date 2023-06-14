@@ -6,7 +6,7 @@ import os
 year=input("année du portfolio: ")
 template = open("./src/components/portfolio_vues/template.vue", "r")
 filename = "./src/components/portfolio_vues/" + year + ".vue"
-dossname = "../portfolio_images/" + year + "/thumbnails"
+dossname = "../../portfolio_images/" + year + "/thumbnails"
 
 output = open(filename, "w")
 for i in range(8):
@@ -23,11 +23,11 @@ for i in range(5):
 for filename in os.listdir(dossname):
     filename_data = filename.replace("thumb","")
     output.write('<div class="image">\n')
-    output.write('<a href="https://www.sysmic.ch/ressources/portfolio/{}/{}" class="thumbnail-link" target="_blank">\n'.format(year,filename_data))
+    output.write('<a href="https://www.sysmic.ch/ressources/portfolio/{}/{}" class="thumbnail-link">\n'.format(year,filename_data))
     output.write('<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/{}/thumbnails/{}" data-src="https://www.sysmic.ch/ressources/portfolio/{}/{}">\n'.format(year, filename,year,filename_data))
     output.write('</a>')
     output.write('</div>\n')
 
-for i in range(215):
+for i in range(218):
     line = template.readline()
     output.write(line)

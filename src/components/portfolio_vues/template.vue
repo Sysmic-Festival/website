@@ -5,8 +5,8 @@
     <div class="portfolio">
         <section>
             <div class="title-small-line"></div>
-            <hr class="title-hr">
-            <hr class="title-hr">
+            <!-- <hr class="title-hr"> -->
+            <!-- <hr class="title-hr"> -->
             <div class="title-small-line"></div>
         </section>
         <div class="images_list">
@@ -74,8 +74,8 @@
 
 .image_image{
     width: 90%;
-    padding: 15px;
-    height: 200px;
+    height: 175px;
+    padding: 5%;
     object-fit: cover;
 }
 .image{
@@ -98,25 +98,28 @@
 
 @media screen and (max-width: 850px) {
   .image{
-    width: 48%;
-    height: 125px;
+    width: 30%;
+    height: 125px; 
+  }
+  .image_image{
+    height: 100px;
   }
   .image_year{
     width: 48%;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 450px) {
   .image{
-    height: 75px
+    width: 48%;
   }
 }
 .image:hover{
   border-radius: 10px;
-  border-bottom: 2px solid var(--blue);
-  border-top: 2px solid var(--blue);
-  border-left: 2px solid var(--blue);
-  border-right: 2px solid var(--blue);
+  border-bottom: 2px solid var(--third);
+  border-top: 2px solid var(--third);
+  border-left: 2px solid var(--third);
+  border-right: 2px solid var(--third);
   transition: 0.5s;
 
 }
@@ -157,7 +160,7 @@
 
 section hr {
   max-width: 800px;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--third);
 }
 
 section div {

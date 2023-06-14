@@ -452,8 +452,8 @@
 
 .image_image{
     width: 90%;
-    padding: 15px;
-    height: 200px;
+    height: 175px;
+    padding: 5%;
     object-fit: cover;
 }
 .image{
@@ -476,17 +476,20 @@
 
 @media screen and (max-width: 850px) {
   .image{
-    width: 48%;
-    height: 125px;
+    width: 30%;
+    height: 125px; 
+  }
+  .image_image{
+    height: 100px;
   }
   .image_year{
     width: 48%;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 450px) {
   .image{
-    height: 75px
+    width: 48%;
   }
 }
 .image:hover{
