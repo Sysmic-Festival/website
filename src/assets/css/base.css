@@ -13,6 +13,7 @@ html{
 
  
   --primary       :#16161a ;
+  --primary-darker: #0d0d0f;
   --primary-transparent: #16161aee;
   --primary-light :#6473b7;
   --primary-dark  :#243897;
@@ -20,6 +21,8 @@ html{
   --secondary       :#242629   ;
   --secondary-light :#7785da;
   --secondary-dark  :#455ad6;
+
+  --blue: #69fff0;
 
   --third       :#7f5af0;
   --third-light :#ffffff;

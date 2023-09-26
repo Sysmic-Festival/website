@@ -10,9 +10,11 @@ import FAQRow from '../components/FAQRow.vue';
     <div class="faq-div">
       <section>
 
+        <div class="title-small-line"></div>
         <hr class="title-hr">
-        <h1>FAQ</h1>
+        <h1>FAQ 2022</h1>
         <hr class="title-hr">
+        <div class="title-small-line"></div>
 
         <h4>Infos utiles et réponses aux questions fréquemment posées</h4>
 
@@ -67,6 +69,7 @@ import FAQRow from '../components/FAQRow.vue';
           Des affiches vous informeront des horaires précises de fermeture et réouverture.
         </FAQRow> 
 
+        <div class="small-line"></div>
         <hr>
 
         <h2 id="micros">Pour les micros</h2> 
@@ -87,6 +90,7 @@ import FAQRow from '../components/FAQRow.vue';
         </FAQRow> 
 
         <hr>
+        <div class="small-line"></div>
 
         <h2>L'association</h2>
 
@@ -130,6 +134,15 @@ h4 {
 
 .title-hr {
   max-width: 200px;
+  border: 1px solid var(--blue);
+}
+.title-small-line{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  width: 50%;
+  max-width: 100px;
+  border: 1px solid var(--third);
 }
 
 .faq-div {
@@ -159,8 +172,16 @@ section div img {
 
 section hr {
   max-width: 800px;
+  border: 1px solid var(--blue);
+}
+.small-line{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  width: 33%;
   border: 1px solid var(--third);
 }
+
 
 .plus {
   display: inline-block;

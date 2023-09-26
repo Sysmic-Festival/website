@@ -9,11 +9,15 @@ import FAQRow from '../components/FAQRow.vue';
 </script>
 
 <template>
+    <div class="rotate-phone">
+        <p>Veuillez tourner votre téléphone</p>
+        <img class="rotate-img" src="@/assets/images/utilitaries/rotate-phone.png">
+    </div>
     <div>
         <div class="home-screen">
             <div class="home-screen-bg"></div>
             <AnimatedLogo id="Logo"/>
-            <div id="sponsors-bar">
+            <div class="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
                         <a href="https://www.forum-epfl.ch/">
@@ -31,7 +35,7 @@ import FAQRow from '../components/FAQRow.vue';
                         </a>
                     </div>
                 </div>
-                <div class="sponsors-row">
+                <!-- <div class="sponsors-row">
                     <div class="sponsor-el">
                         <a href="https://www.l-dudu.ch/">
                             <img src="@/assets/images/sponsors/L-DuDu-logo.png">
@@ -47,15 +51,70 @@ import FAQRow from '../components/FAQRow.vue';
                             <img src="@/assets/images/sponsors/Rivella-logo.svg">
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <Timer />
         </div>
-    
         <div id="line-up" class="line-up">
-            <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
-            <a class="main-page-button"  href="/images/timeline.png" target="_blank">Programmation 2022 complète →</a>
+            <h1 class="h1-third-background" id="line-up-title">Line-up 2022</h1>
+        <div class="line-up-zone">
+            <div class="line-up-container">
+                <h2 class="line-up-stagename">Mainstage</h2>
+                <div class="line-up-box-1">
+                    <div class="line-up-artist-big">
+                        <div class="line-up-time">20H25</div>
+                        <div class="line-up-name">plan h150</div>
+                    </div>
+                    <div class="line-up-artist-big">
+                        <div class="line-up-time">22H30</div>
+                        <div class="line-up-name">Fluffy Machine</div>
+                    </div>
+                    <div class="line-up-artist-big">
+                        <div class="line-up-time">00H00</div>
+                        <div class="line-up-name">Jewel Usain</div>
+                    </div>
+                    <div class="line-up-artist-big">
+                        <div class="line-up-time">01H15</div>
+                        <div class="line-up-name">Von Bikräv</div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-up-container">
+                <h2 class="line-up-stagename">Petite Scène</h2>
+                <div class="line-up-box-2">
+                    <div class="line-up-artist"  id="loudjack">
+                        <div class="line-up-time">21H45</div>
+                        <div class="line-up-name">Loudjack</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">23H15</div>
+                        <div class="line-up-name">Roots <br>Zombie</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">01H00</div>
+                        <div class="line-up-name">MEL</div>
+                    </div>
+                </div>
+                <h2 class="line-up-stagename">Jardin Secret</h2>
+                <div class="line-up-box-2">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">22H00</div>
+                        <div class="line-up-name">High Salute b2b Radikal Vibration</div>
+                    </div>
+                </div>
+                <h2 class="line-up-stagename">Scène Fréquence Banane</h2>
+                <div class="line-up-box-2">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">20H30</div>
+                        <div class="line-up-name">Fréquence Banane</div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+        <!-- <div id="line-up" class="line-up">
+            <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
+        </div> -->
 
         <div class="photo-gallery">
             <Slideshow />
@@ -71,7 +130,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <br><br>
                         Vente du <span class="higlight-text">17 au 18 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
-                        Payement en Camipro ou en cash
+                        Paiement en Camipro ou en cash
                         <br><br>
                         Le soir même: <span class="higlight-text">20CHF</span>
                     </p>
@@ -92,9 +151,9 @@ import FAQRow from '../components/FAQRow.vue';
             </div>
             <hr class="mt-hr" style="max-width:150px">
             <hr class="mt-hr" style="max-width:200px">
-            <hr class="mt-hr">
+            <hr class="mt-hr-blue">
             <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Plus d'infos sur la partie <span style="color:var(--third)">MT</span> <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
-            <hr class="mt-hr">
+            <hr class="mt-hr-blue">
             <hr class="mt-hr" style="max-width:200px">
             <hr class="mt-hr" style="max-width:150px">
             <br>
@@ -126,7 +185,12 @@ import FAQRow from '../components/FAQRow.vue';
                     <button class="main-page-button">FAQ →</button>
                 </router-link>
             </section>
-            <hr class="comite-section-hr">
+            <!-- <hr class="comite-section-hr"> -->
+            <div class="slider">
+                <div class="slide">
+                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                </div>
+            </div>
             <div class="container-large" style="margin-bottom:25px">
                 <section style="flex:1">
                     <h2 class="h2-primary-background" id="plan-title">Accès</h2>
@@ -244,7 +308,12 @@ import FAQRow from '../components/FAQRow.vue';
                         !</p>
                 </section>
             </div>
-            <hr class="comite-section-hr">
+            <!-- <hr class="comite-section-hr"> -->
+            <div class="slider">
+                <div class="reverse-slide">
+                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                </div>
+            </div>
             <h1 class="h1-primary-background comite-title">Comité</h1>
 
             <h2 class="h2-primary-background comite-title">Présidence</h2>
@@ -424,6 +493,36 @@ import FAQRow from '../components/FAQRow.vue';
 </template>
 
 <style scoped>
+.rotate-phone{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--black);
+    z-index: 1000;
+}
+.rotate-phone p{
+    color: var(--white);
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+    font-family: 'Montserrat';
+}
+
+.rotate-phone img{
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 15vh);
+    background-color: black;
+}
+
 .button-section {
     width: 100%;
     padding-left: 0;
@@ -476,7 +575,7 @@ h3 {
 
 
 .info-section-hr {
-    border: 1px solid var(--third);
+    border: 1px solid var(--blue);
     border-radius: 50px;
     max-width: 1300px;
     margin-top: 25px;
@@ -490,7 +589,7 @@ h3 {
 
 .comite-section-hr {
     max-width: 1000px;
-    border: 1px solid var(--third);
+    border: 1px solid var(--blue);
 }
 
 span {
@@ -528,6 +627,185 @@ span {
     margin-right: auto;
 }
 
+.line-up-zone {
+    width: 75%;
+    max-width: 1000px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.line-up-container {
+    width: 50%;
+    min-width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.line-up-box-1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 2px var(--blue);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 25px; */
+}
+
+.line-up-box-2{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--primary);
+    border: solid 2px var(--blue);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    display: flex-wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+
+    /* margin-bottom: 5px; */
+}
+
+.line-up-stagename{
+    color: white;
+    text-align: center;
+    font-size: 1.65em;
+}
+.line-up-artist-big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line-up-artist{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+#loudjack{
+    position: relative;
+    height: 90px;
+    top: -33px;
+}
+
+.line-up-time{
+    background-color: var(--third);
+    color: var(--white);
+    font-family: "Roboto";
+    font-size: 1.7em;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.line-up-artist-big .line-up-time{
+    background-color: var(--third);
+    color: var(--white);
+    font-family: "Roboto";
+    font-size: 1.7em;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line-up-name{
+    font-family: "Roboto";
+    font-size: 1.7em;
+    font-weight: 800;
+    color: grey;
+    margin-top: 10px;
+}
+.line-up-artist-big .line-up-name{
+    font-family: "Roboto";
+    font-size: 1.7em;
+    font-weight: 800;
+    color: grey;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1180px) {
+    .line-up-stagename{
+        font-size: 1.5em;
+    }
+    
+}
+
+/* .band{
+    max-height: 5px;
+    width: 100%;
+    display:none;
+} */
+
+/* .slider {
+  width: 100%;
+  overflow: hidden;
+} */
+
+.slide {
+    width: 200%; 
+    height: auto; 
+    background-size: contain; 
+    background-repeat: repeat-x;
+    animation: slide 20s linear infinite; 
+    /* background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 -2px 10px 5px rgba(0, 0, 0, 0.2); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reverse-slide {
+    width: 200%;
+    height: auto;
+    background-size: contain; 
+    background-repeat: repeat-x;
+    animation: reverse-slide 20s linear infinite; 
+    /* background-color: rgba(0,0,0,0.2); */
+    /* box-shadow: 0 -2px 10px 5px rgba(0, 0, 0, 0.2); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%); /* Adjust the percentage based on the width of your image */
+    }
+}
+
+@keyframes reverse-slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Adjust the percentage based on the width of your image */
+    }
+}
+
 .photo-gallery {
     /* height: 60vh; */
     background-color: var(--primary);
@@ -549,11 +827,30 @@ span {
     border: 1px solid var(--third);
     max-width: 300px;
 }
+.mt-hr-blue{
+    border: 1px solid var(--blue);
+    max-width: 300px;
+}
 
 .sponsors {
     display: inline-block;
     width: 100%;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.07); */
     background-color: var(--secondary);
+}
+.sponsors-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    position: absolute;
+    top: calc(5vw + 45vh);
+    left: 35%;
+    height: 8%;
+    z-index: 101;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: calc(230px - 10vw);
 }
 
 .sponsors .sponsors-line {
@@ -588,6 +885,7 @@ span {
 }
 
 .association {
+    margin-top: 40px;
     display: inline-block;
     width: 100%;
     background-color: var(--primary);
@@ -611,6 +909,7 @@ span {
 
     align-items: center;
     width: 25%;
+    margin-bottom: 50px;
 }
 
 .comite-filler{
@@ -636,6 +935,7 @@ span {
     flex-direction: column;
     padding-bottom: 20px;
     overflow: hidden;
+    background-color: var(--black);
 
 }
 
@@ -644,13 +944,17 @@ span {
     width: 100%;
     height: 100%;
     z-index: 1;
-
-    background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg");
+    background-image: url("@/assets/images/PhotoGallery/slideshow/3.jpg");
+    opacity: 0.4;
+    /* background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg"); */
+    /* background-color: var(--primary-darker); */
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    
 
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
+    filter: blur(8px);
+    /* -webkit-filter: blur(8px); */
 }
 
 .higlight-text{
@@ -672,20 +976,26 @@ span {
 .sponsors-row {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 10%;
 }
 
 .sponsor-el {
     /* background-color: chartreuse; */
     flex-grow: 1;
     z-index: 10000;
-    max-width: 180px;
+    max-width: 200px;
     max-height: 250px;
     width: 11vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     transform: translateY(10px);
+    transition: opacity ease-in-out 0.2s;
+}
+
+.sponsor-el img {
+    max-width: 120%;
+    max-height: 120%;
 }
 
 .sponsor-el:hover{
@@ -704,20 +1014,96 @@ span {
     }
 
 @media screen and (max-width: 650px) {
-    #sponsors-bar {
+    .sponsors-bar {
         flex-direction: column;
     }
-
     .sponsor-el {
         flex-wrap: wrap;
         width: 20vw;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 500px) {
+    .sponsors-bar {
+        width: 90%;
+        position: absolute;
+        top: 80vh;
+        left: 5%;
+    }
 
-    #sponsors-bar{
-        height: 100px;
+    .sponsor-el {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .line-up-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .line-up-time{
+        height: 25px;
+        width: 50px;
+        font-size: 1em;
+    }
+    .line-up-artist .line-up-time{
+        height: 30px;
+        width: 65px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    @media (max-height: 80vw){
+        .rotate-phone{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .sponsors-bar{
+        width: 70%;
+        position: absolute;
+        top: 65vh;
+        left: 15%;
+    }
+
+    .line-up-zone{
+        width: 100%;
+        height: 700px;
+    }
+    .line-up-time, .line-up-name {
+        font-size: 1.15em;
+    }
+    .line-up-artist-big .line-up-time, .line-up-artist-big .line-up-name{
+        font-size: 1.35em;
+    }
+    #loudjack{
+        position: relative;
+        height: 70px;
+        top: -22px;
+    }
+    .line-up-stagename{
+        font-size: 1.35em;
+    }
+    .line-up-time{
+        height: 35px;
+        width: 75px;
+    }
+    .line-up-artist-big .line-up-time{
+        height: 45px;
+        width: 100px;
+    }
+    .line-up-container{
+        min-width: 130px;
+    }
+    .line-up-box-2{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .reverse-slide, .slide {
+    width: 400%;
+    /* height: 50px; */
     }
 
     .info-section-hr {

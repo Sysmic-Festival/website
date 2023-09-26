@@ -7,8 +7,9 @@
     <div class="apropos">
 
       <h1 class="large-title">Sysmic Festival</h1>
-
-      <hr>
+      <div class="blue-line"></div>
+      <div class="small-line"></div>
+      <div class="xsmall-line"></div>
 
       <h1 class="h1-primary-background">Qui sommes-nous  ?</h1>
       <div class="container container-vertical-phone">
@@ -33,6 +34,7 @@
       </div>
 
       <hr>
+
 
       <h1 class="h1-primary-background">Que faisons nous  ?</h1>
       <div class="container container-vertical-phone">
@@ -110,6 +112,26 @@ section {
   padding: 25px;
 }
 
+.small-line{
+  margin-bottom: 20px;
+  margin-left: 25%;
+  width: 50%;
+  border: 1px solid var(--third);
+}
+
+.xsmall-line{
+  margin-bottom: 75px;
+  margin-left: 37.5%;
+  width: 25%;
+  border: 1px solid var(--third);
+}
+
+.blue-line{
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid var(--blue);
+}
+
 .apropos {
   margin: auto;
   margin-top: var(--global-margin);
@@ -124,23 +146,28 @@ section {
 
 .apropos hr {
   max-width: 800px;
-  border: 1px solid var(--third);
+  border: 1px solid var(--blue);
 }
 
-  @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
 
-    .large-title{
-      font-size: 60pt;
-    }
-
-    h1{
-      font-size: 25pt;
-    }
-
-    .apropos hr{
-      max-width: 300px;
-    }
-
+  .large-title{
+    font-size: 60pt;
   }
+
+  h1{
+    font-size: 25pt;
+  }
+
+  .apropos hr{
+    max-width: 80%;
+  }
+
+  .blue-line{
+  width: 80%;
+  margin-left: 10%;
+}
+
+}
 
 </style>

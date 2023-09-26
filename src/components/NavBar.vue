@@ -51,7 +51,7 @@ function onScroll() {
   <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
     <div class="container-navbar">
       <router-link class="logo" to="/#">
-        <img class = img-responsive src="@/assets/images/utilitaries/logo1.svg" />
+        <img class = "logo" src="@/assets/images/utilitaries/logo.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
         <li><router-link to="/#line-up">Line-up</router-link></li>
@@ -103,6 +103,7 @@ ul.fixedOverride {
 
 #navbar .container-navbar .logo{
   height: var(--navbar-height);
+  margin-left:2.5%;
   /* adjusting Y axis to align with menu */
   /*transform: translateY(calc(-0.05*var(--navbar-height))); */
 }
@@ -111,7 +112,6 @@ ul.fixedOverride {
   max-height: 100%;
   max-width: none;
 }
-
 
 .container-navbar{
   position: relative;

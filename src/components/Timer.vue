@@ -95,7 +95,7 @@ function startTimer() {
     margin-left: 20px;
     margin-right: 20px;
     color: var(--white);
-    font-size: 58pt;
+    font-size: 8vh;
     padding-top: 0px;
     font-weight: bold;
 
@@ -109,25 +109,32 @@ function startTimer() {
 #daysBox {
     background-color: var(--third);
     max-width: 240px;
-    width: 28vw;
+    width: 28vh;
+    height: 10vh;
 }
 
 #hoursBox {
     background-color: var(--third);
+    width: 20vh;
+    height: 10vh;
 }
 
 #minutesBox {
     background-color: var(--third);
+    width: 20vh;
+    height: 10vh;
 }
 
 #secBox {
     background-color: var(--third);
+    width: 20vh;
+    height: 10vh;
 }
 
 .numberLabel {
     text-align: left;
     margin-left: 20px;
-    font-size: 25pt;
+    font-size: 4vh;
     margin-top: 5px;
 }
 
@@ -198,7 +205,27 @@ function startTimer() {
         }
     }
 
+    @media only screen and (max-height: 700px){
+        
+    }
+
 @media only screen and (max-width: 700px) {
+    #daysBox {
+        height: 5%;
+        width: 25vw;
+    }
+    #hoursBox {
+        height: 5%;
+        width: 15vw;
+    }
+    #minutesBox {
+        height: 5%;
+        width: 15vw;
+    }
+    #secBox {
+        height: 5%;
+        width: 15vw;
+    }
     .h2BorderContainer {
         margin-left: 20px;
     }

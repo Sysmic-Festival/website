@@ -63,9 +63,11 @@ div.img img {
   margin-bottom: 5px;
 }
 
-.title:hover,
-.title:hover span {
-  color: var(--third);
+.title {
+  transition: all 0.2s ease-in-out ;
+}
+.title:hover {
+  color: var(--blue);
 }
 
 span {

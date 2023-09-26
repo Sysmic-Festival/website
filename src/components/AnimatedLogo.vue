@@ -19,8 +19,8 @@
 
 <template>
   <section class="invaderSection">
-    <div id="invaderDiv">
-      <img class="layer" id="layer1"  src="@/assets/images/layers/01.svg"/>
+    <!-- <div id="invaderDiv"> -->
+      <!-- <img class="layer" id="layer1"  src="@/assets/images/layers/01.svg"/>
       <img class="layer" id="layer2"  src="@/assets/images/layers/02.svg"/>
       <img class="layer" id="layer3"  src="@/assets/images/layers/03.svg"/>
       <img class="layer" id="layer4"  src="@/assets/images/layers/04.svg"/>
@@ -38,8 +38,9 @@
       <img class="layer" id="layer16" src="@/assets/images/layers/16.svg"/>
       <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
-      <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/>
-    </div>
+      <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
+      <img class="layer"  src="@/assets/images/utilitaries/SI_sysmic.gif/"/>
+    <!-- </div> -->
     <div class="titleBox">
       <h1>SYSMIC<br>FESTIVAL</h1>
       <div id="title-date">
@@ -64,6 +65,15 @@ h1, h2 {
   flex-grow: 1;
   display: flex;
   justify-content: center;
+  height: 50%;
+}
+.layer{
+  position: absolute;
+  top: calc(15% - 5vw);
+  left: calc(20vw - 100px);
+  height: 23vw;
+  max-height: 60vh;
+  max-width: 100%;
 }
 
 #invaderDiv{
@@ -94,7 +104,7 @@ h1, h2 {
   height: 200px;
   position: absolute;
   left: calc(50% - 50px);
-  top: 40px;
+  top: calc(30vh - 175px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,7 +118,7 @@ h1, h2 {
 }
 
 .titleBox > h1{
-  font-size: 82pt;
+  font-size: calc(60pt + 2vw);
   font-weight: 900;
   color: var(--white);
   /* font-family: Raleway-Light; */
@@ -123,21 +133,11 @@ h1, h2 {
   text-align: center;
   vertical-align: top;
   position:relative;
-  right: -40px;
+  right: -0px;
 }
 
 .invaderShow{
   opacity: 1 !important;
-}
-
-@media only screen and (max-height: 700px){
-  #invaderDiv{
-    top:0 !important;  
-  }
-
-  .titleBox{
-    top:0 !important;
-  }
 }
 
 @media only screen and (max-width: 850px){
@@ -152,13 +152,22 @@ h1, h2 {
     transform: none;
     left: 0;
   }
+  .layer{
+  position: absolute;
+  top:5%;
+  left: calc(50% - 20.625vw);
+  height: 30vw;
+}
 
   .titleBox {
     line-height: 60pt;
-    position: static;
     align-items: center;
     margin-left: 0; 
     height: auto;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 32%;
   }
 
   h1,h2 {
@@ -167,18 +176,36 @@ h1, h2 {
   }
 
   .titleBox > h1{
-    font-size: 47pt;
+    font-size: calc(6vh + 5vw);
+    line-height: calc(8vh + 5vw);
   }
 
   .titleBox > div > h2 {
     font-size: 15pt;
     position:relative;
     right:0px;
+    top: -20px;
   }
 
   #title-date{
     transform: translateY(0px);
   }
+
+}
+@media only screen and (max-width: 600px){
+  .layer{
+  left: calc(50% - 25vw);
+  height: 40vw;
+  }
+
+}
+
+@media only screen and (max-width: 450px){
+  .layer{
+  left: calc(50% - 30.1vw);
+  height: 45vw;
+  }
+
 
 }
 

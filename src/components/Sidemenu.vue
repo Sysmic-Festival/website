@@ -140,7 +140,7 @@ router.beforeEach(() => {
 
 #sidebar-links-hr{
   width: 80%;
-  border: 1px solid var(--third);
+  border: 1px solid var(--blue);
 }
 
 @media only screen and (max-height: 700px){
@@ -156,7 +156,7 @@ router.beforeEach(() => {
   outline: none;
   cursor: pointer;
   left: 75%;
-  top: -7vw;
+  top: -5vw;
 }
 .cross .line {
   position: absolute;

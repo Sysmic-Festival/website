@@ -131,12 +131,16 @@
 .year{
   display: inline-block;
   align-items: center;
-  width: 20%;
+  width: 16%;
+  margin: 1%;
   border-radius: 10px;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   border-top: 2px solid rgba(0, 0, 0, 0);
   border-left: 2px solid rgba(0, 0, 0, 0);
   border-right: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 20px 10px var(--primary);
+  background-color: var(--primary);
+  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 850px) {
@@ -145,13 +149,34 @@
   }
 }
 .year:hover{
-  border-radius: 10px;
-  border-bottom: 2px solid var(--third);
-  border-top: 2px solid var(--third);
-  border-left: 2px solid var(--third);
-  border-right: 2px solid var(--third);
-  transition: 0.5s;
+  box-shadow: 0 0 30px 20px rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
+  border-bottom: 2px solid var(--blue);
+  border-top: 2px solid var(--blue);
+  border-left: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
 
+}
+
+.small-line{
+  margin-bottom: 20px;
+  margin-left: 37.5%;
+  width: 25%;
+  border: 1px solid var(--third);
+}
+
+.xsmall-line{
+  margin-bottom: 75px;
+  margin-left: 45%;
+  width: 10%;
+  border: 1px solid var(--third);
+}
+
+.blue-line{
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid var(--blue);
 }
 
 .year h4{
@@ -172,6 +197,24 @@
 
     .apropos hr{
       max-width: 300px;
+    }
+    .small-line{
+      margin-bottom: 10px;
+    }
+    .xsmall-line{
+  margin-bottom: 50px;
+    }
+    .blue-line{
+  margin-bottom: 10px;
+    }
+    .year{
+      box-shadow: 0 0 30px 20px rgba(0,0,0,0.4);
+      background-color: rgba(0,0,0,0.4);
+      border-bottom: 2px solid var(--third);
+      border-top: 2px solid var(--third);
+      border-left: 2px solid var(--third);
+      border-right: 2px solid var(--third);
+      margin-bottom: 20px;
     }
 
 }
