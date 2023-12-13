@@ -12,7 +12,7 @@ import FAQRow from '../components/FAQRow.vue';
 
         <div class="title-small-line"></div>
         <hr class="title-hr">
-        <h1>FAQ 2022</h1>
+        <h1>FAQ</h1>
         <hr class="title-hr">
         <div class="title-small-line"></div>
 
@@ -77,17 +77,17 @@ import FAQRow from '../components/FAQRow.vue';
         <FAQRow title="Comment se déroule la soirée avec une prélocation pour microtechnicien?">
           18:00 - Début de l'apéritif en CM 1 120 <br> 19:00 - Début du
           repas à l'Alpine
-           <br> 21:00 - Spectacle en CE6 <br> 22:00 -
+           <br> 21:00 - Spectacle en CE6 <br> 21:45 -
           Entrée dans le festival 🎉
           
-        </FAQRow> 
+        </FAQRow>
 
         <FAQRow title="Quelles sont les horaires de ventes pour microtechnicien?">
-         Dernières ventes, toutes années confondues : vendredi 14 dès 12h devant la salle Polyvalente, toute l'après-midi.
+         Dernières ventes, toutes années confondues : jeudi 12 dès 14h devant le Négoce.
          <br><br>
          Prix: 30.- <br>
-         Payement par cash uniquement, camipro obligatoire lors du règlement. Une personne peut prendre une place pour une autre en nous communiquant sont sciper et en payant pour elle.
-        </FAQRow> 
+         Payement par cash, camipro ou carte, camipro obligatoire lors du règlement. Une personne peut prendre une place pour une autre en nous communiquant sont sciper et en payant pour elle.
+        </FAQRow>
 
         <hr>
         <div class="small-line"></div>

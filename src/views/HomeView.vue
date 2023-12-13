@@ -20,18 +20,23 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
-                        <a href="https://www.forum-epfl.ch/">
-                            <img src="@/assets/images/sponsors/Forum-epfl-logo.png">
+                        <a href="https://www.makita.fr/">
+                            <img src="@/assets/images/sponsors/makita.jpg">
                         </a>
                     </div>
                     <div class="sponsor-el">
-                        <a href="https://www.logitech.com/de-ch">
-                            <img src="@/assets/images/sponsors/logitech-logo.svg">
+                        <a href="https://rivella.ch/fr/">
+                            <img src="@/assets/images/sponsors/Rivella-logo.svg">
+                        </a>
+                    </div>
+                    <div class="sponsor-el" id="agep">
+                        <a href="https://agepoly.ch/en/">
+                            <img src="@/assets/images/sponsors/AGEPoly.svg">
                         </a>
                     </div>
                     <div class="sponsor-el">
-                        <a href="https://fr.brio-mate.com/">
-                            <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
+                        <a href="https://www.ceanet.ch/">
+                            <img style="transform: scale(1.25);" src="@/assets/images/sponsors/CEA.jpg">
                         </a>
                     </div>
                 </div>
@@ -56,56 +61,60 @@ import FAQRow from '../components/FAQRow.vue';
             <Timer />
         </div>
         <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up 2022</h1>
+            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Mainstage</h2>
-                <div class="line-up-box-1">
-                    <div class="line-up-artist-big">
-                        <div class="line-up-time">20H25</div>
-                        <div class="line-up-name">plan h150</div>
+                <h2 class="line-up-stagename">Rabbit Hole</h2>
+                <div class="line-up-box-1" id="rabbit">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">20H30</div>
+                        <div class="line-up-name">SugarDaddy + Spirit</div>
                     </div>
-                    <div class="line-up-artist-big">
-                        <div class="line-up-time">22H30</div>
-                        <div class="line-up-name">Fluffy Machine</div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">22h15</div>
+                        <div class="line-up-name">Choking On A Candy</div>
                     </div>
-                    <div class="line-up-artist-big">
+                    <div class="line-up-artist">
                         <div class="line-up-time">00H00</div>
-                        <div class="line-up-name">Jewel Usain</div>
+                        <div class="line-up-name">Shaim</div>
                     </div>
-                    <div class="line-up-artist-big">
-                        <div class="line-up-time">01H15</div>
-                        <div class="line-up-name">Von Bikräv</div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">01H30</div>
+                        <div class="line-up-name">SM:LY</div>
+                    </div>
+                </div>
+                <h2 class="line-up-stagename">Jardin Secret</h2>
+                <div class="line-up-box-1" id="jardin">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">22H00</div>
+                        <div class="line-up-name">I Bredda Sound System</div>
                     </div>
                 </div>
             </div>
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Petite Scène</h2>
-                <div class="line-up-box-2">
-                    <div class="line-up-artist"  id="loudjack">
-                        <div class="line-up-time">21H45</div>
-                        <div class="line-up-name">Loudjack</div>
+                <h2 class="line-up-stagename">Wonderscène</h2>
+                <div class="line-up-box-1" id="wonder">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">21H15</div>
+                        <div class="line-up-name">Ray Mason Abe</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">23H15</div>
-                        <div class="line-up-name">Roots <br>Zombie</div>
+                        <div class="line-up-time">22H15</div>
+                        <div class="line-up-name">Yakary</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">01H00</div>
-                        <div class="line-up-name">MEL</div>
+                        <div class="line-up-time">23H30</div>
+                        <div class="line-up-name">Garage Act</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">00H30</div>
+                        <div class="line-up-name">Korkki</div>
                     </div>
                 </div>
-                <h2 class="line-up-stagename">Jardin Secret</h2>
-                <div class="line-up-box-2">
+                <h2 class="line-up-stagename">Scène FB</h2>
+                <div class="line-up-box-1" id="jardin2">
                     <div class="line-up-artist">
                         <div class="line-up-time">22H00</div>
-                        <div class="line-up-name">High Salute b2b Radikal Vibration</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Scène Fréquence Banane</h2>
-                <div class="line-up-box-2">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20H30</div>
                         <div class="line-up-name">Fréquence Banane</div>
                     </div>
                 </div>
@@ -214,52 +223,48 @@ import FAQRow from '../components/FAQRow.vue';
 
 
         <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Sponsors 2022</h1>
+            <h1 class="h1-third-background">Sponsors</h1>
             <section class="sponsors-line">
                 <div>
-                    <a target="_BLANK" href="https://www.logitech.com/de-ch">
-                        <img src="@/assets/images/sponsors/logitech-logo.svg">
-                    </a>
-                </div>
-                <div style="display:block">
-                    <a target="_BLANK" href="https://fr.brio-mate.com/">
-                        <img src="@/assets/images/sponsors/Brio-H-blanc-logo.svg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.visilab.ch/fr/">
-                        <img src="@/assets/images/sponsors/Visilab-couleur-logo.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://rivella.ch/fr/">
-                        <img src="@/assets/images/sponsors/Rivella-logo.svg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.forum-epfl.ch/">
-                        <img src="@/assets/images/sponsors/Forum-epfl-logo.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://fastree3d.com/">
-                        <img src="@/assets/images/sponsors/fastree3d-logo.png">
+                    <a target="_BLANK" href="https://www.makita.fr/">
+                        <img id="makita" src="@/assets/images/sponsors/makita.jpg">
                     </a>
                 </div>
                 <div>
                     <a target="_BLANK" href="https://agepoly.ch/">
-                        <img src="@/assets/images/sponsors/AGEPoly.svg">
+                        <img id="agepo" src="@/assets/images/sponsors/AGEPoly.svg">
+                    </a>
+                </div>
+                <div id="ceaaa">
+                    <a target="_BLANK" href="https://www.ceanet.ch/">
+                        <img id="cea" src="@/assets/images/sponsors/CEA.jpg">
+                    </a>
+                    <p>Pas besoin de connaître la formule des intérêts composés pour profiter de nos taux d'épargne.</p>
+                </div>
+                <div style="margin-top: 70px">
+                    <a target="_BLANK" href="https://rivella.ch/fr/">
+                        <img style="transform: scale(0.7);" src="@/assets/images/sponsors/Rivella-logo.svg">
+                    </a>
+                </div>
+                <div id="efff" style="margin-top: 70px">
+                    <a target="_BLANK" href="https://www.ef.fr/">
+                        <img id="ef" src="@/assets/images/sponsors/ef-education.svg">
+                    </a>
+                    <p>EF organise votre séjour linguistique et vous offre des programmes académiques pour apprendre 12 langues et étudier à l'étranger dans 54 destinations</p>
+                </div>
+                <div style="margin-top: 70px">
+                    <a target="_BLANK" href="https://frutiger.com/fr/">
+                        <img style="transform: scale(0.7);" src="@/assets/images/sponsors/Logo_Frutiger.png">
                     </a>
                 </div>
                 <div>
-                    <a target="_BLANK" href="https://www.l-dudu.ch/">
-                        <img src="@/assets/images/sponsors/L-DuDu-logo.png">
+                    <a target="_BLANK" href="https://tes-transports.ch/">
+                        <img id="tes" style="transform:translateX(8vw)" src="@/assets/images/sponsors/logo_tes.png">
                     </a>
                 </div>
-                <div class="spacefiller-phone"></div>
                 <div>
-                    <a target="_BLANK" href="https://shop.morand.ch/fr/">
-                        <img src="@/assets/images/sponsors/mrnd21.svg">
+                    <a target="_BLANK" href="https://www.tobler-ag.com/fr/">
+                        <img id="tobler" style="transform: scale(1.5) translateX(12vw);" src="@/assets/images/sponsors/logo_tobler.svg">
                     </a>
                 </div>
             </section>
@@ -377,9 +382,9 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/ghali.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Audrey Kasas</h4>
+                        <h4>Lucie Romer</h4>
                         <p>Décoration</p>
-                        <img class="comite-img" src="@/assets/images/comite/audrey.png">
+                        <img class="comite-img" src="@/assets/images/comite/lucie.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Ieva Kvedarauskaite</h4>
@@ -442,6 +447,11 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/eleooo.png">
                     </div>
                     <div class="comite-member">
+                        <h4>Romain Dufour</h4>
+                        <p>Adjoint Bar</p>
+                        <img class="comite-img" src="@/assets/images/comite/RRD.jpg">
+                    </div>
+                    <div class="comite-member">
                         <h4>Anton Schenkel</h4>
                         <p>Programmation/Loges</p>
                         <img class="comite-img" src="@/assets/images/comite/anton.png">
@@ -456,6 +466,11 @@ import FAQRow from '../components/FAQRow.vue';
                         <h4>Basile Thiercelin</h4>
                         <p>Catering</p>
                         <img class="comite-img" src="@/assets/images/comite/basile-le-s.png">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Matthieu Meilhac</h4>
+                        <p>Adjoint Catering</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Alice Reymond</h4>
@@ -695,13 +710,17 @@ span {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 48%;
+    width: 90%;
 }
 
 #loudjack{
     position: relative;
     height: 90px;
     top: -33px;
+}
+
+#jardin, #jardin2{
+    height: 30%;
 }
 
 .line-up-time{
@@ -844,8 +863,8 @@ span {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     position: absolute;
-    top: calc(5vw + 45vh);
-    left: 35%;
+    top: calc(5vw + 42vh);
+    left: 27%;
     height: 8%;
     z-index: 101;
     max-width: 70%;
@@ -859,6 +878,7 @@ span {
     margin: auto;
     width: 66%;
     padding: 0;
+
 }
 
 .sponsors section div {
@@ -873,6 +893,56 @@ span {
     transform: scale(0.95);
     width: 100%;
     transition-duration: 0.4s;
+}
+
+#ef{
+    width: 20vw;
+}
+
+#makita{
+    transform: translateX(-60px);
+}
+#agep{
+    /* transform: translateX(10px); */
+}
+#cea{
+    transform: translateX(4vw) translateY(2vw) scale(1.3);
+}
+#ceaaa{
+    display:flex;
+    flex-direction:column;
+}
+#efff{
+    display:flex;
+    flex-direction:column;
+    transform: translateY(1vw)
+}
+#tes{
+    width: 20vw;
+}
+#tobler{
+    width: 20vw;
+}
+
+#ceaaa p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: calc(0.8em + 0.3vw);
+    color: white;
+    text-align: center;
+    transform: translateX(4vw) translateY(2vw);
+    margin-top: 30px;
+    width: 120%;
+}
+#efff p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: calc(0.6em + 0.5vw);
+    color: white;
+    text-align: center;
+    transform: translateY(-1vw);
+    margin-top: 30px;
+    width: 110%;
 }
 
 .sponsors section img:hover {
@@ -962,13 +1032,13 @@ span {
     font-weight: bolder;
 }
 
-#sponsors-bar {
+.sponsors-bar {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     height: 100px;
     z-index: 5;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 40px;
 }
@@ -976,7 +1046,7 @@ span {
 .sponsors-row {
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 2vw;
 }
 
 .sponsor-el {
@@ -992,10 +1062,14 @@ span {
     transform: translateY(10px);
     transition: opacity ease-in-out 0.2s;
 }
+#agep{
+    position:relative;
+    left: -1vw;
+}
 
 .sponsor-el img {
-    max-width: 120%;
-    max-height: 120%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .sponsor-el:hover{
@@ -1013,7 +1087,7 @@ span {
         }
     }
 
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     .sponsors-bar {
         flex-direction: column;
     }
@@ -1021,18 +1095,37 @@ span {
         flex-wrap: wrap;
         width: 20vw;
     }
+} */
+
+@media screen and (max-width: 340px){
+    #jardin{
+        height: 32%;
+    }
+}
+
+@media (max-height: 700px){
+    .sponsor-el{
+       transform: scale(0.8);
+    }
+    .sponsors-row{
+        top: calc(20vw + 30vh);
+    }
 }
 
 @media screen and (max-width: 500px) {
     .sponsors-bar {
-        width: 90%;
+        width: 95vw;
         position: absolute;
         top: 80vh;
-        left: 5%;
+        left: 2.5vw;
+    }
+    .sponsors-row{
+        width: 100%;
     }
 
     .sponsor-el {
-        width: 30vw;
+        width: 40vw;
+        transform: scale(1);
     }
 }
 
@@ -1065,6 +1158,28 @@ span {
         position: absolute;
         top: 65vh;
         left: 15%;
+    }
+    #ef{
+        width: 40vw;
+    }
+    #ceaaa{
+        transform:translateX(-3vw) translateY(50px) scale(0.8);
+    }
+    #makita{
+        transform: translateX(-10px);
+    }
+    #agepo{
+        transform: translateX(10px);
+    }
+    #tes{
+        width: 35vw;
+        position: relative;
+        left: -10vw;
+    }
+    #tobler{
+        width: 30vw;
+        position: relative;
+        left: -15vw;
     }
 
     .line-up-zone{

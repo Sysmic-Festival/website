@@ -1,33 +1,32 @@
 import os
 
 # génère automatiquement une page d'année du portfolio
-# Il faut avoir téléchargé en local les images de l'année en question
+while True:
+    year=input("année du portfolio: ")
+    template = open("template.vue", "r")
+    filename = year + ".vue"
+    dossname = year + "/thumbnails"
 
-year=input("année du portfolio: ")
-template = open("./src/components/portfolio_vues/template.vue", "r")
-filename = "./src/components/portfolio_vues/" + year + ".vue"
-dossname = "../../portfolio_images/" + year + "/thumbnails"
+    output = open(filename, "w", encoding="utf-8")
+    for i in range(8):
+        line = template.readline()
+        output.write(line)
 
-output = open(filename, "w")
-for i in range(8):
-    line = template.readline()
-    output.write(line)
+    output.write('<h1>Année {}</h1>\n'.format(year))
+    output.write('<img class="image_year" src="https://www.sysmic.ch/ressources/portfolio/year_images/{}.jpg">\n'.format(year))
 
-output.write('<h1>Année {}</h1>\n'.format(year))
-output.write('<img class="image_year" src="https://www.sysmic.ch/ressources/portfolio/year_images/{}.jpg">\n'.format(year))
+    for i in range(5):
+        line = template.readline()
+        output.write(line)
 
-for i in range(5):
-    line = template.readline()
-    output.write(line)
+    for filename in os.listdir(dossname):
+        filename_data = filename.replace("thumb","")
+        output.write('<div class="image">\n')
+        output.write('<a href="https://www.sysmic.ch/ressources/portfolio/{}/{}" class="thumbnail-link">\n'.format(year,filename_data))
+        output.write('<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/{}/thumbnails/{}" data-src="https://www.sysmic.ch/ressources/portfolio/{}/{}">\n'.format(year, filename,year,filename_data))
+        output.write('</a>')
+        output.write('</div>\n')
 
-for filename in os.listdir(dossname):
-    filename_data = filename.replace("thumb","")
-    output.write('<div class="image">\n')
-    output.write('<a href="https://www.sysmic.ch/ressources/portfolio/{}/{}" class="thumbnail-link">\n'.format(year,filename_data))
-    output.write('<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/{}/thumbnails/{}" data-src="https://www.sysmic.ch/ressources/portfolio/{}/{}">\n'.format(year, filename,year,filename_data))
-    output.write('</a>')
-    output.write('</div>\n')
-
-for i in range(218):
-    line = template.readline()
-    output.write(line)
+    for i in range(169):
+        line = template.readline()
+        output.write(line)

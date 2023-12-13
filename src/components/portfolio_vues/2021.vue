@@ -5,15 +5,15 @@
     <div class="portfolio">
         <section>
             <div class="title-small-line"></div>
-            <!-- <hr class="title-hr"> -->
+            <hr class="title-hr">
 <h1>Année 2021</h1>
 <img class="image_year" src="https://www.sysmic.ch/ressources/portfolio/year_images/2021.jpg">
-            <!-- <hr class="title-hr"> -->
+            <hr class="title-hr">
             <div class="title-small-line"></div>
         </section>
         <div class="images_list">
           <section class="images_line">
-<div class="image">
+            <div class="image">
 <a href="https://www.sysmic.ch/ressources/portfolio/2021/CPE06622.jpg" class="thumbnail-link">
 <img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2021/thumbnails/thumbCPE06622.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2021/CPE06622.jpg">
 </a></div>
@@ -1773,7 +1773,7 @@
 <a href="https://www.sysmic.ch/ressources/portfolio/2021/DSC07324_oui.jpg" class="thumbnail-link">
 <img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2021/thumbnails/thumbDSC07324_oui.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2021/DSC07324_oui.jpg">
 </a></div>
-          </section>
+</section>
         </div>
         <div id="modal">
             <img id="modal-image" src="" alt="Modal Image">
@@ -1843,13 +1843,15 @@
 .image{
   display: inline-block;
   align-items: center;
-  width: 23%;
+  width: 22%;
+  margin: 0.5%;
   border-radius: 10px;
   cursor: pointer;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   border-top: 2px solid rgba(0, 0, 0, 0);
   border-left: 2px solid rgba(0, 0, 0, 0);
   border-right: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.5s ease-in-out;
 }
 
 .image_year{
@@ -1860,7 +1862,7 @@
 
 @media screen and (max-width: 850px) {
   .image{
-    width: 30%;
+    width: 29%;
     height: 125px; 
   }
   .image_image{
@@ -1873,17 +1875,17 @@
 
 @media screen and (max-width: 450px) {
   .image{
-    width: 48%;
+    width: 47%;
   }
 }
 .image:hover{
   border-radius: 10px;
-  border-bottom: 2px solid var(--third);
-  border-top: 2px solid var(--third);
-  border-left: 2px solid var(--third);
-  border-right: 2px solid var(--third);
-  transition: 0.5s;
-
+  border-bottom: 2px solid var(--blue);
+  border-top: 2px solid var(--blue);
+  border-left: 2px solid var(--blue);
+  border-right: 2px solid var(--blue);
+  box-shadow: 0 0 30px 20px rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
 }
 
 .image h4{
@@ -1917,7 +1919,7 @@
   margin-left: auto;
   width: 50%;
   max-width: 100px;
-  border: 1px solid var(--third);
+  border: 1px solid var(--blue);
 }
 
 section hr {
@@ -1940,54 +1942,3 @@ h1 {
 }
 
 </style>
-<!-- <script>
-
-// Get the thumbnail images
-const thumbnails = document.getElementsByClassName('thumbnail');
-
-// Get the modal and modal image elements
-const modal = document.getElementById('modal');
-const modalImage = document.getElementById('modal-image');
-
-// Lazy load images when they enter the viewport
-function lazyLoad() {
-  for (let i = 0; i < thumbnails.length; i++) {
-    const thumbnail = thumbnails[i];
-    const rect = thumbnail.getBoundingClientRect();
-
-    if (rect.top < window.innerHeight && rect.bottom >= 0) {
-      if (!thumbnail.classList.contains('loaded')) {
-        const imageSrc = thumbnail.getAttribute('data-src');
-        thumbnail.src = imageSrc;
-        thumbnail.classList.add('loaded');
-      }
-    }
-  }
-}
-
-// Add click event listener to each thumbnail image
-for (let i = 0; i < thumbnails.length; i++) {
-  thumbnails[i].addEventListener('click', function() {
-    const imageSrc = this.getAttribute('data-src');
-
-    // Set the image source of the modal
-    modalImage.setAttribute('src', imageSrc);
-
-    // Show the modal
-    modal.style.display = 'block';
-  });
-}
-
-// Add click event listener to the modal to close it
-modal.addEventListener('click', function() {
-  // Hide the modal
-  modal.style.display = 'none';
-});
-
-// Perform initial lazy load
-window.addEventListener('load', lazyLoad);
-
-// Add scroll event listener to perform lazy load on scroll
-window.addEventListener('scroll', lazyLoad);
-
-</script> -->

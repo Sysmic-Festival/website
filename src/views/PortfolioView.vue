@@ -11,85 +11,85 @@
           <section class="years_line">
             <router-link to="/portfolio/2022">
               <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2022.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2022.jpg">
               <h4>2022</h4>
             </div>
             </router-link>
             <router-link to="/portfolio/2021">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2021.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2021.jpg">
               <h4>2021</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2019">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2019.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2019.jpg">
               <h4>2019</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2018">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2018.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2018.jpg">
                 <h4>2018</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2017">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2017.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2017.jpg">
                 <h4>2017</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2016">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2016.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2016.jpg">
                 <h4>2016</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2015">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2015.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2015.jpg">
                 <h4>2015</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2014">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2014.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2014.jpg">
                 <h4>2014</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2013">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2013.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2013.jpg">
                 <h4>2013</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2012">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2012.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2012.jpg">
                 <h4>2012</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2011">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2011.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2011.jpg">
                 <h4>2011</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2010">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2010.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2010.jpg">
                 <h4>2010</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2009">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2009.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2009.jpg">
                 <h4>2009</h4>
             </div>
           </router-link>
           <router-link to="/portfolio/2008">
             <div class="year">
-                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/2008.jpg">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2008.jpg">
                 <h4>2008</h4>
             </div>
           </router-link>

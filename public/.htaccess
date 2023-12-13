@@ -1,0 +1,6 @@
+<Files ~ "\.(png|jpe?g|gif|pdf)$">
+  Header set X-Robots-Tag "noindex"
+</Files>
+DirectoryIndex index.html
+ErrorDocument 404 https://sysmic.ch/
+FallbackResource /index.html
