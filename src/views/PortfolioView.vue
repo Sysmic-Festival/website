@@ -9,6 +9,12 @@
         <div class="xsmall-line"></div>
         <div class="years_list"></div>
           <section class="years_line">
+            <router-link to="/portfolio/2023">
+              <div class="year">
+                <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2023.jpg">
+              <h4>2023</h4>
+            </div>
+            </router-link>
             <router-link to="/portfolio/2022">
               <div class="year">
                 <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2022.jpg">

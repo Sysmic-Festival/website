@@ -61,7 +61,7 @@ import FAQRow from '../components/FAQRow.vue';
             <Timer />
         </div>
         <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
+            <h1 class="h1-third-background" id="line-up-title">Line-up 2023</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
                 <h2 class="line-up-stagename">Rabbit Hole</h2>
@@ -130,7 +130,7 @@ import FAQRow from '../components/FAQRow.vue';
         </div>
 
         <div id="infos" class="infos">
-            <h1 class="h1-primary-background">Infos Pratiques</h1>
+            <h1 class="h1-primary-background">Infos Pratiques 2023</h1>
             <div id="infos-container" class="container">
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
@@ -223,7 +223,7 @@ import FAQRow from '../components/FAQRow.vue';
 
 
         <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Sponsors</h1>
+            <h1 class="h1-third-background">Sponsors 2023</h1>
             <section class="sponsors-line">
                 <div>
                     <a target="_BLANK" href="https://www.makita.fr/">
@@ -319,7 +319,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
                 </div>
             </div>
-            <h1 class="h1-primary-background comite-title">Comité</h1>
+            <h1 class="h1-primary-background comite-title">Comité 2023</h1>
 
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">

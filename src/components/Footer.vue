@@ -11,7 +11,7 @@
             </p>
             <p class="mailContact">
               <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch&nbsp</a>  
-                <span class="tooltip"> <b>(?)</b>
+                <span class="tooltip">
               <span class="tooltiptext">Problèmes liés à l'informatique</span>
             </span> 
             </p>

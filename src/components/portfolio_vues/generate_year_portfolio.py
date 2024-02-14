@@ -19,7 +19,9 @@ while True:
         line = template.readline()
         output.write(line)
 
+    i=0
     for filename in os.listdir(dossname):
+        if i ==500: break
         filename_data = filename.replace("thumb","")
         output.write('<div class="image">\n')
         output.write('<a href="https://www.sysmic.ch/ressources/portfolio/{}/{}" class="thumbnail-link">\n'.format(year,filename_data))
