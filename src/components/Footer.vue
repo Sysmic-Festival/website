@@ -10,8 +10,7 @@
               <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
             </p>
             <p class="mailContact">
-              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch&nbsp</a>  
-            </span> 
+              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>  
             </p>
           </div>  
 
