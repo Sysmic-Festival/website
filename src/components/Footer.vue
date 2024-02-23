@@ -3,15 +3,15 @@
     <template>
       <footer>    
 
-        <div class="flexFooter">  
+        <div class="flexFooter">
 
           <div>
             <p class="mailContact">
               <a href="mailto:contact@sysmic.ch">contact@sysmic.ch</a>
             </p>
             <p class="mailContact">
-              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch&nbsp</a>  
-                <span class="tooltip"> <b>(?)</b>
+              <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch&nbsp</a>
+                <span class="tooltip">
               <span class="tooltiptext">Problèmes liés à l'informatique</span>
             </span> 
             </p>
