@@ -259,13 +259,19 @@ import FAQRow from '../components/FAQRow.vue';
                 </div>
                 <div>
                     <a target="_BLANK" href="https://tes-transports.ch/">
-                        <img id="tes" style="transform:translateX(8vw)" src="@/assets/images/sponsors/logo_tes.png">
+                        <img id="tes" style="transform:translateX(1vw)" src="@/assets/images/sponsors/logo_tes.png">
                     </a>
                 </div>
                 <div>
                     <a target="_BLANK" href="https://www.tobler-ag.com/fr/">
-                        <img id="tobler" style="transform: scale(1.5) translateX(12vw);" src="@/assets/images/sponsors/logo_tobler.svg">
+                        <img id="tobler" style="transform: scale(1.25) translateX(3vw);" src="@/assets/images/sponsors/logo_tobler.svg">
                     </a>
+                </div>
+                <div id="infomaniakk">
+                    <a target="_BLANK" href="https://www.infomaniak.com/fr">
+                        <img id="infomaniak" style="transform:translateX(6vw);" src="@/assets/images/sponsors/infomaniak-sa.jpg">
+                    </a>
+                    <p>Ici se trouvera le petit texte choisi par Infomaniak</p>
                 </div>
             </section>
         <a href="https://sysmic.ch/dossier_sponsoring_2023_FR.pdf" target="_blank">
@@ -898,6 +904,9 @@ span {
 #ef{
     width: 20vw;
 }
+#infomaniak{
+    width: 20vw;
+}
 
 #makita{
     transform: translateX(-60px);
@@ -913,6 +922,11 @@ span {
     flex-direction:column;
 }
 #efff{
+    display:flex;
+    flex-direction:column;
+    transform: translateY(1vw)
+}
+#infomaniakk{
     display:flex;
     flex-direction:column;
     transform: translateY(1vw)
@@ -944,7 +958,16 @@ span {
     margin-top: 30px;
     width: 110%;
 }
-
+#infomaniakk p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: calc(0.6em + 0.5vw);
+    color: white;
+    text-align: center;
+    transform: translateY(-1vw) translateX(65px);
+    margin-top: 30px;
+    width: 110%;
+}
 .sponsors section img:hover {
     opacity: 0.70;
 }

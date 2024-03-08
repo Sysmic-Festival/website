@@ -24,6 +24,9 @@
             <a target="_BLANK" href="https://www.youtube.com/channel/UCRymRQ502yvvwe0nwhj1kIw" >
               <img class = img-responsive src="@/assets/images/utilitaries/youtube.svg" />
             </a>
+            <a target="_BLANK" href="https://www.infomaniak.com/fr" >
+              <img class = img-responsive src="@/assets/images/sponsors/infomaniak-sa.jpg" />
+            </a>
           </div>  
 
           <div class="footerPost">
