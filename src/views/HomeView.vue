@@ -257,21 +257,25 @@ import FAQRow from '../components/FAQRow.vue';
                         <img style="transform: scale(0.7);" src="@/assets/images/sponsors/Logo_Frutiger.png">
                     </a>
                 </div>
-                <div>
+                <div style="margin-top: 70px">
                     <a target="_BLANK" href="https://tes-transports.ch/">
-                        <img id="tes" style="transform:translateX(1vw)" src="@/assets/images/sponsors/logo_tes.png">
+                        <img id="tes" style="transform:translateX(10vw)" src="@/assets/images/sponsors/logo_tes.png">
                     </a>
                 </div>
                 <div>
                     <a target="_BLANK" href="https://www.tobler-ag.com/fr/">
-                        <img id="tobler" style="transform: scale(1.25) translateX(3vw);" src="@/assets/images/sponsors/logo_tobler.svg">
+                        <img id="tobler" style="transform: scale(1.25) translateX(15vw) translateY(2vw);" src="@/assets/images/sponsors/logo_tobler.svg">
                     </a>
                 </div>
+                
+            </section>
+            <h1 class="h1-third-background">Sponsors 2024</h1>
+            <section class="sponsors-line">
                 <div id="infomaniakk">
-                    <a target="_BLANK" href="https://www.infomaniak.com/fr">
-                        <img id="infomaniak" style="transform:translateX(6vw);" src="@/assets/images/sponsors/infomaniak-sa.jpg">
+                    <a target="_BLANK" href="https://infomaniak.events/fr-ch">
+                        <img id="infomaniak" style="transform:translateX(23vw);" src="@/assets/images/sponsors/infomaniak-sa.png">
+                        <p></p>
                     </a>
-                    <p>Ici se trouvera le petit texte choisi par Infomaniak</p>
                 </div>
             </section>
         <a href="https://sysmic.ch/dossier_sponsoring_2023_FR.pdf" target="_blank">
