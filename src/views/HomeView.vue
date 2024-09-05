@@ -257,9 +257,11 @@ import FAQRow from '../components/FAQRow.vue';
                     </a>
                 </div>
             </section>
-        <a href="https://sysmic.ch/dossier_sponsoring_2023_FR.pdf" target="_blank">
-            <button class="main-page-button">Dossier Sponsoring →</button>
-        </a>
+        <section class="button-section" >
+            <a href="https://sysmic.ch/dossier_sponso_sysmic_2024.pdf" target="_blank">
+                <button class="main-page-button">Dossier Sponsoring →</button>
+            </a>
+        </section>
         </div>
 
         <!-- <div id="recrutement">
