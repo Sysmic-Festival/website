@@ -329,39 +329,39 @@ import FAQRow from '../components/FAQRow.vue';
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
                 </div>
             </div>
-            <h1 class="h1-primary-background comite-title">Comité 2023</h1>
+            <h1 class="h1-primary-background comite-title">Comité 2024</h1>
 
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Thomas Cirillo</h4>
+                        <h4>Anton Schenkel</h4>
                         <p>Président</p>
-                        <img class="comite-img" src="@/assets/images/comite/cirillo-le-boss.png">
+                        <img class="comite-img" src="@/assets/images/comite/anton.jpg">
                     </div>
                 </section>
             </div>
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Daoud Hakim</h4>
+                        <h4>Maxime Teuber</h4>
                         <p>VP Communication</p>
-                        <img class="comite-img" src="@/assets/images/comite/dahood.png">
+                        <img class="comite-img" src="@/assets/images/comite/maxou.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Raphaël Charozé</h4>
+                        <h4>Ghali Laraki</h4>
                         <p>VP Logistique</p>
-                        <img class="comite-img" src="@/assets/images/comite/charooo.png">
+                        <img class="comite-img" src="@/assets/images/comite/ghali.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Thomas Artru</h4>
+                        <h4>Hadrien Canches</h4>
                         <p>VP Animation</p>
-                        <img class="comite-img" src="@/assets/images/comite/artru.png">
+                        <img class="comite-img" src="@/assets/images/comite/hadrien.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Sébastien Dévaud</h4>
+                        <h4>Clémence Tirot</h4>
                         <p>Trésorier</p>
-                        <img class="comite-img" src="@/assets/images/comite/seby.png">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                 </section>
             </div>
@@ -372,24 +372,24 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Adame Biruk</h4>
+                        <h4>Robin Ben Shem</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/adam.png">
+                        <img class="comite-img" src="@/assets/images/comite/robin.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Claire Lopez</h4>
+                        <h4>Noé Mazzarini</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/claire.png">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Nada AlAhmadi</h4>
-                        <p>Matériel</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Ghali Laraki</h4>
+                        <h4>Asmaa Hilmani</h4>
+                        <p>Matériel</p>
+                        <img class="comite-img" src="@/assets/images/comite/asmaa.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Mathieu Bénard</h4>
                         <p>Élec/Light</p>
-                        <img class="comite-img" src="@/assets/images/comite/ghali.png">
+                        <img class="comite-img" src="@/assets/images/comite/matthieu.jpg">
                     </div>
                     <div class="comite-member">
                         <h4>Lucie Romer</h4>
@@ -397,19 +397,19 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/lucie.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Ieva Kvedarauskaite</h4>
+                        <h4>Ella Neike</h4>
                         <p>Décoration</p>
-                        <img class="comite-img" src="@/assets/images/comite/ieva-avec-un-i.png">
+                        <img class="comite-img" src="@/assets/images/comite/ella.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Raphaël Pittet</h4>
+                        <h4>Téodore Allegre</h4>
                         <p>Technique de scène</p>
-                        <img class="comite-img" src="@/assets/images/comite/pittet.png">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Ludovic Mareemootoo</h4>
+                        <h4>Pauline Fenard</h4>
                         <p>RH</p>
-                        <img class="comite-img" src="@/assets/images/comite/ludo.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                 </section>
             </div>
@@ -419,29 +419,29 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Jeremy Serillon</h4>
+                        <h4>Noam Levy</h4>
                         <p>Spectacle</p>
-                        <img class="comite-img" src="@/assets/images/comite/dj-rem.png">
+                        <img class="comite-img" src="@/assets/images/comite/noam.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Mathieu Benard</h4>
+                        <h4>Emile Cornamusaz</h4>
                         <p>IT/Webmaster</p>
-                        <img class="comite-img" src="@/assets/images/comite/xxmatbenxx.png">
+                        <img class="comite-img" src="@/assets/images/comite/mimile.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Maxime Teuber</h4>
+                        <h4>Ryuji Kawakami</h4>
                         <p>Graphisme</p>
-                        <img class="comite-img" src="@/assets/images/comite/maxime-premier.png">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Paloma Garcia Moron</h4>
+                        <h4>Talia Meyer</h4>
                         <p>Community Manager</p>
-                        <img class="comite-img" src="@/assets/images/comite/paloma.png">
+                        <img class="comite-img" src="@/assets/images/comite/talia.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Maxime Schwartz</h4>
+                        <h4>Anouck Fazio</h4>
                         <p>Prévention/Durabilité</p>
-                        <img class="comite-img" src="@/assets/images/comite/maxime-second.png">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                 </section>
             </div>
@@ -452,45 +452,45 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Eléonore Salin</h4>
+                        <h4>Hector Mir</h4>
                         <p>Bar</p>
-                        <img class="comite-img" src="@/assets/images/comite/eleooo.png">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Romain Dufour</h4>
-                        <p>Adjoint Bar</p>
-                        <img class="comite-img" src="@/assets/images/comite/RRD.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Anton Schenkel</h4>
-                        <p>Programmation/Loges</p>
-                        <img class="comite-img" src="@/assets/images/comite/anton.png">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Ella Neike</h4>
-                        <p>Programmation/Loges</p>
-                        <img class="comite-img" src="@/assets/images/comite/ella.jpg">
-                    </div>
-
-                    <div class="comite-member">
-                        <h4>Basile Thiercelin</h4>
-                        <p>Catering</p>
-                        <img class="comite-img" src="@/assets/images/comite/basile-le-s.png">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Matthieu Meilhac</h4>
-                        <p>Adjoint Catering</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Alice Reymond</h4>
-                        <p>Escape Game</p>
-                        <img class="comite-img" src="@/assets/images/comite/alice.png">
+                        <h4>Salomé Grouzinoff</h4>
+                        <p>Bar</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Lorie Xu</h4>
+                        <h4>Tota Taieb</h4>
+                        <p>Programmation/Loges</p>
+                        <img class="comite-img" src="@/assets/images/comite/tota.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Maï Walser</h4>
+                        <p>Programmation/Loges</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                    </div>
+
+                    <div class="comite-member">
+                        <h4>Marie Van Rossum</h4>
+                        <p>Catering</p>
+                        <img class="comite-img" src="@/assets/images/comite/marie.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Mayra Mallet</h4>
+                        <p>Catering</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Romain Dufour</h4>
                         <p>Escape Game</p>
-                        <img class="comite-img" src="@/assets/images/comite/lorie.png">
+                        <img class="comite-img" src="@/assets/images/comite/romain.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Laura Amoury</h4>
+                        <p>Escape Game</p>
+                        <img class="comite-img" src="@/assets/images/comite/laura.jpg">
                     </div>
                 </section>
             </div>
@@ -501,15 +501,43 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Aude-line Fleury</h4>
+                        <h4>Marc Simon</h4>
                         <p>Sponsoring</p>
-                        <img class="comite-img" src="@/assets/images/comite/aude-line.png">
+                        <img class="comite-img" src="@/assets/images/comite/marc.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Rayan Rami</h4>
+                        <h4>Jérémie Lafond de Lormel</h4>
                         <p>Sponsoring</p>
-                        <img class="comite-img" src="@/assets/images/comite/rayou.png">
+                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
                     </div>
+                </section>
+            </div>
+
+            <hr class="comite-section-hr">
+            <h2 class="h2-primary-background comite-title">Membres de soutien</h2>
+
+            <div class="container-comite">
+                <section class="comite-line">
+                    <div class="comite-member">
+                        <h4>Paloma Garcia Moron</h4>
+                        <p>Membre de Soutien</p>
+                        <img class="comite-img" src="@/assets/images/comite/paloma.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Raphaël Pittet</h4>
+                        <p>Membre de Soutien</p>
+                        <img class="comite-img" src="@/assets/images/comite/raphael.jpg">
+                    </div>  
+                    <div class="comite-member">
+                        <h4>Eleonore Salin</h4>
+                        <p>Membre de Soutien</p>
+                        <img class="comite-img" src="@/assets/images/comite/eleonore.jpg">
+                    </div> 
+                    <div class="comite-member">
+                        <h4>Sébastien Devaud</h4>
+                        <p>Membre de Soutien</p>
+                        <img class="comite-img" src="@/assets/images/comite/seby.png">
+                    </div> 
                 </section>
             </div>
 
@@ -535,7 +563,7 @@ import FAQRow from '../components/FAQRow.vue';
     margin-top: 50px;
     position: absolute;
     width: 80%;
-    top: 0%;
+    top: 0%;    
     left: 10%;
     font-family: 'Montserrat';
 }
