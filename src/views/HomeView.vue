@@ -9,10 +9,6 @@ import FAQRow from '../components/FAQRow.vue';
 </script>
 
 <template>
-    <div class="rotate-phone">
-        <p>Veuillez tourner votre téléphone</p>
-        <img class="rotate-img" src="@/assets/images/utilitaries/rotate-phone.png">
-    </div>
     <div>
         <div class="home-screen">
             <div class="home-screen-bg"></div>
@@ -40,23 +36,6 @@ import FAQRow from '../components/FAQRow.vue';
                         </a>
                     </div>
                 </div>
-                <!-- <div class="sponsors-row">
-                    <div class="sponsor-el">
-                        <a href="https://www.l-dudu.ch/">
-                            <img src="@/assets/images/sponsors/L-DuDu-logo.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a href="https://www.visilab.ch/fr/">
-                            <img src="@/assets/images/sponsors/Visilab-couleur-logo.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a href="https://rivella.ch/fr/">
-                            <img src="@/assets/images/sponsors/Rivella-logo.svg">
-                        </a>
-                    </div>
-                </div> -->
             </div>
             <Timer />
         </div>
@@ -546,35 +525,6 @@ import FAQRow from '../components/FAQRow.vue';
 </template>
 
 <style scoped>
-.rotate-phone{
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--black);
-    z-index: 1000;
-}
-.rotate-phone p{
-    color: var(--white);
-    font-size: 10vh;
-    text-align: center;
-    margin-top: 50px;
-    position: absolute;
-    width: 80%;
-    top: 0%;    
-    left: 10%;
-    font-family: 'Montserrat';
-}
-
-.rotate-phone img{
-    height: 30%;
-    position: absolute;
-    top: 50%;
-    left: calc(50% - 15vh);
-    background-color: black;
-}
 
 .button-section {
     width: 100%;
