@@ -81,6 +81,7 @@ function startTimer() {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .decompteNumber {
@@ -173,6 +174,7 @@ function startTimer() {
         width: 100%;
         justify-content: center;
         position: relative;
+        margin-bottom: 10px;
     }
 
     .decompteNumber {
