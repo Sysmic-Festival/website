@@ -12,9 +12,11 @@
             <p class="mailContact">
               <a href="mailto:webmaster@sysmic.ch">webmaster@sysmic.ch</a>  
             </p>
-            <a class="infomaniakFooter" target="_BLANK" href="https://www.infomaniak.com/fr" >
-              <img class = img-responsive src="@/assets/images/sponsors/infomaniak-sa-footer.png" />
-            </a>
+            <p class="infomaniakFooter">
+              <a target="_BLANK" href="https://www.infomaniak.com/fr" >
+                <img class = img-responsive src="@/assets/images/sponsors/infomaniak-sa-footer.png" />
+              </a>
+            </p>
           </div>  
 
           <div class="footerSocial">
@@ -122,19 +124,13 @@
           margin-right: 10px;
         }
 
-        footer img{
-          height: 50px;
-          width: 50px;
-          margin: 10px;
-        }
-
         footer path{
           transition: fill, 0.4s
         }
         .infomaniakFooter img{
-          height: 40px;
-          width: 170px;
-          transform:translateX(2vw) translateY(-2vw);
+          height: 100%;
+          width: auto;
+          margin-left: 30px;
         }
         .flexFooter{
           display:flex;
@@ -225,6 +221,13 @@
         .mailContact{
           text-align: center;
           margin-left: 30px;
+        }
+
+        .infomaniakFooter a{
+          margin-right: 0 !important;
+          margin-left: 0 !important;
+          display : flex;
+          justify-content: center;
         }
 
       }
