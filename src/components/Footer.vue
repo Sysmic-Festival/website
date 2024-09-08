@@ -124,12 +124,6 @@
           margin-right: 10px;
         }
 
-        footer img{
-          height: 50px;
-          width: 50px;
-          margin: 10px;
-        }
-
         footer path{
           transition: fill, 0.4s
         }
