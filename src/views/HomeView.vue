@@ -342,7 +342,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Clémence Tirot</h4>
                         <p>Trésorier</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                 </section>
             </div>
@@ -360,7 +360,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Noé Mazzarini</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Asmaa Hilmani</h4>
@@ -385,12 +385,12 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Téodore Allegre</h4>
                         <p>Technique de scène</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Pauline Fenard</h4>
                         <p>RH</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                 </section>
             </div>
@@ -412,7 +412,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Ryuji Kawakami</h4>
                         <p>Graphisme</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Talia Meyer</h4>
@@ -422,7 +422,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Anouck Fazio</h4>
                         <p>Prévention/Durabilité</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                 </section>
             </div>
@@ -435,12 +435,12 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Hector Mir</h4>
                         <p>Bar</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Salomé Grouzinoff</h4>
                         <p>Bar</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Tota Taieb</h4>
@@ -450,7 +450,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Maï Walser</h4>
                         <p>Programmation/Loges</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
 
                     <div class="comite-member">
@@ -461,7 +461,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Mayra Mallet</h4>
                         <p>Catering</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Romain Dufour</h4>
@@ -489,7 +489,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Jérémie Lafond de Lormel</h4>
                         <p>Sponsoring</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                 </section>
             </div>

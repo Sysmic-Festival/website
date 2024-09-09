@@ -39,12 +39,11 @@
       <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
-      <img class="layer"  src="@/assets/images/utilitaries/SI_sysmic.gif/"/>
-    <!-- </div> -->
+      <img class="layer"  src="@/assets/images/utilitaries/new-logo.svg"/>
     <div class="titleBox">
       <h1>SYSMIC<br>FESTIVAL</h1>
       <div id="title-date">
-        <h2>20.10.23</h2>
+        <h2>1.11.24</h2>
       </div>
     </div>
   </section>
@@ -69,6 +68,7 @@ h1, h2 {
 }
 .layer{
   position: absolute;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg) brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
   height: 23vw;
