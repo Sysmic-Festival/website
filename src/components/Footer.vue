@@ -156,7 +156,8 @@
           margin: 10px;
           color: var(--white);
           width:100% !important;
-          position: relative;
+          display: flex;
+          justify-content: center;
         }
 
         .copyright:hover{
