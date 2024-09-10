@@ -2,17 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sysmic</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sysmic</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/index.js"></script>
+    <script>
+      function updateFavicon(color) {
+        const svgIcon = `
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.01 218.62">
+            <g id="Calque_1-2" data-name="Calque 1">
+              <path fill="${color}" d="m153.71,108.12l88.29-31.24-82.9,14.57c-5.55.98-11.17-1.31-14.45-5.89L83.23,0l36.49,136.14-14.63-20.38c-3.8-5.3-10.65-7.45-16.8-5.27L0,141.73l82.9-14.57c5.55-.98,11.17,1.31,14.45,5.89l61.42,85.57-36.49-136.14,14.63,20.38c3.8,5.3,10.65,7.45,16.8,5.27Z"/>
+            </g>
+          </svg>
+        `;
+        
+        const blob = new Blob([svgIcon], { type: 'image/svg+xml' });
+        const url = URL.createObjectURL(blob);
+
+        const favicon = document.querySelector('link[rel="icon"]');
+        if (favicon) {
+          favicon.href = url;
+        } else {
+          const link = document.createElement('link');
+          link.rel = 'icon';
+          link.href = url;
+          document.head.appendChild(link);
+        }
+      }
+
+      function applyFaviconBasedOnMode() {
+        const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const color = darkMode ? 'white' : 'black';
+        updateFavicon(color);
+      }
+
+      // Apply on page load
+      applyFaviconBasedOnMode();
+
+      // Listen for theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyFaviconBasedOnMode);
+    </script>
   </body>
 </html>
