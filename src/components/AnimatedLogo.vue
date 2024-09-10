@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 .invaderSection {
-  z-index: 100;
+  z-index: 1;
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ h1, h2 {
   justify-content: center;
   align-items: end;
   margin-top: 30px;
-  z-index: 100;
+  z-index: 1;
 }
 
 #title-date{
