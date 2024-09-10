@@ -41,7 +41,7 @@
 
         </div>
         <div class="copyright">
-          <p>© Sysmic 2023</p>
+          <p>© Sysmic 2024</p>
         </div>    
 
       </footer>
@@ -153,10 +153,10 @@
 
         .copyright{
           font-size: 12pt;
-          margin: 10px;
           color: var(--white);
           width:100% !important;
-          position: relative;
+          display: flex;
+          justify-content: center;
         }
 
         .copyright:hover{
