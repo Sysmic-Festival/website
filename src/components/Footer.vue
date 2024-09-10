@@ -153,7 +153,6 @@
 
         .copyright{
           font-size: 12pt;
-          margin: 10px;
           color: var(--white);
           width:100% !important;
           display: flex;
