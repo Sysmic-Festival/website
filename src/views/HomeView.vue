@@ -383,7 +383,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/ella.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Téodore Allegre</h4>
+                        <h4>Théodore Allegre</h4>
                         <p>Technique de scène</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
