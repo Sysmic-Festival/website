@@ -258,7 +258,7 @@ import FAQRow from '../components/FAQRow.vue';
                 </div>
             </section>
         <section class="button-section" >
-            <a href="https://sysmic.ch/dossier_sponso_sysmic_2024.pdf" target="_blank">
+            <a href="https://sysmic.ch/dossier_sponso_sysmic_2024" target="_blank">
                 <button class="main-page-button">Dossier Sponsoring →</button>
             </a>
         </section>
@@ -383,7 +383,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/ella.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Téodore Allegre</h4>
+                        <h4>Théodore Allegre</h4>
                         <p>Technique de scène</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>

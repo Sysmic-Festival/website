@@ -113,9 +113,6 @@ h1, h2 {
   z-index: 1;
 }
 
-#title-date{
-  transform: translateY(-30px);
-}
 
 .titleBox > h1{
   font-size: calc(60pt + 2vw);
@@ -184,7 +181,6 @@ h1, h2 {
     font-size: 15pt;
     position:relative;
     right:0px;
-    top: -20px;
   }
 
   #title-date{
