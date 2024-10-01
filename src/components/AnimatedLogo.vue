@@ -198,7 +198,6 @@ h1, h2 {
 
 @media only screen and (max-width: 450px){
   .layer{
-  left: calc(50% - 30.1vw);
   height: 45vw;
   }
 
