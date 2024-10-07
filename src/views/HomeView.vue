@@ -238,22 +238,40 @@ import FAQRow from '../components/FAQRow.vue';
                 </div>
                 <div style="margin-top: 70px">
                     <a target="_BLANK" href="https://tes-transports.ch/">
-                        <img id="tes" style="transform:translateX(10vw)" src="@/assets/images/sponsors/logo_tes.png">
+                        <img id="tes" src="@/assets/images/sponsors/logo_tes.png">
                     </a>
                 </div>
-                <div>
+                <div style="margin-top: 70px">
                     <a target="_BLANK" href="https://www.tobler-ag.com/fr/">
-                        <img id="tobler" style="transform: scale(1.25) translateX(15vw) translateY(2vw);" src="@/assets/images/sponsors/logo_tobler.svg">
+                        <img id="tobler" src="@/assets/images/sponsors/logo_tobler.svg">
                     </a>
                 </div>
-                
             </section>
             <h1 class="h1-third-background">Sponsors 2024</h1>
             <section class="sponsors-line">
-                <div id="infomaniakk">
+                <div>
                     <a target="_BLANK" href="https://infomaniak.events/fr-ch">
-                        <img id="infomaniak" style="transform:translateX(23vw);" src="@/assets/images/sponsors/infomaniak-sa.png">
-                        <p></p>
+                        <img src="@/assets/images/sponsors/infomaniak-sa.png">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
+                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://www.enzo-location.ch/">
+                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/enzoloc.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://www.makita.fr/">
+                        <img id="makita" style="transform: scale(0.6);" src="@/assets/images/sponsors/makita.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://www.ypsomed.com/en/">
+                        <img style="transform: scale(1.4);" src="@/assets/images/sponsors/ypsomed.png">
                     </a>
                 </div>
             </section>
@@ -861,6 +879,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: space-evenly;
     width: 66%;
     padding: 0;
 
@@ -914,7 +933,7 @@ span {
     width: 20vw;
 }
 #tobler{
-    width: 20vw;
+    width: 30vw;
 }
 
 #ceaaa p{
@@ -1127,7 +1146,6 @@ span {
 
     .sponsor-el {
         width: 40vw;
-        transform: scale(1);
     }
 }
 
@@ -1180,8 +1198,6 @@ span {
     }
     #tobler{
         width: 30vw;
-        position: relative;
-        left: -15vw;
     }
 
     .line-up-zone{
