@@ -20,19 +20,24 @@ import FAQRow from '../components/FAQRow.vue';
                             <img src="@/assets/images/sponsors/makita.jpg">
                         </a>
                     </div>
-                    <div class="sponsor-el">
-                        <a href="https://rivella.ch/fr/">
-                            <img src="@/assets/images/sponsors/Rivella-logo.svg">
-                        </a>
-                    </div>
                     <div class="sponsor-el" id="agep">
                         <a href="https://agepoly.ch/en/">
                             <img src="@/assets/images/sponsors/AGEPoly.svg">
                         </a>
                     </div>
                     <div class="sponsor-el">
-                        <a href="https://www.ceanet.ch/">
-                            <img style="transform: scale(1.25);" src="@/assets/images/sponsors/CEA.jpg">
+                        <a target="_BLANK" href="https://www.enzo-location.ch/">
+                            <img src="@/assets/images/sponsors/enzoloc.jpg">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a target="_BLANK" href="https://www.ypsomed.com/en/">
+                            <img src="@/assets/images/sponsors/ypsomed.png">
+                        </a>
+                    </div>
+                    <div class="sponsor-el">
+                        <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
+                            <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
                         </a>
                     </div>
                 </div>
@@ -40,61 +45,61 @@ import FAQRow from '../components/FAQRow.vue';
             <Timer />
         </div>
         <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up 2023</h1>
+            <h1 class="h1-third-background" id="line-up-title">Line-up 2024</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Rabbit Hole</h2>
-                <div class="line-up-box-1" id="rabbit">
+                <h2 class="line-up-stagename">Mainstage</h2>
+                <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
-                        <div class="line-up-time">20H30</div>
-                        <div class="line-up-name">SugarDaddy + Spirit</div>
+                        <div class="line-up-time">22h</div>
+                        <div class="line-up-name">Parsimony</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">22h15</div>
-                        <div class="line-up-name">Choking On A Candy</div>
+                        <div class="line-up-time">23h30</div>
+                        <div class="line-up-name">Sheng</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">00H00</div>
-                        <div class="line-up-name">Shaim</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">01H30</div>
-                        <div class="line-up-name">SM:LY</div>
+                        <div class="line-up-time">1h30</div>
+                        <div class="line-up-name">Le Bard</div>
                     </div>
                 </div>
                 <h2 class="line-up-stagename">Jardin Secret</h2>
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
-                        <div class="line-up-time">22H00</div>
-                        <div class="line-up-name">I Bredda Sound System</div>
+                        <div class="line-up-time">20h30</div>
+                        <div class="line-up-name">Domb Sound System</div>
                     </div>
                 </div>
             </div>
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Wonderscène</h2>
+                <h2 class="line-up-stagename">Petite Scène</h2>
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
-                        <div class="line-up-time">21H15</div>
-                        <div class="line-up-name">Ray Mason Abe</div>
+                        <div class="line-up-time">20h30</div>
+                        <div class="line-up-name">Tree House</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">22H15</div>
-                        <div class="line-up-name">Yakary</div>
+                        <div class="line-up-time">22H45</div>
+                        <div class="line-up-name">Lake OUAAHH</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">23H30</div>
-                        <div class="line-up-name">Garage Act</div>
+                        <div class="line-up-time">23h45</div>
+                        <div class="line-up-name">NEUN's</div>
                     </div>
                     <div class="line-up-artist">
-                        <div class="line-up-time">00H30</div>
-                        <div class="line-up-name">Korkki</div>
+                        <div class="line-up-time">1h00</div>
+                        <div class="line-up-name">Yenkov</div>
                     </div>
                 </div>
                 <h2 class="line-up-stagename">Scène FB</h2>
-                <div class="line-up-box-1" id="jardin2">
+                <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
-                        <div class="line-up-time">22H00</div>
+                        <div class="line-up-time">20h30</div>
                         <div class="line-up-name">Fréquence Banane</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">00h30</div>
+                        <div class="line-up-name">Dina MDN</div>
                     </div>
                 </div>
             </div>
@@ -272,6 +277,11 @@ import FAQRow from '../components/FAQRow.vue';
                 <div>
                     <a target="_BLANK" href="https://www.ypsomed.com/en/">
                         <img style="transform: scale(1.4);" src="@/assets/images/sponsors/ypsomed.png">
+                    </a>
+                </div>
+                <div>
+                    <a target="_BLANK" href="https://agepoly.ch/">
+                        <img id="agepo" src="@/assets/images/sponsors/AGEPoly.svg">
                     </a>
                 </div>
             </section>
@@ -723,7 +733,7 @@ span {
 }
 
 #jardin, #jardin2{
-    height: 30%;
+    height: 60%;
 }
 
 .line-up-time{
@@ -867,7 +877,7 @@ span {
     justify-content: space-evenly;
     position: absolute;
     top: calc(5vw + 42vh);
-    left: 27%;
+    left: 20%;
     height: 8%;
     z-index: 101;
     max-width: 70%;
@@ -1174,10 +1184,10 @@ span {
     }
 
     .sponsors-bar{
-        width: 70%;
+        width: 100%;
         position: absolute;
         top: 65vh;
-        left: 15%;
+        left: 10%;
     }
     #ef{
         width: 40vw;
