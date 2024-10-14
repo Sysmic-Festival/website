@@ -75,18 +75,19 @@ import FAQRow from '../components/FAQRow.vue';
         <h2 id="micros">Pour les micros</h2> 
 
         <FAQRow title="Comment se déroule la soirée avec une prélocation pour microtechnicien?">
-          18:00 - Début de l'apéritif en CM 1 120 <br> 19:00 - Début du
-          repas à l'Alpine
-           <br> 21:00 - Spectacle en CE6 <br> 21:45 -
-          Entrée dans le festival 🎉
+          18:00 - Apéro dinatoire avec tes profs préférés (n'oublie pas ta camipro) <br> 19h30 - Direction CE6 pour le spectacle le plus culte de ta section
+           <br> 20h - Début du spectacle <br> 21h - Fin du spectacle et direction le festival 🎉
           
         </FAQRow>
 
         <FAQRow title="Quelles sont les horaires de ventes pour microtechnicien?">
-         Dernières ventes, toutes années confondues : jeudi 12 dès 14h devant le Négoce.
+          BA1 : Mercredi 16 à 14h devant le CE16<br>
+          BA3 : Jeudi 17 à 16h devant le CO1<br>
+          BA5 : Vendredi 18 à 12h devant le CM13<br>
+          Masters & retardataires : Vendredi 18 à 14h devant le local Sysmic CM0118
          <br><br>
-         Prix: 30.- <br>
-         Payement par cash, camipro ou carte, camipro obligatoire lors du règlement. Une personne peut prendre une place pour une autre en nous communiquant sont sciper et en payant pour elle.
+         Prix: 23.- <br>
+         Payement par cash ou camipro, camipro obligatoire lors du règlement.
         </FAQRow>
 
         <hr>
