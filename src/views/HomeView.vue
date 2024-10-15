@@ -207,51 +207,6 @@ import FAQRow from '../components/FAQRow.vue';
 
 
         <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Sponsors 2023</h1>
-            <section class="sponsors-line">
-                <div>
-                    <a target="_BLANK" href="https://www.makita.fr/">
-                        <img id="makita" src="@/assets/images/sponsors/makita.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://agepoly.ch/">
-                        <img id="agepo" src="@/assets/images/sponsors/AGEPoly.svg">
-                    </a>
-                </div>
-                <div id="ceaaa">
-                    <a target="_BLANK" href="https://www.ceanet.ch/">
-                        <img id="cea" src="@/assets/images/sponsors/CEA.jpg">
-                    </a>
-                    <p>Pas besoin de connaître la formule des intérêts composés pour profiter de nos taux d'épargne.</p>
-                </div>
-                <div style="margin-top: 70px">
-                    <a target="_BLANK" href="https://rivella.ch/fr/">
-                        <img style="transform: scale(0.7);" src="@/assets/images/sponsors/Rivella-logo.svg">
-                    </a>
-                </div>
-                <div id="efff" style="margin-top: 70px">
-                    <a target="_BLANK" href="https://www.ef.fr/">
-                        <img id="ef" src="@/assets/images/sponsors/ef-education.svg">
-                    </a>
-                    <p>EF organise votre séjour linguistique et vous offre des programmes académiques pour apprendre 12 langues et étudier à l'étranger dans 54 destinations</p>
-                </div>
-                <div style="margin-top: 70px">
-                    <a target="_BLANK" href="https://frutiger.com/fr/">
-                        <img style="transform: scale(0.7);" src="@/assets/images/sponsors/Logo_Frutiger.png">
-                    </a>
-                </div>
-                <div style="margin-top: 70px">
-                    <a target="_BLANK" href="https://tes-transports.ch/">
-                        <img id="tes" src="@/assets/images/sponsors/logo_tes.png">
-                    </a>
-                </div>
-                <div style="margin-top: 70px">
-                    <a target="_BLANK" href="https://www.tobler-ag.com/fr/">
-                        <img id="tobler" src="@/assets/images/sponsors/logo_tobler.svg">
-                    </a>
-                </div>
-            </section>
             <h1 class="h1-third-background">Sponsors 2024</h1>
             <section class="sponsors-line">
                 <div>
