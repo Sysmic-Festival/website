@@ -67,7 +67,7 @@ import FAQRow from '../components/FAQRow.vue';
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
                         <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Domb Sound System</div>
+                        <div class="line-up-name">Domb Vibration Sound System</div>
                     </div>
                 </div>
             </div>
@@ -114,14 +114,14 @@ import FAQRow from '../components/FAQRow.vue';
         </div>
 
         <div id="infos" class="infos">
-            <h1 class="h1-primary-background">Infos Pratiques 2023</h1>
+            <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
             <div id="infos-container" class="container">
                 <section style="">
                     <h2 class="h2-primary-background">Billeterie</h2>
                     <p  >
                         Billet: <span class="higlight-text">15CHF</span>
                         <br><br>
-                        Vente du <span class="higlight-text">17 au 18 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
+                        Vente du <span class="higlight-text">29 au 30 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
                         <br>
                         Paiement en Camipro ou en cash
                         <br><br>
@@ -132,7 +132,7 @@ import FAQRow from '../components/FAQRow.vue';
                 <section style="">
                     <h2 class="h2-primary-background">Date</h2>
                     <p>
-                        <span class="higlight-text">20 octobre 2023</span>
+                        <span class="higlight-text">1 novembre 2024</span>
                          <br><br>
                         Début: <span class="higlight-text">20h</span>
                         <br>
@@ -158,10 +158,10 @@ import FAQRow from '../components/FAQRow.vue';
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
             Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
-            Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
+            Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
             <br>
-            Les navettes desserviront les arrêts :<br>
-            UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde, Planta, Chavannes-R, Glycine, Renens Gare Sud, Chêne, Rue du lac, Longemalle, Malley nord, Galicien, Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon.
+            Les navettes desserviront :<br>
+            Renens, Malley, le Flon.
         </FAQRow>
         
         <FAQRow title="Les sacs sont-ils autorisés ?">
@@ -170,7 +170,7 @@ import FAQRow from '../components/FAQRow.vue';
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-            Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, de 12:00 à 13:15, le mardi et mercredi.
+            Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, à 12:00, le mardi et mercredi.
         </FAQRow>
             </section>
             <section class="button-section">

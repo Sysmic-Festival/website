@@ -27,11 +27,10 @@ import FAQRow from '../components/FAQRow.vue';
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
           Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
-            Elles partiront à 01:15, 02:15 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
+            Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
             <br>
-            Les navettes desserviront les arrêts :<br>
-            UNIL-Sorge, Mouline, Berges, Chavannes-R, Plaine, Chavannes-R, Cèdres, Concorde, Planta, Chavannes-R, Glycine, 
-            Renens Gare Sud, Chêne, Rue du lac, Longemalle, Malley nord, Galicien, Prélaz Les Rose, Couchirad, EPSIC, Port-Franc, Lausanne-Flon.
+            Les navettes desserviront :<br>
+            Renens, Malley, le Flon.
         </FAQRow>
         
         <FAQRow title="Les sacs sont-ils autorisés ?">
@@ -40,8 +39,7 @@ import FAQRow from '../components/FAQRow.vue';
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, 
-          de 12:00 à 13:15, le mardi et mercredi.
+          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, à 12:00, le mardi et mercredi.
         </FAQRow>
 
         <FAQRow title="Puis-je venir au festival sans prélocation?">
