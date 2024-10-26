@@ -48,7 +48,7 @@ import FAQRow from '../components/FAQRow.vue';
             <h1 class="h1-third-background" id="line-up-title">Line-up 2024</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Mainstage</h2>
+                <h2 class="line-up-stagename">Scène Blu-Ray</h2>
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
                         <div class="line-up-time">22h</div>
@@ -63,7 +63,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <div class="line-up-name">Le Bard</div>
                     </div>
                 </div>
-                <h2 class="line-up-stagename">Jardin Secret</h2>
+                <h2 class="line-up-stagename">Scène Scratch</h2>
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
                         <div class="line-up-time">20h30</div>
@@ -72,7 +72,7 @@ import FAQRow from '../components/FAQRow.vue';
                 </div>
             </div>
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Petite Scène</h2>
+                <h2 class="line-up-stagename">Scène Platine</h2>
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
                         <div class="line-up-time">20h30</div>
@@ -80,7 +80,7 @@ import FAQRow from '../components/FAQRow.vue';
                     </div>
                     <div class="line-up-artist">
                         <div class="line-up-time">22H45</div>
-                        <div class="line-up-name">Lake OUAAHH</div>
+                        <div class="line-up-name">Lake &  OUAAAHH</div>
                     </div>
                     <div class="line-up-artist">
                         <div class="line-up-time">23h45</div>
@@ -91,7 +91,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <div class="line-up-name">Yenkov</div>
                     </div>
                 </div>
-                <h2 class="line-up-stagename">Scène FB</h2>
+                <h2 class="line-up-stagename">Scène Jukebox</h2>
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
                         <div class="line-up-time">20h30</div>
@@ -104,6 +104,9 @@ import FAQRow from '../components/FAQRow.vue';
                 </div>
             </div>
         </div>
+        <section class="button-section">
+                <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
+            </section>
     </div>
         <!-- <div id="line-up" class="line-up">
             <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
