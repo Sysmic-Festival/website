@@ -361,7 +361,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <div class="comite-member">
                         <h4>Lucie Romer</h4>
                         <p>Décoration</p>
-                        <img class="comite-img" src="@/assets/images/comite/lucie.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/lucie.jpeg">
                     </div>
                     <div class="comite-member">
                         <h4>Ella Neike</h4>
