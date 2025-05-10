@@ -385,7 +385,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Matej Soumillon</h4>
+                        <h4>Matej Soumillion</h4>
                         <p>Sécurité</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
@@ -457,7 +457,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <img class="comite-img" src="@/assets/images/comite/absent.png">
                 </div>
                 <div class="comite-member">
-                    <h4>(Ben)</h4>
+                    <h4><i>Poste à pourvoir !</i></h4>
                     <p>Spectacle</p>
                     <img class="comite-img" src="@/assets/images/comite/absent.png">
                 </div>
@@ -482,12 +482,12 @@ import FAQRow from '../components/FAQRow.vue';
                     </div>
                     <div class="comite-member">
                         <h4>Olivia Robles</h4>
-                        <p>Programmation/Loges</p>
+                        <p>Programmation</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
                         <h4>Marc Simon</h4>
-                        <p>Programmation/Loges</p>
+                        <p>Programmation</p>
                         <img class="comite-img" src="@/assets/images/comite/marc.jpg">
                     </div>
 
