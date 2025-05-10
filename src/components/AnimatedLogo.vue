@@ -41,9 +41,9 @@
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
       <img class="layer"  src="@/assets/images/utilitaries/new-logo.svg"/>
     <div class="titleBox">
-      <h1>SYSMIC<br>FESTIVAL</h1>
+      <h1>SYSMIC</h1>
       <div id="title-date">
-        <h2>1.11.24</h2>
+        <h2>MSYS 8.4.2025</h2>
       </div>
     </div>
   </section>

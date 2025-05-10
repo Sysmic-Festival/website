@@ -13,7 +13,7 @@ import FAQRow from '../components/FAQRow.vue';
         <div class="home-screen">
             <div class="home-screen-bg"></div>
             <AnimatedLogo id="Logo"/>
-            <div class="sponsors-bar">
+            <!-- <div class="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
                         <a href="https://www.makita.fr/">
@@ -41,37 +41,82 @@ import FAQRow from '../components/FAQRow.vue';
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <Timer />
         </div>
+        <div id="magsys" class="magsys">
+            <h1 class="h1-primary-background"><br>MSYS 2025</h1>
+            <div id="infos-container" class="container">
+                <section style="">
+                    <h2 class="h2-primary-background">Billetterie </h2>
+                    <p  >
+                        Achat sur la billetterie en ligne : <span class="higlight-text">CHF 9</span>
+                        <br><br>
+                        Vente sur place le soir même : <span class="higlight-text">CHF 15</span>
+                        <br><br>
+                        Ouverture de la billetterie en ligne : <span class= "higlight-text"> 31 mars 2025</span> à <span class="higlight-text">12:00</span>.
+                        <br><br>
+                        Paiement en carte de crédit/débit ou Twint.
+                    </p>
+                    <div class="billetterie-button">
+                        <button class="main-page-button" onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4';" >ACHETER UN BILLET</button>
+                    </div>
+                </section>
+                <hr class="info-section-hr" id="date-hr">
+                <section style="">
+                    <h2 class="h2-primary-background">Date</h2>
+                    <p>
+                        <span class="higlight-text">8 avril 2025</span>
+                         <br><br>
+                        Horaires : <span class="higlight-text">22:30 - 5:00</span>
+                        <br><br>
+                        Lieu : <span class="higlight-text">D! Club</span> <br>Place centrale 1<br>1001 Lausanne
+                    </p>
+                </section>
+            </div>
+
+            <div class="slider">
+                <div class="slide">
+                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                </div>
+            </div>
+        </div>
         <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up 2024</h1>
+            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
-                <h2 class="line-up-stagename">Scène Blu-Ray</h2>
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22h</div>
-                        <div class="line-up-name">Parsimony</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">23h30</div>
-                        <div class="line-up-name">Sheng</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1h30</div>
-                        <div class="line-up-name">Le Bard</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Scène Scratch</h2>
+                <!-- <h2 class="line-up-stagename">Breakdance</h2>
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Domb Vibration Sound System</div>
+                        <div class="line-up-time">22:30</div>
+                        <div class="line-up-name">blabla</div>
+                    </div>
+                </div> -->
+                <!-- <h2 class="line-up-stagename">Magnitude SYS</h2> -->
+                <div class="line-up-box-1" id="wonder">
+                    <div class="line-up-artist">
+                        <div class="line-up-time">22:30</div>
+                        <div class="line-up-name">Breakdance Show</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">0:00</div>
+                        <div class="line-up-name">DJ Rys</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">1:00</div>
+                        <div class="line-up-name">Collectif 52</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">3:00</div>
+                        <div class="line-up-name">Lunar Impact b2b Two minds</div>
+                    </div>
+                    <div class="line-up-artist">
+                        <div class="line-up-time">4:00</div>
+                        <div class="line-up-name">Contraste</div>
                     </div>
                 </div>
             </div>
-            <div class="line-up-container">
+            <!-- <div class="line-up-container">
                 <h2 class="line-up-stagename">Scène Platine</h2>
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
@@ -102,21 +147,19 @@ import FAQRow from '../components/FAQRow.vue';
                         <div class="line-up-name">Dina MDN</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <section class="button-section">
-                <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
-            </section>
+        <!-- <section class="button-section">
+            <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
+        </section> -->
     </div>
-        <!-- <div id="line-up" class="line-up">
-            <img class="img-responsive" src="@/assets/images/utilitaries/line-up.png" />
-        </div> -->
+
 
         <div class="photo-gallery">
             <Slideshow />
         </div>
 
-        <div id="infos" class="infos">
+        <!-- <div id="infos" class="infos">
             <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
             <div id="infos-container" class="container">
                 <section style="">
@@ -181,7 +224,7 @@ import FAQRow from '../components/FAQRow.vue';
                     <button class="main-page-button">FAQ →</button>
                 </router-link>
             </section>
-            <!-- <hr class="comite-section-hr"> -->
+            <hr class="comite-section-hr">
             <div class="slider">
                 <div class="slide">
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
@@ -206,10 +249,9 @@ import FAQRow from '../components/FAQRow.vue';
             <section class="button-section">
                 <a class="main-page-button" href="/images/plan_interieur.png" target="_blank">Plan du Festival →</a>
             </section>
-        </div>
+        </div> -->
 
-
-        <div id="sponsors" class="sponsors">
+        <!-- <div id="sponsors" class="sponsors">
             <h1 class="h1-third-background">Sponsors 2024</h1>
             <section class="sponsors-line">
                 <div>
@@ -248,7 +290,7 @@ import FAQRow from '../components/FAQRow.vue';
                 <button class="main-page-button">Dossier Sponsoring →</button>
             </a>
         </section>
-        </div>
+        </div> -->
 
         <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -266,7 +308,7 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container container-vertical-phone">
                 <section style="flex:1 ; padding-top:0">
                     <p>
-                        Sysmic est constitué d’un comité de 26 personnes de toutes années et sections confondues. 
+                        Sysmic est constitué d’un comité de 28 personnes de toutes années et sections confondues. 
                         Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
                         Originellement, l’association est dédiée à la section de Microtechnique pour laquelle nous organisons,
@@ -296,39 +338,38 @@ import FAQRow from '../components/FAQRow.vue';
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
                 </div>
             </div>
-            <h1 class="h1-primary-background comite-title">Comité 2024</h1>
-
+            <h1 class="h1-primary-background comite-title">Comité 2025</h1>
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Anton Schenkel</h4>
+                        <h4>Mathieu Bénard</h4>
                         <p>Président</p>
-                        <img class="comite-img" src="@/assets/images/comite/anton.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/xxmatbenxx.png">
                     </div>
                 </section>
             </div>
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Maxime Teuber</h4>
-                        <p>VP Communication</p>
-                        <img class="comite-img" src="@/assets/images/comite/maxou.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Ghali Laraki</h4>
+                        <h4>Roman Paccaud</h4>
                         <p>VP Logistique</p>
-                        <img class="comite-img" src="@/assets/images/comite/ghali.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Hadrien Canches</h4>
+                        <h4>Talia Meyer</h4>
+                        <p>VP Communication</p>
+                        <img class="comite-img" src="@/assets/images/comite/talia.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Salomé Grouzinoff</h4>
                         <p>VP Animation</p>
-                        <img class="comite-img" src="@/assets/images/comite/hadrien.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/salome.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Clémence Tirot</h4>
+                        <h4>Hector Mir</h4>
                         <p>Trésorier</p>
-                        <img class="comite-img" src="@/assets/images/comite/clemence.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/hector.jpg">
                     </div>
                 </section>
             </div>
@@ -339,42 +380,42 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Robin Ben Shem</h4>
+                        <h4>Sophie Beuret</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/robin.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Noé Mazzarini</h4>
+                        <h4>Matej Soumillon</h4>
                         <p>Sécurité</p>
-                        <img class="comite-img" src="@/assets/images/comite/noe.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Asmaa Hilmani</h4>
+                        <h4>Antoine Eisinger</h4>
                         <p>Matériel</p>
-                        <img class="comite-img" src="@/assets/images/comite/asmaa.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Mathieu Bénard</h4>
+                        <h4>Roman Ostrowski</h4>
                         <p>Élec/Light</p>
-                        <img class="comite-img" src="@/assets/images/comite/matthieu.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Lucie Romer</h4>
+                        <h4>Maria Kyramarios</h4>
                         <p>Décoration</p>
-                        <img class="comite-img" src="@/assets/images/comite/lucie.jpeg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Ella Neike</h4>
+                        <h4>May Dubuy</h4>
                         <p>Décoration</p>
-                        <img class="comite-img" src="@/assets/images/comite/ella.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Théodore Allegre</h4>
+                        <h4>Hadrien Canches</h4>
                         <p>Technique de scène</p>
-                        <img class="comite-img" src="@/assets/images/comite/theodore.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/hadrien.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Anas El Madhi</h4>
+                        <h4>Maxime Coeytaux</h4>
                         <p>RH</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
@@ -383,34 +424,45 @@ import FAQRow from '../components/FAQRow.vue';
 
             <hr class="comite-section-hr">
             <h2 class="h2-primary-background comite-title">Communication</h2>
+
             <div class="container-comite">
-                <section class="comite-line">
-                    <div class="comite-member">
-                        <h4>Noam Levy</h4>
-                        <p>Spectacle</p>
-                        <img class="comite-img" src="@/assets/images/comite/noam.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Emile Cornamusaz</h4>
-                        <p>IT/Webmaster</p>
-                        <img class="comite-img" src="@/assets/images/comite/mimile.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Ryuji Kawakami</h4>
-                        <p>Graphisme</p>
-                        <img class="comite-img" src="@/assets/images/comite/absent.png">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Talia Meyer</h4>
-                        <p>Community Manager</p>
-                        <img class="comite-img" src="@/assets/images/comite/talia.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Anouck Fazio</h4>
-                        <p>Prévention/Durabilité</p>
-                        <img class="comite-img" src="@/assets/images/comite/anouck.jpg">
-                    </div>
-                </section>
+            <section class="comite-line">
+                <div class="comite-member">
+                    <h4>Noam Lévy</h4>
+                    <p>Community Manager</p>
+                    <img class="comite-img" src="@/assets/images/comite/noam.jpg">
+                </div>
+                <div class="comite-member">
+                    <h4>Romain Klein</h4>
+                    <p>Vidéaste</p>
+                    <img class="comite-img" src="@/assets/images/comite/absent.png">
+                </div>
+                <div class="comite-member">
+                    <h4>Léa Mahfouf</h4>
+                    <p>Graphisme</p>
+                    <img class="comite-img" src="@/assets/images/comite/absent.png">
+                </div>
+            </section>
+            </div>
+            <div class="container-comite">
+            <section class="comite-line">
+                <div class="comite-member">
+                    <h4>Daniel Krief</h4>
+                    <p>IT/Webmaster</p>
+                    <img class="comite-img" src="@/assets/images/comite/absent.png">
+                </div>
+                <div class="comite-member">
+                    <h4>Ulysse Zbinden</h4>
+                    <p>Prévention/Durabilité</p>
+                    <img class="comite-img" src="@/assets/images/comite/absent.png">
+                </div>
+                <div class="comite-member">
+                    <h4>(Ben)</h4>
+                    <p>Spectacle</p>
+                    <img class="comite-img" src="@/assets/images/comite/absent.png">
+                </div>
+                
+            </section>
             </div>
 
             <hr class="comite-section-hr">
@@ -419,40 +471,45 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Hector Mir et Salomé Grouzinoff</h4>
+                        <h4>Grégoire Gimenez</h4>
                         <p>Bar</p>
-                        <img class="comite-img" src="@/assets/images/comite/hectoretsalome.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Tota Taieb</h4>
-                        <p>Programmation/Loges</p>
-                        <img class="comite-img" src="@/assets/images/comite/tota.jpg">
+                        <h4>Alexis Zuber</h4>
+                        <p>Bar</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Maï Walser</h4>
+                        <h4>Olivia Robles</h4>
                         <p>Programmation/Loges</p>
-                        <img class="comite-img" src="@/assets/images/comite/mai.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Marc Simon</h4>
+                        <p>Programmation/Loges</p>
+                        <img class="comite-img" src="@/assets/images/comite/marc.jpg">
                     </div>
 
                     <div class="comite-member">
-                        <h4>Marie Van Rossum</h4>
-                        <p>Catering</p>
-                        <img class="comite-img" src="@/assets/images/comite/marie.jpg">
-                    </div>
-                    <div class="comite-member">
-                        <h4>Mayra Mallet</h4>
+                        <h4>Dina Azoulay</h4>
                         <p>Catering</p>
                         <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Romain Dufour</h4>
-                        <p>Escape Game</p>
-                        <img class="comite-img" src="@/assets/images/comite/romain.jpg">
+                        <h4>Antoine Reynaud</h4>
+                        <p>Catering</p>
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Laura Amoury</h4>
+                        <h4>Marie van Rossum</h4>
                         <p>Escape Game</p>
-                        <img class="comite-img" src="@/assets/images/comite/laura.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/marie.jpg">
+                    </div>
+                    <div class="comite-member">
+                        <h4>Anouck Fazio</h4>
+                        <p>Escape Game</p>
+                        <img class="comite-img" src="@/assets/images/comite/anouck.jpg">
                     </div>
                 </section>
             </div>
@@ -463,22 +520,22 @@ import FAQRow from '../components/FAQRow.vue';
             <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Marc Simon</h4>
+                        <h4>Felix Elsässer</h4>
                         <p>Sponsoring</p>
-                        <img class="comite-img" src="@/assets/images/comite/marc.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                     <div class="comite-member">
-                        <h4>Jérémie Lafond de Lormel</h4>
+                        <h4>Marina Perez Barrera</h4>
                         <p>Sponsoring</p>
-                        <img class="comite-img" src="@/assets/images/comite/jerem.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/absent.png">
                     </div>
                 </section>
             </div>
 
-            <hr class="comite-section-hr">
-            <h2 class="h2-primary-background comite-title">Membres de soutien</h2>
+            <!-- <hr class="comite-section-hr"> -->
+            <!-- <h2 class="h2-primary-background comite-title">Membres de soutien</h2> -->
 
-            <div class="container-comite">
+            <!-- <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
                         <h4>Paloma Garcia Moron</h4>
@@ -501,7 +558,7 @@ import FAQRow from '../components/FAQRow.vue';
                         <img class="comite-img" src="@/assets/images/comite/seby.png">
                     </div> 
                 </section>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -614,7 +671,7 @@ span {
 }
 
 .line-up-zone {
-    width: 75%;
+    width: 150%;
     max-width: 1000px;
     height: 750px;
     margin-left: auto;
@@ -622,6 +679,7 @@ span {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .line-up-container {
@@ -878,8 +936,9 @@ span {
     transform: translateX(-60px);
 }
 #agep{
-    /* transform: translateX(10px); */
-}
+    transform: translateX(10px);
+} 
+
 #cea{
     transform: translateX(4vw) translateY(2vw) scale(1.3);
 }

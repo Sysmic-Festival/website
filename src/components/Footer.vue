@@ -20,15 +20,15 @@
           </div>  
 
           <div class="footerSocial">
-            <a target="_BLANK" href="https://www.facebook.com/sysmic2021/" >
+            <!-- <a target="_BLANK" href="https://www.facebook.com/sysmic2021/" >
               <img class = img-responsive src="@/assets/images/utilitaries/facebook.svg" />
-            </a>
+            </a> -->
             <a target="_BLANK" href="https://www.instagram.com/festival_sysmic/" >
               <img class = img-responsive src="@/assets/images/utilitaries/instagram.svg" />
             </a>
-            <a target="_BLANK" href="https://www.youtube.com/channel/UCRymRQ502yvvwe0nwhj1kIw" >
+            <!-- <a target="_BLANK" href="https://www.youtube.com/channel/UCRymRQ502yvvwe0nwhj1kIw" >
               <img class = img-responsive src="@/assets/images/utilitaries/youtube.svg" />
-            </a>
+            </a> -->
           </div>  
 
           <div class="footerPost">
@@ -41,7 +41,7 @@
 
         </div>
         <div class="copyright">
-          <p>© Sysmic 2024</p>
+          <p>© Sysmic 2025</p>
         </div>    
 
       </footer>
