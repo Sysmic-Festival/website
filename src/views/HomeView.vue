@@ -42,7 +42,7 @@ import FAQRow from '../components/FAQRow.vue';
                     </div>
                 </div>
             </div> -->
-            <Timer />
+            <!-- <Timer /> -->
         </div>
         <div id="magsys" class="magsys">
             <h1 class="h1-primary-background"><br>MSYS 2025</h1>
