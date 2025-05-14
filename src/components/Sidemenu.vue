@@ -34,12 +34,14 @@ router.beforeEach(() => {
           <div class="line"></div>
           <div class="line"></div>
         </label>
+        <router-link to="/#magsys">Magitude SYS</router-link>
+        <hr id="sidebar-links-hr">
         <router-link to="/#line-up">Line-up</router-link>
         <hr id="sidebar-links-hr">
-        <router-link to="/#infos">Infos</router-link>
+        <!-- <router-link to="/#infos">Infos</router-link>
         <hr id="sidebar-links-hr">
         <router-link to="/#sponsors">Sponsors</router-link>
-        <hr id="sidebar-links-hr">
+        <hr id="sidebar-links-hr"> -->
         <router-link to="/#association">Qui sommes-nous?</router-link>
         <hr id="sidebar-links-hr">
         <router-link to="/portfolio">Portfolio</router-link>

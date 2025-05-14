@@ -43,7 +43,7 @@
     <div class="titleBox">
       <h1>SYSMIC<br>FESTIVAL</h1>
       <div id="title-date">
-        <h2>1.11.24</h2>
+        <!-- <h2>Ton festival revient après l'été !</h2> -->
       </div>
     </div>
   </section>

@@ -6,7 +6,7 @@ onMounted(() => {
 
 /* TIMER */
 function startTimer() {
-    var goalDate = new Date(2024, 10, 1, 20, 0).getTime()
+    var goalDate = new Date(2025, 3, 8, 22, 30).getTime()
     var curDate = new Date().getTime()
 
     try {
@@ -81,7 +81,7 @@ function startTimer() {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .decompteNumber {
