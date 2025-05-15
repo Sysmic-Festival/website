@@ -22,6 +22,10 @@ const router = createRouter({
       component: () => import('../views/FAQView.vue')
     },
     {
+      path: '/portfolio/2024',
+      component: () => import('../components/portfolio_vues/2024.vue')
+    },
+    {
       path: '/portfolio/2023',
       component: () => import('../components/portfolio_vues/2023.vue')
     },
