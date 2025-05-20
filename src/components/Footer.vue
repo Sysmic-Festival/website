@@ -20,9 +20,9 @@
           </div>  
 
           <div class="footerSocial">
-            <!-- <a target="_BLANK" href="https://www.facebook.com/sysmic2021/" >
-              <img class = img-responsive src="@/assets/images/utilitaries/facebook.svg" />
-            </a> -->
+            <a target="_BLANK" href="https://t.me/sysmic_info" >
+              <img class = img-responsive src="@/assets/images/utilitaries/telegram.svg" />
+            </a>
             <a target="_BLANK" href="https://www.instagram.com/festival_sysmic/" >
               <img class = img-responsive src="@/assets/images/utilitaries/instagram.svg" />
             </a>
