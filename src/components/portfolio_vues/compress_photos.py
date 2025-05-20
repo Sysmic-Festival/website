@@ -1,3 +1,5 @@
+# /!\ Utiliser de préférence 'build_portfolio.py'
+
 import os
 from PIL import Image
 

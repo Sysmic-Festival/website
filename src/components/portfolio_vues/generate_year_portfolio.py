@@ -1,3 +1,5 @@
+# /!\ Utiliser de préférence 'build_portfolio.py'
+
 import os
 
 # génère automatiquement une page d'année du portfolio

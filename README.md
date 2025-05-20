@@ -66,6 +66,51 @@ npm run build
 ```
 Une dossier **dist** devrait se créer, contenant le site web compilé.
 
+## Génération d'un portfolio
+
+Une des premières tâches que l'IT/Webmaster se verra assigner est la création d'un portfolio pour l'année précédente. Idéalement, il faudrait le faire au plus au moment où le site est mis à jour pour _Magnitude SYS_ (et non pas attendre l'été pour le faire comme certains). Cette tâche étant assez complexe, voici un tutoriel détaillé pour y arriver.
+
+### Téléchargement des images
+
+Il faut d'abord télécharger les images depuis le Drive. En cas de problème pour les trouver, demandez de l'aide à votre VP. Ce n'est pas une bonne idée de tout télécharger en même temps. En effet, il peut y avoir plusieurs dizaines de GB de photos ! Rentrez dans les différents sous-répertoire et téléchargez-les petit-à-petit. 
+
+Créez ensuite un nouveau répertoire local sous `src/components/portfolio_vues` portant le nom de l'année à générer. Toutes les images téléchargées doivent être placées dans ce répertoire.
+
+### Faire tourner le script
+
+Un nouveau fichier, `build_portfolio.py`, est supposé faciliter cette étape. 
+
+Ouvrez un nouveau terminal et placer le dans `portfolio_vues`. Faites ensuite tourner le fichier python susmentionné. Celui-ci va effectuer les actions suivantes :
+
+ 1. Création des miniatures, au besoin en convertissant les images en format `.jpg` ;
+ 2. Génération de la page `Vue`.
+
+Assurez-vous qu'il s'est crée un fichier nommé du style `2024.vue` dans le répo.
+
+### Adapter le reste du site
+
+Il reste encore à adapter le reste du site, notamment le routeur.
+
+Ouvrez le fichier `src/router/index.js` et modifiez-le en ajoutant à l'endroit opportun le bout de code suivant : 
+
+```javascript
+{
+path: '/portfolio/2024',
+component: () => import('../components/portfolio_vues/2024.vue')
+},
+```
+
+De la même manière, allez dans `src/views/PortfolioView.vue` et ajoutez là où il convient :
+
+```html
+<router-link to="/portfolio/2024">
+   <div class="year">
+      <img class="year_image" src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2024.jpg">
+   <h4>2024</h4>
+</div>
+</router-link>
+```
+
 ## Bonnes pratiques 
 
 ### Branches git
@@ -90,5 +135,3 @@ Utilisez des classes css et  bannissez absolument les micro-changements sur un s
 
 #### Inspecter l'élément
 Dans un navigateur web, n'hésitez pas à faire clic droit &rarr; inspecter l'élément et à jouer avec le code source afin de regarder comment les différents éléments du site se comportent et agissent entre eux.
-
-
