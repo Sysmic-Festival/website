@@ -34,7 +34,7 @@ router.beforeEach(() => {
           <div class="line"></div>
           <div class="line"></div>
         </label>
-        <router-link to="/#magsys">Magitude SYS</router-link>
+        <router-link to="/#magsys">Magnitude SYS</router-link>
         <hr id="sidebar-links-hr">
         <router-link to="/#line-up">Line-up</router-link>
         <hr id="sidebar-links-hr">
