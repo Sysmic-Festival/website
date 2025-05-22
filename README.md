@@ -111,6 +111,26 @@ De la même manière, allez dans `src/views/PortfolioView.vue` et ajoutez là o�
 </router-link>
 ```
 
+### Upload des images
+
+A ce stade, tout semble prêt et pourtant, lorsque le site est émulé en local, on constate que cela ne fonctionne pas. Que se passe t-il ? 
+
+Vous avez omis d'upload les fichier sur le serveur. En effet, les images et les miniatures doivent être manuellement uploadées dans l'endroit opportun sur le serveur. 
+
+Cet endroit opportun étant 
+
+```sh
+   sites/sysmic.ch/ressources/portfolio/year_images
+```
+
+pour l'affiche respectivement
+
+```sh
+   sites/sysmic.ch/ressources/portfolio/year_images
+```
+
+pour les autres images.
+
 ## Bonnes pratiques 
 
 ### Branches git
