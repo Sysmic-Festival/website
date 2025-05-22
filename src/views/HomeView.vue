@@ -44,7 +44,30 @@ import FAQRow from '../components/FAQRow.vue';
             </div> -->
             <!-- <Timer /> -->
         </div>
-        <div id="magsys" class="magsys">
+        <div id="coming-soon" class="coming-soon">
+            <h1 class="h1-primary-background"><br>Coming soon</h1>
+            <div id="infos-container" class="container">
+                <section style="">
+                <h2 class="h2-primary-background">Sysmic revient après l'été !</h2>
+                <p>
+                    On se réjouit de te revoir l'an prochain ! Sysmic revient en force dès la rentrée de Septembre. 
+                    <br><br>
+                    Que tu sois en microtechnique ou non, le Tremplin te permettra de bien débuter le semestre peu après la rentrée.
+                    <br><br>
+                    Et il y aura biensur le festival en novembre !
+                    <br><br>
+                    Alors n'hésite pas à nous suivre sur les réseaux pour être au courant ! On est sur <a href="https://instagram.com/festival_sysmic">Instagram</a> et sur <a href="https://t.me/sysmic_info">Telegram</a>.
+                </p>
+                </section>
+            </div>
+
+            <div class="slider">
+                <div class="slide">
+                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                </div>
+            </div>
+        </div>
+        <!-- <div id="magsys" class="magsys">
             <h1 class="h1-primary-background"><br>MSYS 2025</h1>
             <div id="infos-container" class="container">
                 <section style="">
@@ -85,14 +108,14 @@ import FAQRow from '../components/FAQRow.vue';
             <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
         <div class="line-up-zone">
             <div class="line-up-container">
-                <!-- <h2 class="line-up-stagename">Breakdance</h2>
+                <h2 class="line-up-stagename">Breakdance</h2>
                 <div class="line-up-box-1" id="jardin">
                     <div class="line-up-artist">
                         <div class="line-up-time">22:30</div>
                         <div class="line-up-name">blabla</div>
                     </div>
-                </div> -->
-                <!-- <h2 class="line-up-stagename">Magnitude SYS</h2> -->
+                </div>
+                <h2 class="line-up-stagename">Magnitude SYS</h2> 
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
                         <div class="line-up-time">22:30</div>
@@ -116,7 +139,7 @@ import FAQRow from '../components/FAQRow.vue';
                     </div>
                 </div>
             </div>
-            <!-- <div class="line-up-container">
+            <div class="line-up-container">
                 <h2 class="line-up-stagename">Scène Platine</h2>
                 <div class="line-up-box-1" id="wonder">
                     <div class="line-up-artist">
@@ -147,12 +170,13 @@ import FAQRow from '../components/FAQRow.vue';
                         <div class="line-up-name">Dina MDN</div>
                     </div>
                 </div>
-            </div> -->
+            </div> 
         </div>
-        <!-- <section class="button-section">
+        
+        <section class="button-section">
             <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
-        </section> -->
-    </div>
+        </section> 
+    </div>-->
 
 
         <div class="photo-gallery">
@@ -306,22 +330,22 @@ import FAQRow from '../components/FAQRow.vue';
         <div id="association" class="association">
             <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
             <div class="container container-vertical-phone">
-                <section style="flex:1 ; padding-top:0">
+                <section style="flex:3 ; padding-top:0">
                     <p>
                         Sysmic est constitué d’un comité de 28 personnes de toutes années et sections confondues. 
                         Nous travaillons tout au long de l’année afin d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au sein même du campus.
                         <br><br>
                         Originellement, l’association est dédiée à la section de Microtechnique pour laquelle nous organisons,
                         en parallèle du festival, un apéro suivi d’un repas et un Spectacle !
-                    </p>
-                    <br>
-                    <p>
+                        <br><br>
                         Notre plus grande qualité se trouve dans notre détermination à faire de Sysmic l’un des meilleurs festivals estudiantins du campus.
                         <br><br>
                         Le comité Sysmic est cette année prêt à tout donner pour t’assurer la meilleure expérience possible !
+                        <br><br>
+                        <strong><i>Interessé à participer ? le comité Sysmic recherche son responsable Spéctacle ! N'hésite pas à nous contacter directement <a href="mailto:presidence@sysmic.ch">ici</a></i></strong>.
                     </p>
                 </section>
-                <section id="qsn-img" style="flex:1">
+                <section id="qsn-img" style="flex:2">
                     <img src="@/assets/images/PhotoGallery/qui-sommes-nous-img.jpg" style="width: 105%;">
                 </section>
             </div>
@@ -338,6 +362,8 @@ import FAQRow from '../components/FAQRow.vue';
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
                 </div>
             </div>
+        </div>
+        <div id="comite" class="comite">
             <h1 class="h1-primary-background comite-title">Comité 2025</h1>
             <h2 class="h2-primary-background comite-title">Présidence</h2>
             <div class="container-comite">
