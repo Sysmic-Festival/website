@@ -1,405 +1,1158 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-    <div class="portfolio">
-        <section>
-            <div class="title-small-line"></div>
-            <hr class="title-hr">
-<h1>Année 2010</h1>
-<img class="image_year" src="https://www.sysmic.ch/ressources/portfolio/year_images/2010.jpg">
-            <hr class="title-hr">
-            <div class="title-small-line"></div>
-        </section>
-        <div class="images_list">
-          <section class="images_line">
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-23-5.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-21-23-5.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-23-5.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-25.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-21-25.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-25.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-38-6.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-38-6.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-38-6.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-49-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-49-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-49-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-4.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-50-4.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-4.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-6.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-50-6.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-6.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-18.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-18.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-18.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-32.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-32.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-32.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-35.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-35.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-35.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-09-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-09-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10-4.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-10-4.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10-4.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-10.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-4.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-11-4.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-4.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-5.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-11-5.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-5.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-15-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-15-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-15-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-18.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-18.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-18.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-19-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-19-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-19-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-23-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-23-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-23-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-6.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-40-6.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-6.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-7.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-40-7.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-7.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-44.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-44.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-44.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-45-6.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-45-6.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-45-6.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-49-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-49-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-49-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-52.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-52.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-52.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-55.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-55.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-55.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-56-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-56-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-56-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-05-4.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-05-4.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-05-4.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-15-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-15-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-15-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-20.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-20.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-20.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-5.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-22-5.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-5.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-6.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-22-6.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-6.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-40-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-4.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-40-4.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-4.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-41-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-41-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-41-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-42-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-42-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-42-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-43-2.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-43-2.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-43-2.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-44-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-44-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-44-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-45-10.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-45-10.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-45-10.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-48-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-48-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-48-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-54-3.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-54-3.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-54-3.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3497L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3497L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3497L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3499L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3499L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3499L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3512L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3512L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3512L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3522L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3522L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3522L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3576L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3576L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3576L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3596L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3596L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3596L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3599L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3599L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3599L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3601L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3601L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3601L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3607L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3607L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3607L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3608L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3608L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3608L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3638L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3638L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3638L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3639L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3639L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3639L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3640L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3640L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3640L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3643L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3643L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3643L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3644L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3644L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3644L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3645L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3645L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3645L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3647L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3647L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3647L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3648L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3648L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3648L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3653L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3653L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3653L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3660L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3660L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3660L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3662L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3662L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3662L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3667L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3667L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3667L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3673L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3673L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3673L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3675L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3675L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3675L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3681L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3681L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3681L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3688L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3688L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3688L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3699L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3699L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3699L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3700L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3700L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3700L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3701L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3701L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3701L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3704L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3704L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3704L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3717L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3717L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3717L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3721L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3721L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3721L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3730L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3730L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3730L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3735L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3735L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3735L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3797L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3797L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3797L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3804L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3804L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3804L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3810L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3810L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3810L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3815L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3815L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3815L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3825L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3825L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3825L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3827L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3827L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3827L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3830L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3830L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3830L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3837L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3837L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3837L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3839L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3839L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3839L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3843L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3843L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3843L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3847L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3847L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3847L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3848L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3848L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3848L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3851L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3851L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3851L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3860L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3860L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3860L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3863L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3863L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3863L_LSysmic.jpg">
-</a></div>
-<div class="image">
-<a href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3878L_LSysmic.jpg" class="thumbnail-link">
-<img class="image_image" src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3878L_LSysmic.jpg" data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3878L_LSysmic.jpg">
-</a></div>
-          </section>
+  <div class="portfolio">
+    <section>
+      <div class="title-small-line"></div>
+      <hr class="title-hr" />
+      <h1>Année 2010</h1>
+      <img
+        class="image_year"
+        src="https://www.sysmic.ch/ressources/portfolio/year_images/2010.jpg"
+      />
+      <hr class="title-hr" />
+      <div class="title-small-line"></div>
+    </section>
+    <div class="images_list">
+      <section class="images_line">
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-23-5.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-21-23-5.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-23-5.jpg"
+            />
+          </a>
         </div>
-        <div id="modal">
-            <img id="modal-image" src="" alt="Modal Image">
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-25.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-21-25.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-21-25.jpg"
+            />
+          </a>
         </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-38-6.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-38-6.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-38-6.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-49-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-49-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-49-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-4.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-50-4.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-4.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-6.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-22-50-6.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-22-50-6.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-18.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-18.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-18.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-32.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-32.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-32.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-35.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101210-23-35.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101210-23-35.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-09-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-09-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-09-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10-4.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-10-4.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10-4.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-10.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-10.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-4.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-11-4.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-4.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-5.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-11-5.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-11-5.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-13.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-13.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-15-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-15-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-15-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-18.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-18.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-18.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-19-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-19-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-19-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-23-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-00-23-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-00-23-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-6.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-40-6.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-6.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-7.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-40-7.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-40-7.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-44.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-44.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-44.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-45-6.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-45-6.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-45-6.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-49-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-49-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-49-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-52.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-52.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-52.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-55.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-55.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-55.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-56-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-01-56-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-01-56-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-05-4.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-05-4.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-05-4.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-15-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-15-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-15-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-20.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-20.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-20.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-5.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-22-5.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-5.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-6.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-22-6.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-22-6.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-40-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-4.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-40-4.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-40-4.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-41-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-41-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-41-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-42-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-42-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-42-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-43-2.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-43-2.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-43-2.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-44-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-44-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-44-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-45-10.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-45-10.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-45-10.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-48-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-48-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-48-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-54-3.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumb20101211-02-54-3.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/20101211-02-54-3.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3497L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3497L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3497L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3499L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3499L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3499L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3512L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3512L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3512L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3522L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3522L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3522L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3576L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3576L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3576L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3596L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3596L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3596L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3599L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3599L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3599L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3601L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3601L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3601L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3607L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3607L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3607L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3608L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3608L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3608L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3638L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3638L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3638L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3639L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3639L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3639L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3640L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3640L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3640L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3643L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3643L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3643L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3644L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3644L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3644L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3645L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3645L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3645L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3647L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3647L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3647L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3648L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3648L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3648L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3653L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3653L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3653L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3660L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3660L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3660L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3662L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3662L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3662L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3667L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3667L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3667L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3673L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3673L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3673L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3675L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3675L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3675L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3681L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3681L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3681L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3688L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3688L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3688L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3699L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3699L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3699L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3700L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3700L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3700L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3701L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3701L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3701L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3704L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3704L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3704L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3717L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3717L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3717L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3721L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3721L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3721L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3730L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3730L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3730L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3735L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3735L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3735L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3797L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3797L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3797L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3804L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3804L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3804L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3810L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3810L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3810L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3815L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3815L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3815L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3825L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3825L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3825L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3827L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3827L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3827L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3830L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3830L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3830L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3837L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3837L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3837L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3839L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3839L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3839L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3843L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3843L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3843L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3847L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3847L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3847L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3848L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3848L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3848L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3851L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3851L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3851L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3860L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3860L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3860L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3863L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3863L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3863L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+        <div class="image">
+          <a
+            href="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3878L_LSysmic.jpg"
+            class="thumbnail-link"
+          >
+            <img
+              class="image_image"
+              src="https://www.sysmic.ch/ressources/portfolio/2010/thumbnails/thumbIMG_3878L_LSysmic.jpg"
+              data-src="https://www.sysmic.ch/ressources/portfolio/2010/IMG_3878L_LSysmic.jpg"
+            />
+          </a>
+        </div>
+      </section>
     </div>
+    <div id="modal">
+      <img id="modal-image" src="" alt="Modal Image" />
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
-#modal{
+#modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -427,36 +1180,36 @@
   opacity: 1;
   transition: opacity 0.3s;
 }
-.portfolio{
-    margin: 10px;
-    margin-top: calc(2*var(--global-margin) + var(--navbar-height));
+.portfolio {
+  margin: 10px;
+  margin-top: calc(2 * var(--global-margin) + var(--navbar-height));
 }
 .large-title {
   font-size: 90pt;
   font-weight: bold;
   color: var(--white);
 }
-.images_list{
-    display: flex;
-    max-width: 1400px;
-    justify-content: space-evenly;
-    margin: auto;
+.images_list {
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.images_line{
-    padding: 10px;
-    display: inline-block;
-    width: 100%;
-    align-items: center;
+.images_line {
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  align-items: center;
 }
 
-.image_image{
-    width: 90%;
-    height: 175px;
-    padding: 5%;
-    object-fit: cover;
+.image_image {
+  width: 90%;
+  height: 175px;
+  padding: 5%;
+  object-fit: cover;
 }
-.image{
+.image {
   display: inline-block;
   align-items: center;
   width: 22%;
@@ -470,66 +1223,64 @@
   transition: 0.5s ease-in-out;
 }
 
-.image_year{
+.image_year {
   display: inline-block;
   align-items: center;
   width: 18%;
 }
 
 @media screen and (max-width: 850px) {
-  .image{
+  .image {
     width: 29%;
-    height: 125px; 
+    height: 125px;
   }
-  .image_image{
+  .image_image {
     height: 100px;
   }
-  .image_year{
+  .image_year {
     width: 48%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .image{
+  .image {
     width: 47%;
   }
 }
-.image:hover{
+.image:hover {
   border-radius: 10px;
   border-bottom: 2px solid var(--blue);
   border-top: 2px solid var(--blue);
   border-left: 2px solid var(--blue);
   border-right: 2px solid var(--blue);
-  box-shadow: 0 0 30px 20px rgba(0,0,0,0.4);
-  background-color: rgba(0,0,0,0.4);
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.image h4{
+.image h4 {
   text-align: center;
   font-size: 30pt;
   color: var(--white);
 }
 
 @media only screen and (max-width: 850px) {
+  .large-title {
+    font-size: 40pt;
+  }
 
-    .large-title{
-      font-size: 40pt;
-    }
+  h1 {
+    font-size: 25pt;
+  }
 
-    h1{
-      font-size: 25pt;
-    }
-
-    .apropos hr{
-      max-width: 300px;
-    }
-
+  .apropos hr {
+    max-width: 300px;
+  }
 }
 
 .title-hr {
   max-width: 200px;
 }
-.title-small-line{
+.title-small-line {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
@@ -556,5 +1307,4 @@ h1 {
   margin-bottom: 15px;
   font-size: 40px;
 }
-
 </style>
