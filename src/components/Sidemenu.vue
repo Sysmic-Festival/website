@@ -1,22 +1,22 @@
 <script setup>
-import { reactive } from 'vue';
-import { useRouter } from 'vue-router';
-import Player from './Player.vue';
+import { reactive } from "vue";
+import { useRouter } from "vue-router";
+import Player from "./Player.vue";
 
-defineProps(["open"])
-const emits = defineEmits(["openedUpdate"])
+defineProps(["open"]);
+const emits = defineEmits(["openedUpdate"]);
 
 const state = reactive({
   playerDisplayed: false,
-})
+});
 
 function closeSideMenu() {
-  emits("openedUpdate", false)
+  emits("openedUpdate", false);
 }
 
 function displayPlayer(e) {
   e.preventDefault();
-  state.playerDisplayed = true
+  state.playerDisplayed = true;
 }
 
 const router = useRouter();
@@ -24,43 +24,48 @@ const router = useRouter();
 router.beforeEach(() => {
   emits("openedUpdate", false);
 });
-
 </script>
 
 <template>
-    <div :class="open ? 'sidebar opened' : 'sidebar'">
-      <section class="sidebar-section">
-        <label class="cross" @click="closeSideMenu">
-          <div class="line"></div>
-          <div class="line"></div>
-        </label>
-        <router-link to="/#coming-soon">Coming soon</router-link>
-        <hr id="sidebar-links-hr">
-        <!-- <router-link to="/#infos">Infos</router-link>
+  <div :class="open ? 'sidebar opened' : 'sidebar'">
+    <section class="sidebar-section">
+      <label class="cross" @click="closeSideMenu">
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <router-link to="/#coming-soon">Coming soon</router-link>
+      <hr id="sidebar-links-hr" />
+      <!-- <router-link to="/#infos">Infos</router-link>
         <hr id="sidebar-links-hr">
         <router-link to="/#sponsors">Sponsors</router-link>
         <hr id="sidebar-links-hr"> -->
-        <router-link to="/#association">L'association</router-link>
-        <hr id="sidebar-links-hr">
-        <router-link to="/#comite">Le comité</router-link>
-        <hr id="sidebar-links-hr">
-        <router-link to="/portfolio">Portfolio</router-link>
-        <hr id="sidebar-links-hr">
-        <router-link to="/about-us">À propos</router-link>
-        <hr id="sidebar-links-hr">
-        <router-link to="/faq">FAQ</router-link>
-        <hr id="sidebar-links-hr">
-
-      </section>
-      <section id="player-button-section">
-        <a href="#" @click="displayPlayer"><img class="player-button" src="@/assets/images/utilitaries/play-button.png"></a>
-        <Player :displayed="state.playerDisplayed" @displayedUpdated="val => state.playerDisplayed = val"></Player>
-      </section>
-    </div>
+      <router-link to="/#association">L'association</router-link>
+      <hr id="sidebar-links-hr" />
+      <router-link to="/#comite">Le comité</router-link>
+      <hr id="sidebar-links-hr" />
+      <router-link to="/portfolio">Portfolio</router-link>
+      <hr id="sidebar-links-hr" />
+      <router-link to="/about-us">À propos</router-link>
+      <hr id="sidebar-links-hr" />
+      <router-link to="/faq">FAQ</router-link>
+      <hr id="sidebar-links-hr" />
+    </section>
+    <section id="player-button-section">
+      <a href="#" @click="displayPlayer"
+        ><img
+          class="player-button"
+          src="@/assets/images/utilitaries/play-button.png"
+      /></a>
+      <Player
+        :displayed="state.playerDisplayed"
+        @displayedUpdated="(val) => (state.playerDisplayed = val)"
+      ></Player>
+    </section>
+  </div>
 </template>
 
 <style scoped>
-     /* The sidebar menu */
+/* The sidebar menu */
 .sidebar {
   z-index: 902;
   width: 0; /* 0 width - change this with JavaScript */
@@ -70,7 +75,9 @@ router.beforeEach(() => {
   background-color: var(--primary); /* Black*/
   background-position: bottom;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: calc(var(--navbar-height) + 2*var(--global-margin)); /* Place content 60px from the top */
+  padding-top: calc(
+    var(--navbar-height) + 2 * var(--global-margin)
+  ); /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   display: flex;
   flex-direction: column;
@@ -79,14 +86,14 @@ router.beforeEach(() => {
 
 .sidebar.opened {
   width: calc(min(350px, 100vw));
-  box-shadow: 0px 0px 20px 60px rgba(0,0,0,.1);
+  box-shadow: 0px 0px 20px 60px rgba(0, 0, 0, 0.1);
 }
 
 /* The sidebar links */
 .sidebar a {
   white-space: nowrap;
   overflow: hidden;
-  
+
   padding: 4px 8px 6px 0px;
   text-decoration: none;
   font-size: 25px;
@@ -95,18 +102,17 @@ router.beforeEach(() => {
   transition: 0.3s;
 }
 
-#player-button-section{
-  display:flex;
+#player-button-section {
+  display: flex;
 }
 
-.player-button{
+.player-button {
   height: 20%;
   transition-duration: 0.5s;
 }
 
-.player-button:hover{
+.player-button:hover {
   transform: scale(1.05);
-  
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -120,33 +126,35 @@ router.beforeEach(() => {
   padding: 20px;
 } */
 
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 400px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-
-} 
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .sidebar.opened {
     width: 100vw;
-    box-shadow: 0px 0px 20px 60px rgba(0,0,0,.1);
+    box-shadow: 0px 0px 20px 60px rgba(0, 0, 0, 0.1);
   }
-} 
+}
 
-#player-button-section{
+#player-button-section {
   flex-grow: 1;
   vertical-align: bottom;
 }
 
-#sidebar-links-hr{
+#sidebar-links-hr {
   width: 80%;
   border: 1px solid var(--blue);
 }
 
-@media only screen and (max-height: 700px){
-   .sidebar a{
+@media only screen and (max-height: 700px) {
+  .sidebar a {
     font-size: 15px;
   }
 }
@@ -170,17 +178,17 @@ router.beforeEach(() => {
   overflow: hidden;
 }
 .cross:hover .line::after {
-    transform: translateX(0);
-    transform: translateY(0);
-  }
-.cross .line:nth-child(1){
-    transform:  rotate(45deg);
-    top: 50%;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+.cross .line:nth-child(1) {
+  transform: rotate(45deg);
+  top: 50%;
 }
 
-.cross .line:nth-child(2){
-    transform:  rotate(-45deg);
-    top: 50%;
+.cross .line:nth-child(2) {
+  transform: rotate(-45deg);
+  top: 50%;
 }
 
 .cross .line::after {
@@ -194,11 +202,9 @@ router.beforeEach(() => {
   transform: translateX(-100%);
 }
 .cross .line:nth-child(1)::after {
-    transition: 0.1s;
+  transition: 0.1s;
 }
 .cross .line:nth-child(2)::after {
-    transition: 0.3s;
+  transition: 0.3s;
 }
-
-
 </style>

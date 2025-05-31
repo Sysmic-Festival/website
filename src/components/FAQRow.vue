@@ -1,35 +1,33 @@
 <script setup>
-import { reactive } from 'vue';
+import { reactive } from "vue";
 
-defineProps(['title'])
+defineProps(["title"]);
 
 const data = reactive({
-    opened: false
-})
-
+  opened: false,
+});
 </script>
 
 <template>
-    <div class="row container" @click="data.opened = !data.opened">
-        <div class="img">
-            <img v-if="data.opened" src="@/assets/images/utilitaries/minus.svg" />
-            <img v-else src="@/assets/images/utilitaries/plus.svg" />
-        </div>
-        <div class="text">
-            <p class="title">{{ title }}</p>
-            <p :class="data.opened ? 'openableContent opened' : 'openableContent'">
-                <slot/>
-            </p>
-        </div>
+  <div class="row container" @click="data.opened = !data.opened">
+    <div class="img">
+      <img v-if="data.opened" src="@/assets/images/utilitaries/minus.svg" />
+      <img v-else src="@/assets/images/utilitaries/plus.svg" />
     </div>
+    <div class="text">
+      <p class="title">{{ title }}</p>
+      <p :class="data.opened ? 'openableContent opened' : 'openableContent'">
+        <slot />
+      </p>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
 .row {
-    cursor: pointer;
-    display: flex;
-    flex-wrap: nowrap;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* div p {
@@ -64,7 +62,7 @@ div.img img {
 }
 
 .title {
-  transition: all 0.2s ease-in-out ;
+  transition: all 0.2s ease-in-out;
 }
 .title:hover {
   color: var(--blue);
@@ -78,15 +76,12 @@ span {
   color: var(--third);
 }
 
-
 @media only screen and (max-width: 800px) {
-
   .openableTitle,
   .openableContent {
     font-size: 10pt;
     width: 85%;
     text-align: left !important;
-
   }
 
   .cacheBlack {
@@ -97,9 +92,8 @@ span {
     max-height: 500px;
   }
 
-  div.img img{
-    top:8px
+  div.img img {
+    top: 8px;
   }
-
 }
 </style>
