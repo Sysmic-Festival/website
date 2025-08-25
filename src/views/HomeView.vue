@@ -423,7 +423,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Hector Mir</h4>
             <p>Trésorier</p>
-            <img class="comite-img" src="@/assets/images/comite/hector.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/hector_old.jpg" />
           </div>
         </section>
       </div>
