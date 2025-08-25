@@ -1,27 +1,24 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-    <div class="portfolio">
-        <section>
-            <div class="title-small-line"></div>
-            <hr class="title-hr">
-            <hr class="title-hr">
-            <div class="title-small-line"></div>
-        </section>
-        <div class="images_list">
-          <section class="images_line">
-          </section>
-        </div>
-        <div id="modal">
-            <img id="modal-image" src="" alt="Modal Image">
-        </div>
+  <div class="portfolio">
+    <section>
+      <div class="title-small-line"></div>
+      <hr class="title-hr" />
+      <hr class="title-hr" />
+      <div class="title-small-line"></div>
+    </section>
+    <div class="images_list">
+      <section class="images_line"></section>
     </div>
+    <div id="modal">
+      <img id="modal-image" src="" alt="Modal Image" />
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
-#modal{
+#modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -49,36 +46,36 @@
   opacity: 1;
   transition: opacity 0.3s;
 }
-.portfolio{
-    margin: 10px;
-    margin-top: calc(2*var(--global-margin) + var(--navbar-height));
+.portfolio {
+  margin: 10px;
+  margin-top: calc(2 * var(--global-margin) + var(--navbar-height));
 }
 .large-title {
   font-size: 90pt;
   font-weight: bold;
   color: var(--white);
 }
-.images_list{
-    display: flex;
-    max-width: 1400px;
-    justify-content: space-evenly;
-    margin: auto;
+.images_list {
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.images_line{
-    padding: 10px;
-    display: inline-block;
-    width: 100%;
-    align-items: center;
+.images_line {
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  align-items: center;
 }
 
-.image_image{
-    width: 90%;
-    height: 175px;
-    padding: 5%;
-    object-fit: cover;
+.image_image {
+  width: 90%;
+  height: 175px;
+  padding: 5%;
+  object-fit: cover;
 }
-.image{
+.image {
   display: inline-block;
   align-items: center;
   width: 22%;
@@ -92,66 +89,64 @@
   transition: 0.5s ease-in-out;
 }
 
-.image_year{
+.image_year {
   display: inline-block;
   align-items: center;
   width: 18%;
 }
 
 @media screen and (max-width: 850px) {
-  .image{
+  .image {
     width: 29%;
-    height: 125px; 
+    height: 125px;
   }
-  .image_image{
+  .image_image {
     height: 100px;
   }
-  .image_year{
+  .image_year {
     width: 48%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .image{
+  .image {
     width: 47%;
   }
 }
-.image:hover{
+.image:hover {
   border-radius: 10px;
   border-bottom: 2px solid var(--blue);
   border-top: 2px solid var(--blue);
   border-left: 2px solid var(--blue);
   border-right: 2px solid var(--blue);
-  box-shadow: 0 0 30px 20px rgba(0,0,0,0.4);
-  background-color: rgba(0,0,0,0.4);
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.image h4{
+.image h4 {
   text-align: center;
   font-size: 30pt;
   color: var(--white);
 }
 
 @media only screen and (max-width: 850px) {
+  .large-title {
+    font-size: 40pt;
+  }
 
-    .large-title{
-      font-size: 40pt;
-    }
+  h1 {
+    font-size: 25pt;
+  }
 
-    h1{
-      font-size: 25pt;
-    }
-
-    .apropos hr{
-      max-width: 300px;
-    }
-
+  .apropos hr {
+    max-width: 300px;
+  }
 }
 
 .title-hr {
   max-width: 200px;
 }
-.title-small-line{
+.title-small-line {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
@@ -178,5 +173,4 @@ h1 {
   margin-bottom: 15px;
   font-size: 40px;
 }
-
 </style>

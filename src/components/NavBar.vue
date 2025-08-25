@@ -1,33 +1,37 @@
 <script setup>
-import { onMounted, reactive } from 'vue'
-import Sidemenu from './Sidemenu.vue'
+import { onMounted, reactive } from "vue";
+import Sidemenu from "./Sidemenu.vue";
 
 defineProps({
   fixed: {
-    default: false
-  }
-})
+    default: false,
+  },
+});
 
 const state = reactive({
   sticky: false,
   stickyPosition: 0,
   navbar: null,
   root: null,
-  sideMenuOpened: false
-})
+  sideMenuOpened: false,
+});
 
 onMounted(() => {
   // When the user scrolls the page, execute myFunction
-  window.onscroll = function() {onScroll()};
-  window.onresize = function() {onScroll()};
+  window.onscroll = function () {
+    onScroll();
+  };
+  window.onresize = function () {
+    onScroll();
+  };
 
   // Get the navbar
   state.navbar = document.getElementById("navbar");
   state.root = document.documentElement;
 
-  console.log("state navbar offsetTop : ", state.navbar.offsetTop)
+  console.log("state navbar offsetTop : ", state.navbar.offsetTop);
   state.stickyPosition = state.navbar.offsetTop;
-})
+});
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 // the minus part is so that the header sticks as soon as the top margin is reached, so it doesn't jump (removing the "px" from the margin)
@@ -37,85 +41,92 @@ function onScroll() {
   }
 
   if (state.navbar && window.pageYOffset >= state.stickyPosition) {
-    state.sticky = true
+    state.sticky = true;
   } else {
-    state.sticky = false
+    state.sticky = false;
   }
 }
 </script>
 
 <template>
+  <Sidemenu
+    :open="state.sideMenuOpened"
+    @openedUpdate="(e) => (state.sideMenuOpened = e)"
+  ></Sidemenu>
 
-  <Sidemenu :open="state.sideMenuOpened" @openedUpdate="e => state.sideMenuOpened = e"></Sidemenu>
-
-  <nav :class="{ sticky: state.sticky, fixedOverride: fixed }" id="navbar" ref="main-navbar">
+  <nav
+    :class="{ sticky: state.sticky, fixedOverride: fixed }"
+    id="navbar"
+    ref="main-navbar"
+  >
     <div class="container-navbar">
       <router-link class="logo" to="/#">
-        <img class = "logo" src="@/assets/images/utilitaries/new-logo-name.svg" />
+        <img class="logo" src="@/assets/images/utilitaries/new-logo-name.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
-        <li><router-link to="/#magsys">Magnitude SYS</router-link></li>
-        <li><router-link to="/#line-up">Line-up</router-link></li>
-        <!-- <li><router-link to="/#infos">Infos</router-link></li>
-        <li><router-link to="/#sponsors">Sponsors</router-link></li> -->
-        <li><router-link to="/#association">Qui sommes-nous?</router-link></li>
+        <li><router-link to="/#coming-soon">Coming soon</router-link></li>
+        <li><router-link to="/#association">L'association</router-link></li>
+        <li><router-link to="/#comite">Le comité</router-link></li>
       </ul>
-      
-        <label class="burger-menu" @click="state.sideMenuOpened = !state.sideMenuOpened">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </label>
+
+      <label
+        class="burger-menu"
+        @click="state.sideMenuOpened = !state.sideMenuOpened"
+      >
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </div>
   </nav>
 </template>
 
 <style scoped>
-#navbar{
+#navbar {
   z-index: 901;
   position: absolute;
   height: calc(var(--navbar-height) + var(--global-margin));
   width: 100%;
   top: calc(100vh - var(--navbar-height) - var(--global-margin));
   background-color: var(--primary-transparent);
-  box-shadow: 0px 0px 20px 30px rgba(0,0,0,.2);
+  box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
 
-  transition: opacity 0.5s cubic-bezier(.17,.67,.83,.67);
+  transition: opacity 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 #navbar.fixedOverride {
   position: fixed !important;
   top: 0 !important;
-
 }
 
 ul.fixedOverride {
   display: none !important;
 }
 
-#navbar .container-navbar{  
+#navbar .container-navbar {
   height: var(--navbar-height);
   display: flex;
   justify-content: space-between;
 }
 
-#navbar .container-navbar .logo{
+#navbar .container-navbar .logo {
   height: var(--navbar-height);
-  margin-left:2.5%;
+  margin-left: 2.5%;
   /* adjusting Y axis to align with menu */
   /*transform: translateY(calc(-0.05*var(--navbar-height))); */
 }
 
-#navbar .container-navbar .logo img{
-  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg) brightness(105%) contrast(102%);
+#navbar .container-navbar .logo img {
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg)
+    brightness(105%) contrast(102%);
   max-height: 100%;
   max-width: none;
 }
 
-.container-navbar{
+.container-navbar {
   position: relative;
   align-items: center;
   justify-content: space-between;
@@ -127,7 +138,7 @@ ul.fixedOverride {
 }
 
 /* bar menu for large enough screens + hover properties for whole navbar */
-@media screen and (min-width: 790px){
+@media screen and (min-width: 790px) {
   .bar-menu li a:hover {
     color: var(--third);
   }
@@ -144,7 +155,7 @@ ul.fixedOverride {
     margin-left: var(--global-margin);
     list-style: none;
   }
-  
+
   .bar-menu li {
     width: auto;
     height: auto;
@@ -156,19 +167,16 @@ ul.fixedOverride {
     text-decoration: none;
     transition: all 0.45s;
   }
-  
 }
 
-
-@media screen and (max-width: 790px){
-  
+@media screen and (max-width: 790px) {
   .bar-menu {
     display: block;
     width: 100%;
     list-style: none;
   }
 
-  .bar-menu li{
+  .bar-menu li {
     display: none;
     width: auto;
     height: auto;
@@ -181,7 +189,6 @@ ul.fixedOverride {
     display: block;
     padding: 14px 16px;
   }
-  
 }
 
 #burger-toggle {
@@ -193,7 +200,7 @@ ul.fixedOverride {
   transform: scaleX(1);
 }
 
-.burger-container{
+.burger-container {
   width: var(--navbar-height);
   height: var(--navbar-height);
 }

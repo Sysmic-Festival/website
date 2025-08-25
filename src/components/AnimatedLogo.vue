@@ -1,26 +1,22 @@
 <script setup>
+import { onMounted } from "vue";
+onMounted(() => {
+  animLogo(1);
+});
 
-    import {onMounted} from 'vue'
-    onMounted(() => {
-        animLogo(1);
-    })
-
-
-    function animLogo(id){
-      try {
-        id += Math.round((Math.random()))+1;
-        document.getElementById("layer"+id).classList.toggle("invaderShow");
-        setTimeout(animLogo, 200, id%18);
-      } catch (error) {}
-    }
-    
+function animLogo(id) {
+  try {
+    id += Math.round(Math.random()) + 1;
+    document.getElementById("layer" + id).classList.toggle("invaderShow");
+    setTimeout(animLogo, 200, id % 18);
+  } catch (error) {}
+}
 </script>
-
 
 <template>
   <section class="invaderSection">
     <!-- <div id="invaderDiv"> -->
-      <!-- <img class="layer" id="layer1"  src="@/assets/images/layers/01.svg"/>
+    <!-- <img class="layer" id="layer1"  src="@/assets/images/layers/01.svg"/>
       <img class="layer" id="layer2"  src="@/assets/images/layers/02.svg"/>
       <img class="layer" id="layer3"  src="@/assets/images/layers/03.svg"/>
       <img class="layer" id="layer4"  src="@/assets/images/layers/04.svg"/>
@@ -39,9 +35,9 @@
       <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
-      <img class="layer"  src="@/assets/images/utilitaries/new-logo.svg"/>
+    <img class="layer" src="@/assets/images/utilitaries/new-logo.svg" />
     <div class="titleBox">
-      <h1>SYSMIC<br>FESTIVAL</h1>
+      <h1>SYSMIC<br />FESTIVAL</h1>
       <div id="title-date">
         <!-- <h2>Ton festival revient après l'été !</h2> -->
       </div>
@@ -49,14 +45,13 @@
   </section>
 </template>
 
-
 <style scoped>
-
-h1, h2 {
-    position: relative;
-    bottom: -70px;
-    margin: 0px;
-    font-weight: extra;
+h1,
+h2 {
+  position: relative;
+  bottom: -70px;
+  margin: 0px;
+  font-weight: extra;
 }
 
 .invaderSection {
@@ -66,9 +61,10 @@ h1, h2 {
   justify-content: center;
   height: 50%;
 }
-.layer{
+.layer {
   position: absolute;
-  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg) brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg)
+    brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
   height: 23vw;
@@ -76,8 +72,8 @@ h1, h2 {
   max-width: 100%;
 }
 
-#invaderDiv{
-  overflow:visible;
+#invaderDiv {
+  overflow: visible;
   position: absolute;
   left: 50%;
   transform: translateX(-80%);
@@ -85,8 +81,7 @@ h1, h2 {
   width: 800px;
 }
 
-
-#invaderDiv img{
+#invaderDiv img {
   position: absolute;
   top: 0;
   left: 50%;
@@ -97,7 +92,6 @@ h1, h2 {
   max-width: 100%;
 }
 .titleBox {
-
   font-family: "Montserrat";
   line-height: 90pt;
   text-align: left;
@@ -113,8 +107,7 @@ h1, h2 {
   z-index: 1;
 }
 
-
-.titleBox > h1{
+.titleBox > h1 {
   font-size: calc(60pt + 2vw);
   font-weight: 900;
   color: var(--white);
@@ -129,16 +122,15 @@ h1, h2 {
   background-color: transparent;
   text-align: center;
   vertical-align: top;
-  position:relative;
+  position: relative;
   right: -0px;
 }
 
-.invaderShow{
+.invaderShow {
   opacity: 1 !important;
 }
 
-@media only screen and (max-width: 850px){
-  
+@media only screen and (max-width: 850px) {
   .invaderSection {
     flex-direction: column;
     align-items: center;
@@ -149,17 +141,17 @@ h1, h2 {
     transform: none;
     left: 0;
   }
-  .layer{
-  position: absolute;
-  top:5%;
-  left: calc(50% - 20.625vw);
-  height: 30vw;
-}
+  .layer {
+    position: absolute;
+    top: 5%;
+    left: calc(50% - 20.625vw);
+    height: 30vw;
+  }
 
   .titleBox {
     line-height: 60pt;
     align-items: center;
-    margin-left: 0; 
+    margin-left: 0;
     height: auto;
     position: absolute;
     width: 60%;
@@ -167,41 +159,37 @@ h1, h2 {
     top: 32%;
   }
 
-  h1,h2 {
+  h1,
+  h2 {
     text-align: center;
     bottom: 0px;
   }
 
-  .titleBox > h1{
+  .titleBox > h1 {
     font-size: calc(6vh + 5vw);
     line-height: calc(8vh + 5vw);
   }
 
   .titleBox > div > h2 {
     font-size: 15pt;
-    position:relative;
-    right:0px;
+    position: relative;
+    right: 0px;
   }
 
-  #title-date{
+  #title-date {
     transform: translateY(0px);
   }
-
 }
-@media only screen and (max-width: 600px){
-  .layer{
-  left: calc(50% - 25vw);
-  height: 40vw;
+@media only screen and (max-width: 600px) {
+  .layer {
+    left: calc(50% - 25vw);
+    height: 40vw;
   }
-
 }
 
-@media only screen and (max-width: 450px){
-  .layer{
-  height: 45vw;
+@media only screen and (max-width: 450px) {
+  .layer {
+    height: 45vw;
   }
-
-
 }
-
 </style>
