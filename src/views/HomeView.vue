@@ -45,21 +45,19 @@ import FAQRow from "../components/FAQRow.vue";
     <div id="coming-soon" class="coming-soon">
       <h1 class="h1-primary-background"><br />Coming soon</h1>
       <div id="infos-container" class="container">
-        <section style="">
-          <h2 class="h2-primary-background">Sysmic revient après l'été !</h2>
+        <section>
+          <h2>Tremplin 2025</h2>
           <p>
-            On se réjouit de te revoir l'an prochain ! Sysmic revient en force
-            dès la rentrée de Septembre.
+            On se réjouit de te revoir cette année encore ! Pour bien débuter, Sysmic te propose de te retrouver au Tremplin.
             <br /><br />
-            Que tu sois en microtechnique ou non, le Tremplin te permettra de
-            bien débuter le semestre peu après la rentrée.
+            On t'attend le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
+          </p>
+          <h2>Festival</h2>
+          <p>
+            Et il y aura biensur le festival le 7 novembre prochain !
             <br /><br />
-            Et il y aura biensur le festival en novembre !
-            <br /><br />
-            Alors n'hésite pas à nous suivre sur les réseaux pour être au
-            courant ! On est sur
-            <a href="https://instagram.com/festival_sysmic">Instagram</a> et sur
-            <a href="https://t.me/sysmic_info">Telegram</a>.
+            N'hésite pas à nous suivre sur les réseaux pour être au
+            courant ! On est sur <a href="https://instagram.com/festival_sysmic">Instagram</a> 
           </p>
         </section>
       </div>
@@ -348,14 +346,6 @@ import FAQRow from "../components/FAQRow.vue";
             <br /><br />
             Le comité Sysmic est cette année prêt à tout donner pour t’assurer
             la meilleure expérience possible !
-            <br /><br />
-            <strong
-              ><i
-                >Interessé à participer ? le comité Sysmic recherche son
-                responsable Spéctacle ! N'hésite pas à nous contacter
-                directement <a href="mailto:presidence@sysmic.ch">ici</a></i
-              ></strong
-            >.
           </p>
         </section>
         <section id="qsn-img" style="flex: 2">
