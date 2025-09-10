@@ -438,8 +438,11 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Matériel</p>
             <img class="comite-img" src="@/assets/images/comite/antoine_matos.jpg" />
           </div>
+        </section>
+      </div><div class="container-comite">
+        <section class="comite-line">
           <div class="comite-member">
-            <h4>Roman Ostrowski</h4>
+            <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
             <img class="comite-img" src="@/assets/images/comite/roman_autre.jpg" />
           </div>
@@ -453,10 +456,18 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Décoration</p>
             <img class="comite-img" src="@/assets/images/comite/may.jpg" />
           </div>
+        </section>
+            </div><div class="container-comite">
+        <section class="comite-line">
           <div class="comite-member">
             <h4>Hadrien Canches</h4>
             <p>Technique de scène</p>
             <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Jonas Blanc</h4>
+            <p>Adjoint à la technique de scène</p>
+            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
           <div class="comite-member">
             <h4>Maxime Coeytaux</h4>
