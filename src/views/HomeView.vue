@@ -46,13 +46,13 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-primary-background"><br />Coming soon</h1>
       <div id="infos-container" class="container">
         <section>
-          <h2>Tremplin 2025</h2>
+          <h2 class="h2-primary-background" >Tremplin 2025</h2>
           <p>
             On se réjouit de te revoir cette année encore ! Pour bien débuter, Sysmic te propose de te retrouver au Tremplin.
             <br /><br />
             On t'attend le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
           </p>
-          <h2>Festival</h2>
+          <h2 class="h2-primary-background" >Festival</h2>
           <p>
             Et il y aura biensur le festival le 7 novembre prochain !
             <br /><br />
