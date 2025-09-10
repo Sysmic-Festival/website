@@ -398,7 +398,7 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Président</p>
             <img
               class="comite-img"
-              src="@/assets/images/comite/xxmatbenxx.png"
+              src="@/assets/images/comite/matthieu.jpg"
             />
           </div>
         </section>
@@ -408,7 +408,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Roman Paccaud</h4>
             <p>VP Logistique</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/roman_2.jpg" />
           </div>
           <div class="comite-member">
             <h4>Talia Meyer</h4>
@@ -436,7 +436,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/sophie.jpg" />
           </div>
           <div class="comite-member">
             <h4>Matej Soumillion</h4>
@@ -446,12 +446,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Antoine Eisinger</h4>
             <p>Matériel</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/antoine_matos.jpg" />
           </div>
           <div class="comite-member">
             <h4>Roman Ostrowski</h4>
             <p>Élec/Light</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/roman_autre.jpg" />
           </div>
           <div class="comite-member">
             <h4>Maria Kyramarios</h4>
@@ -461,7 +461,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>May Dubuy</h4>
             <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
           </div>
           <div class="comite-member">
             <h4>Hadrien Canches</h4>
@@ -471,7 +471,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Maxime Coeytaux</h4>
             <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
           </div>
         </section>
       </div>
@@ -489,7 +489,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Romain Klein</h4>
             <p>Vidéaste</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
           </div>
           <div class="comite-member">
             <h4>Léa Mahfouf</h4>
@@ -503,15 +503,15 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Daniel Krief</h4>
             <p>IT/Webmaster</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
           </div>
           <div class="comite-member">
             <h4>Ulysse Zbinden</h4>
             <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
           </div>
           <div class="comite-member">
-            <h4><i>Poste à pourvoir !</i></h4>
+            <h4>Mélodie Serreau</h4>
             <p>Spectacle</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
@@ -526,17 +526,17 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Grégoire Gimenez</h4>
             <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
           </div>
           <div class="comite-member">
             <h4>Alexis Zuber</h4>
             <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
           </div>
           <div class="comite-member">
             <h4>Olivia Robles</h4>
             <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
           </div>
           <div class="comite-member">
             <h4>Marc Simon</h4>
@@ -547,12 +547,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Dina Azoulay</h4>
             <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
           </div>
           <div class="comite-member">
             <h4>Antoine Reynaud</h4>
             <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/antoine_cat.jpg" />
           </div>
           <div class="comite-member">
             <h4>Marie van Rossum</h4>
@@ -575,12 +575,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Felix Elsässer</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
           </div>
           <div class="comite-member">
             <h4>Marina Perez Barrera</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
           </div>
         </section>
       </div>
