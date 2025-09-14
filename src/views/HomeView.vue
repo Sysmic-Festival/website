@@ -48,16 +48,23 @@ import FAQRow from "../components/FAQRow.vue";
         <section>
           <h2 class="h2-primary-background" >Tremplin 2025</h2>
           <p>
-            On se réjouit de te revoir cette année encore ! Pour bien débuter, Sysmic te propose de te retrouver au Tremplin.
+            On se réjouit de te revoir cette année encore ! Pour bien débuter le semestre, 
+            Sysmic te propose de te retrouver au Tremplin.
             <br /><br />
-            On t'attend le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
+            Le tremplin, c'est notre évènement de rentrée que nous organisons chaque année 
+            depuis 2022. Il s'agît en fait d'une soirée organisée en partenariat avec le 
+            bar Satellite. 
+            <br/><br/>
+            Tu peux venir assister aux shows de différents étudiants de l'école, 
+            artistes dans l'âme, qui n'attendent que toi pour te démontrer leur talent.   
+            <br/><br/>
+            On se réjouit donc de te voir le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
           </p>
           <h2 class="h2-primary-background" >Festival</h2>
           <p>
             Et il y aura biensur le festival le 7 novembre prochain !
             <br /><br />
-            N'hésite pas à nous suivre sur les réseaux pour être au
-            courant ! On est sur <a href="https://instagram.com/festival_sysmic">Instagram</a> 
+            Les infos arriveront prochainement, alors n'oublie pas de nous suivre sur les reseaux pour être au courant ! On est sur <a href="https://instagram.com/festival_sysmic">Instagram</a> 
           </p>
         </section>
       </div>
