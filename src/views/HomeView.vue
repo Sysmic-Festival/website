@@ -45,21 +45,33 @@ import FAQRow from "../components/FAQRow.vue";
     <div id="coming-soon" class="coming-soon">
       <h1 class="h1-primary-background"><br />Coming soon</h1>
       <div id="infos-container" class="container">
-        <section style="">
-          <h2 class="h2-primary-background">Sysmic revient après l'été !</h2>
+        <section>
+          <h2 class="h2-primary-background">Tremplin 2025</h2>
           <p>
-            On se réjouit de te revoir l'an prochain ! Sysmic revient en force
-            dès la rentrée de Septembre.
+            On se réjouit de te revoir cette année encore ! Pour bien débuter le
+            semestre, Sysmic te propose de te retrouver au Tremplin.
             <br /><br />
-            Que tu sois en microtechnique ou non, le Tremplin te permettra de
-            bien débuter le semestre peu après la rentrée.
+            Le tremplin, c'est notre évènement de rentrée que nous organisons
+            chaque année depuis 2022. Il s'agît en fait d'une soirée organisée
+            en partenariat avec le bar Satellite.
             <br /><br />
-            Et il y aura biensur le festival en novembre !
+            Tu peux venir assister aux shows d'artistes de la région, qui
+            n'attendent que toi pour te démontrer leur talent, et ensuite voter
+            pour l'artiste que tu préfères.
             <br /><br />
-            Alors n'hésite pas à nous suivre sur les réseaux pour être au
-            courant ! On est sur
-            <a href="https://instagram.com/festival_sysmic">Instagram</a> et sur
-            <a href="https://t.me/sysmic_info">Telegram</a>.
+            L'artiste que le public plébiscite gagnera ensuite un slot sur scène
+            lors de notre festival en novembre !
+            <br /><br />
+            On se réjouit donc de te voir le mercredi
+            <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
+          </p>
+          <h2 class="h2-primary-background">Festival</h2>
+          <p>
+            Et il y aura biensur le festival le 7 novembre prochain !
+            <br /><br />
+            Les infos arriveront prochainement, alors n'oublie pas de nous
+            suivre sur les reseaux pour être au courant ! On est sur
+            <a href="https://instagram.com/festival_sysmic">Instagram</a>
           </p>
         </section>
       </div>
@@ -334,7 +346,7 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container container-vertical-phone">
         <section style="flex: 3; padding-top: 0">
           <p>
-            Sysmic est constitué d’un comité de 28 personnes de toutes années et
+            Sysmic est constitué d’un comité de 30 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
             d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au
             sein même du campus.
@@ -348,14 +360,6 @@ import FAQRow from "../components/FAQRow.vue";
             <br /><br />
             Le comité Sysmic est cette année prêt à tout donner pour t’assurer
             la meilleure expérience possible !
-            <br /><br />
-            <strong
-              ><i
-                >Interessé à participer ? le comité Sysmic recherche son
-                responsable Spéctacle ! N'hésite pas à nous contacter
-                directement <a href="mailto:presidence@sysmic.ch">ici</a></i
-              ></strong
-            >.
           </p>
         </section>
         <section id="qsn-img" style="flex: 2">
@@ -368,8 +372,8 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container">
         <section>
           <p style="text-align: center">
-            Si tu veux en savoir plus à propos de l'association, jettes un oeil
-            à la page
+            Si tu veux en savoir plus à propos de l'association, jette un oeil à
+            la page
             <span
               ><router-link
                 style="color: var(--white); text-decoration: underline"
@@ -396,10 +400,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Mathieu Bénard</h4>
             <p>Président</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/xxmatbenxx.png"
-            />
+            <img class="comite-img" src="@/assets/images/comite/matthieu.jpg" />
           </div>
         </section>
       </div>
@@ -408,7 +409,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Roman Paccaud</h4>
             <p>VP Logistique</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/roman_2.jpg" />
           </div>
           <div class="comite-member">
             <h4>Talia Meyer</h4>
@@ -423,7 +424,10 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Hector Mir</h4>
             <p>Trésorier</p>
-            <img class="comite-img" src="@/assets/images/comite/hector_old.jpg" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/hector_old.jpg"
+            />
           </div>
         </section>
       </div>
@@ -434,33 +438,52 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
+            <h4>Antoine Eisinger</h4>
+            <p>Matériel</p>
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/antoine_matos.jpg"
+            />
+          </div>
+          <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/sophie.jpg" />
           </div>
           <div class="comite-member">
             <h4>Matej Soumillion</h4>
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
+        </section>
+      </div>
+      <div class="container-comite">
+        <section class="comite-line">
           <div class="comite-member">
-            <h4>Antoine Eisinger</h4>
-            <p>Matériel</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
-          </div>
-          <div class="comite-member">
-            <h4>Roman Ostrowski</h4>
+            <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/roman_autre.jpg"
+            />
           </div>
           <div class="comite-member">
             <h4>Maria Kyramarios</h4>
             <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
           </div>
           <div class="comite-member">
             <h4>May Dubuy</h4>
             <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+          </div>
+        </section>
+      </div>
+      <div class="container-comite">
+        <section class="comite-line">
+          <div class="comite-member">
+            <h4>Jonas Blanc</h4>
+            <p>Adjoint à la technique de scène</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
           <div class="comite-member">
@@ -471,7 +494,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Maxime Coeytaux</h4>
             <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
           </div>
         </section>
       </div>
@@ -489,7 +512,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Romain Klein</h4>
             <p>Vidéaste</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
           </div>
           <div class="comite-member">
             <h4>Léa Mahfouf</h4>
@@ -503,17 +526,17 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Daniel Krief</h4>
             <p>IT/Webmaster</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
           </div>
           <div class="comite-member">
             <h4>Ulysse Zbinden</h4>
             <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
           </div>
           <div class="comite-member">
-            <h4><i>Poste à pourvoir !</i></h4>
+            <h4>Mélodie Serreau</h4>
             <p>Spectacle</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
           </div>
         </section>
       </div>
@@ -526,17 +549,17 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Grégoire Gimenez</h4>
             <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
           </div>
           <div class="comite-member">
             <h4>Alexis Zuber</h4>
             <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
           </div>
           <div class="comite-member">
             <h4>Olivia Robles</h4>
             <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
           </div>
           <div class="comite-member">
             <h4>Marc Simon</h4>
@@ -547,12 +570,15 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Dina Azoulay</h4>
             <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
           </div>
           <div class="comite-member">
             <h4>Antoine Reynaud</h4>
             <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/antoine_cat.jpg"
+            />
           </div>
           <div class="comite-member">
             <h4>Marie van Rossum</h4>
@@ -575,12 +601,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Felix Elsässer</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
           </div>
           <div class="comite-member">
             <h4>Marina Perez Barrera</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
           </div>
         </section>
       </div>
