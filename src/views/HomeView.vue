@@ -431,6 +431,11 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
+            <h4>Antoine Eisinger</h4>
+            <p>Matériel</p>
+            <img class="comite-img" src="@/assets/images/comite/antoine_matos.jpg" />
+          </div>
+          <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/sophie.jpg" />
@@ -440,11 +445,7 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
-          <div class="comite-member">
-            <h4>Antoine Eisinger</h4>
-            <p>Matériel</p>
-            <img class="comite-img" src="@/assets/images/comite/antoine_matos.jpg" />
-          </div>
+
         </section>
       </div><div class="container-comite">
         <section class="comite-line">
@@ -456,7 +457,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Maria Kyramarios</h4>
             <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
           </div>
           <div class="comite-member">
             <h4>May Dubuy</h4>
@@ -467,14 +468,14 @@ import FAQRow from "../components/FAQRow.vue";
             </div><div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
-            <h4>Hadrien Canches</h4>
-            <p>Technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
-          </div>
-          <div class="comite-member">
             <h4>Jonas Blanc</h4>
             <p>Adjoint à la technique de scène</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
+          </div>
+          <div class="comite-member">
+            <h4>Hadrien Canches</h4>
+            <p>Technique de scène</p>
+            <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
           </div>
           <div class="comite-member">
             <h4>Maxime Coeytaux</h4>
@@ -521,7 +522,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Mélodie Serreau</h4>
             <p>Spectacle</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
           </div>
         </section>
       </div>
