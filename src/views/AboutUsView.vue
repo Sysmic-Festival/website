@@ -12,7 +12,7 @@
       <div class="container container-vertical-phone">
         <section style="flex: 1; padding-bottom: 0">
           <p style="margin-top: 0">
-            Sysmic est constitué d’un comité de 26 personnes de toutes années et
+            Sysmic est constitué d’un comité de 30 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
             d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au
             sein même du campus.
@@ -50,7 +50,7 @@
         </section>
         <section>
           <p style="margin-top: 0">
-            Sysmic est un festival annuel qui se déroule vers la fin octobre,
+            Sysmic est un festival annuel qui se déroule vers le début du mois de novembre,
             marquant la dernière étape du premier semestre. Nous proposons
             plusieurs scènes, des bars, des stands de nourriture, mais ce qui
             nous distingue avant tout des autres festivals sur le campus, c'est
@@ -100,7 +100,7 @@
         <section style="padding-bottom: 0; margin-top: 0">
           <p style="margin: 0; margin-bottom: 25px">
             Si tu veux nous aider à l’élaboration du Festival tu peux venir
-            staffer chaque années pendant la semaine de montage du festival, et
+            staffer chaque année pendant la semaine de montage du festival, et
             pendant la soirée! <br />
             <br />
 
