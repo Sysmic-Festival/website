@@ -50,11 +50,11 @@
         </section>
         <section>
           <p style="margin-top: 0">
-            Sysmic est un festival annuel qui se déroule vers le début du mois de novembre,
-            marquant la dernière étape du premier semestre. Nous proposons
-            plusieurs scènes, des bars, des stands de nourriture, mais ce qui
-            nous distingue avant tout des autres festivals sur le campus, c'est
-            la présence de salles d'Escape Game !<br />
+            Sysmic est un festival annuel qui se déroule vers le début du mois
+            de novembre, marquant la dernière étape du premier semestre. Nous
+            proposons plusieurs scènes, des bars, des stands de nourriture, mais
+            ce qui nous distingue avant tout des autres festivals sur le campus,
+            c'est la présence de salles d'Escape Game !<br />
             <br />
             De plus, tu as également la possibilité de nous retrouver lors
             d'autres événements tout au long de l'année. En effet, nous tenons

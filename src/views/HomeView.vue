@@ -46,28 +46,32 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-primary-background"><br />Coming soon</h1>
       <div id="infos-container" class="container">
         <section>
-          <h2 class="h2-primary-background" >Tremplin 2025</h2>
+          <h2 class="h2-primary-background">Tremplin 2025</h2>
           <p>
-            On se réjouit de te revoir cette année encore ! Pour bien débuter le semestre, 
-            Sysmic te propose de te retrouver au Tremplin.
+            On se réjouit de te revoir cette année encore ! Pour bien débuter le
+            semestre, Sysmic te propose de te retrouver au Tremplin.
             <br /><br />
-            Le tremplin, c'est notre évènement de rentrée que nous organisons chaque année 
-            depuis 2022. Il s'agît en fait d'une soirée organisée en partenariat avec le 
-            bar Satellite. 
-            <br/><br/>
-            Tu peux venir assister aux shows d'artistes de la région, qui n'attendent que toi 
-            pour te démontrer leur talent, et ensuite voter pour l'artiste que tu préfères.
-            <br/><br/>
-            L'artiste que le public plébiscite gagnera ensuite un slot sur scène lors de 
-            notre festival en novembre !
-            <br/><br/>
-            On se réjouit donc de te voir le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
+            Le tremplin, c'est notre évènement de rentrée que nous organisons
+            chaque année depuis 2022. Il s'agît en fait d'une soirée organisée
+            en partenariat avec le bar Satellite.
+            <br /><br />
+            Tu peux venir assister aux shows d'artistes de la région, qui
+            n'attendent que toi pour te démontrer leur talent, et ensuite voter
+            pour l'artiste que tu préfères.
+            <br /><br />
+            L'artiste que le public plébiscite gagnera ensuite un slot sur scène
+            lors de notre festival en novembre !
+            <br /><br />
+            On se réjouit donc de te voir le mercredi
+            <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
           </p>
-          <h2 class="h2-primary-background" >Festival</h2>
+          <h2 class="h2-primary-background">Festival</h2>
           <p>
             Et il y aura biensur le festival le 7 novembre prochain !
             <br /><br />
-            Les infos arriveront prochainement, alors n'oublie pas de nous suivre sur les reseaux pour être au courant ! On est sur <a href="https://instagram.com/festival_sysmic">Instagram</a> 
+            Les infos arriveront prochainement, alors n'oublie pas de nous
+            suivre sur les reseaux pour être au courant ! On est sur
+            <a href="https://instagram.com/festival_sysmic">Instagram</a>
           </p>
         </section>
       </div>
@@ -368,8 +372,8 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container">
         <section>
           <p style="text-align: center">
-            Si tu veux en savoir plus à propos de l'association, jettes un oeil
-            à la page
+            Si tu veux en savoir plus à propos de l'association, jette un oeil à
+            la page
             <span
               ><router-link
                 style="color: var(--white); text-decoration: underline"
@@ -396,10 +400,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Mathieu Bénard</h4>
             <p>Président</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/matthieu.jpg"
-            />
+            <img class="comite-img" src="@/assets/images/comite/matthieu.jpg" />
           </div>
         </section>
       </div>
@@ -423,7 +424,10 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Hector Mir</h4>
             <p>Trésorier</p>
-            <img class="comite-img" src="@/assets/images/comite/hector_old.jpg" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/hector_old.jpg"
+            />
           </div>
         </section>
       </div>
@@ -436,7 +440,10 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Antoine Eisinger</h4>
             <p>Matériel</p>
-            <img class="comite-img" src="@/assets/images/comite/antoine_matos.jpg" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/antoine_matos.jpg"
+            />
           </div>
           <div class="comite-member">
             <h4>Sophie Beuret</h4>
@@ -448,14 +455,17 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
-
         </section>
-      </div><div class="container-comite">
+      </div>
+      <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
             <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
-            <img class="comite-img" src="@/assets/images/comite/roman_autre.jpg" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/roman_autre.jpg"
+            />
           </div>
           <div class="comite-member">
             <h4>Maria Kyramarios</h4>
@@ -468,7 +478,8 @@ import FAQRow from "../components/FAQRow.vue";
             <img class="comite-img" src="@/assets/images/comite/may.jpg" />
           </div>
         </section>
-            </div><div class="container-comite">
+      </div>
+      <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
             <h4>Jonas Blanc</h4>
@@ -564,7 +575,10 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Antoine Reynaud</h4>
             <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/antoine_cat.jpg" />
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/antoine_cat.jpg"
+            />
           </div>
           <div class="comite-member">
             <h4>Marie van Rossum</h4>
