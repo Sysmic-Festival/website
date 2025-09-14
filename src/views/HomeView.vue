@@ -55,8 +55,11 @@ import FAQRow from "../components/FAQRow.vue";
             depuis 2022. Il s'agît en fait d'une soirée organisée en partenariat avec le 
             bar Satellite. 
             <br/><br/>
-            Tu peux venir assister aux shows de différents étudiants de l'école, 
-            artistes dans l'âme, qui n'attendent que toi pour te démontrer leur talent.   
+            Tu peux venir assister aux shows d'artistes de la région, qui n'attendent que toi 
+            pour te démontrer leur talent, et ensuite voter pour l'artiste que tu préfères.
+            <br/><br/>
+            L'artiste que le public plébiscite gagnera ensuite un slot sur scène lors de 
+            notre festival en novembre !
             <br/><br/>
             On se réjouit donc de te voir le mercredi <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
           </p>
