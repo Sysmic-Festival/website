@@ -63,7 +63,7 @@ import FAQRow from "../components/FAQRow.vue";
             lors de notre festival en novembre !
             <br /><br />
             On se réjouit donc de te voir le mercredi
-            <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
+            <b>24 septembre à 20:00 au Bar Satellite</b> (entrée libre).
           </p>
           <h2 class="h2-primary-background">Festival</h2>
           <p>
