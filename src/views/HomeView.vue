@@ -123,7 +123,7 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
-          <h2 class="line-up-stagename">scène Tech</h2>
+          <h2 class="line-up-stagename">AquaBass</h2>
           <div class="line-up-box-1" id="jardin">
             <div class="line-up-artist">
               <div class="line-up-time">08:30</div>
@@ -138,7 +138,30 @@ import FAQRow from "../components/FAQRow.vue";
               <div class="line-up-name">Ahöra</div>
             </div>
           </div>
-          <h2 class="line-up-stagename">Scène Polyv</h2>
+          <h2 class="line-up-stagename">Bikini Bottom</h2>
+          <div class="line-up-box-1" id="wonder">
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Femme fatale</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">FAUSTINE</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Hypsign</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Blaame</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Quentin Austin</div>
+            </div>
+          </div>
+          <h2 class="line-up-stagename">La fosse des Mariannes</h2>
           <div class="line-up-box-1" id="wonder">
             <div class="line-up-artist">
               <div class="line-up-time">87:30</div>
