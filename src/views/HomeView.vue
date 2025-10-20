@@ -43,35 +43,14 @@ import FAQRow from "../components/FAQRow.vue";
       <!-- <Timer /> -->
     </div>
     <div id="coming-soon" class="coming-soon">
-      <h1 class="h1-primary-background"><br />Coming soon</h1>
+      <h1 class="h1-primary-background"><br />Le festival</h1>
       <div id="infos-container" class="container">
         <section>
-          <h2 class="h2-primary-background">Tremplin 2025</h2>
-          <p>
-            On se réjouit de te revoir cette année encore ! Pour bien débuter le
-            semestre, Sysmic te propose de te retrouver au Tremplin.
-            <br /><br />
-            Le tremplin, c'est notre évènement de rentrée que nous organisons
-            chaque année depuis 2022. Il s'agît en fait d'une soirée organisée
-            en partenariat avec le bar Satellite.
-            <br /><br />
-            Tu peux venir assister aux shows d'artistes de la région, qui
-            n'attendent que toi pour te démontrer leur talent, et ensuite voter
-            pour l'artiste que tu préfères.
-            <br /><br />
-            L'artiste que le public plébiscite gagnera ensuite un slot sur scène
-            lors de notre festival en novembre !
-            <br /><br />
-            On se réjouit donc de te voir le mercredi
-            <b>24 septembre à 20:00 au Bar Satellite</b> (entrée libre).
-          </p>
           <h2 class="h2-primary-background">Festival</h2>
           <p>
-            Et il y aura biensur le festival le 7 novembre prochain !
-            <br /><br />
-            Les infos arriveront prochainement, alors n'oublie pas de nous
-            suivre sur les reseaux pour être au courant ! On est sur
-            <a href="https://instagram.com/festival_sysmic">Instagram</a>
+            Sysmic, c'est le festival de la fin d'année à l'EPFL.
+            <br><br>
+            Cette année, la 29ème édition aura lieu le vendredi 7 novembre. 
           </p>
         </section>
       </div>
@@ -119,74 +98,8 @@ import FAQRow from "../components/FAQRow.vue";
                 </div>
             </div>
         </div>
-        <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
-        <div class="line-up-zone">
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Breakdance</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">blabla</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Magnitude SYS</h2> 
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">Breakdance Show</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">0:00</div>
-                        <div class="line-up-name">DJ Rys</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1:00</div>
-                        <div class="line-up-name">Collectif 52</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">3:00</div>
-                        <div class="line-up-name">Lunar Impact b2b Two minds</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">4:00</div>
-                        <div class="line-up-name">Contraste</div>
-                    </div>
-                </div>
-            </div>
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Scène Platine</h2>
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Tree House</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22H45</div>
-                        <div class="line-up-name">Lake &  OUAAAHH</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">23h45</div>
-                        <div class="line-up-name">NEUN's</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1h00</div>
-                        <div class="line-up-name">Yenkov</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Scène Jukebox</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Fréquence Banane</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">00h30</div>
-                        <div class="line-up-name">Dina MDN</div>
-                    </div>
-                </div>
-            </div> 
-        </div>
+        
+
         
         <section class="button-section">
             <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
