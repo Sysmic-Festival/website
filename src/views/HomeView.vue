@@ -446,6 +446,20 @@ import FAQRow from "../components/FAQRow.vue";
             />
           </div>
           <div class="comite-member">
+            <h4>May Dubuy</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Maria Kyramarios</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
+          </div>
+        </section>
+      </div>
+      <div class="container-comite">
+        <section class="comite-line">
+          <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
@@ -460,27 +474,10 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/roman_autre.jpg"
-            />
-          </div>
-          <div class="comite-member">
-            <h4>Maria Kyramarios</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>May Dubuy</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/roman_autre.jpg"/>
           </div>
         </section>
       </div>
