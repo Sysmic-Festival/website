@@ -124,64 +124,57 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="line-up-zone">
         <div class="line-up-container">
           <h2 class="line-up-stagename">AquaBass</h2>
-          <div class="line-up-box-1" id="jardin">
+          <div class="line-up-box-1">
             <div class="line-up-artist">
-              <div class="line-up-time">08:30</div>
+              <div class="line-up-time">21:45</div>
+              <div class="line-up-name">Quentin Austin</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">22:45</div>
               <div class="line-up-name">HowsMax</div>
             </div>
             <div class="line-up-artist">
-              <div class="line-up-time">08:30</div>
+              <div class="line-up-time">23:45</div>
               <div class="line-up-name">Kodaman</div>
             </div>
             <div class="line-up-artist">
-              <div class="line-up-time">08:30</div>
+              <div class="line-up-time">0:45</div>
               <div class="line-up-name">Ahöra</div>
             </div>
           </div>
           <h2 class="line-up-stagename">Bikini Bottom</h2>
-          <div class="line-up-box-1" id="wonder">
+          <div class="line-up-box-1">
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
+              <div class="line-up-time">21:00</div>
+              <div class="line-up-name">FAUSTINE</div>
+            </div>          
+              <div class="line-up-artist">
+              <div class="line-up-time">22:30</div>
               <div class="line-up-name">Femme fatale</div>
             </div>
+
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">FAUSTINE</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
+              <div class="line-up-time">0:15</div>
               <div class="line-up-name">Hypsign</div>
             </div>
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
+              <div class="line-up-time">1:45</div>
               <div class="line-up-name">Blaame</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">Quentin Austin</div>
             </div>
           </div>
-          <h2 class="line-up-stagename">La fosse des Mariannes</h2>
-          <div class="line-up-box-1" id="wonder">
+          <h2 class="line-up-stagename">La fosse des Mariannes (scène animée par Fréquence Banane)</h2>
+          <div class="line-up-box-1">
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">Femme fatale</div>
+              <div class="line-up-time">21:30 - 22:30</div>
+              <div class="line-up-name">DJ Set</div>
             </div>
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">FAUSTINE</div>
+              <div class="line-up-time">23:15 - 0:15</div>
+              <div class="line-up-name">DJ Set</div>
             </div>
             <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">Hypsign</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">Blaame</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">87:30</div>
-              <div class="line-up-name">Quentin Austin</div>
+              <div class="line-up-time">1:00 - 2:00</div>
+              <div class="line-up-name">DJ Set</div>
             </div>
           </div>
         </div>
