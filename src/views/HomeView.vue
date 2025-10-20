@@ -119,78 +119,60 @@ import FAQRow from "../components/FAQRow.vue";
                 </div>
             </div>
         </div> -->
-        <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
-        <div class="line-up-zone">
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Breakdance</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">blabla</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Magnitude SYS</h2> 
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">Breakdance Show</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">0:00</div>
-                        <div class="line-up-name">DJ Rys</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1:00</div>
-                        <div class="line-up-name">Collectif 52</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">3:00</div>
-                        <div class="line-up-name">Lunar Impact b2b Two minds</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">4:00</div>
-                        <div class="line-up-name">Contraste</div>
-                    </div>
-                </div>
+    <div id="line-up" class="line-up">
+      <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
+      <div class="line-up-zone">
+        <div class="line-up-container">
+          <h2 class="line-up-stagename">scène Tech</h2>
+          <div class="line-up-box-1" id="jardin">
+            <div class="line-up-artist">
+              <div class="line-up-time">08:30</div>
+              <div class="line-up-name">HowsMax</div>
             </div>
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Scène Platine</h2>
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Tree House</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22H45</div>
-                        <div class="line-up-name">Lake &  OUAAAHH</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">23h45</div>
-                        <div class="line-up-name">NEUN's</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1h00</div>
-                        <div class="line-up-name">Yenkov</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Scène Jukebox</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Fréquence Banane</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">00h30</div>
-                        <div class="line-up-name">Dina MDN</div>
-                    </div>
-                </div>
-            </div> 
+            <div class="line-up-artist">
+              <div class="line-up-time">08:30</div>
+              <div class="line-up-name">Kodaman</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">08:30</div>
+              <div class="line-up-name">Ahöra</div>
+            </div>
+          </div>
+          <h2 class="line-up-stagename">Scène Polyv</h2>
+          <div class="line-up-box-1" id="wonder">
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Femme fatale</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">FAUSTINE</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Hypsign</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Blaame</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">87:30</div>
+              <div class="line-up-name">Quentin Austin</div>
+            </div>
+          </div>
         </div>
-        
-        <section class="button-section">
-            <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
-        </section> 
+      </div>
+
+      <section class="button-section">
+        <a
+          class="main-page-button"
+          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+          target="_blank"
+        >
+          Playlist du Festival →
+        </a>
+      </section>
     </div>
 
     <div class="photo-gallery">
