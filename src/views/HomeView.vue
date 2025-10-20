@@ -346,7 +346,7 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="container container-vertical-phone">
         <section style="flex: 3; padding-top: 0">
           <p>
-            Sysmic est constitué d’un comité de 30 personnes de toutes années et
+            Sysmic est constitué d’un comité de 31 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
             d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au
             sein même du campus.
@@ -448,7 +448,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/sophie.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Edgar Wolff</h4>
+            <p>Sécurité</p>
+            <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
           </div>
           <div class="comite-member">
             <h4>Matej Soumillion</h4>
@@ -484,7 +489,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Jonas Blanc</h4>
             <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
           </div>
           <div class="comite-member">
             <h4>Hadrien Canches</h4>
@@ -517,7 +522,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Léa Mahfouf</h4>
             <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
           </div>
         </section>
       </div>
