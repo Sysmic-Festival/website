@@ -118,7 +118,7 @@ import FAQRow from "../components/FAQRow.vue";
                     <img class="band" src="@/assets/images/utilitaries/long-band.svg">
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="line-up" class="line-up">
             <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
         <div class="line-up-zone">
@@ -191,7 +191,7 @@ import FAQRow from "../components/FAQRow.vue";
         <section class="button-section">
             <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
         </section> 
-    </div>-->
+    </div>
 
     <div class="photo-gallery">
       <Slideshow />

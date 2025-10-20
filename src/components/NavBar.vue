@@ -65,6 +65,7 @@ function onScroll() {
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
         <li><router-link to="/#coming-soon">Coming soon</router-link></li>
+        <li><router-link to="/#line-up">Line up</router-link></li>
         <li><router-link to="/#association">L'association</router-link></li>
         <li><router-link to="/#comite">Le comité</router-link></li>
       </ul>
