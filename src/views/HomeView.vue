@@ -73,14 +73,21 @@ import FAQRow from "../components/FAQRow.vue";
             suivre sur les reseaux pour être au courant ! On est sur
             <a href="https://instagram.com/festival_sysmic">Instagram</a>
           </p>
+          <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
+          <p>
+            Pour te loger durant le festival, nous te recommendons notre partenaire
+            le <i>SwissTech Hotel</i>.
+            <br /><br />
+            Situé en plein coeur du campus, à quelques pas de l'entrée du festival, le
+            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le confort et la simplicité.
+            <br /><br />
+            Si tu cherches un hébergement pendant la soirée, on te recommande d'aller 
+            faire un tour sur leur <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
+          </p>
         </section>
       </div>
 
-      <div class="slider">
-        <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
-        </div>
-      </div>
+
     </div>
     <!-- <div id="magsys" class="magsys">
             <h1 class="h1-primary-background"><br>MSYS 2025</h1>
