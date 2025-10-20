@@ -11,7 +11,7 @@ import FAQRow from "../components/FAQRow.vue";
     <div class="home-screen">
       <div class="home-screen-bg"></div>
       <AnimatedLogo id="Logo" />
-      <!-- <div class="sponsors-bar">
+      <div class="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
                         <a href="https://www.makita.fr/">
@@ -39,8 +39,8 @@ import FAQRow from "../components/FAQRow.vue";
                         </a>
                     </div>
                 </div>
-            </div> -->
-      <!-- <Timer /> -->
+            </div>
+      <Timer />
     </div>
     <div id="coming-soon" class="coming-soon">
       <h1 class="h1-primary-background"><br />Coming soon</h1>
