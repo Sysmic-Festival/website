@@ -1124,7 +1124,7 @@ span {
   flex-direction: column;
   padding-bottom: 20px;
   overflow: hidden;
-  background-color: var(--white);
+  background-color: var(--black);
 }
 
 .home-screen-bg {
