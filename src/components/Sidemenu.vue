@@ -50,7 +50,7 @@ router.beforeEach(() => {
       <router-link to="/faq">FAQ</router-link>
       <hr id="sidebar-links-hr" />
     </section>
-    <section id="player-button-section">
+    <!-- <section id="player-button-section">
       <a href="#" @click="displayPlayer"
         ><img
           class="player-button"
@@ -60,7 +60,7 @@ router.beforeEach(() => {
         :displayed="state.playerDisplayed"
         @displayedUpdated="(val) => (state.playerDisplayed = val)"
       ></Player>
-    </section>
+    </section> -->
   </div>
 </template>
 

@@ -24,7 +24,7 @@ function backdropClicked(e) {
             <div v-if="state.currentPlayer === 'player1'">
               <iframe
                 style="border-radius: 12px"
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1E4xmFTrdt6YVF?utm_source=generator"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1E4xaXncmRDHuO?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -36,7 +36,7 @@ function backdropClicked(e) {
             <div v-if="state.currentPlayer === 'player2'">
               <iframe
                 style="border-radius: 12px"
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO097phG?utm_source=generator"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1EIfiEjMkflBDT?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -48,7 +48,7 @@ function backdropClicked(e) {
             <div v-if="state.currentPlayer === 'player3'">
               <iframe
                 style="border-radius: 12px"
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO3UtSB2?utm_source=generator"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1E4zHzzbezAx0s?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -60,7 +60,7 @@ function backdropClicked(e) {
             <div v-if="state.currentPlayer === 'player4'">
               <iframe
                 style="border-radius: 12px"
-                src="https://open.spotify.com/embed/album/7INLeFGVmRkHQcukM4nuKt?utm_source=generator"
+                src="https://open.spotify.com/embed/album/37i9dQZF1EIVn7OIooBTNL?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
@@ -73,7 +73,7 @@ function backdropClicked(e) {
             <div v-if="state.currentPlayer === 'player5'">
               <iframe
                 style="border-radius: 12px"
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1E4v9UkbXR0w6B?utm_source=generator"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0DLxeC?utm_source=generator"
                 width="100%"
                 height="352"
                 frameBorder="0"
