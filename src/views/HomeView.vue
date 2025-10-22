@@ -46,202 +46,146 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-primary-background"><br />Le festival</h1>
       <div id="infos-container" class="container">
         <section>
-          <h2 class="h2-primary-background">Festival</h2>
           <p>
             Sysmic, c'est le festival de la fin d'année à l'EPFL.
-            <br><br>
-            Cette année, la 29ème édition aura lieu le vendredi 7 novembre. 
+            <br /><br />
+            Cette année, la 29ème édition aura lieu le vendredi 7 novembre.
           </p>
         </section>
       </div>
-
       <div class="slider">
         <div class="slide">
           <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
         </div>
       </div>
     </div>
-    <!-- <div id="magsys" class="magsys">
-            <h1 class="h1-primary-background"><br>MSYS 2025</h1>
-            <div id="infos-container" class="container">
-                <section style="">
-                    <h2 class="h2-primary-background">Billetterie </h2>
-                    <p  >
-                        Achat sur la billetterie en ligne : <span class="higlight-text">CHF 9</span>
-                        <br><br>
-                        Vente sur place le soir même : <span class="higlight-text">CHF 15</span>
-                        <br><br>
-                        Ouverture de la billetterie en ligne : <span class= "higlight-text"> 31 mars 2025</span> à <span class="higlight-text">12:00</span>.
-                        <br><br>
-                        Paiement en carte de crédit/débit ou Twint.
-                    </p>
-                    <div class="billetterie-button">
-                        <button class="main-page-button" onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4';" >ACHETER UN BILLET</button>
-                    </div>
-                </section>
-                <hr class="info-section-hr" id="date-hr">
-                <section style="">
-                    <h2 class="h2-primary-background">Date</h2>
-                    <p>
-                        <span class="higlight-text">8 avril 2025</span>
-                         <br><br>
-                        Horaires : <span class="higlight-text">22:30 - 5:00</span>
-                        <br><br>
-                        Lieu : <span class="higlight-text">D! Club</span> <br>Place centrale 1<br>1001 Lausanne
-                    </p>
-                </section>
-            </div>
-
-            <div class="slider">
-                <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
-                </div>
-            </div>
-        </div>
-        
-
-        
-        <section class="button-section">
-            <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
-        </section> 
-    </div>-->
 
     <div class="photo-gallery">
       <Slideshow />
     </div>
 
-    <!-- <div id="infos" class="infos">
-            <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
-            <div id="infos-container" class="container">
-                <section style="">
-                    <h2 class="h2-primary-background">Billeterie</h2>
-                    <p  >
-                        Billet: <span class="higlight-text">15CHF</span>
-                        <br><br>
-                        Vente du <span class="higlight-text">29 au 30 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
-                        <br>
-                        Paiement en Camipro ou en cash
-                        <br><br>
-                        Le soir même: <span class="higlight-text">20CHF</span>
-                    </p>
-                </section>
-                <hr class="info-section-hr" id="date-hr">
-                <section style="">
-                    <h2 class="h2-primary-background">Date</h2>
-                    <p>
-                        <span class="higlight-text">1 novembre 2024</span>
-                         <br><br>
-                        Début: <span class="higlight-text">20h</span>
-                        <br>
-                        Début des concerts: <span class="higlight-text">20h30</span>
-                        <br>
-                        Fin: <span class="higlight-text">03H00</span>
-                    </p>
-                </section>
-            </div>
-            <hr class="mt-hr" style="max-width:150px">
-            <hr class="mt-hr" style="max-width:200px">
-            <hr class="mt-hr-blue">
-            <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Plus d'infos sur la partie <span style="color:var(--third)">MT</span> <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
-            <hr class="mt-hr-blue">
-            <hr class="mt-hr" style="max-width:200px">
-            <hr class="mt-hr" style="max-width:150px">
-            <br>
-            <section style="display:flex; flex-direction:column;align-items:center">
-                
+    <div id="infos" class="infos">
+      <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
+      <div id="infos-container" class="container">
+        <section style="">
+          <h2 class="h2-primary-background">Billeterie</h2>
+          <p>
+            Billet: <span class="higlight-text">15CHF</span> <br /><br />
+            Vente du <span class="higlight-text">29 au 30 octobre</span> sur
+            l'Esplanade à <span class="higlight-text">12H00</span>
+            <br />
+            Paiement en Camipro ou en cash
+            <br /><br />
+            Le soir même: <span class="higlight-text">20CHF</span>
+          </p>
+        </section>
+        <hr class="info-section-hr" id="date-hr" />
+        <section style="">
+          <h2 class="h2-primary-background">Date</h2>
+          <p>
+            <span class="higlight-text">1 novembre 2024</span>
+            <br /><br />
+            Début: <span class="higlight-text">20h</span>
+            <br />
+            Début des concerts: <span class="higlight-text">20h30</span>
+            <br />
+            Fin: <span class="higlight-text">03H00</span>
+          </p>
+        </section>
+      </div>
+      <hr class="mt-hr" style="max-width: 150px" />
+      <hr class="mt-hr" style="max-width: 200px" />
+      <hr class="mt-hr-blue" />
+      <div
+        class="container"
+        style="flex-direction: column; align-items: center; font-weight: 900"
+      >
+        <p>
+          Plus d'infos sur la partie
+          <span style="color: var(--third)">MT</span>
+          <RouterLink
+            to="/faq#micros"
+            style="color: var(--white); text-decoration: underline"
+            >ici</RouterLink
+          >
+          !
+        </p>
+      </div>
+      <hr class="mt-hr-blue" />
+      <hr class="mt-hr" style="max-width: 200px" />
+      <hr class="mt-hr" style="max-width: 150px" />
+      <br />
+      <section
+        style="display: flex; flex-direction: column; align-items: center"
+      >
         <FAQRow title="Y a-t-il un vestiaire ?">
-            Oui ! Un vestiaire est disponible gratuitement, cependant nous déclinons toute responsabilité en cas de perte ou vol.
+          Oui ! Un vestiaire est disponible gratuitement, cependant nous
+          déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-            Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
-            Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
-            <br>
-            Les navettes desserviront :<br>
-            Renens, Malley, le Flon.
+          Oui ! En plus des transports en commun normaux, il y aura des navettes
+          gratuites. Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard
+          (directement à la sortie du festival).<br />
+          <br />
+          Les navettes desserviront :<br />
+          Renens, Malley, le Flon.
         </FAQRow>
-        
+
         <FAQRow title="Les sacs sont-ils autorisés ?">
-            Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs dans l’enceinte de la manifestation.
-            Nous vous prions de venir sans sac à dos.
+          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons
+          pas les sacs dans l’enceinte de la manifestation. Nous vous prions de
+          venir sans sac à dos.
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-            Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, à 12:00, le mardi et mercredi.
+          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la
+          semaine précédant le festival, à 12:00, le mardi et mercredi.
         </FAQRow>
-            </section>
-            <section class="button-section">
-                <router-link to="/faq">
-                    <button class="main-page-button">FAQ →</button>
-                </router-link>
-            </section>
-            <hr class="comite-section-hr">
-            <div class="slider">
-                <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
-                </div>
-            </div>
-            <div class="container-large" style="margin-bottom:25px">
-                <section style="flex:1">
-                    <h2 class="h2-primary-background" id="plan-title">Accès</h2>
-                    <p id="plan-para">
-                        Le festival a lieu dans le batiment CE à L’EPFL dans la commune d’Ecublens. 
-                        Il est accessible en transports en commun par le métro M1 (arrêt EPFL ou UNIL SORGE), le bus 701,31,705 (arrêt Argand, Paqueret ou Piccard) 
-                        et se situe près de l’autoroute A1 (sortie EPFL-UNIL).
-
-                    </p>
-                </section>
-                <section id="plan-image" style="flex:1">
-                    <a href="https://www.google.com/maps/d/u/0/edit?mid=1CXFmGv1zlrAQgA84q9ZXzxnXD0qu938&usp=sharing" target="_blank">
-                        <img class="img-responsive" src="@/assets/images/utilitaries/plan_acces.png">
-                    </a>
-                </section>
-            </div>
-            <section class="button-section">
-                <a class="main-page-button" href="/images/plan_interieur.png" target="_blank">Plan du Festival →</a>
-            </section>
-        </div> -->
-
-    <!-- <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Sponsors 2024</h1>
-            <section class="sponsors-line">
-                <div>
-                    <a target="_BLANK" href="https://infomaniak.events/fr-ch">
-                        <img src="@/assets/images/sponsors/infomaniak-sa.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
-                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.enzo-location.ch/">
-                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/enzoloc.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.makita.fr/">
-                        <img id="makita" style="transform: scale(0.6);" src="@/assets/images/sponsors/makita.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.ypsomed.com/en/">
-                        <img style="transform: scale(1.4);" src="@/assets/images/sponsors/ypsomed.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://agepoly.ch/">
-                        <img id="agepo" src="@/assets/images/sponsors/AGEPoly.svg">
-                    </a>
-                </div>
-            </section>
-        <section class="button-section" >
-            <a href="https://sysmic.ch/dossier_sponso_sysmic_2024" target="_blank">
-                <button class="main-page-button">Dossier Sponsoring →</button>
-            </a>
+      </section>
+      <section class="button-section">
+        <router-link to="/faq">
+          <button class="main-page-button">FAQ →</button>
+        </router-link>
+      </section>
+      <hr class="comite-section-hr" />
+      <div class="slider">
+        <div class="slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+        </div>
+      </div>
+      <div class="container-large" style="margin-bottom: 25px">
+        <section style="flex: 1">
+          <h2 class="h2-primary-background" id="plan-title">Accès</h2>
+          <p id="plan-para">
+            Le festival a lieu dans le batiment CE à L’EPFL dans la commune
+            d’Ecublens. Il est accessible en transports en commun par le métro
+            M1 (arrêt EPFL ou UNIL SORGE), le bus 701,31,705 (arrêt Argand,
+            Paqueret ou Piccard) et se situe près de l’autoroute A1 (sortie
+            EPFL-UNIL).
+          </p>
         </section>
-        </div> -->
+        <section id="plan-image" style="flex: 1">
+          <a
+            href="https://www.google.com/maps/d/u/0/edit?mid=1CXFmGv1zlrAQgA84q9ZXzxnXD0qu938&usp=sharing"
+            target="_blank"
+          >
+            <img
+              class="img-responsive"
+              src="@/assets/images/utilitaries/plan_acces.png"
+            />
+          </a>
+        </section>
+      </div>
+      <section class="button-section">
+        <a
+          class="main-page-button"
+          href="/images/plan_interieur.png"
+          target="_blank"
+          >Plan du Festival →</a
+        >
+      </section>
+    </div>
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -390,7 +334,10 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
-            <img class="comite-img" src="@/assets/images/comite/roman_autre.jpg"/>
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/roman_autre.jpg"
+            />
           </div>
         </section>
       </div>
