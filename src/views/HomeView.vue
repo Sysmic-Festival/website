@@ -76,7 +76,7 @@ import FAQRow from "../components/FAQRow.vue";
           <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
           <p>
             Pour te loger durant le festival, nous te recommendons notre partenaire
-            le <i>SwissTech Hotel</i>.
+            le <i>SwissTech Hotel</i>, qui proposera des chambres à tarif fixé pour nos festivaliers !
             <br /><br />
             Situé en plein coeur du campus, à quelques pas de l'entrée du festival, le
             <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le confort et la simplicité.
