@@ -65,7 +65,7 @@ import FAQRow from "../components/FAQRow.vue";
     </div>
 
     <div id="infos" class="infos">
-      <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
+      <h1 class="h1-primary-background">Infos Pratiques</h1>
       <div id="infos-container" class="container">
         <section style="">
           <h2 class="h2-primary-background">Billeterie</h2>
@@ -83,7 +83,7 @@ import FAQRow from "../components/FAQRow.vue";
         <section style="">
           <h2 class="h2-primary-background">Date</h2>
           <p>
-            <span class="higlight-text">1 novembre 2024</span>
+            <span class="higlight-text">7 novembre 2025</span>
             <br /><br />
             Début: <span class="higlight-text">20h</span>
             <br />
@@ -154,13 +154,13 @@ import FAQRow from "../components/FAQRow.vue";
           <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
         </div>
       </div>
-      <div class="container-large" style="margin-bottom: 25px">
+      <!-- <div class="container-large" style="margin-bottom: 25px"> 
         <section style="flex: 1">
           <h2 class="h2-primary-background" id="plan-title">Accès</h2>
           <p id="plan-para">
             Le festival a lieu dans le batiment CE à L’EPFL dans la commune
             d’Ecublens. Il est accessible en transports en commun par le métro
-            M1 (arrêt EPFL ou UNIL SORGE), le bus 701,31,705 (arrêt Argand,
+            M1 (arrêt EPFL ou UNIL SORGE), les bus 701, 31, 705 (arrêt Argand,
             Paqueret ou Piccard) et se situe près de l’autoroute A1 (sortie
             EPFL-UNIL).
           </p>
@@ -176,7 +176,7 @@ import FAQRow from "../components/FAQRow.vue";
             />
           </a>
         </section>
-      </div>
+      </div> 
       <section class="button-section">
         <a
           class="main-page-button"
@@ -184,8 +184,8 @@ import FAQRow from "../components/FAQRow.vue";
           target="_blank"
           >Plan du Festival →</a
         >
-      </section>
-    </div>
+      </section> -->
+    </div> 
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
