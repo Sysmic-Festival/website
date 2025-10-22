@@ -14,8 +14,8 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="sponsors-bar">
                 <div class="sponsors-row">
                     <div class="sponsor-el">
-                        <a href="https://www.makita.fr/">
-                            <img src="@/assets/images/sponsors/makita.jpg">
+                        <a href="https://www.swisstech-hotel.com/fr/">
+                            <img src="@/assets/images/sponsors/sthotel.png">
                         </a>
                     </div>
                     <div class="sponsor-el" id="agep">
@@ -24,18 +24,13 @@ import FAQRow from "../components/FAQRow.vue";
                         </a>
                     </div>
                     <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.enzo-location.ch/">
-                            <img src="@/assets/images/sponsors/enzoloc.jpg">
+                        <a target="_BLANK" href="https://infomaniak.events/fr-ch">
+                            <img src="@/assets/images/sponsors/infomaniak-sa.png">
                         </a>
                     </div>
                     <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.ypsomed.com/en/">
-                            <img src="@/assets/images/sponsors/ypsomed.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
-                            <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
+                        <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+                            <img src="@/assets/images/sponsors/forum.png">
                         </a>
                     </div>
                 </div>
@@ -970,8 +965,8 @@ span {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   position: absolute;
-  top: calc(5vw + 42vh);
-  left: 20%;
+  top: calc(5vw + 45vh);
+  left: 25%;
   height: 8%;
   z-index: 101;
   max-width: 70%;
@@ -1129,7 +1124,7 @@ span {
   flex-direction: column;
   padding-bottom: 20px;
   overflow: hidden;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .home-screen-bg {
