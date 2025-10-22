@@ -190,7 +190,7 @@ import FAQRow from "../components/FAQRow.vue";
       <section class="button-section">
         <a
           class="main-page-button"
-          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+          href="https://spotify.link/CEAKTpWMDXb"
           target="_blank"
         >
           Playlist du Festival →
