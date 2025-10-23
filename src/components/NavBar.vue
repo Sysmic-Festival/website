@@ -134,7 +134,7 @@ ul.fixedOverride {
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: var(--global-margin);
+  /* margin-left: var(--global-margin); */
   margin-right: var(--global-margin);
   display: flex;
 }
@@ -164,7 +164,7 @@ ul.fixedOverride {
     margin-right: 10%;
   }
   .bar-menu li a {
-    font-size: 2vw;
+    font-size: 120%;
     color: var(--white);
     text-decoration: none;
     transition: all 0.45s;
