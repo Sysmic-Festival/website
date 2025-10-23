@@ -12,29 +12,29 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="home-screen-bg"></div>
       <AnimatedLogo id="Logo" />
       <div class="sponsors-bar">
-                <div class="sponsors-row">
-                    <div class="sponsor-el">
-                        <a href="https://www.swisstech-hotel.com/fr/">
-                            <img src="@/assets/images/sponsors/sthotel.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el" id="agep">
-                        <a href="https://agepoly.ch/en/">
-                            <img src="@/assets/images/sponsors/AGEPoly.svg">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://infomaniak.events/fr-ch">
-                            <img src="@/assets/images/sponsors/infomaniak-sa.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
-                            <img src="@/assets/images/sponsors/forum.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="sponsors-row">
+          <div class="sponsor-el">
+            <a href="https://www.swisstech-hotel.com/fr/">
+              <img src="@/assets/images/sponsors/sthotel.png" />
+            </a>
+          </div>
+          <div class="sponsor-el" id="agep">
+            <a href="https://agepoly.ch/en/">
+              <img src="@/assets/images/sponsors/AGEPoly.svg" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://infomaniak.events/fr-ch">
+              <img src="@/assets/images/sponsors/infomaniak-sa.png" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+              <img src="@/assets/images/sponsors/forum.png" />
+            </a>
+          </div>
+        </div>
+      </div>
       <Timer />
     </div>
     <div id="coming-soon" class="coming-soon">
@@ -96,63 +96,67 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="line-up-zone">
         <div class="line-up-container">
           <div class="line-up-stage">
-          <h2 class="line-up-stagename">AquaBass</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:45</div>
-              <div class="line-up-name">Quentin Austin</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">22:45</div>
-              <div class="line-up-name">HowsMax</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">23:45</div>
-              <div class="line-up-name">Kodaman</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">0:45</div>
-              <div class="line-up-name">Ahöra</div>
-            </div>
-          </div>
-          </div>
-          <div class="line-up-stage">
-          <h2 class="line-up-stagename">Bikini Bottom</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:00</div>
-              <div class="line-up-name">FAUSTINE</div>
-            </div>          
+            <h2 class="line-up-stagename">AquaBass</h2>
+            <div class="line-up-box-1">
               <div class="line-up-artist">
-              <div class="line-up-time">22:30</div>
-              <div class="line-up-name">Femme fatale</div>
+                <div class="line-up-time">21:45</div>
+                <div class="line-up-name">Quentin Austin</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:45</div>
+                <div class="line-up-name">HowsMax</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:45</div>
+                <div class="line-up-name">Kodaman</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">0:45</div>
+                <div class="line-up-name">Ahöra</div>
+              </div>
             </div>
-
-            <div class="line-up-artist">
-              <div class="line-up-time">0:15</div>
-              <div class="line-up-name">Hypsign</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">1:45</div>
-              <div class="line-up-name">Blaame</div>
-            </div>
-          </div></div>
+          </div>
           <div class="line-up-stage">
-          <h2 class="line-up-stagename">La fosse des Mariannes (scène animée par Fréquence Banane)</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:30 - 22:30</div>
-              <div class="line-up-name">DJ Set</div>
+            <h2 class="line-up-stagename">Bikini Bottom</h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:00</div>
+                <div class="line-up-name">FAUSTINE</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:30</div>
+                <div class="line-up-name">Femme fatale</div>
+              </div>
+
+              <div class="line-up-artist">
+                <div class="line-up-time">0:15</div>
+                <div class="line-up-name">Hypsign</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:45</div>
+                <div class="line-up-name">Blaame</div>
+              </div>
             </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">23:15 - 0:15</div>
-              <div class="line-up-name">DJ Set</div>
+          </div>
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">
+              La fosse des Mariannes (scène animée par Fréquence Banane)
+            </h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:30 - 22:30</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:15 - 0:15</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:00 - 2:00</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
             </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">1:00 - 2:00</div>
-              <div class="line-up-name">DJ Set</div>
-            </div>
-          </div></div>
+          </div>
         </div>
       </div>
 
@@ -204,14 +208,16 @@ import FAQRow from "../components/FAQRow.vue";
         <section>
           <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
           <p>
-            Pour te loger durant le festival, nous te recommendons notre partenaire
-            le <i>SwissTech Hotel</i>, qui proposera des chambres à tarif fixé pour nos festivaliers !
-            <br /><br />
-            Situé en plein coeur du campus, à quelques pas de l'entrée du festival, le
-            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le confort et la simplicité.
-            <br /><br />
-            Si tu cherches un hébergement pendant la soirée, on te recommande d'aller 
-            faire un tour sur leur <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
+            Pour te loger durant le festival, nous te recommendons notre
+            partenaire le <i>SwissTech Hotel</i>, qui proposera des chambres à
+            tarif fixé pour nos festivaliers ! <br /><br />
+            Situé en plein coeur du campus, à quelques pas de l'entrée du
+            festival, le
+            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le
+            confort et la simplicité. <br /><br />
+            Si tu cherches un hébergement pendant la soirée, on te recommande
+            d'aller faire un tour sur leur
+            <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
           </p>
         </section>
       </div>
@@ -228,7 +234,8 @@ import FAQRow from "../components/FAQRow.vue";
           <RouterLink
             to="/faq#micros"
             style="color: var(--white); text-decoration: underline"
-            > ici</RouterLink
+          >
+            ici</RouterLink
           >
           !
         </p>
@@ -307,7 +314,7 @@ import FAQRow from "../components/FAQRow.vue";
           >Plan du Festival →</a
         >
       </section> -->
-    </div> 
+    </div>
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -787,7 +794,7 @@ span {
   flex-direction: column;
   margin: 20px;
   height: 100%;
-  width:30%;
+  width: 30%;
 }
 
 .line-up-stagename {
@@ -806,7 +813,7 @@ span {
   flex-direction: column;
   align-items: center;
   width: 90%;
-  padding:3%;
+  padding: 3%;
 }
 
 #loudjack {
@@ -1250,7 +1257,7 @@ span {
     flex-direction: column;
   }
   .line-up-stage {
-    width : 90%;
+    width: 90%;
   }
   .line-up-time {
     height: 25px;
