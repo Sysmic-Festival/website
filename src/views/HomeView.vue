@@ -95,6 +95,7 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
+          <div class="line-up-stage">
           <h2 class="line-up-stagename">AquaBass</h2>
           <div class="line-up-box-1">
             <div class="line-up-artist">
@@ -114,6 +115,8 @@ import FAQRow from "../components/FAQRow.vue";
               <div class="line-up-name">Ahöra</div>
             </div>
           </div>
+          </div>
+          <div class="line-up-stage">
           <h2 class="line-up-stagename">Bikini Bottom</h2>
           <div class="line-up-box-1">
             <div class="line-up-artist">
@@ -133,7 +136,8 @@ import FAQRow from "../components/FAQRow.vue";
               <div class="line-up-time">1:45</div>
               <div class="line-up-name">Blaame</div>
             </div>
-          </div>
+          </div></div>
+          <div class="line-up-stage">
           <h2 class="line-up-stagename">La fosse des Mariannes (scène animée par Fréquence Banane)</h2>
           <div class="line-up-box-1">
             <div class="line-up-artist">
@@ -148,7 +152,7 @@ import FAQRow from "../components/FAQRow.vue";
               <div class="line-up-time">1:00 - 2:00</div>
               <div class="line-up-name">DJ Set</div>
             </div>
-          </div>
+          </div></div>
         </div>
       </div>
 
@@ -708,7 +712,7 @@ span {
 .line-up {
   max-width: 100%;
   padding: 20px;
-  padding-top: calc(var(--navbar-height) + var(--global-margin));
+  /* padding-top: calc(var(--navbar-height) + var(--global-margin)); */
   align-items: center;
   justify-content: space-around;
   display: flex;
@@ -727,7 +731,7 @@ span {
 .line-up-zone {
   width: 150%;
   max-width: 1000px;
-  height: 750px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -737,11 +741,11 @@ span {
 }
 
 .line-up-container {
-  width: 50%;
-  min-width: 250px;
-  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  height: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -778,6 +782,14 @@ span {
   /* margin-bottom: 5px; */
 }
 
+.line-up-stage {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  width:30%;
+}
+
 .line-up-stagename {
   color: white;
   text-align: center;
@@ -789,7 +801,7 @@ span {
   align-items: center;
 }
 .line-up-artist {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -814,12 +826,12 @@ span {
   font-size: 1.7em;
   font-weight: bold;
   border-radius: 10px;
-  height: 45px;
-  width: 100px;
+  height: 40px;
+  width: 180px;
   display: flex;
-  margin: auto;
+  margin: 5px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .line-up-artist-big .line-up-time {
   background-color: var(--third);
