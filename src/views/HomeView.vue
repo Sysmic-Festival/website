@@ -46,6 +46,17 @@ import FAQRow from "../components/FAQRow.vue";
             <br /><br />
             Cette année, la 29ème édition aura lieu le vendredi 7 novembre.
           </p>
+          <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
+          <p>
+            Pour te loger durant le festival, nous te recommendons notre partenaire
+            le <i>SwissTech Hotel</i>, qui proposera des chambres à tarif fixé pour nos festivaliers !
+            <br /><br />
+            Situé en plein coeur du campus, à quelques pas de l'entrée du festival, le
+            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le confort et la simplicité.
+            <br /><br />
+            Si tu cherches un hébergement pendant la soirée, on te recommande d'aller 
+            faire un tour sur leur <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
+          </p>
         </section>
       </div>
       <div class="slider">
