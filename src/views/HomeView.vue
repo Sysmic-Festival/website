@@ -168,7 +168,7 @@ import FAQRow from "../components/FAQRow.vue";
     </div>
 
     <div id="infos" class="infos">
-      <h1 class="h1-primary-background">Infos Pratiques</h1>
+      <h1 class="h1-primary-background">Infos pratiques</h1>
       <div id="infos-container" class="container">
         <section style="">
           <h2 class="h2-primary-background">Billeterie</h2>
@@ -317,7 +317,7 @@ import FAQRow from "../components/FAQRow.vue";
         </div> -->
 
     <div id="association" class="association">
-      <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
+      <h1 class="h1-primary-background">L'association</h1>
       <div class="container container-vertical-phone">
         <section style="flex: 3; padding-top: 0">
           <p>
@@ -361,11 +361,6 @@ import FAQRow from "../components/FAQRow.vue";
         </section>
       </div>
       <!-- <hr class="comite-section-hr"> -->
-      <div class="slider">
-        <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
-        </div>
-      </div>
     </div>
     <div id="comite" class="comite">
       <h1 class="h1-primary-background comite-title">Comité 2025</h1>
