@@ -420,9 +420,7 @@ import FAQRow from "../components/FAQRow.vue";
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Logistique</h2>
-
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Antoine Eisinger</h4>
             <p>Matériel</p>
@@ -441,10 +439,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Décoration</p>
             <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
@@ -468,10 +462,8 @@ import FAQRow from "../components/FAQRow.vue";
               src="@/assets/images/comite/roman_autre.jpg"
             />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
+
+
           <div class="comite-member">
             <h4>Jonas Blanc</h4>
             <p>Adjoint à la technique de scène</p>
@@ -487,14 +479,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>RH</p>
             <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Communication</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Noam Lévy</h4>
             <p>Community Manager</p>
@@ -510,10 +501,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Graphisme</p>
             <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Daniel Krief</h4>
             <p>IT/Webmaster</p>
@@ -529,14 +516,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Spectacle</p>
             <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Animation</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Grégoire Gimenez</h4>
             <p>Bar</p>
@@ -581,14 +567,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Escape Game</p>
             <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Aide à la Trésorerie</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Felix Elsässer</h4>
             <p>Sponsoring</p>
@@ -599,7 +584,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sponsoring</p>
             <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
           </div>
-        </section>
       </div>
 
       <!-- <hr class="comite-section-hr"> -->
@@ -1088,8 +1072,13 @@ span {
 
 .container-comite {
   display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   max-width: 1100px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .comite-line {
