@@ -65,6 +65,114 @@ import FAQRow from "../components/FAQRow.vue";
         </div>
       </div>
     </div>
+    <!-- <div id="magsys" class="magsys">
+            <h1 class="h1-primary-background"><br>MSYS 2025</h1>
+            <div id="infos-container" class="container">
+                <section style="">
+                    <h2 class="h2-primary-background">Billetterie </h2>
+                    <p  >
+                        Achat sur la billetterie en ligne : <span class="higlight-text">CHF 9</span>
+                        <br><br>
+                        Vente sur place le soir même : <span class="higlight-text">CHF 15</span>
+                        <br><br>
+                        Ouverture de la billetterie en ligne : <span class= "higlight-text"> 31 mars 2025</span> à <span class="higlight-text">12:00</span>.
+                        <br><br>
+                        Paiement en carte de crédit/débit ou Twint.
+                    </p>
+                    <div class="billetterie-button">
+                        <button class="main-page-button" onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4';" >ACHETER UN BILLET</button>
+                    </div>
+                </section>
+                <hr class="info-section-hr" id="date-hr">
+                <section style="">
+                    <h2 class="h2-primary-background">Date</h2>
+                    <p>
+                        <span class="higlight-text">8 avril 2025</span>
+                         <br><br>
+                        Horaires : <span class="higlight-text">22:30 - 5:00</span>
+                        <br><br>
+                        Lieu : <span class="higlight-text">D! Club</span> <br>Place centrale 1<br>1001 Lausanne
+                    </p>
+                </section>
+            </div>
+
+            <div class="slider">
+                <div class="slide">
+                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                </div>
+            </div>
+        </div> -->
+    <div id="line-up" class="line-up">
+      <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
+      <div class="line-up-zone">
+        <div class="line-up-container">
+          <h2 class="line-up-stagename">AquaBass</h2>
+          <div class="line-up-box-1">
+            <div class="line-up-artist">
+              <div class="line-up-time">21:45</div>
+              <div class="line-up-name">Quentin Austin</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">22:45</div>
+              <div class="line-up-name">HowsMax</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">23:45</div>
+              <div class="line-up-name">Kodaman</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">0:45</div>
+              <div class="line-up-name">Ahöra</div>
+            </div>
+          </div>
+          <h2 class="line-up-stagename">Bikini Bottom</h2>
+          <div class="line-up-box-1">
+            <div class="line-up-artist">
+              <div class="line-up-time">21:00</div>
+              <div class="line-up-name">FAUSTINE</div>
+            </div>          
+              <div class="line-up-artist">
+              <div class="line-up-time">22:30</div>
+              <div class="line-up-name">Femme fatale</div>
+            </div>
+
+            <div class="line-up-artist">
+              <div class="line-up-time">0:15</div>
+              <div class="line-up-name">Hypsign</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">1:45</div>
+              <div class="line-up-name">Blaame</div>
+            </div>
+          </div>
+          <h2 class="line-up-stagename">La fosse des Mariannes (scène animée par Fréquence Banane)</h2>
+          <div class="line-up-box-1">
+            <div class="line-up-artist">
+              <div class="line-up-time">21:30 - 22:30</div>
+              <div class="line-up-name">DJ Set</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">23:15 - 0:15</div>
+              <div class="line-up-name">DJ Set</div>
+            </div>
+            <div class="line-up-artist">
+              <div class="line-up-time">1:00 - 2:00</div>
+              <div class="line-up-name">DJ Set</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="button-section">
+        <a
+          class="main-page-button"
+          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+          target="_blank"
+        >
+          Playlist du Festival →
+        </a>
+      </section>
+    </div>
 
     <div class="photo-gallery">
       <Slideshow />
