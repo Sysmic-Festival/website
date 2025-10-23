@@ -806,6 +806,7 @@ span {
   flex-direction: column;
   align-items: center;
   width: 90%;
+  padding:3%;
 }
 
 #loudjack {
@@ -1246,6 +1247,10 @@ span {
   .line-up-container {
     padding-left: 10px;
     padding-right: 10px;
+    flex-direction: column;
+  }
+  .line-up-stage {
+    width : 90%;
   }
   .line-up-time {
     height: 25px;
@@ -1295,7 +1300,6 @@ span {
 
   .line-up-zone {
     width: 100%;
-    height: 700px;
   }
   .line-up-time,
   .line-up-name {
