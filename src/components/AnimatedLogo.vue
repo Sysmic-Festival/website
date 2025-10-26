@@ -56,12 +56,12 @@ h2 {
 
 .invaderSection {
   z-index: 1;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   display: flex;
-  justify-content: center;
-  height: 50%;
+  /* justify-content: center; */
+  /* height: 50%; */
   max-width: 100%;
-  padding: 25px;
+  padding: 15px;
 }
 .layer {
   /* position: absolute; */
@@ -69,8 +69,8 @@ h2 {
     brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
-  height: 23vw;
-  max-height: 60vh;
+  /* height: 23vw; */
+  /* max-height: 60vh; */
   max-width: 100%;
   object-fit: contain;
 }
@@ -133,10 +133,18 @@ h2 {
   opacity: 1 !important;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width:850px) {
+
+  .invaderSection {
+    max-height: 55%;
+  }
+}
+
+/* @media only screen and (max-width: 850px) {
   .invaderSection {
     flex-direction: column;
     align-items: center;
+    object-fit: contain;
   }
 
   #invaderDiv {
@@ -145,10 +153,10 @@ h2 {
     left: 0;
   }
   .layer {
-    /* position: absolute; */
+     position: absolute; 
     top: 5%;
     left: calc(50% - 20.625vw);
-    height: 30vw;
+     height: 30vw; 
   }
 
   .titleBox {
@@ -182,17 +190,17 @@ h2 {
   #title-date {
     transform: translateY(0px);
   }
-}
-@media only screen and (max-width: 600px) {
+} */
+/* @media only screen and (max-width: 600px) {
   .layer {
     left: calc(50% - 25vw);
     height: 40vw;
   }
-}
+} */
 
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
   .layer {
     height: 45vw;
   }
-}
+} */
 </style>

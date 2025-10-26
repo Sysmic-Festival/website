@@ -80,22 +80,23 @@ function startTimer() {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  object-fit: scale-down;
 }
 
 .decompteNumber {
   opacity: 1;
 
-  max-height: 80px;
-  max-width: 100px;
-  height: 10vw;
-  width: 14vw;
+  max-height: 70px;
+  max-width: 90px;
+  height: 8vw;
+  width: 12vw;
 
   border-radius: 10px;
   margin-left: 20px;
   margin-right: 20px;
   color: var(--white);
-  font-size: 8vh;
+  font-size: 6vh;
   padding-top: 0px;
   font-weight: bold;
 
@@ -135,7 +136,7 @@ function startTimer() {
 .numberLabel {
   text-align: left;
   margin-left: 20px;
-  font-size: 4vh;
+  font-size: 3vh;
   margin-top: 5px;
 }
 
@@ -168,9 +169,11 @@ function startTimer() {
   justify-content: center;
   z-index: 100;
   max-width: 50%;
+  max-height: 15%;
+  padding: 5px;
 }
 
-@media only screen and (max-width: 850px) {
+/* @media only screen and (max-width: 850px) {
   .decompte {
     width: 100%;
     justify-content: center;
@@ -198,9 +201,9 @@ function startTimer() {
     width: 90vw;
     margin-left: 4vw;
   }
-}
+} */
 
-@media only screen and (max-height: 1280px) {
+/* @media only screen and (max-height: 1280px) {
   .timer-section {
     padding: 0;
     padding-top: 3px;
@@ -258,5 +261,5 @@ function startTimer() {
   .timer-section {
     padding: 25px;
   }
-}
+} */
 </style>

@@ -956,6 +956,7 @@ span {
   justify-content: space-evenly;
   position: relative;
   max-width: 60%;
+  max-height:20%;
   /* top: calc(5vw + 45vh); 
   left: 25%;
   height: 8%;
@@ -1119,7 +1120,7 @@ span {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  overflow: hidden;
+  /* overflow: ; */
   background-color: var(--black);
   align-items: center;
 }
