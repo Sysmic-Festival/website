@@ -35,12 +35,12 @@ function animLogo(id) {
       <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
-    <img class="layer" src="@/assets/images/utilitaries/new-logo.svg" />
+    <img class="layer" src="@/assets/images/utilitaries/horizontal_full.png" />
     <div class="titleBox">
-      <h1>SYSMIC<br />FESTIVAL</h1>
-      <div id="title-date">
-        <!-- <h2>Ton festival revient après l'été !</h2> -->
-      </div>
+      <!-- <h1>SYSMIC<br />FESTIVAL</h1> -->
+      <!-- <div id="title-date">
+        <h2>Ton festival revient après l'été !</h2>
+      </div> -->
     </div>
   </section>
 </template>
@@ -63,7 +63,7 @@ h2 {
 }
 .layer {
   position: absolute;
-  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg)
+  filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
     brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
