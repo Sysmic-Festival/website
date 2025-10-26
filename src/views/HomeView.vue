@@ -9,8 +9,9 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
+      
       <div class="home-screen-bg"></div>
-      <AnimatedLogo id="Logo" />
+        <AnimatedLogo id="Logo" />
       <Timer />
       <div class="sponsors-bar">
         <div class="sponsors-row">
@@ -954,7 +955,7 @@ span {
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  max-width: 80%;
+  max-width: 60%;
   /* top: calc(5vw + 45vh); 
   left: 25%;
   height: 8%;

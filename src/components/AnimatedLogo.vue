@@ -60,9 +60,11 @@ h2 {
   display: flex;
   justify-content: center;
   height: 50%;
+  max-width: 100%;
+  padding: 25px;
 }
 .layer {
-  position: absolute;
+  /* position: absolute; */
   filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
     brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
@@ -70,6 +72,7 @@ h2 {
   height: 23vw;
   max-height: 60vh;
   max-width: 100%;
+  object-fit: contain;
 }
 
 #invaderDiv {
@@ -142,7 +145,7 @@ h2 {
     left: 0;
   }
   .layer {
-    position: absolute;
+    /* position: absolute; */
     top: 5%;
     left: calc(50% - 20.625vw);
     height: 30vw;

@@ -167,6 +167,7 @@ function startTimer() {
   align-self: center;
   justify-content: center;
   z-index: 100;
+  max-width: 50%;
 }
 
 @media only screen and (max-width: 850px) {
