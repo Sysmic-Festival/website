@@ -48,12 +48,12 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Puis-je manger sur place ?">
-          Oui ! Vous trouverez dans le festival un foodtruck et deux stands de
+          Oui ! Vous trouverez dans le festival deux stands de
           nourriture à prix étudiant.
         </FAQRow>
 
         <FAQRow title="Quelles activités sont prévues durant la soirée ?">
-          En plus des concerts, des bars et des foodtrucks, vous pourrez profiter
+          En plus des concerts, des bars et des stands de nourriture, vous pourrez profiter
           d'un escape game dans le thème de la soirée, ainsi que d'une salle d'arcade et d'un stand de flocage. De plus, un espace
           dédié à "Just Dance" sera également à votre disposition.
         </FAQRow>
