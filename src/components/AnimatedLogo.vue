@@ -153,7 +153,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
 
   .layer {
     display: none;
@@ -161,10 +161,22 @@ h2 {
   
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:650px) {
 
   .layer_phone {
     display: none;
+  }
+  
+}
+
+@media only screen and (max-width:650px) and (max-height:900px) {
+
+  .layer_phone {
+    display: none;
+  }
+
+  .layer {
+    display: flex;
   }
   
 }
