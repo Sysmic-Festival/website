@@ -89,14 +89,14 @@ function startTimer() {
 
   max-height: 70px;
   max-width: 90px;
-  height: 8vw;
-  width: 12vw;
+  height: 10vw;
+  width: 14vw;
 
   border-radius: 10px;
   margin-left: 20px;
   margin-right: 20px;
   color: var(--white);
-  font-size: 6vh;
+  font-size: 250%;
   padding-top: 0px;
   font-weight: bold;
 
@@ -110,34 +110,34 @@ function startTimer() {
 
 #daysBox {
   background-color: var(--third);
-  max-width: 240px;
-  width: 28vh;
+  /* max-width: 240px;
+  width: 28vh; */
   height: 10vh;
 }
 
 #hoursBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 #minutesBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 #secBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 .numberLabel {
   text-align: left;
   margin-left: 20px;
-  font-size: 3vh;
-  margin-top: 5px;
+  /* font-size: 3vh; */
+  margin-top: 2px;
 }
 
 .label1 {
