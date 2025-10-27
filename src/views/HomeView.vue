@@ -131,15 +131,14 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-primary-background">Infos pratiques</h1>
       <div id="infos-container" class="container">
         <section style="">
-          <h2 class="h2-primary-background">Billeterie</h2>
+          <h2 class="h2-primary-background">Billetterie</h2>
           <p>
-            Billet: <span class="higlight-text">15CHF</span> <br /><br />
-            Vente du <span class="higlight-text">29 au 30 octobre</span> sur
-            l'Esplanade à <span class="higlight-text">12H00</span>
+            Billet: <span class="higlight-text">15 CHF</span> <br /><br />
+            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la place Ada Lovelace à <span class="higlight-text">12H00</span>
             <br />
-            Paiement en Camipro ou en cash
+            Paiement en Camipro, cash, carte, ou Twint. 
             <br /><br />
-            Le soir même: <span class="higlight-text">20CHF</span>
+            Le soir même: <span class="higlight-text">20 CHF</span>
           </p>
         </section>
         <hr class="info-section-hr" id="date-hr" />
@@ -148,9 +147,9 @@ import FAQRow from "../components/FAQRow.vue";
           <p>
             <span class="higlight-text">7 novembre 2025</span>
             <br /><br />
-            Début: <span class="higlight-text">20h</span>
+            Début des entrées: <span class="higlight-text">20h</span>
             <br />
-            Début des concerts: <span class="higlight-text">20h30</span>
+            Début des concerts: <span class="higlight-text">21h</span>
             <br />
             Fin: <span class="higlight-text">03H00</span>
           </p>
@@ -220,8 +219,8 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la
-          semaine précédant le festival, à 12:00, le mardi et mercredi.
+          Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
+          semaine précédant le festival, le mardi 4 novembre à 12:00.
         </FAQRow>
       </section>
       <section class="button-section">
