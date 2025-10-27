@@ -9,33 +9,34 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
+      
       <div class="home-screen-bg"></div>
-      <AnimatedLogo id="Logo" />
-      <div class="sponsors-bar">
-                <div class="sponsors-row">
-                    <div class="sponsor-el">
-                        <a href="https://www.swisstech-hotel.com/fr/">
-                            <img src="@/assets/images/sponsors/sthotel.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el" id="agep">
-                        <a href="https://agepoly.ch/en/">
-                            <img src="@/assets/images/sponsors/AGEPoly.svg">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://infomaniak.events/fr-ch">
-                            <img src="@/assets/images/sponsors/infomaniak-sa.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
-                            <img src="@/assets/images/sponsors/forum.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <AnimatedLogo id="Logo" />
       <Timer />
+      <div class="sponsors-bar">
+        <div class="sponsors-row">
+          <div class="sponsor-el">
+            <a href="https://www.swisstech-hotel.com/fr/">
+              <img src="@/assets/images/sponsors/sthotel.png" />
+            </a>
+          </div>
+          <div class="sponsor-el" id="agep">
+            <a href="https://agepoly.ch/en/">
+              <img src="@/assets/images/sponsors/AGEPoly.svg" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://infomaniak.events/fr-ch">
+              <img src="@/assets/images/sponsors/infomaniak-sa.png" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+              <img src="@/assets/images/sponsors/forum.png" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="coming-soon" class="coming-soon">
       <h1 class="h1-primary-background"><br />Le festival</h1>
@@ -50,7 +51,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
@@ -87,7 +88,7 @@ import FAQRow from "../components/FAQRow.vue";
 
             <div class="slider">
                 <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                    <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg">
                 </div>
             </div>
         </div> -->
@@ -95,58 +96,66 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
-          <h2 class="line-up-stagename">AquaBass</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:45</div>
-              <div class="line-up-name">Quentin Austin</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">22:45</div>
-              <div class="line-up-name">HowsMax</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">23:45</div>
-              <div class="line-up-name">Kodaman</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">0:45</div>
-              <div class="line-up-name">Ahöra</div>
-            </div>
-          </div>
-          <h2 class="line-up-stagename">Bikini Bottom</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:00</div>
-              <div class="line-up-name">FAUSTINE</div>
-            </div>          
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">AquaBass</h2>
+            <div class="line-up-box-1">
               <div class="line-up-artist">
-              <div class="line-up-time">22:30</div>
-              <div class="line-up-name">Femme fatale</div>
-            </div>
-
-            <div class="line-up-artist">
-              <div class="line-up-time">0:15</div>
-              <div class="line-up-name">Hypsign</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">1:45</div>
-              <div class="line-up-name">Blaame</div>
+                <div class="line-up-time">21:45</div>
+                <div class="line-up-name">Quentin Austin</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:45</div>
+                <div class="line-up-name">HowsMax</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:45</div>
+                <div class="line-up-name">Kodaman</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">0:45</div>
+                <div class="line-up-name">Ahöra</div>
+              </div>
             </div>
           </div>
-          <h2 class="line-up-stagename">La fosse des Mariannes (scène animée par Fréquence Banane)</h2>
-          <div class="line-up-box-1">
-            <div class="line-up-artist">
-              <div class="line-up-time">21:30 - 22:30</div>
-              <div class="line-up-name">DJ Set</div>
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">Bikini Bottom</h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:00</div>
+                <div class="line-up-name">FAUSTINE</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:30</div>
+                <div class="line-up-name">Femme fatale</div>
+              </div>
+
+              <div class="line-up-artist">
+                <div class="line-up-time">0:15</div>
+                <div class="line-up-name">Hypsign</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:45</div>
+                <div class="line-up-name">Blaame</div>
+              </div>
             </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">23:15 - 0:15</div>
-              <div class="line-up-name">DJ Set</div>
-            </div>
-            <div class="line-up-artist">
-              <div class="line-up-time">1:00 - 2:00</div>
-              <div class="line-up-name">DJ Set</div>
+          </div>
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">
+              La fosse des Mariannes (scène animée par Fréquence Banane)
+            </h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:30 - 22:30</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:15 - 0:15</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:00 - 2:00</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
             </div>
           </div>
         </div>
@@ -162,6 +171,11 @@ import FAQRow from "../components/FAQRow.vue";
         </a>
       </section>
     </div>
+          <div class="slider">
+        <div class="reverse-slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
 
     <div class="photo-gallery">
       <Slideshow />
@@ -200,14 +214,16 @@ import FAQRow from "../components/FAQRow.vue";
         <section>
           <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
           <p>
-            Pour te loger durant le festival, nous te recommendons notre partenaire
-            le <i>SwissTech Hotel</i>, qui proposera des chambres à tarif fixé pour nos festivaliers !
-            <br /><br />
-            Situé en plein coeur du campus, à quelques pas de l'entrée du festival, le
-            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le confort et la simplicité.
-            <br /><br />
-            Si tu cherches un hébergement pendant la soirée, on te recommande d'aller 
-            faire un tour sur leur <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
+            Pour te loger durant le festival, nous te recommendons notre
+            partenaire le <i>SwissTech Hotel</i>, qui proposera des chambres à
+            tarif fixé pour nos festivaliers ! <br /><br />
+            Situé en plein coeur du campus, à quelques pas de l'entrée du
+            festival, le
+            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le
+            confort et la simplicité. <br /><br />
+            Si tu cherches un hébergement pendant la soirée, on te recommande
+            d'aller faire un tour sur leur
+            <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
           </p>
         </section>
       </div>
@@ -224,7 +240,8 @@ import FAQRow from "../components/FAQRow.vue";
           <RouterLink
             to="/faq#micros"
             style="color: var(--white); text-decoration: underline"
-            > ici</RouterLink
+          >
+            ici</RouterLink
           >
           !
         </p>
@@ -269,7 +286,7 @@ import FAQRow from "../components/FAQRow.vue";
       <hr class="comite-section-hr" />
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
       <!-- <div class="container-large" style="margin-bottom: 25px"> 
@@ -303,7 +320,7 @@ import FAQRow from "../components/FAQRow.vue";
           >Plan du Festival →</a
         >
       </section> -->
-    </div> 
+    </div>
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -361,6 +378,11 @@ import FAQRow from "../components/FAQRow.vue";
         </section>
       </div>
       <!-- <hr class="comite-section-hr"> -->
+      <div class="slider">
+        <div class="reverse-slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
     </div>
     <div id="comite" class="comite">
       <h1 class="h1-primary-background comite-title">Comité 2025</h1>
@@ -404,9 +426,7 @@ import FAQRow from "../components/FAQRow.vue";
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Logistique</h2>
-
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Antoine Eisinger</h4>
             <p>Matériel</p>
@@ -425,10 +445,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Décoration</p>
             <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
@@ -452,10 +468,8 @@ import FAQRow from "../components/FAQRow.vue";
               src="@/assets/images/comite/roman_autre.jpg"
             />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
+
+
           <div class="comite-member">
             <h4>Jonas Blanc</h4>
             <p>Adjoint à la technique de scène</p>
@@ -471,14 +485,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>RH</p>
             <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Communication</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Noam Lévy</h4>
             <p>Community Manager</p>
@@ -494,10 +507,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Graphisme</p>
             <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Daniel Krief</h4>
             <p>IT/Webmaster</p>
@@ -513,14 +522,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Spectacle</p>
             <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Animation</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Grégoire Gimenez</h4>
             <p>Bar</p>
@@ -565,14 +573,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Escape Game</p>
             <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Aide à la Trésorerie</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Felix Elsässer</h4>
             <p>Sponsoring</p>
@@ -583,7 +590,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sponsoring</p>
             <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
           </div>
-        </section>
       </div>
 
       <!-- <hr class="comite-section-hr"> -->
@@ -703,7 +709,7 @@ span {
 .line-up {
   max-width: 100%;
   padding: 20px;
-  padding-top: calc(var(--navbar-height) + var(--global-margin));
+  /* padding-top: calc(var(--navbar-height) + var(--global-margin)); */
   align-items: center;
   justify-content: space-around;
   display: flex;
@@ -720,9 +726,9 @@ span {
 }
 
 .line-up-zone {
-  width: 150%;
+  /* width: 150%; */
   max-width: 1000px;
-  height: 750px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -732,11 +738,12 @@ span {
 }
 
 .line-up-container {
-  width: 50%;
-  min-width: 250px;
-  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  max-width:100%;
+  height: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -773,6 +780,14 @@ span {
   /* margin-bottom: 5px; */
 }
 
+.line-up-stage {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  width: 30%;
+}
+
 .line-up-stagename {
   color: white;
   text-align: center;
@@ -784,11 +799,12 @@ span {
   align-items: center;
 }
 .line-up-artist {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 90%;
+  padding: 3%;
 }
 
 #loudjack {
@@ -809,12 +825,12 @@ span {
   font-size: 1.7em;
   font-weight: bold;
   border-radius: 10px;
-  height: 45px;
-  width: 100px;
+  height: 40px;
+  width: 180px;
   display: flex;
-  margin: auto;
+  margin: 5px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .line-up-artist-big .line-up-time {
   background-color: var(--third);
@@ -942,16 +958,18 @@ span {
 }
 .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
-  position: absolute;
-  top: calc(5vw + 45vh);
+  position: relative;
+  max-width: 60%;
+  max-height:20%;
+  /* top: calc(5vw + 45vh); 
   left: 25%;
   height: 8%;
   z-index: 101;
   max-width: 70%;
   margin: auto;
-  margin-bottom: calc(230px - 10vw);
+  margin-bottom: calc(230px - 10vw); */
 }
 
 .sponsors .sponsors-line {
@@ -1063,8 +1081,13 @@ span {
 
 .container-comite {
   display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   max-width: 1100px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .comite-line {
@@ -1101,10 +1124,12 @@ span {
 .home-screen {
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  overflow: hidden;
+  /* overflow: ; */
   background-color: var(--black);
+  justify-content: space-around;
 }
 
 .home-screen-bg {
@@ -1129,34 +1154,37 @@ span {
   font-weight: bolder;
 }
 
-.sponsors-bar {
+/* .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  position: absolute;
   justify-content: space-evenly;
   height: 100px;
   z-index: 5;
   max-width: 80%;
   margin: auto;
   margin-bottom: 40px;
-}
+} */
 
 .sponsors-row {
   display: flex;
   flex-direction: row;
-  gap: 2vw;
-}
+  gap: 5%;
+  max-width: 100%;
+} 
 
 .sponsor-el {
   /* background-color: chartreuse; */
   flex-grow: 1;
   z-index: 10000;
   max-width: 200px;
-  max-height: 250px;
-  width: 11vw;
+  max-height: 100px;
+  width: 20%;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(10px);
+  /* transform: translateY(10px); */
   transition: opacity ease-in-out 0.2s;
 }
 #agep {
@@ -1178,11 +1206,11 @@ span {
   max-height: 100%;
 }
 
-@media only screen and (max-height: 700px) {
+/* @media only screen and (max-height: 700px) {
   #sponsors-bar {
     height: 50px;
   }
-}
+} */
 
 /* @media screen and (max-width: 650px) {
     .sponsors-bar {
@@ -1210,15 +1238,15 @@ span {
 }
 
 @media screen and (max-width: 500px) {
-  .sponsors-bar {
+  /* .sponsors-bar {
     width: 95vw;
     position: absolute;
     top: 80vh;
     left: 2.5vw;
-  }
+  } */
   .sponsors-row {
     width: 100%;
-  }
+  } 
 
   .sponsor-el {
     width: 40vw;
@@ -1229,6 +1257,10 @@ span {
   .line-up-container {
     padding-left: 10px;
     padding-right: 10px;
+    flex-direction: column;
+  }
+  .line-up-stage {
+    width: 90%;
   }
   .line-up-time {
     height: 25px;
@@ -1250,10 +1282,10 @@ span {
   }
 
   .sponsors-bar {
-    width: 100%;
-    position: absolute;
+    max-width: 90%;
+    /* position: absolute;
     top: 65vh;
-    left: 10%;
+    left: 10%; */
   }
   #ef {
     width: 40vw;
@@ -1278,7 +1310,6 @@ span {
 
   .line-up-zone {
     width: 100%;
-    height: 700px;
   }
   .line-up-time,
   .line-up-name {

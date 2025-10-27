@@ -86,9 +86,9 @@ function onScroll() {
 #navbar {
   z-index: 901;
   position: absolute;
-  height: calc(var(--navbar-height) + var(--global-margin));
+  height: calc(var(--navbar-height) + 0.5*var(--global-margin));
   width: 100%;
-  top: calc(100vh - var(--navbar-height) - var(--global-margin));
+  top: calc(100vh - var(--navbar-height) - 0.5*var(--global-margin));
   background-color: var(--primary-transparent);
   box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -133,7 +133,7 @@ ul.fixedOverride {
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: var(--global-margin);
+  /* margin-left: var(--global-margin); */
   margin-right: var(--global-margin);
   display: flex;
 }
@@ -163,7 +163,7 @@ ul.fixedOverride {
     margin-right: 10%;
   }
   .bar-menu li a {
-    font-size: 2vw;
+    font-size: 120%;
     color: var(--white);
     text-decoration: none;
     transition: all 0.45s;
