@@ -1276,7 +1276,7 @@ span {
   }
 
   .sponsors-bar {
-    width: 100%;
+    max-width: 90%;
     /* position: absolute;
     top: 65vh;
     left: 10%; */

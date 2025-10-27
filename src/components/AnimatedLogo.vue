@@ -59,7 +59,7 @@ h2 {
   z-index: 1;
   /* flex-grow: 1; */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   /* height: 50%; */
   max-width: 90%;
   padding: 15px;
@@ -84,7 +84,7 @@ h2 {
   left: calc(20vw - 100px);
   /* height: 23vw; */
   /* max-height: 60vh; */
-  max-width: 100%;
+  max-width: 90%;
   object-fit: contain;
 }
 
