@@ -59,7 +59,7 @@ import FAQRow from "../components/FAQRow.vue";
               </div>
               <div class="line-up-artist">
                 <div class="line-up-time">0:45</div>
-                <div class="line-up-name">Ahöra</div>
+                <div class="line-up-name">Aho̊ra</div>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ import FAQRow from "../components/FAQRow.vue";
               </div>
               <div class="line-up-artist">
                 <div class="line-up-time">22:30</div>
-                <div class="line-up-name">Femme fatale</div>
+                <div class="line-up-name">Femme Fatale</div>
               </div>
 
               <div class="line-up-artist">
@@ -87,7 +87,7 @@ import FAQRow from "../components/FAQRow.vue";
           </div>
           <div class="line-up-stage">
             <h2 class="line-up-stagename">
-              La fosse des Mariannes (scène animée par Fréquence Banane)
+              Fosse des Mariannes
             </h2>
             <div class="line-up-box-1">
               <div class="line-up-artist">
@@ -161,7 +161,7 @@ import FAQRow from "../components/FAQRow.vue";
           <p>
             Pour te loger durant le festival, nous te recommendons notre
             partenaire le <i>SwissTech Hotel</i>, qui proposera des chambres à
-            tarif fixé pour nos festivaliers ! <br /><br />
+            tarif fixé pour nos festivalier.e.s ! <br /><br />
             Situé en plein coeur du campus, à quelques pas de l'entrée du
             festival, le
             <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le
@@ -290,7 +290,7 @@ import FAQRow from "../components/FAQRow.vue";
             <br /><br />
             Originellement, l’association est dédiée à la section de
             Microtechnique pour laquelle nous organisons, en parallèle du
-            festival, un apéro suivi d’un repas et un Spectacle !
+            festival, un apéro dinatoire et un Spectacle !
             <br /><br />
             Notre plus grande qualité se trouve dans notre détermination à faire
             de Sysmic l’un des meilleurs festivals estudiantins du campus.
