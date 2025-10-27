@@ -1118,11 +1118,12 @@ span {
 .home-screen {
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
   /* overflow: ; */
   background-color: var(--black);
-  align-items: center;
+  justify-content: space-around;
 }
 
 .home-screen-bg {
@@ -1276,9 +1277,9 @@ span {
 
   .sponsors-bar {
     width: 100%;
-    position: absolute;
+    /* position: absolute;
     top: 65vh;
-    left: 10%;
+    left: 10%; */
   }
   #ef {
     width: 40vw;

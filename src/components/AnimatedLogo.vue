@@ -60,7 +60,7 @@ h2 {
   display: flex;
   /* justify-content: center; */
   /* height: 50%; */
-  max-width: 100%;
+  max-width: 90%;
   padding: 15px;
 }
 .layer {
@@ -133,7 +133,7 @@ h2 {
   opacity: 1 !important;
 }
 
-@media only screen and (min-width:850px) {
+@media only screen and (min-width:800px) {
 
   .invaderSection {
     max-height: 55%;

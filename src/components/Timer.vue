@@ -78,7 +78,7 @@ function startTimer() {
 .decompte {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   /* margin-bottom: 30px; */
   object-fit: scale-down;
