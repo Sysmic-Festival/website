@@ -51,7 +51,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@ import FAQRow from "../components/FAQRow.vue";
 
             <div class="slider">
                 <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                    <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg">
                 </div>
             </div>
         </div> -->
@@ -171,6 +171,12 @@ import FAQRow from "../components/FAQRow.vue";
         </a>
       </section>
     </div>
+
+              <div class="slider">
+        <div class="reverse-slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
 
     <div class="photo-gallery">
       <Slideshow />
@@ -281,7 +287,7 @@ import FAQRow from "../components/FAQRow.vue";
       <hr class="comite-section-hr" />
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
       <!-- <div class="container-large" style="margin-bottom: 25px"> 
@@ -375,7 +381,7 @@ import FAQRow from "../components/FAQRow.vue";
       <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
         <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
@@ -721,7 +727,7 @@ span {
 }
 
 .line-up-zone {
-  width: 150%;
+  /* width: 150%; */
   max-width: 1000px;
   height: 100%;
   margin-left: auto;
@@ -735,6 +741,7 @@ span {
 .line-up-container {
   width: 100%;
   min-width: 100%;
+  max-width:100%;
   height: 60%;
   display: flex;
   flex-direction: row;
