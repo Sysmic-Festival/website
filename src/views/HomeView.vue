@@ -38,62 +38,8 @@ import FAQRow from "../components/FAQRow.vue";
         </div>
       </div>
     </div>
-    <div id="coming-soon" class="coming-soon">
-      <h1 class="h1-primary-background"><br />Le festival</h1>
-      <div id="infos-container" class="container">
-        <section>
-          <p>
-            Sysmic, c'est le festival de la fin d'année à l'EPFL.
-            <br /><br />
-            Cette année, la 29ème édition aura lieu le vendredi 7 novembre.
-          </p>
-        </section>
-      </div>
-      <div class="slider">
-        <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
-        </div>
-      </div>
-    </div>
-    <!-- <div id="magsys" class="magsys">
-            <h1 class="h1-primary-background"><br>MSYS 2025</h1>
-            <div id="infos-container" class="container">
-                <section style="">
-                    <h2 class="h2-primary-background">Billetterie </h2>
-                    <p  >
-                        Achat sur la billetterie en ligne : <span class="higlight-text">CHF 9</span>
-                        <br><br>
-                        Vente sur place le soir même : <span class="higlight-text">CHF 15</span>
-                        <br><br>
-                        Ouverture de la billetterie en ligne : <span class= "higlight-text"> 31 mars 2025</span> à <span class="higlight-text">12:00</span>.
-                        <br><br>
-                        Paiement en carte de crédit/débit ou Twint.
-                    </p>
-                    <div class="billetterie-button">
-                        <button class="main-page-button" onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4';" >ACHETER UN BILLET</button>
-                    </div>
-                </section>
-                <hr class="info-section-hr" id="date-hr">
-                <section style="">
-                    <h2 class="h2-primary-background">Date</h2>
-                    <p>
-                        <span class="higlight-text">8 avril 2025</span>
-                         <br><br>
-                        Horaires : <span class="higlight-text">22:30 - 5:00</span>
-                        <br><br>
-                        Lieu : <span class="higlight-text">D! Club</span> <br>Place centrale 1<br>1001 Lausanne
-                    </p>
-                </section>
-            </div>
-
-            <div class="slider">
-                <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg">
-                </div>
-            </div>
-        </div> -->
     <div id="line-up" class="line-up">
-      <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
+      <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
           <div class="line-up-stage">
@@ -1076,7 +1022,7 @@ span {
   margin-top: 40px;
   display: inline-block;
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .container-comite {
