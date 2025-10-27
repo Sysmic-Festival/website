@@ -64,7 +64,7 @@ function onScroll() {
         <img class="logo" src="@/assets/images/utilitaries/new-logo-name.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
-        <li><router-link to="/#coming-soon">Coming soon</router-link></li>
+        <li><router-link to="/#coming-soon">Le festival</router-link></li>
         <li><router-link to="/#infos">Infos pratiques</router-link></li>
         <li><router-link to="/#line-up">Line up</router-link></li>
         <li><router-link to="/#association">L'association</router-link></li>
