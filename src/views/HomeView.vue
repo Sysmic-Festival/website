@@ -720,7 +720,7 @@ span {
 }
 
 .line-up-zone {
-  width: 150%;
+  /* width: 150%; */
   max-width: 1000px;
   height: 100%;
   margin-left: auto;
@@ -734,6 +734,7 @@ span {
 .line-up-container {
   width: 100%;
   min-width: 100%;
+  max-width:100%;
   height: 60%;
   display: flex;
   flex-direction: row;
