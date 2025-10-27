@@ -170,6 +170,11 @@ import FAQRow from "../components/FAQRow.vue";
         </a>
       </section>
     </div>
+          <div class="slider">
+        <div class="reverse-slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
 
     <div class="photo-gallery">
       <Slideshow />
