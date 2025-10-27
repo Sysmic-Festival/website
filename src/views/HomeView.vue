@@ -9,8 +9,10 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
+      
       <div class="home-screen-bg"></div>
-      <AnimatedLogo id="Logo" />
+        <AnimatedLogo id="Logo" />
+      <Timer />
       <div class="sponsors-bar">
         <div class="sponsors-row">
           <div class="sponsor-el">
@@ -35,7 +37,6 @@ import FAQRow from "../components/FAQRow.vue";
           </div>
         </div>
       </div>
-      <Timer />
     </div>
     <div id="coming-soon" class="coming-soon">
       <h1 class="h1-primary-background"><br />Le festival</h1>
@@ -957,16 +958,18 @@ span {
 }
 .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
-  position: absolute;
-  top: calc(5vw + 45vh);
+  position: relative;
+  max-width: 60%;
+  max-height:20%;
+  /* top: calc(5vw + 45vh); 
   left: 25%;
   height: 8%;
   z-index: 101;
   max-width: 70%;
   margin: auto;
-  margin-bottom: calc(230px - 10vw);
+  margin-bottom: calc(230px - 10vw); */
 }
 
 .sponsors .sponsors-line {
@@ -1121,10 +1124,12 @@ span {
 .home-screen {
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  overflow: hidden;
+  /* overflow: ; */
   background-color: var(--black);
+  justify-content: space-around;
 }
 
 .home-screen-bg {
@@ -1149,34 +1154,37 @@ span {
   font-weight: bolder;
 }
 
-.sponsors-bar {
+/* .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  position: absolute;
   justify-content: space-evenly;
   height: 100px;
   z-index: 5;
   max-width: 80%;
   margin: auto;
   margin-bottom: 40px;
-}
+} */
 
 .sponsors-row {
   display: flex;
   flex-direction: row;
-  gap: 2vw;
-}
+  gap: 5%;
+  max-width: 100%;
+} 
 
 .sponsor-el {
   /* background-color: chartreuse; */
   flex-grow: 1;
   z-index: 10000;
   max-width: 200px;
-  max-height: 250px;
-  width: 11vw;
+  max-height: 100px;
+  width: 20%;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(10px);
+  /* transform: translateY(10px); */
   transition: opacity ease-in-out 0.2s;
 }
 #agep {
@@ -1198,11 +1206,11 @@ span {
   max-height: 100%;
 }
 
-@media only screen and (max-height: 700px) {
+/* @media only screen and (max-height: 700px) {
   #sponsors-bar {
     height: 50px;
   }
-}
+} */
 
 /* @media screen and (max-width: 650px) {
     .sponsors-bar {
@@ -1230,15 +1238,15 @@ span {
 }
 
 @media screen and (max-width: 500px) {
-  .sponsors-bar {
+  /* .sponsors-bar {
     width: 95vw;
     position: absolute;
     top: 80vh;
     left: 2.5vw;
-  }
+  } */
   .sponsors-row {
     width: 100%;
-  }
+  } 
 
   .sponsor-el {
     width: 40vw;
@@ -1274,10 +1282,10 @@ span {
   }
 
   .sponsors-bar {
-    width: 100%;
-    position: absolute;
+    max-width: 90%;
+    /* position: absolute;
     top: 65vh;
-    left: 10%;
+    left: 10%; */
   }
   #ef {
     width: 40vw;
