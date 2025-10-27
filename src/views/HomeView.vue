@@ -50,7 +50,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@ import FAQRow from "../components/FAQRow.vue";
 
             <div class="slider">
                 <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
+                    <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg">
                 </div>
             </div>
         </div> -->
@@ -280,7 +280,7 @@ import FAQRow from "../components/FAQRow.vue";
       <hr class="comite-section-hr" />
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
       <!-- <div class="container-large" style="margin-bottom: 25px"> 
@@ -374,7 +374,7 @@ import FAQRow from "../components/FAQRow.vue";
       <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
         <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
