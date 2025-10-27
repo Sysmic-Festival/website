@@ -12,7 +12,7 @@
       <div class="container container-vertical-phone">
         <section style="flex: 1; padding-bottom: 0">
           <p style="margin-top: 0">
-            Sysmic est constitué d’un comité de 30 personnes de toutes années et
+            Sysmic est constitué d’un comité de 31 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
             d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au
             sein même du campus.

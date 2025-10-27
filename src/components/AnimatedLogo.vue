@@ -35,12 +35,13 @@ function animLogo(id) {
       <img class="layer" id="layer17" src="@/assets/images/layers/17.svg"/>
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
-    <img class="layer" src="@/assets/images/utilitaries/new-logo.svg" />
+    <img class="layer" src="@/assets/images/utilitaries/horizontal_full.png" />
+    <img class="layer_phone" src="@/assets/images/utilitaries/vertical_full.png" />
     <div class="titleBox">
-      <h1>SYSMIC<br />FESTIVAL</h1>
-      <div id="title-date">
-        <!-- <h2>Ton festival revient après l'été !</h2> -->
-      </div>
+      <!-- <h1>SYSMIC<br />FESTIVAL</h1> -->
+      <!-- <div id="title-date">
+        <h2>Ton festival revient après l'été !</h2>
+      </div> -->
     </div>
   </section>
 </template>
@@ -56,20 +57,35 @@ h2 {
 
 .invaderSection {
   z-index: 1;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   display: flex;
   justify-content: center;
-  height: 50%;
+  /* height: 50%; */
+  max-width: 90%;
+  padding: 15px;
 }
 .layer {
-  position: absolute;
-  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(226deg)
+  /* position: absolute; */
+  filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
     brightness(105%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
-  height: 23vw;
-  max-height: 60vh;
+  /* height: 23vw; */
+  /* max-height: 60vh; */
   max-width: 100%;
+  object-fit: contain;
+}
+
+.layer_phone {
+  /* position: absolute; */
+  filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
+    brightness(105%) contrast(102%);
+  top: calc(15% - 5vw);
+  left: calc(20vw - 100px);
+  /* height: 23vw; */
+  /* max-height: 60vh; */
+  max-width: 90%;
+  object-fit: contain;
 }
 
 #invaderDiv {
@@ -130,10 +146,46 @@ h2 {
   opacity: 1 !important;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width:800px) {
+
+  .invaderSection {
+    max-height: 55%;
+  }
+}
+
+@media only screen and (max-width:650px) {
+
+  .layer {
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-width:650px) {
+
+  .layer_phone {
+    display: none;
+  }
+  
+}
+
+/* @media only screen and (max-width:650px) and (min-height:900px) {
+
+  .layer_phone {
+    display: none;
+  }
+
+  .layer {
+    display: flex;
+  }
+  
+} */
+
+/* @media only screen and (max-width: 850px) {
   .invaderSection {
     flex-direction: column;
     align-items: center;
+    object-fit: contain;
   }
 
   #invaderDiv {
@@ -142,10 +194,10 @@ h2 {
     left: 0;
   }
   .layer {
-    position: absolute;
+     position: absolute; 
     top: 5%;
     left: calc(50% - 20.625vw);
-    height: 30vw;
+     height: 30vw; 
   }
 
   .titleBox {
@@ -179,17 +231,17 @@ h2 {
   #title-date {
     transform: translateY(0px);
   }
-}
-@media only screen and (max-width: 600px) {
+} */
+/* @media only screen and (max-width: 600px) {
   .layer {
     left: calc(50% - 25vw);
     height: 40vw;
   }
-}
+} */
 
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
   .layer {
     height: 45vw;
   }
-}
+} */
 </style>

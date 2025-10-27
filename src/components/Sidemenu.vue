@@ -33,15 +33,12 @@ router.beforeEach(() => {
         <div class="line"></div>
         <div class="line"></div>
       </label>
-      <router-link to="/#coming-soon">Coming soon</router-link>
-      <hr id="sidebar-links-hr" />
-      <!-- <router-link to="/#infos">Infos</router-link>
+      <hr id="sidebar-links-hr">
+      <router-link to="/#line-up">Line up</router-link>
         <hr id="sidebar-links-hr">
-        <router-link to="/#sponsors">Sponsors</router-link>
-        <hr id="sidebar-links-hr"> -->
+      <router-link to="/#infos">Infos pratiques</router-link>
+        <hr id="sidebar-links-hr">
       <router-link to="/#association">L'association</router-link>
-      <hr id="sidebar-links-hr" />
-      <router-link to="/#comite">Le comité</router-link>
       <hr id="sidebar-links-hr" />
       <router-link to="/portfolio">Portfolio</router-link>
       <hr id="sidebar-links-hr" />
@@ -50,7 +47,7 @@ router.beforeEach(() => {
       <router-link to="/faq">FAQ</router-link>
       <hr id="sidebar-links-hr" />
     </section>
-    <section id="player-button-section">
+    <!-- <section id="player-button-section">
       <a href="#" @click="displayPlayer"
         ><img
           class="player-button"
@@ -60,8 +57,8 @@ router.beforeEach(() => {
         :displayed="state.playerDisplayed"
         @displayedUpdated="(val) => (state.playerDisplayed = val)"
       ></Player>
-    </section>
-  </div>
+    </section> -->
+</div>
 </template>
 
 <style scoped>

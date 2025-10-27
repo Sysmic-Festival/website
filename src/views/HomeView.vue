@@ -9,326 +9,263 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
+      
       <div class="home-screen-bg"></div>
-      <AnimatedLogo id="Logo" />
-      <!-- <div class="sponsors-bar">
-                <div class="sponsors-row">
-                    <div class="sponsor-el">
-                        <a href="https://www.makita.fr/">
-                            <img src="@/assets/images/sponsors/makita.jpg">
-                        </a>
-                    </div>
-                    <div class="sponsor-el" id="agep">
-                        <a href="https://agepoly.ch/en/">
-                            <img src="@/assets/images/sponsors/AGEPoly.svg">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.enzo-location.ch/">
-                            <img src="@/assets/images/sponsors/enzoloc.jpg">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.ypsomed.com/en/">
-                            <img src="@/assets/images/sponsors/ypsomed.png">
-                        </a>
-                    </div>
-                    <div class="sponsor-el">
-                        <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
-                            <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-      <!-- <Timer /> -->
-    </div>
-    <div id="coming-soon" class="coming-soon">
-      <h1 class="h1-primary-background"><br />Coming soon</h1>
-      <div id="infos-container" class="container">
-        <section>
-          <h2 class="h2-primary-background">Tremplin 2025</h2>
-          <p>
-            On se réjouit de te revoir cette année encore ! Pour bien débuter le
-            semestre, Sysmic te propose de te retrouver au Tremplin.
-            <br /><br />
-            Le tremplin, c'est notre évènement de rentrée que nous organisons
-            chaque année depuis 2022. Il s'agît en fait d'une soirée organisée
-            en partenariat avec le bar Satellite.
-            <br /><br />
-            Tu peux venir assister aux shows d'artistes de la région, qui
-            n'attendent que toi pour te démontrer leur talent, et ensuite voter
-            pour l'artiste que tu préfères.
-            <br /><br />
-            L'artiste que le public plébiscite gagnera ensuite un slot sur scène
-            lors de notre festival en novembre !
-            <br /><br />
-            On se réjouit donc de te voir le mercredi
-            <b>24 novembre à 20:00 au Bar Satellite</b> (entrée libre).
-          </p>
-          <h2 class="h2-primary-background">Festival</h2>
-          <p>
-            Et il y aura biensur le festival le 7 novembre prochain !
-            <br /><br />
-            Les infos arriveront prochainement, alors n'oublie pas de nous
-            suivre sur les reseaux pour être au courant ! On est sur
-            <a href="https://instagram.com/festival_sysmic">Instagram</a>
-          </p>
-        </section>
-      </div>
-
-      <div class="slider">
-        <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+        <AnimatedLogo id="Logo" />
+      <Timer />
+      <div class="sponsors-bar">
+        <div class="sponsors-row">
+          <div class="sponsor-el">
+            <a href="https://www.swisstech-hotel.com/fr/">
+              <img src="@/assets/images/sponsors/sthotel.png" />
+            </a>
+          </div>
+          <div class="sponsor-el" id="agep">
+            <a href="https://agepoly.ch/en/">
+              <img src="@/assets/images/sponsors/AGEPoly.svg" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://infomaniak.events/fr-ch">
+              <img src="@/assets/images/sponsors/infomaniak-sa.png" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+              <img src="@/assets/images/sponsors/forum.png" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <div id="magsys" class="magsys">
-            <h1 class="h1-primary-background"><br>MSYS 2025</h1>
-            <div id="infos-container" class="container">
-                <section style="">
-                    <h2 class="h2-primary-background">Billetterie </h2>
-                    <p  >
-                        Achat sur la billetterie en ligne : <span class="higlight-text">CHF 9</span>
-                        <br><br>
-                        Vente sur place le soir même : <span class="higlight-text">CHF 15</span>
-                        <br><br>
-                        Ouverture de la billetterie en ligne : <span class= "higlight-text"> 31 mars 2025</span> à <span class="higlight-text">12:00</span>.
-                        <br><br>
-                        Paiement en carte de crédit/débit ou Twint.
-                    </p>
-                    <div class="billetterie-button">
-                        <button class="main-page-button" onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4';" >ACHETER UN BILLET</button>
-                    </div>
-                </section>
-                <hr class="info-section-hr" id="date-hr">
-                <section style="">
-                    <h2 class="h2-primary-background">Date</h2>
-                    <p>
-                        <span class="higlight-text">8 avril 2025</span>
-                         <br><br>
-                        Horaires : <span class="higlight-text">22:30 - 5:00</span>
-                        <br><br>
-                        Lieu : <span class="higlight-text">D! Club</span> <br>Place centrale 1<br>1001 Lausanne
-                    </p>
-                </section>
+    <div id="line-up" class="line-up">
+      <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
+      <div class="line-up-zone">
+        <div class="line-up-container">
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">AquaBass</h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:45</div>
+                <div class="line-up-name">Quentin Austin</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:45</div>
+                <div class="line-up-name">HowsMax</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:45</div>
+                <div class="line-up-name">Kodaman</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">0:45</div>
+                <div class="line-up-name">Aho̊ra</div>
+              </div>
             </div>
+          </div>
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">Bikini Bottom</h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:00</div>
+                <div class="line-up-name">FAUSTINE</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">22:30</div>
+                <div class="line-up-name">Femme Fatale</div>
+              </div>
 
-            <div class="slider">
-                <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
-                </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">0:15</div>
+                <div class="line-up-name">Hypsign</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:45</div>
+                <div class="line-up-name">Blaame</div>
+              </div>
             </div>
-        </div>
-        <div id="line-up" class="line-up">
-            <h1 class="h1-third-background" id="line-up-title">Line-up</h1>
-        <div class="line-up-zone">
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Breakdance</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">blabla</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Magnitude SYS</h2> 
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22:30</div>
-                        <div class="line-up-name">Breakdance Show</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">0:00</div>
-                        <div class="line-up-name">DJ Rys</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1:00</div>
-                        <div class="line-up-name">Collectif 52</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">3:00</div>
-                        <div class="line-up-name">Lunar Impact b2b Two minds</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">4:00</div>
-                        <div class="line-up-name">Contraste</div>
-                    </div>
-                </div>
+          </div>
+          <div class="line-up-stage">
+            <h2 class="line-up-stagename">
+              Fosse des Mariannes
+            </h2>
+            <div class="line-up-box-1">
+              <div class="line-up-artist">
+                <div class="line-up-time">21:30 - 22:30</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">23:15 - 0:15</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
+              <div class="line-up-artist">
+                <div class="line-up-time">1:00 - 2:00</div>
+                <div class="line-up-name">DJ Set</div>
+              </div>
             </div>
-            <div class="line-up-container">
-                <h2 class="line-up-stagename">Scène Platine</h2>
-                <div class="line-up-box-1" id="wonder">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Tree House</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">22H45</div>
-                        <div class="line-up-name">Lake &  OUAAAHH</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">23h45</div>
-                        <div class="line-up-name">NEUN's</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">1h00</div>
-                        <div class="line-up-name">Yenkov</div>
-                    </div>
-                </div>
-                <h2 class="line-up-stagename">Scène Jukebox</h2>
-                <div class="line-up-box-1" id="jardin">
-                    <div class="line-up-artist">
-                        <div class="line-up-time">20h30</div>
-                        <div class="line-up-name">Fréquence Banane</div>
-                    </div>
-                    <div class="line-up-artist">
-                        <div class="line-up-time">00h30</div>
-                        <div class="line-up-name">Dina MDN</div>
-                    </div>
-                </div>
-            </div> 
+          </div>
         </div>
-        
-        <section class="button-section">
-            <a class="main-page-button" href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP" target="_blank">Playlist du Festival →</a>
-        </section> 
-    </div>-->
+      </div>
+
+      <section class="button-section">
+        <a
+          class="main-page-button"
+          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+          target="_blank"
+        >
+          Playlist du Festival →
+        </a>
+      </section>
+    </div>
+          <div class="slider">
+        <div class="reverse-slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
 
     <div class="photo-gallery">
       <Slideshow />
     </div>
 
-    <!-- <div id="infos" class="infos">
-            <h1 class="h1-primary-background">Infos Pratiques 2024</h1>
-            <div id="infos-container" class="container">
-                <section style="">
-                    <h2 class="h2-primary-background">Billeterie</h2>
-                    <p  >
-                        Billet: <span class="higlight-text">15CHF</span>
-                        <br><br>
-                        Vente du <span class="higlight-text">29 au 30 octobre</span> sur l'Esplanade à <span class="higlight-text">12H00</span>
-                        <br>
-                        Paiement en Camipro ou en cash
-                        <br><br>
-                        Le soir même: <span class="higlight-text">20CHF</span>
-                    </p>
-                </section>
-                <hr class="info-section-hr" id="date-hr">
-                <section style="">
-                    <h2 class="h2-primary-background">Date</h2>
-                    <p>
-                        <span class="higlight-text">1 novembre 2024</span>
-                         <br><br>
-                        Début: <span class="higlight-text">20h</span>
-                        <br>
-                        Début des concerts: <span class="higlight-text">20h30</span>
-                        <br>
-                        Fin: <span class="higlight-text">03H00</span>
-                    </p>
-                </section>
-            </div>
-            <hr class="mt-hr" style="max-width:150px">
-            <hr class="mt-hr" style="max-width:200px">
-            <hr class="mt-hr-blue">
-            <div class=" container" style="flex-direction:column;align-items: center;font-weight: 900;"><p>Plus d'infos sur la partie <span style="color:var(--third)">MT</span> <RouterLink to="/faq#micros" style="color:var(--white); text-decoration: underline;">ici</RouterLink> !</p></div>
-            <hr class="mt-hr-blue">
-            <hr class="mt-hr" style="max-width:200px">
-            <hr class="mt-hr" style="max-width:150px">
-            <br>
-            <section style="display:flex; flex-direction:column;align-items:center">
-                
+    <div id="infos" class="infos">
+      <h1 class="h1-primary-background">Infos pratiques</h1>
+      <div id="infos-container" class="container">
+        <section style="">
+          <h2 class="h2-primary-background">Billetterie</h2>
+          <p>
+            Billet: <span class="higlight-text">15 CHF</span> <br /><br />
+            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la place Ada Lovelace à <span class="higlight-text">12H00</span>
+            <br />
+            Paiement en Camipro, cash, carte, ou Twint. 
+            <br /><br />
+            Le soir même: <span class="higlight-text">20 CHF</span>
+          </p>
+        </section>
+        <hr class="info-section-hr" id="date-hr" />
+        <section style="">
+          <h2 class="h2-primary-background">Date</h2>
+          <p>
+            <span class="higlight-text">7 novembre 2025</span>
+            <br /><br />
+            Début des entrées: <span class="higlight-text">20h</span>
+            <br />
+            Début des concerts: <span class="higlight-text">21h</span>
+            <br />
+            Fin: <span class="higlight-text">03H00</span>
+          </p>
+        </section>
+      </div>
+      <div class="container">
+        <section>
+          <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
+          <p>
+            Pour te loger durant le festival, nous te recommendons notre
+            partenaire le <i>SwissTech Hotel</i>, qui proposera des chambres à
+            tarif fixé pour nos festivalier.e.s ! <br /><br />
+            Situé en plein coeur du campus, à quelques pas de l'entrée du
+            festival, le
+            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le
+            confort et la simplicité. <br /><br />
+            Si tu cherches un hébergement pendant la soirée, on te recommande
+            d'aller faire un tour sur leur
+            <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
+          </p>
+        </section>
+      </div>
+      <hr class="mt-hr" style="max-width: 150px" />
+      <hr class="mt-hr" style="max-width: 200px" />
+      <hr class="mt-hr-blue" />
+      <div
+        class="container"
+        style="flex-direction: column; align-items: center; font-weight: 900"
+      >
+        <p>
+          Plus d'infos sur la partie
+          <span style="color: var(--third)">MT</span>
+          <RouterLink
+            to="/faq#micros"
+            style="color: var(--white); text-decoration: underline"
+          >
+            ici</RouterLink
+          >
+          !
+        </p>
+      </div>
+      <hr class="mt-hr-blue" />
+      <hr class="mt-hr" style="max-width: 200px" />
+      <hr class="mt-hr" style="max-width: 150px" />
+      <br />
+      <section
+        style="display: flex; flex-direction: column; align-items: center"
+      >
         <FAQRow title="Y a-t-il un vestiaire ?">
-            Oui ! Un vestiaire est disponible gratuitement, cependant nous déclinons toute responsabilité en cas de perte ou vol.
+          Oui ! Un vestiaire est disponible gratuitement, cependant nous
+          déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-            Oui ! En plus des transports en commun normaux, il y aura des navettes gratuites.
-            Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard (directement à la sortie du festival).<br>
-            <br>
-            Les navettes desserviront :<br>
-            Renens, Malley, le Flon.
+          Oui ! En plus des transports en commun normaux, il y aura des navettes
+          gratuites. Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard
+          (directement à la sortie du festival).<br />
+          <br />
+          Les navettes desserviront :<br />
+          Renens, Malley, le Flon.
         </FAQRow>
-        
+
         <FAQRow title="Les sacs sont-ils autorisés ?">
-            Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons pas les sacs dans l’enceinte de la manifestation.
-            Nous vous prions de venir sans sac à dos.
+          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons
+          pas les sacs dans l’enceinte de la manifestation. Nous vous prions de
+          venir sans sac à dos.
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-            Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la semaine précédant le festival, à 12:00, le mardi et mercredi.
+          Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
+          semaine précédant le festival, le mardi 4 novembre à 12:00.
         </FAQRow>
-            </section>
-            <section class="button-section">
-                <router-link to="/faq">
-                    <button class="main-page-button">FAQ →</button>
-                </router-link>
-            </section>
-            <hr class="comite-section-hr">
-            <div class="slider">
-                <div class="slide">
-                    <img class="band" src="@/assets/images/utilitaries/long-band.svg">
-                </div>
-            </div>
-            <div class="container-large" style="margin-bottom:25px">
-                <section style="flex:1">
-                    <h2 class="h2-primary-background" id="plan-title">Accès</h2>
-                    <p id="plan-para">
-                        Le festival a lieu dans le batiment CE à L’EPFL dans la commune d’Ecublens. 
-                        Il est accessible en transports en commun par le métro M1 (arrêt EPFL ou UNIL SORGE), le bus 701,31,705 (arrêt Argand, Paqueret ou Piccard) 
-                        et se situe près de l’autoroute A1 (sortie EPFL-UNIL).
-
-                    </p>
-                </section>
-                <section id="plan-image" style="flex:1">
-                    <a href="https://www.google.com/maps/d/u/0/edit?mid=1CXFmGv1zlrAQgA84q9ZXzxnXD0qu938&usp=sharing" target="_blank">
-                        <img class="img-responsive" src="@/assets/images/utilitaries/plan_acces.png">
-                    </a>
-                </section>
-            </div>
-            <section class="button-section">
-                <a class="main-page-button" href="/images/plan_interieur.png" target="_blank">Plan du Festival →</a>
-            </section>
-        </div> -->
-
-    <!-- <div id="sponsors" class="sponsors">
-            <h1 class="h1-third-background">Sponsors 2024</h1>
-            <section class="sponsors-line">
-                <div>
-                    <a target="_BLANK" href="https://infomaniak.events/fr-ch">
-                        <img src="@/assets/images/sponsors/infomaniak-sa.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.walo.ch/fr-ch/home">
-                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/walo.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.enzo-location.ch/">
-                        <img style="transform: scale(0.6);" src="@/assets/images/sponsors/enzoloc.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.makita.fr/">
-                        <img id="makita" style="transform: scale(0.6);" src="@/assets/images/sponsors/makita.jpg">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://www.ypsomed.com/en/">
-                        <img style="transform: scale(1.4);" src="@/assets/images/sponsors/ypsomed.png">
-                    </a>
-                </div>
-                <div>
-                    <a target="_BLANK" href="https://agepoly.ch/">
-                        <img id="agepo" src="@/assets/images/sponsors/AGEPoly.svg">
-                    </a>
-                </div>
-            </section>
-        <section class="button-section" >
-            <a href="https://sysmic.ch/dossier_sponso_sysmic_2024" target="_blank">
-                <button class="main-page-button">Dossier Sponsoring →</button>
-            </a>
+      </section>
+      <section class="button-section">
+        <router-link to="/faq">
+          <button class="main-page-button">FAQ →</button>
+        </router-link>
+      </section>
+      <hr class="comite-section-hr" />
+      <div class="slider">
+        <div class="slide">
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+        </div>
+      </div>
+      <!-- <div class="container-large" style="margin-bottom: 25px"> 
+        <section style="flex: 1">
+          <h2 class="h2-primary-background" id="plan-title">Accès</h2>
+          <p id="plan-para">
+            Le festival a lieu dans le batiment CE à L’EPFL dans la commune
+            d’Ecublens. Il est accessible en transports en commun par le métro
+            M1 (arrêt EPFL ou UNIL SORGE), les bus 701, 31, 705 (arrêt Argand,
+            Paqueret ou Piccard) et se situe près de l’autoroute A1 (sortie
+            EPFL-UNIL).
+          </p>
         </section>
-        </div> -->
+        <section id="plan-image" style="flex: 1">
+          <a
+            href="https://www.google.com/maps/d/u/0/edit?mid=1CXFmGv1zlrAQgA84q9ZXzxnXD0qu938&usp=sharing"
+            target="_blank"
+          >
+            <img
+              class="img-responsive"
+              src="@/assets/images/utilitaries/plan_acces.png"
+            />
+          </a>
+        </section>
+      </div> 
+      <section class="button-section">
+        <a
+          class="main-page-button"
+          href="/images/plan_interieur.png"
+          target="_blank"
+          >Plan du Festival →</a
+        >
+      </section> -->
+    </div>
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -342,18 +279,18 @@ import FAQRow from "../components/FAQRow.vue";
         </div> -->
 
     <div id="association" class="association">
-      <h1 class="h1-primary-background">Qui sommes-nous ?</h1>
+      <h1 class="h1-primary-background">L'association</h1>
       <div class="container container-vertical-phone">
         <section style="flex: 3; padding-top: 0">
           <p>
-            Sysmic est constitué d’un comité de 30 personnes de toutes années et
+            Sysmic est constitué d’un comité de 31 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
             d’offrir aux élèves de l’EPFL un festival de musique d’une soirée au
             sein même du campus.
             <br /><br />
             Originellement, l’association est dédiée à la section de
             Microtechnique pour laquelle nous organisons, en parallèle du
-            festival, un apéro suivi d’un repas et un Spectacle !
+            festival, un apéro dinatoire et un Spectacle !
             <br /><br />
             Notre plus grande qualité se trouve dans notre détermination à faire
             de Sysmic l’un des meilleurs festivals estudiantins du campus.
@@ -388,7 +325,7 @@ import FAQRow from "../components/FAQRow.vue";
       <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
         <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band.svg" />
+          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
     </div>
@@ -434,9 +371,7 @@ import FAQRow from "../components/FAQRow.vue";
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Logistique</h2>
-
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Antoine Eisinger</h4>
             <p>Matériel</p>
@@ -446,19 +381,30 @@ import FAQRow from "../components/FAQRow.vue";
             />
           </div>
           <div class="comite-member">
+            <h4>May Dubuy</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Maria Kyramarios</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
+          </div>
+          <div class="comite-member">
             <h4>Sophie Beuret</h4>
             <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/sophie.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Edgar Wolff</h4>
+            <p>Sécurité</p>
+            <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
           </div>
           <div class="comite-member">
             <h4>Matej Soumillion</h4>
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
@@ -467,24 +413,12 @@ import FAQRow from "../components/FAQRow.vue";
               src="@/assets/images/comite/roman_autre.jpg"
             />
           </div>
-          <div class="comite-member">
-            <h4>Maria Kyramarios</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>May Dubuy</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
-          </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
+
+
           <div class="comite-member">
             <h4>Jonas Blanc</h4>
             <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
           </div>
           <div class="comite-member">
             <h4>Hadrien Canches</h4>
@@ -496,14 +430,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>RH</p>
             <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Communication</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Noam Lévy</h4>
             <p>Community Manager</p>
@@ -517,12 +450,8 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Léa Mahfouf</h4>
             <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
           </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Daniel Krief</h4>
             <p>IT/Webmaster</p>
@@ -538,14 +467,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Spectacle</p>
             <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Animation</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Grégoire Gimenez</h4>
             <p>Bar</p>
@@ -590,14 +518,13 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Escape Game</p>
             <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
           </div>
-        </section>
+
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Aide à la Trésorerie</h2>
 
       <div class="container-comite">
-        <section class="comite-line">
           <div class="comite-member">
             <h4>Felix Elsässer</h4>
             <p>Sponsoring</p>
@@ -608,7 +535,6 @@ import FAQRow from "../components/FAQRow.vue";
             <p>Sponsoring</p>
             <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
           </div>
-        </section>
       </div>
 
       <!-- <hr class="comite-section-hr"> -->
@@ -728,7 +654,7 @@ span {
 .line-up {
   max-width: 100%;
   padding: 20px;
-  padding-top: calc(var(--navbar-height) + var(--global-margin));
+  /* padding-top: calc(var(--navbar-height) + var(--global-margin)); */
   align-items: center;
   justify-content: space-around;
   display: flex;
@@ -745,9 +671,9 @@ span {
 }
 
 .line-up-zone {
-  width: 150%;
+  /* width: 150%; */
   max-width: 1000px;
-  height: 750px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -757,11 +683,12 @@ span {
 }
 
 .line-up-container {
-  width: 50%;
-  min-width: 250px;
-  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  max-width:100%;
+  height: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -798,6 +725,14 @@ span {
   /* margin-bottom: 5px; */
 }
 
+.line-up-stage {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  width: 30%;
+}
+
 .line-up-stagename {
   color: white;
   text-align: center;
@@ -809,11 +744,12 @@ span {
   align-items: center;
 }
 .line-up-artist {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 90%;
+  padding: 3%;
 }
 
 #loudjack {
@@ -834,12 +770,12 @@ span {
   font-size: 1.7em;
   font-weight: bold;
   border-radius: 10px;
-  height: 45px;
-  width: 100px;
+  height: 40px;
+  width: 180px;
   display: flex;
-  margin: auto;
+  margin: 5px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .line-up-artist-big .line-up-time {
   background-color: var(--third);
@@ -967,16 +903,18 @@ span {
 }
 .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
-  position: absolute;
-  top: calc(5vw + 42vh);
-  left: 20%;
+  position: relative;
+  max-width: 60%;
+  max-height:20%;
+  /* top: calc(5vw + 45vh); 
+  left: 25%;
   height: 8%;
   z-index: 101;
   max-width: 70%;
   margin: auto;
-  margin-bottom: calc(230px - 10vw);
+  margin-bottom: calc(230px - 10vw); */
 }
 
 .sponsors .sponsors-line {
@@ -1083,13 +1021,18 @@ span {
   margin-top: 40px;
   display: inline-block;
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .container-comite {
   display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   max-width: 1100px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .comite-line {
@@ -1126,10 +1069,12 @@ span {
 .home-screen {
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  overflow: hidden;
+  /* overflow: ; */
   background-color: var(--black);
+  justify-content: space-around;
 }
 
 .home-screen-bg {
@@ -1154,34 +1099,37 @@ span {
   font-weight: bolder;
 }
 
-.sponsors-bar {
+/* .sponsors-bar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  position: absolute;
   justify-content: space-evenly;
   height: 100px;
   z-index: 5;
   max-width: 80%;
   margin: auto;
   margin-bottom: 40px;
-}
+} */
 
 .sponsors-row {
   display: flex;
   flex-direction: row;
-  gap: 2vw;
-}
+  gap: 5%;
+  max-width: 100%;
+} 
 
 .sponsor-el {
   /* background-color: chartreuse; */
   flex-grow: 1;
   z-index: 10000;
   max-width: 200px;
-  max-height: 250px;
-  width: 11vw;
+  max-height: 100px;
+  width: 20%;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(10px);
+  /* transform: translateY(10px); */
   transition: opacity ease-in-out 0.2s;
 }
 #agep {
@@ -1203,11 +1151,11 @@ span {
   max-height: 100%;
 }
 
-@media only screen and (max-height: 700px) {
+/* @media only screen and (max-height: 700px) {
   #sponsors-bar {
     height: 50px;
   }
-}
+} */
 
 /* @media screen and (max-width: 650px) {
     .sponsors-bar {
@@ -1235,15 +1183,15 @@ span {
 }
 
 @media screen and (max-width: 500px) {
-  .sponsors-bar {
+  /* .sponsors-bar {
     width: 95vw;
     position: absolute;
     top: 80vh;
     left: 2.5vw;
-  }
+  } */
   .sponsors-row {
     width: 100%;
-  }
+  } 
 
   .sponsor-el {
     width: 40vw;
@@ -1254,6 +1202,10 @@ span {
   .line-up-container {
     padding-left: 10px;
     padding-right: 10px;
+    flex-direction: column;
+  }
+  .line-up-stage {
+    width: 90%;
   }
   .line-up-time {
     height: 25px;
@@ -1275,10 +1227,10 @@ span {
   }
 
   .sponsors-bar {
-    width: 100%;
-    position: absolute;
+    max-width: 90%;
+    /* position: absolute;
     top: 65vh;
-    left: 10%;
+    left: 10%; */
   }
   #ef {
     width: 40vw;
@@ -1303,7 +1255,6 @@ span {
 
   .line-up-zone {
     width: 100%;
-    height: 700px;
   }
   .line-up-time,
   .line-up-name {

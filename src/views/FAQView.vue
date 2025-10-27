@@ -37,8 +37,8 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-          Les tickets seront mis en vente sur l'esplanade de l’EPFL durant la
-          semaine précédant le festival, à 12:00, le mardi et mercredi.
+          Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
+          semaine précédant le festival, le mardi 4 novembre à 12:00.
         </FAQRow>
 
         <FAQRow title="Puis-je venir au festival sans prélocation?">
@@ -48,13 +48,13 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Puis-je manger sur place ?">
-          Oui ! Vous trouverez dans le festival un foodtruck et un stand de
+          Oui ! Vous trouverez dans le festival deux stands de
           nourriture à prix étudiant.
         </FAQRow>
 
         <FAQRow title="Quelles activités sont prévues durant la soirée ?">
-          En plus des concerts, des bars et du foodtruck, vous pourrez profiter
-          de deux escape games dans le thème de la soirée. De plus, un espace
+          En plus des concerts, des bars et des stands de nourriture, vous pourrez profiter
+          d'un escape game dans le thème de la soirée, ainsi que d'une salle d'arcade et d'un stand de flocage. De plus, un espace
           dédié à "Just Dance" sera également à votre disposition.
         </FAQRow>
 
@@ -79,17 +79,20 @@ import FAQRow from "../components/FAQRow.vue";
         <h2 id="micros">Pour les micros</h2>
 
         <FAQRow
-          title="Comment se déroule la soirée avec une prélocation pour microtechnicien?"
+          title="Comment se déroule la soirée avec une prélocation pour MT ?"
         >
           18:00 - Apéro dinatoire avec tes profs préférés (n'oublie pas ta
           camipro) <br />
-          19h30 - Direction CE6 pour le spectacle le plus culte de ta section
-          <br />
           20h - Début du spectacle <br />
           21h - Fin du spectacle et direction le festival 🎉
         </FAQRow>
 
-        <FAQRow
+                <FAQRow
+          title="Jusqu'à quelle heure puis-je entrer pour assister à la partie MT ?"
+        >
+          Il est possible d'entrer pour assister à la partie MT jusqu'à 19h. Au delà de cette heure, tu pourras rentrer uniquement via l'entrée principale et selon les conditions d'entrée correspondantes.
+        </FAQRow>
+        <!-- <FAQRow
           title="Quelles sont les horaires de ventes pour microtechnicien?"
         >
           BA1 : Mercredi 16 à 14h devant le CE16<br />
@@ -100,7 +103,7 @@ import FAQRow from "../components/FAQRow.vue";
           <br /><br />
           Prix: 23.- <br />
           Payement par cash ou camipro, camipro obligatoire lors du règlement.
-        </FAQRow>
+        </FAQRow> -->
 
         <hr />
         <div class="small-line"></div>

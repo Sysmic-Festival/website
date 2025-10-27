@@ -64,9 +64,10 @@ function onScroll() {
         <img class="logo" src="@/assets/images/utilitaries/new-logo-name.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
-        <li><router-link to="/#coming-soon">Coming soon</router-link></li>
+                <li><router-link to="/#line-up">Line up</router-link></li>
+                <li><router-link to="/#infos">Infos pratiques</router-link></li>
+
         <li><router-link to="/#association">L'association</router-link></li>
-        <li><router-link to="/#comite">Le comité</router-link></li>
       </ul>
 
       <label
@@ -85,9 +86,9 @@ function onScroll() {
 #navbar {
   z-index: 901;
   position: absolute;
-  height: calc(var(--navbar-height) + var(--global-margin));
+  height: calc(var(--navbar-height) + 0.5*var(--global-margin));
   width: 100%;
-  top: calc(100vh - var(--navbar-height) - var(--global-margin));
+  top: calc(100vh - var(--navbar-height) - 0.5*var(--global-margin));
   background-color: var(--primary-transparent);
   box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -132,7 +133,7 @@ ul.fixedOverride {
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: var(--global-margin);
+  /* margin-left: var(--global-margin); */
   margin-right: var(--global-margin);
   display: flex;
 }
@@ -162,7 +163,7 @@ ul.fixedOverride {
     margin-right: 10%;
   }
   .bar-menu li a {
-    font-size: 2vw;
+    font-size: 120%;
     color: var(--white);
     text-decoration: none;
     transition: all 0.45s;

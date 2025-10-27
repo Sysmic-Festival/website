@@ -6,7 +6,7 @@ onMounted(() => {
 
 /* TIMER */
 function startTimer() {
-  var goalDate = new Date(2025, 3, 8, 22, 30).getTime();
+  var goalDate = new Date(2025, 10, 7, 20, 0).getTime();
   var curDate = new Date().getTime();
 
   try {
@@ -78,16 +78,17 @@ function startTimer() {
 .decompte {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  object-fit: scale-down;
 }
 
 .decompteNumber {
   opacity: 1;
 
-  max-height: 80px;
-  max-width: 100px;
+  max-height: 70px;
+  max-width: 90px;
   height: 10vw;
   width: 14vw;
 
@@ -95,7 +96,7 @@ function startTimer() {
   margin-left: 20px;
   margin-right: 20px;
   color: var(--white);
-  font-size: 8vh;
+  font-size: 250%;
   padding-top: 0px;
   font-weight: bold;
 
@@ -103,38 +104,40 @@ function startTimer() {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  /* align-self:center; */
 }
 
 #daysBox {
   background-color: var(--third);
-  max-width: 240px;
-  width: 28vh;
+  /* max-width: 240px;
+  width: 28vh; */
   height: 10vh;
 }
 
 #hoursBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 #minutesBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 #secBox {
   background-color: var(--third);
-  width: 20vh;
+  /* width: 20vh; */
   height: 10vh;
 }
 
 .numberLabel {
   text-align: left;
   margin-left: 20px;
-  font-size: 4vh;
-  margin-top: 5px;
+  /* font-size: 3vh; */
+  margin-top: 2px;
 }
 
 .label1 {
@@ -165,9 +168,12 @@ function startTimer() {
   align-self: center;
   justify-content: center;
   z-index: 100;
+  max-width: 50%;
+  max-height: 15%;
+  padding: 5px;
 }
 
-@media only screen and (max-width: 850px) {
+/* @media only screen and (max-width: 850px) {
   .decompte {
     width: 100%;
     justify-content: center;
@@ -195,9 +201,9 @@ function startTimer() {
     width: 90vw;
     margin-left: 4vw;
   }
-}
+} */
 
-@media only screen and (max-height: 1280px) {
+/* @media only screen and (max-height: 1280px) {
   .timer-section {
     padding: 0;
     padding-top: 3px;
@@ -255,5 +261,5 @@ function startTimer() {
   .timer-section {
     padding: 25px;
   }
-}
+} */
 </style>
