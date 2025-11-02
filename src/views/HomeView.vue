@@ -158,7 +158,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
       <section class="button-section">
         <router-link to="/faq">
-          <button class="main-page-button">Acheter un billet →</button>
+          <button class="main-page-button"  onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4'" >Vers la billetterie →</button>
         </router-link>
       </section>
       <div class="container">
