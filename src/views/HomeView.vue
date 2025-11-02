@@ -9,9 +9,8 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
-      
       <div class="home-screen-bg"></div>
-        <AnimatedLogo id="Logo" />
+      <AnimatedLogo id="Logo" />
       <Timer />
       <div class="sponsors-bar">
         <div class="sponsors-row">
@@ -39,7 +38,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
     </div>
     <div id="line-up" class="line-up">
-      <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
+      <h1 class="h1-third-background" id="line-up-title"><br />Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
           <div class="line-up-stage">
@@ -86,9 +85,7 @@ import FAQRow from "../components/FAQRow.vue";
             </div>
           </div>
           <div class="line-up-stage">
-            <h2 class="line-up-stagename">
-              Fosse des Mariannes
-            </h2>
+            <h2 class="line-up-stagename">Fosse des Mariannes</h2>
             <div class="line-up-box-1">
               <div class="line-up-artist">
                 <div class="line-up-time">21:30 - 22:30</div>
@@ -117,11 +114,14 @@ import FAQRow from "../components/FAQRow.vue";
         </a>
       </section>
     </div>
-          <div class="slider">
-        <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
-        </div>
+    <div class="slider">
+      <div class="reverse-slide">
+        <img
+          class="band"
+          src="@/assets/images/utilitaries/long-band-newlogo.svg"
+        />
       </div>
+    </div>
 
     <div class="photo-gallery">
       <Slideshow />
@@ -134,9 +134,10 @@ import FAQRow from "../components/FAQRow.vue";
           <h2 class="h2-primary-background">Billetterie</h2>
           <p>
             Billet: <span class="higlight-text">15 CHF</span> <br /><br />
-            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la place Ada Lovelace à <span class="higlight-text">12H00</span>
+            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la
+            place Ada Lovelace à <span class="higlight-text">12H00</span>
             <br />
-            Paiement en Camipro, cash, carte, ou Twint. 
+            Paiement en Camipro, cash, carte, ou Twint.
             <br /><br />
             Le soir même: <span class="higlight-text">20 CHF</span>
           </p>
@@ -155,6 +156,11 @@ import FAQRow from "../components/FAQRow.vue";
           </p>
         </section>
       </div>
+      <section class="button-section">
+        <router-link to="/faq">
+          <button class="main-page-button">Acheter un billet →</button>
+        </router-link>
+      </section>
       <div class="container">
         <section>
           <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
@@ -219,8 +225,8 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
-          Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
-          semaine précédant le festival, le mardi 4 novembre à 12:00.
+          Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL
+          durant la semaine précédant le festival, le mardi 4 novembre à 12:00.
         </FAQRow>
       </section>
       <section class="button-section">
@@ -231,7 +237,10 @@ import FAQRow from "../components/FAQRow.vue";
       <hr class="comite-section-hr" />
       <div class="slider">
         <div class="slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+          <img
+            class="band"
+            src="@/assets/images/utilitaries/long-band-newlogo.svg"
+          />
         </div>
       </div>
       <!-- <div class="container-large" style="margin-bottom: 25px"> 
@@ -325,7 +334,10 @@ import FAQRow from "../components/FAQRow.vue";
       <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
         <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
+          <img
+            class="band"
+            src="@/assets/images/utilitaries/long-band-newlogo.svg"
+          />
         </div>
       </div>
     </div>
@@ -372,169 +384,165 @@ import FAQRow from "../components/FAQRow.vue";
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Logistique</h2>
       <div class="container-comite">
-          <div class="comite-member">
-            <h4>Antoine Eisinger</h4>
-            <p>Matériel</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/antoine_matos.jpg"
-            />
-          </div>
-          <div class="comite-member">
-            <h4>May Dubuy</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Maria Kyramarios</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Sophie Beuret</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Edgar Wolff</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Matej Soumillion</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
-          </div>
-          <div class="comite-member">
-            <h4>Roman Ostrowsky</h4>
-            <p>Élec/Light</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/roman_autre.jpg"
-            />
-          </div>
+        <div class="comite-member">
+          <h4>Antoine Eisinger</h4>
+          <p>Matériel</p>
+          <img
+            class="comite-img"
+            src="@/assets/images/comite/antoine_matos.jpg"
+          />
+        </div>
+        <div class="comite-member">
+          <h4>May Dubuy</h4>
+          <p>Décoration</p>
+          <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Maria Kyramarios</h4>
+          <p>Décoration</p>
+          <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Sophie Beuret</h4>
+          <p>Sécurité</p>
+          <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Edgar Wolff</h4>
+          <p>Sécurité</p>
+          <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Matej Soumillion</h4>
+          <p>Sécurité</p>
+          <img class="comite-img" src="@/assets/images/comite/absent.png" />
+        </div>
+        <div class="comite-member">
+          <h4>Roman Ostrowsky</h4>
+          <p>Élec/Light</p>
+          <img
+            class="comite-img"
+            src="@/assets/images/comite/roman_autre.jpg"
+          />
+        </div>
 
-
-          <div class="comite-member">
-            <h4>Jonas Blanc</h4>
-            <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Hadrien Canches</h4>
-            <p>Technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Maxime Coeytaux</h4>
-            <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
-          </div>
-
+        <div class="comite-member">
+          <h4>Jonas Blanc</h4>
+          <p>Adjoint à la technique de scène</p>
+          <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Hadrien Canches</h4>
+          <p>Technique de scène</p>
+          <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Maxime Coeytaux</h4>
+          <p>RH</p>
+          <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
+        </div>
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Communication</h2>
 
       <div class="container-comite">
-          <div class="comite-member">
-            <h4>Noam Lévy</h4>
-            <p>Community Manager</p>
-            <img class="comite-img" src="@/assets/images/comite/noam.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Romain Klein</h4>
-            <p>Vidéaste</p>
-            <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Léa Mahfouf</h4>
-            <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Daniel Krief</h4>
-            <p>IT/Webmaster</p>
-            <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Ulysse Zbinden</h4>
-            <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Mélodie Serreau</h4>
-            <p>Spectacle</p>
-            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
-          </div>
-
+        <div class="comite-member">
+          <h4>Noam Lévy</h4>
+          <p>Community Manager</p>
+          <img class="comite-img" src="@/assets/images/comite/noam.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Romain Klein</h4>
+          <p>Vidéaste</p>
+          <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Léa Mahfouf</h4>
+          <p>Graphisme</p>
+          <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Daniel Krief</h4>
+          <p>IT/Webmaster</p>
+          <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Ulysse Zbinden</h4>
+          <p>Prévention/Durabilité</p>
+          <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Mélodie Serreau</h4>
+          <p>Spectacle</p>
+          <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
+        </div>
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Animation</h2>
 
       <div class="container-comite">
-          <div class="comite-member">
-            <h4>Grégoire Gimenez</h4>
-            <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Alexis Zuber</h4>
-            <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Olivia Robles</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Marc Simon</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/marc.jpg" />
-          </div>
+        <div class="comite-member">
+          <h4>Grégoire Gimenez</h4>
+          <p>Bar</p>
+          <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Alexis Zuber</h4>
+          <p>Bar</p>
+          <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Olivia Robles</h4>
+          <p>Programmation</p>
+          <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Marc Simon</h4>
+          <p>Programmation</p>
+          <img class="comite-img" src="@/assets/images/comite/marc.jpg" />
+        </div>
 
-          <div class="comite-member">
-            <h4>Dina Azoulay</h4>
-            <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Antoine Reynaud</h4>
-            <p>Catering</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/antoine_cat.jpg"
-            />
-          </div>
-          <div class="comite-member">
-            <h4>Marie van Rossum</h4>
-            <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/marie.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Anouck Fazio</h4>
-            <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
-          </div>
-
+        <div class="comite-member">
+          <h4>Dina Azoulay</h4>
+          <p>Catering</p>
+          <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Antoine Reynaud</h4>
+          <p>Catering</p>
+          <img
+            class="comite-img"
+            src="@/assets/images/comite/antoine_cat.jpg"
+          />
+        </div>
+        <div class="comite-member">
+          <h4>Marie van Rossum</h4>
+          <p>Escape Game</p>
+          <img class="comite-img" src="@/assets/images/comite/marie.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Anouck Fazio</h4>
+          <p>Escape Game</p>
+          <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
+        </div>
       </div>
 
       <hr class="comite-section-hr" />
       <h2 class="h2-primary-background comite-title">Aide à la Trésorerie</h2>
 
       <div class="container-comite">
-          <div class="comite-member">
-            <h4>Felix Elsässer</h4>
-            <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Marina Perez Barrera</h4>
-            <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
-          </div>
+        <div class="comite-member">
+          <h4>Felix Elsässer</h4>
+          <p>Sponsoring</p>
+          <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
+        </div>
+        <div class="comite-member">
+          <h4>Marina Perez Barrera</h4>
+          <p>Sponsoring</p>
+          <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
+        </div>
       </div>
 
       <!-- <hr class="comite-section-hr"> -->
@@ -685,7 +693,7 @@ span {
 .line-up-container {
   width: 100%;
   min-width: 100%;
-  max-width:100%;
+  max-width: 100%;
   height: 60%;
   display: flex;
   flex-direction: row;
@@ -907,11 +915,11 @@ span {
   justify-content: space-evenly;
   position: relative;
   max-width: 60%;
-  max-height:20%;
+  max-height: 20%;
   /* top: calc(5vw + 45vh); 
   left: 25%;
-  height: 8%;
-  z-index: 101;
+  height: 8%;*/
+  z-index: 101;/*
   max-width: 70%;
   margin: auto;
   margin-bottom: calc(230px - 10vw); */
@@ -1026,7 +1034,7 @@ span {
 
 .container-comite {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -1116,7 +1124,7 @@ span {
   flex-direction: row;
   gap: 5%;
   max-width: 100%;
-} 
+}
 
 .sponsor-el {
   /* background-color: chartreuse; */
@@ -1191,7 +1199,7 @@ span {
   } */
   .sponsors-row {
     width: 100%;
-  } 
+  }
 
   .sponsor-el {
     width: 40vw;
