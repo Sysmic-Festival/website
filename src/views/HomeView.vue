@@ -58,7 +58,7 @@ import FAQRow from "../components/FAQRow.vue";
               </div>
               <div class="line-up-artist">
                 <div class="line-up-time">0:45</div>
-                <div class="line-up-name">Aho̊ra</div>
+                <div class="line-up-name">Åhöra</div>
               </div>
             </div>
           </div>
@@ -157,9 +157,7 @@ import FAQRow from "../components/FAQRow.vue";
         </section>
       </div>
       <section class="button-section">
-        <router-link to="/faq">
           <button class="main-page-button"  onclick="window.location.href = 'https://infomaniak.events/fr-ch/shop/sysmic-G7BDEEVBZ4'" >Vers la billetterie →</button>
-        </router-link>
       </section>
       <div class="container">
         <section>
