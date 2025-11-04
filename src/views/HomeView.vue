@@ -107,7 +107,7 @@ import FAQRow from "../components/FAQRow.vue";
       <section class="button-section">
         <a
           class="main-page-button"
-          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+          href="https://open.spotify.com/playlist/6ZiHPZO5Bn3OLZYz4WPIre?si=lYar0vzNT7mJfiHrCx-asg"
           target="_blank"
         >
           Playlist du Festival →
@@ -133,11 +133,9 @@ import FAQRow from "../components/FAQRow.vue";
         <section style="">
           <h2 class="h2-primary-background">Billetterie</h2>
           <p>
-            Billet: <span class="higlight-text">15 CHF</span> <br /><br />
-            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la
-            place Ada Lovelace à <span class="higlight-text">12H00</span>
-            <br />
-            Paiement en Camipro, cash, carte, ou Twint.
+            Billet en ligne: <span class="higlight-text">16 CHF</span>
+            <br /><br />
+            Paiement possible par carte ou Twint.
             <br /><br />
             Le soir même: <span class="higlight-text">20 CHF</span>
           </p>
@@ -149,9 +147,9 @@ import FAQRow from "../components/FAQRow.vue";
             <span class="higlight-text">7 novembre 2025</span>
             <br /><br />
             Début des entrées: <span class="higlight-text">20h</span>
-            <br />
+            <br /><br/>
             Début des concerts: <span class="higlight-text">21h</span>
-            <br />
+            <br /><br/>
             Fin: <span class="higlight-text">03H00</span>
           </p>
         </section>
@@ -810,6 +808,11 @@ span {
   font-weight: 800;
   color: grey;
   margin-top: 15px;
+}
+
+#infos-container {
+  /* ca c'est une modif de merde, à enlever dès que possible */
+  justify-content: center;
 }
 
 @media screen and (max-width: 1180px) {
