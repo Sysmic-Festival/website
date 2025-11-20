@@ -79,11 +79,14 @@ router.beforeEach(() => {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  height:100%;
 }
 
 .sidebar.opened {
   width: calc(min(350px, 100vw));
   box-shadow: 0px 0px 20px 60px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  z-index:902;
 }
 
 /* The sidebar links */
