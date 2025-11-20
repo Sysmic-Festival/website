@@ -42,12 +42,12 @@ import FAQRow from "../components/FAQRow.vue";
       <h1 class="h1-primary-background"><br />Coming soon</h1>
       <div id="infos-container" class="container">
         <section style="">
-          <h2 class="h2-primary-background">Sysmic revient l'année prochaine !</h2>
+          <h2 class="h2-primary-background" style="margin-top: 0; justify-self: center">Sysmic revient l'année prochaine !</h2>
           <p>
             On espère que tu as apprecié ta soirée au festival et on se réjouit de te revoir l'an prochain ! Sysmic revient en force
             dès le semestre de printemps.
             <br /><br />
-            Tu as aimé le festival ? Tu souhaiterais apporter ta pierre à l'édifice ? 
+            Tu souhaiterais apporter ta pierre à l'édifice ? 
             L'association recrutera prochainement son comité pour l'année 
             prochaine. Les infos à ce sujet arriveront bientôt !
             <br /><br />
@@ -60,7 +60,7 @@ import FAQRow from "../components/FAQRow.vue";
         </section>
       </div>
     </div>
-    <div id="line-up" class="line-up">
+    <!-- <div id="line-up" class="line-up">
       <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
       <div class="line-up-zone">
         <div class="line-up-container">
@@ -138,18 +138,13 @@ import FAQRow from "../components/FAQRow.vue";
           Playlist du Festival →
         </a>
       </section>
-    </div>
-          <div class="slider">
-        <div class="reverse-slide">
-          <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
-        </div>
-      </div>
+    </div> -->
 
     <div class="photo-gallery">
       <Slideshow />
     </div>
 
-    <div id="infos" class="infos">
+    <!-- <div id="infos" class="infos">
       <h1 class="h1-primary-background">Infos pratiques</h1>
       <div id="infos-container" class="container">
         <section style="">
@@ -256,7 +251,7 @@ import FAQRow from "../components/FAQRow.vue";
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>
-      <!-- <div class="container-large" style="margin-bottom: 25px"> 
+      <div class="container-large" style="margin-bottom: 25px"> 
         <section style="flex: 1">
           <h2 class="h2-primary-background" id="plan-title">Accès</h2>
           <p id="plan-para">
@@ -286,8 +281,8 @@ import FAQRow from "../components/FAQRow.vue";
           target="_blank"
           >Plan du Festival →</a
         >
-      </section> -->
-    </div>
+      </section>
+    </div> -->
 
     <!-- <div id="recrutement">
             <hr class="mt-hr" style="max-width:250px">
@@ -346,7 +341,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
       <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
-        <div class="reverse-slide">
+        <div class="slide">
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
         </div>
       </div>

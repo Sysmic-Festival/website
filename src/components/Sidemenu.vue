@@ -34,11 +34,11 @@ router.beforeEach(() => {
         <div class="line"></div>
       </label>
       <hr id="sidebar-links-hr">
-      <router-link to="/#line-up">Line up</router-link>
-        <hr id="sidebar-links-hr">
-      <router-link to="/#infos">Infos pratiques</router-link>
+      <router-link to="/#coming-soon">Coming soon</router-link>
         <hr id="sidebar-links-hr">
       <router-link to="/#association">L'association</router-link>
+      <hr id="sidebar-links-hr" />
+      <router-link to="/#association">Comité 2025</router-link>
       <hr id="sidebar-links-hr" />
       <router-link to="/portfolio">Portfolio</router-link>
       <hr id="sidebar-links-hr" />

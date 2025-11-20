@@ -106,7 +106,7 @@
 
             Si tu as envie de plus t’impliquer, chaque année après le festival a
             lieu notre Assemblée Générale où nous élisons le nouveau Comité de
-            Direction. Cette année ce sera le dimanche 27 novembre à 18h,
+            Direction. Cette année ce sera le lundi 24 novembre à 19h,
             n’hésite pas à venir c’est ouvert à tous.te.s. Suite à ça le
             recrutement du comité est annoncé par mail et sur nos réseaux
             sociaux.
