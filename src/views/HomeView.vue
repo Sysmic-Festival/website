@@ -12,8 +12,8 @@ import FAQRow from "../components/FAQRow.vue";
       
       <div class="home-screen-bg"></div>
         <AnimatedLogo id="Logo" />
-      <Timer />
-      <div class="sponsors-bar">
+      <!-- <Timer /> -->
+      <!-- <div class="sponsors-bar">
         <div class="sponsors-row">
           <div class="sponsor-el">
             <a href="https://www.swisstech-hotel.com/fr/">
@@ -36,7 +36,7 @@ import FAQRow from "../components/FAQRow.vue";
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div id="line-up" class="line-up">
       <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
