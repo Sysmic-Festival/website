@@ -44,7 +44,8 @@ import FAQRow from "../components/FAQRow.vue";
         <section style="">
           <h2 class="h2-primary-background" style="margin-top: 0; justify-self: center">Sysmic revient l'année prochaine !</h2>
           <p>
-            On espère que tu as apprecié ta soirée au festival et on se réjouit de te revoir l'an prochain ! Sysmic revient en force
+            On espère que tu as apprecié ta soirée au festival ! Merci d'avoir 
+            participé à notre 29e édition. On se réjouit de te revoir l'an prochain ! Sysmic revient en force
             dès le semestre de printemps.
             <br /><br />
             Tu souhaiterais apporter ta pierre à l'édifice ? 
@@ -1099,16 +1100,16 @@ span {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-image: url("@/assets/images/PhotoGallery/slideshow/3.jpg");
-  opacity: 0.4;
+  background-image: url("@/assets/images/PhotoGallery/slideshow/2.jpg");
+  opacity: 0.5;
   /* background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg"); */
-  /* background-color: var(--primary-darker); */
+  background-color: var(--primary-darker); 
   background-size: cover;
   background-position: center;
   overflow: hidden;
 
-  filter: blur(8px);
-  /* -webkit-filter: blur(8px); */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .higlight-text {

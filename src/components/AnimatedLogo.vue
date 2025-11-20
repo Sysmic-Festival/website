@@ -61,13 +61,13 @@ h2 {
   display: flex;
   justify-content: center;
   /* height: 50%; */
-  max-width: 90%;
+  max-width: 95%;
   padding: 15px;
 }
 .layer {
   /* position: absolute; */
   filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
-    brightness(105%) contrast(102%);
+    brightness(140%) contrast(102%) ;
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
   /* height: 23vw; */
