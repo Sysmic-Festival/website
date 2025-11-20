@@ -38,6 +38,28 @@ import FAQRow from "../components/FAQRow.vue";
         </div>
       </div> -->
     </div>
+    <div id="coming-soon" class="coming-soon">
+      <h1 class="h1-primary-background"><br />Coming soon</h1>
+      <div id="infos-container" class="container">
+        <section style="">
+          <h2 class="h2-primary-background">Sysmic revient l'année prochaine !</h2>
+          <p>
+            On espère que tu as apprecié ta soirée au festival et on se réjouit de te revoir l'an prochain ! Sysmic revient en force
+            dès le semestre de printemps.
+            <br /><br />
+            Tu as aimé le festival ? Tu souhaiterais apporter ta pierre à l'édifice ? 
+            L'association recrutera prochainement son comité pour l'année 
+            prochaine. Les infos à ce sujet arriveront bientôt !
+            <br /><br />
+            Alors n'hésite pas à nous suivre sur les réseaux pour être au
+            courant ! On est sur
+            <a href="https://instagram.com/festival_sysmic">Instagram</a>. 
+            <!-- et sur
+            <a href="https://t.me/sysmic_info">Telegram</a>. -->
+          </p>
+        </section>
+      </div>
+    </div>
     <div id="line-up" class="line-up">
       <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
       <div class="line-up-zone">
