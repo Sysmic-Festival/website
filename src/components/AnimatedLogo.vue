@@ -36,7 +36,10 @@ function animLogo(id) {
       <img class="layer" id="layer18" src="@/assets/images/layers/18.svg"/>
       <img class="layer" id="layer19" src="@/assets/images/layers/19.svg"/> -->
     <img class="layer" src="@/assets/images/utilitaries/horizontal_full.png" />
-    <img class="layer_phone" src="@/assets/images/utilitaries/vertical_full.png" />
+    <img
+      class="layer_phone"
+      src="@/assets/images/utilitaries/vertical_full.png"
+    />
     <div class="titleBox">
       <!-- <h1>SYSMIC<br />FESTIVAL</h1> -->
       <!-- <div id="title-date">
@@ -67,7 +70,7 @@ h2 {
 .layer {
   /* position: absolute; */
   filter: /*invert(100%)*/ sepia(100%) saturate(1%) hue-rotate(226deg)
-    brightness(140%) contrast(102%) ;
+    brightness(140%) contrast(102%);
   top: calc(15% - 5vw);
   left: calc(20vw - 100px);
   /* height: 23vw; */
@@ -146,27 +149,22 @@ h2 {
   opacity: 1 !important;
 }
 
-@media only screen and (min-width:800px) {
-
+@media only screen and (min-width: 800px) {
   .invaderSection {
     max-height: 55%;
   }
 }
 
-@media only screen and (max-width:650px) {
-
+@media only screen and (max-width: 650px) {
   .layer {
     display: none;
   }
-  
 }
 
-@media only screen and (min-width:650px) {
-
+@media only screen and (min-width: 650px) {
   .layer_phone {
     display: none;
   }
-  
 }
 
 /* @media only screen and (max-width:650px) and (min-height:900px) {
