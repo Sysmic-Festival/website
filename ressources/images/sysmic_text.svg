@@ -1,0 +1,11 @@
+<svg width="500" height="147" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="0" y2="0" x2="500" y2="147" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5ed1b5" offset="0"/>
+   <stop stop-color="#6ad15e" offset="0"/>
+  </linearGradient>
+ </defs>
+ <text x="-4.9518838" y="-41.781513" font-size="37.1px" stroke-width="3.09">
+  <tspan x="-4.9518838" y="112.96485" fill="url(#a)" font-family="Raleway-Regular" font-size="155px" stroke-width="1.86">Sysmic</tspan>
+ </text>
+</svg>

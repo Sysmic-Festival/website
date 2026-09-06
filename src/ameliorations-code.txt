@@ -1,0 +1,13 @@
+trouver une solution pour quand la navbar passe au dessus du sidemenu
+    peut être la snap au plus proche (haut ou bas de l'écran)
+    et update la marge du menu en fonction (marge en haut ou marge en bas)
+
+portfolio /!\
+
+update titres en fonction de la page (Sysmic - A propos)
+
+higlight la page active dans le sidemenu
+
+animation cool pour le play button (désassembler le svg)
+
+police extra bold pour le titre
