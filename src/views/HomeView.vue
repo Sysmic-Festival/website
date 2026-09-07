@@ -31,7 +31,7 @@ import FAQRow from "../components/FAQRow.vue";
             </a>
           </div>
           <div class="sponsor-el">
-            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+            <a target="_BLANK" href="https://forum-epfl.ch/2026/en/">
               <img src="@/assets/images/sponsors/forum.png" />
             </a>
           </div>
@@ -333,7 +333,7 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
     </div>
     <div id="comite" class="comite">
-      <h1 class="h1-primary-background comite-title">Comité 2025</h1>
+      <h1 class="h1-primary-background comite-title">Comité 2026</h1>
       <h2 class="h2-primary-background comite-title">Présidence</h2>
       <div class="container-comite">
         <section class="comite-line">
@@ -402,11 +402,6 @@ import FAQRow from "../components/FAQRow.vue";
             <h4>Adrien Lievre</h4>
             <p>Sécurité</p>
             <img class="comite-img" src="@/assets/images/comite/adrien_l.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Matej Soumillion</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
           <div class="comite-member">
             <h4>Edgar Wolff</h4>

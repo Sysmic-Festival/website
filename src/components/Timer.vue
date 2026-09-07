@@ -6,7 +6,7 @@ onMounted(() => {
 
 /* TIMER */
 function startTimer() {
-  var goalDate = new Date(2026, 10, 30, 20, 0).getTime();
+  var goalDate = new Date(2026, 9, 30, 20, 0).getTime();
   var curDate = new Date().getTime();
 
   try {
