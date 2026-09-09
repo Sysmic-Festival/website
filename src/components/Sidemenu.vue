@@ -64,7 +64,7 @@ router.beforeEach(() => {
 <style scoped>
 /* The sidebar menu */
 .sidebar {
-  z-index: 902;
+  z-index: 9002;
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   top: 0;

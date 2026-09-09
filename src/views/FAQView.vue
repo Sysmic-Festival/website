@@ -17,28 +17,28 @@ import FAQRow from "../components/FAQRow.vue";
         <h2>Le festival</h2>
 
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Oui ! Un vestiaire est disponible gratuitement, cependant nous
+          Oui! Un vestiaire est disponible gratuitement, cependant nous
           déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-          Oui ! En plus des transports en commun normaux, il y aura des navettes
+          Oui! En plus des transports en commun normaux, il y aura des navettes
           gratuites. Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard
           (directement à la sortie du festival).<br />
           <br />
           Les navettes desserviront :<br />
-          Renens, Malley, le Flon.
+          Renens, Malley, St-François et les arrêts entre.
         </FAQRow>
 
         <FAQRow title="Les sacs sont-ils autorisés ?">
-          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons
+          Non! Malheureusement, pour des raisons de sécurité, nous n'acceptons
           pas les sacs dans l’enceinte de la manifestation. Nous vous prions de
           venir sans sac.
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
           Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
-          semaine précédant le festival, le mardi 4 novembre à 12:00.
+          semaine précédant le festival.
         </FAQRow>
 
         <FAQRow title="Puis-je venir au festival sans prélocation?">
@@ -54,7 +54,7 @@ import FAQRow from "../components/FAQRow.vue";
 
         <FAQRow title="Quelles activités sont prévues durant la soirée ?">
           En plus des concerts, des bars et des stands de nourriture, vous pourrez profiter
-          d'un escape game dans le thème de la soirée, ainsi que d'une salle d'arcade et d'un stand de flocage. De plus, un espace
+          d'escape games dans le thème de la soirée, ainsi que d'une salle d'arcade, de stands de craft, maquillage et de flocage. De plus, un espace
           dédié à "Just Dance" sera également à votre disposition.
         </FAQRow>
 
@@ -124,8 +124,7 @@ import FAQRow from "../components/FAQRow.vue";
           <br />
           Si tu as envie de t'impliquer davantage, notre Assemblée Générale a
           lieu chaque année après le festival, où nous élisons le nouveau Comité
-          de Direction. Cette année, elle se tiendra le dimanche 27 novembre à
-          18h. N'hésite pas à venir, car c'est ouvert à tous.tes. Par la suite,
+          de Direction. N'hésite pas à venir, car c'est ouvert à tous.tes. Par la suite,
           le recrutement du comité est annoncé par mail et sur nos réseaux
           sociaux.
 

@@ -19,7 +19,7 @@
             <br /><br />
             Originellement, l’association est dédiée à la section de
             Microtechnique pour laquelle nous organisons, en parallèle du
-            festival, un apéro suivi d’un repas et un Spectacle !
+            festival, un apéro !
           </p>
           <br />
           <p>

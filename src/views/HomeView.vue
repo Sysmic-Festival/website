@@ -31,7 +31,7 @@ import FAQRow from "../components/FAQRow.vue";
             </a>
           </div>
           <div class="sponsor-el">
-            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
+            <a target="_BLANK" href="https://forum-epfl.ch/2026/en/">
               <img src="@/assets/images/sponsors/forum.png" />
             </a>
           </div>
@@ -39,83 +39,87 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
     </div>
     <div id="line-up" class="line-up">
-      <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
-      <div class="line-up-zone">
-        <div class="line-up-container">
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">AquaBass</h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:45</div>
-                <div class="line-up-name">Quentin Austin</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">22:45</div>
-                <div class="line-up-name">HowsMax</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">23:45</div>
-                <div class="line-up-name">Kodaman</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">0:45</div>
-                <div class="line-up-name">Aho̊ra</div>
-              </div>
-            </div>
+  <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
+  <div class="line-up-zone">
+    <p class="coming-soon">Coming soon</p>
+    <!--
+    <div class="line-up-container">
+      <div class="line-up-stage">
+        <h2 class="line-up-stagename">AquaBass</h2>
+        <div class="line-up-box-1">
+          <div class="line-up-artist">
+            <div class="line-up-time">21:45</div>
+            <div class="line-up-name">Quentin Austin</div>
           </div>
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">Bikini Bottom</h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:00</div>
-                <div class="line-up-name">FAUSTINE</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">22:30</div>
-                <div class="line-up-name">Femme Fatale</div>
-              </div>
-
-              <div class="line-up-artist">
-                <div class="line-up-time">0:15</div>
-                <div class="line-up-name">Hypsign</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">1:45</div>
-                <div class="line-up-name">Blaame</div>
-              </div>
-            </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">22:45</div>
+            <div class="line-up-name">HowsMax</div>
           </div>
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">
-              Fosse des Mariannes
-            </h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:30 - 22:30</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">23:15 - 0:15</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">1:00 - 2:00</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-            </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">23:45</div>
+            <div class="line-up-name">Kodaman</div>
+          </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">0:45</div>
+            <div class="line-up-name">Aho̊ra</div>
           </div>
         </div>
       </div>
+      <div class="line-up-stage">
+        <h2 class="line-up-stagename">Bikini Bottom</h2>
+        <div class="line-up-box-1">
+          <div class="line-up-artist">
+            <div class="line-up-time">21:00</div>
+            <div class="line-up-name">FAUSTINE</div>
+          </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">22:30</div>
+            <div class="line-up-name">Femme Fatale</div>
+          </div>
 
-      <section class="button-section">
-        <a
-          class="main-page-button"
-          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
-          target="_blank"
-        >
-          Playlist du Festival →
-        </a>
-      </section>
+          <div class="line-up-artist">
+            <div class="line-up-time">0:15</div>
+            <div class="line-up-name">Hypsign</div>
+          </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">1:45</div>
+            <div class="line-up-name">Blaame</div>
+          </div>
+        </div>
+      </div>
+      <div class="line-up-stage">
+        <h2 class="line-up-stagename">
+          Fosse des Mariannes
+        </h2>
+        <div class="line-up-box-1">
+          <div class="line-up-artist">
+            <div class="line-up-time">21:30 - 22:30</div>
+            <div class="line-up-name">DJ Set</div>
+          </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">23:15 - 0:15</div>
+            <div class="line-up-name">DJ Set</div>
+          </div>
+          <div class="line-up-artist">
+            <div class="line-up-time">1:00 - 2:00</div>
+            <div class="line-up-name">DJ Set</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
+  </div>
+<!--
+  <section class="button-section">
+    
+      class="main-page-button"
+      href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
+      target="_blank"
+    >
+      Playlist du Festival →
+    </a>
+  </section>
+-->
     </div>
           <div class="slider">
         <div class="reverse-slide">
@@ -134,8 +138,7 @@ import FAQRow from "../components/FAQRow.vue";
           <h2 class="h2-primary-background">Billetterie</h2>
           <p>
             Billet: <span class="higlight-text">15 CHF</span> <br /><br />
-            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la place Ada Lovelace à <span class="higlight-text">12H00</span>
-            <br />
+            Vente la <span class="higlight-text">semaine d'avant</span> sur la place Ada Lovelace
             Paiement en Camipro, cash, carte, ou Twint. 
             <br /><br />
             Le soir même: <span class="higlight-text">20 CHF</span>
@@ -145,7 +148,7 @@ import FAQRow from "../components/FAQRow.vue";
         <section style="">
           <h2 class="h2-primary-background">Date</h2>
           <p>
-            <span class="higlight-text">7 novembre 2025</span>
+            <span class="higlight-text">30 octobre 2026</span>
             <br /><br />
             Début des entrées: <span class="higlight-text">20h</span>
             <br />
@@ -199,12 +202,12 @@ import FAQRow from "../components/FAQRow.vue";
         style="display: flex; flex-direction: column; align-items: center"
       >
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Oui ! Un vestiaire est disponible gratuitement, cependant nous
+          Oui! Un vestiaire est disponible gratuitement, cependant nous
           déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-          Oui ! En plus des transports en commun normaux, il y aura des navettes
+          Oui! En plus des transports en commun normaux, il y aura des navettes
           gratuites. Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard
           (directement à la sortie du festival).<br />
           <br />
@@ -213,14 +216,14 @@ import FAQRow from "../components/FAQRow.vue";
         </FAQRow>
 
         <FAQRow title="Les sacs sont-ils autorisés ?">
-          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons
+          Non! Malheureusement, pour des raisons de sécurité, nous n'acceptons
           pas les sacs dans l’enceinte de la manifestation. Nous vous prions de
           venir sans sac à dos.
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
           Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
-          semaine précédant le festival, le mardi 4 novembre à 12:00.
+          semaine précédant le festival.
         </FAQRow>
       </section>
       <section class="button-section">
@@ -330,40 +333,40 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
     </div>
     <div id="comite" class="comite">
-      <h1 class="h1-primary-background comite-title">Comité 2025</h1>
+      <h1 class="h1-primary-background comite-title">Comité 2026</h1>
       <h2 class="h2-primary-background comite-title">Présidence</h2>
       <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
-            <h4>Mathieu Bénard</h4>
+            <h4>May Dubuy</h4>
             <p>Président</p>
-            <img class="comite-img" src="@/assets/images/comite/matthieu.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
           </div>
         </section>
       </div>
       <div class="container-comite">
         <section class="comite-line">
           <div class="comite-member">
-            <h4>Roman Paccaud</h4>
+            <h4>Antoine Eisinger</h4>
             <p>VP Logistique</p>
-            <img class="comite-img" src="@/assets/images/comite/roman_2.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/antoine.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Talia Meyer</h4>
+            <h4>Anthony Magnin</h4>
             <p>VP Communication</p>
-            <img class="comite-img" src="@/assets/images/comite/talia.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/anto.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Salomé Grouzinoff</h4>
+            <h4>Anouck Fazio</h4>
             <p>VP Animation</p>
-            <img class="comite-img" src="@/assets/images/comite/salome.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/Anouck_2.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Hector Mir</h4>
+            <h4>Philippe Logoz</h4>
             <p>Trésorier</p>
             <img
               class="comite-img"
-              src="@/assets/images/comite/hector_old.jpg"
+              src="@/assets/images/comite/philippe.jpg"
             />
           </div>
         </section>
@@ -373,62 +376,55 @@ import FAQRow from "../components/FAQRow.vue";
       <h2 class="h2-primary-background comite-title">Logistique</h2>
       <div class="container-comite">
           <div class="comite-member">
-            <h4>Antoine Eisinger</h4>
+            <h4>Marìa Mulet</h4>
             <p>Matériel</p>
             <img
               class="comite-img"
-              src="@/assets/images/comite/antoine_matos.jpg"
+              src="@/assets/images/comite/maria.jpg"
             />
           </div>
           <div class="comite-member">
-            <h4>May Dubuy</h4>
+            <h4>Taos Drouet</h4>
             <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/may.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/taos.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Maria Kyramarios</h4>
+            <h4>Katarina Licina</h4>
             <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/kata.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Sophie Beuret</h4>
+            <h4>Léa Françoise</h4>
             <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Adrien Lievre</h4>
+            <p>Sécurité</p>
+            <img class="comite-img" src="@/assets/images/comite/adrien_l.jpg" />
           </div>
           <div class="comite-member">
             <h4>Edgar Wolff</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Matej Soumillion</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
-          </div>
-          <div class="comite-member">
-            <h4>Roman Ostrowsky</h4>
             <p>Élec/Light</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/roman_autre.jpg"
+            <img class="comite-img" src="@/assets/images/comite/edgar.jpg"
             />
           </div>
 
 
           <div class="comite-member">
-            <h4>Jonas Blanc</h4>
+            <h4>Mélodie Serreau</h4>
             <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/melodie_2.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Hadrien Canches</h4>
+            <h4>Arthur Busseret</h4>
             <p>Technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/arthur.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Maxime Coeytaux</h4>
+            <h4>Enesa Mazrekaj</h4>
             <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
 
       </div>
@@ -438,34 +434,29 @@ import FAQRow from "../components/FAQRow.vue";
 
       <div class="container-comite">
           <div class="comite-member">
-            <h4>Noam Lévy</h4>
+            <h4>Solène Dumond</h4>
             <p>Community Manager</p>
-            <img class="comite-img" src="@/assets/images/comite/noam.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/solene.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Romain Klein</h4>
+            <h4>Adrien Barmaz</h4>
             <p>Vidéaste</p>
-            <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/adrien.b.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Léa Mahfouf</h4>
+            <h4>Evan Agullo</h4>
             <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
           <div class="comite-member">
-            <h4>Daniel Krief</h4>
-            <p>IT/Webmaster</p>
-            <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
+            <h4>Audrey Huang</h4>
+            <p>Graphisme</p>
+            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
           <div class="comite-member">
-            <h4>Ulysse Zbinden</h4>
+            <h4>Thomas Clement</h4>
             <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Mélodie Serreau</h4>
-            <p>Spectacle</p>
-            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/absent.png" />
           </div>
 
       </div>
@@ -475,48 +466,47 @@ import FAQRow from "../components/FAQRow.vue";
 
       <div class="container-comite">
           <div class="comite-member">
-            <h4>Grégoire Gimenez</h4>
+            <h4>Lea Mahfouf</h4>
             <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Alexis Zuber</h4>
-            <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Olivia Robles</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Marc Simon</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/marc.jpg" />
-          </div>
-
-          <div class="comite-member">
-            <h4>Dina Azoulay</h4>
-            <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/lea-old.jpg" />
           </div>
           <div class="comite-member">
             <h4>Antoine Reynaud</h4>
+            <p>Bar</p>
+            <img class="comite-img" src="@/assets/images/comite/antoine_cat.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Solvene De Foucauld</h4>
+            <p>Programmation</p>
+            <img class="comite-img" src="@/assets/images/comite/solvene.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Isak okanovic</h4>
+            <p>Programmation</p>
+            <img class="comite-img" src="@/assets/images/comite/isak.jpg" />
+          </div>
+
+          <div class="comite-member">
+            <h4>Paolo Festa</h4>
+            <p>Catering</p>
+            <img class="comite-img" src="@/assets/images/comite/paolo_2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Floriane Baudin</h4>
             <p>Catering</p>
             <img
-              class="comite-img"
-              src="@/assets/images/comite/antoine_cat.jpg"
+              class="comite-img" src="@/assets/images/comite/florianne.jpg"
             />
           </div>
           <div class="comite-member">
-            <h4>Marie van Rossum</h4>
+            <h4>Maxime Coeytaux</h4>
             <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/marie.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/maxime.pasd.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Anouck Fazio</h4>
+            <h4>Ulysse Zbinden</h4>
             <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
           </div>
 
       </div>
@@ -526,44 +516,34 @@ import FAQRow from "../components/FAQRow.vue";
 
       <div class="container-comite">
           <div class="comite-member">
-            <h4>Felix Elsässer</h4>
+            <h4>Alice Trignon</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/alice.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Marina Perez Barrera</h4>
-            <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
+            <h4>Maxime Dominguez</h4>
+            <p>IT/Ticketing</p>
+            <img class="comite-img" src="@/assets/images/comite/maxime.d_2.jpg" />
           </div>
       </div>
 
-      <!-- <hr class="comite-section-hr"> -->
-      <!-- <h2 class="h2-primary-background comite-title">Membres de soutien</h2> -->
+      <hr class="comite-section-hr">
+      <h2 class="h2-primary-background comite-title">Membres de soutien</h2> 
 
-      <!-- <div class="container-comite">
+      <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Paloma Garcia Moron</h4>
+                        <h4>Romain Klein</h4>
                         <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/paloma.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/romain.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Raphaël Pittet</h4>
+                        <h4>Matthieu Bénard</h4>
                         <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/raphael.jpg">
-                    </div>  
-                    <div class="comite-member">
-                        <h4>Eleonore Salin</h4>
-                        <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/eleonore.jpg">
-                    </div> 
-                    <div class="comite-member">
-                        <h4>Sébastien Devaud</h4>
-                        <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/seby.png">
-                    </div> 
+                        <img class="comite-img" src="@/assets/images/comite/matthieu-old.jpg" />
+                    </div>
                 </section>
-            </div> -->
+            </div>
     </div>
   </div>
 </template>
@@ -1196,6 +1176,14 @@ span {
   .sponsor-el {
     width: 40vw;
   }
+}
+
+.coming-soon {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--white);
+  padding: 40px 0;
 }
 
 @media screen and (max-width: 500px) {
