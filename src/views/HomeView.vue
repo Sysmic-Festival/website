@@ -414,7 +414,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Mélodie Serreau</h4>
             <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/melodie_2.jpg" />
           </div>
           <div class="comite-member">
             <h4>Arthur Busseret</h4>

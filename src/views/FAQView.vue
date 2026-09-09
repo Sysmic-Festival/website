@@ -27,7 +27,7 @@ import FAQRow from "../components/FAQRow.vue";
           (directement à la sortie du festival).<br />
           <br />
           Les navettes desserviront :<br />
-          Renens, Malley, le Flon.
+          Renens, Malley, St-François et les arrêts entre.
         </FAQRow>
 
         <FAQRow title="Les sacs sont-ils autorisés ?">
@@ -54,7 +54,7 @@ import FAQRow from "../components/FAQRow.vue";
 
         <FAQRow title="Quelles activités sont prévues durant la soirée ?">
           En plus des concerts, des bars et des stands de nourriture, vous pourrez profiter
-          d'un escape game dans le thème de la soirée, ainsi que d'une salle d'arcade et d'un stand de flocage. De plus, un espace
+          d'escape games dans le thème de la soirée, ainsi que d'une salle d'arcade, de stands de craft, maquillage et de flocage. De plus, un espace
           dédié à "Just Dance" sera également à votre disposition.
         </FAQRow>
 
