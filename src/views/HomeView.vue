@@ -16,8 +16,8 @@ import FAQRow from "../components/FAQRow.vue";
       <div class="sponsors-bar">
         <div class="sponsors-row">
           <div class="sponsor-el">
-            <a href="https://www.swisstech-hotel.com/fr/">
-              <img src="@/assets/images/sponsors/sthotel.png" />
+            <a href="https://www.yuh.com/fr/">
+              <img src="@/assets/images/sponsors/Yuh_Logo_Single_White_RGB.png" />
             </a>
           </div>
           <div class="sponsor-el" id="agep">
@@ -31,8 +31,8 @@ import FAQRow from "../components/FAQRow.vue";
             </a>
           </div>
           <div class="sponsor-el">
-            <a target="_BLANK" href="https://forum-epfl.ch/2026/en/">
-              <img src="@/assets/images/sponsors/forum.png" />
+            <a target="_BLANK" href="https://focuswater.ch/fr/">
+              <img src="@/assets/images/sponsors/FW_White_Red_RGB.png" />
             </a>
           </div>
         </div>
@@ -158,6 +158,7 @@ import FAQRow from "../components/FAQRow.vue";
           </p>
         </section>
       </div>
+      <!--
       <div class="container">
         <section>
           <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
@@ -175,6 +176,7 @@ import FAQRow from "../components/FAQRow.vue";
           </p>
         </section>
       </div>
+    -->
       <hr class="mt-hr" style="max-width: 150px" />
       <hr class="mt-hr" style="max-width: 200px" />
       <hr class="mt-hr-blue" />
