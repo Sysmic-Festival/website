@@ -83,8 +83,7 @@ import FAQRow from "../components/FAQRow.vue";
         >
           18:00 - Apéro dinatoire avec tes profs préférés (n'oublie pas ta
           camipro) <br />
-          20h - Début du spectacle <br />
-          21h - Fin du spectacle et direction le festival 🎉
+          21h - Fin de l'apéro et direction le festival 🎉
         </FAQRow>
 
                 <FAQRow

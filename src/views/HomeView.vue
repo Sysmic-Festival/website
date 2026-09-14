@@ -214,7 +214,7 @@ import FAQRow from "../components/FAQRow.vue";
           (directement à la sortie du festival).<br />
           <br />
           Les navettes desserviront :<br />
-          Renens, Malley, le Flon.
+          Renens, Malley, St-François et les arrêts entre.
         </FAQRow>
 
         <FAQRow title="Les sacs sont-ils autorisés ?">
