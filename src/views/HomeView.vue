@@ -426,7 +426,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Enesa Mazrekaj</h4>
             <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/enesa.jpeg" />
           </div>
 
       </div>
@@ -448,12 +448,12 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Evan Agullo</h4>
             <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/evan.jpeg" />
           </div>
           <div class="comite-member">
             <h4>Audrey Huang</h4>
             <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/audrey.jpeg" />
           </div>
           <div class="comite-member">
             <h4>Thomas Clement</h4>
@@ -863,8 +863,25 @@ span {
 }
 
 .infos section {
-  display: inline-block;
   margin: 0;
+}
+
+#infos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+#infos-container section:first-of-type { flex: 1.4; }
+#infos-container section:last-of-type  { flex: 1; min-width: 260px; }
+
+#infos-container p {
+  text-align: left;
+}
+
+.higlight-text {
+  white-space: nowrap;
 }
 
 .mt-hr {
@@ -1103,7 +1120,7 @@ span {
 .sponsor-el {
   /* background-color: chartreuse; */
   flex-grow: 1;
-  z-index: 10000;
+  z-index: 5000;
   max-width: 200px;
   max-height: 100px;
   width: 20%;
