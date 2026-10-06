@@ -9,8 +9,14 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
-      
-      <div class="home-screen-bg"></div>
+      <video
+        class="home-screen-bg"
+        src="@/assets/images/PhotoGallery/slideshow/fonddeenhaut.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
         <AnimatedLogo id="Logo" />
       <Timer />
       <div class="sponsors-bar">
@@ -458,7 +464,7 @@ import FAQRow from "../components/FAQRow.vue";
           <div class="comite-member">
             <h4>Thomas Clement</h4>
             <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
+            <img class="comite-img" src="@/assets/images/comite/thomas.jpeg" />
           </div>
 
       </div>
@@ -1066,31 +1072,35 @@ span {
 }
 
 .home-screen {
+  position: relative;   /* added: anchors the absolute video */
+  overflow: hidden;     /* added: clips the blurred/scaled video */
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  /* overflow: ; */
   background-color: var(--black);
   justify-content: space-around;
 }
 
 .home-screen-bg {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  background-image: url("@/assets/images/PhotoGallery/slideshow/3.jpg");
+  z-index: 0;
+  object-fit: cover;
+  object-position: center;
   opacity: 0.4;
-  /* background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg"); */
-  /* background-color: var(--primary-darker); */
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
   filter: blur(8px);
-  /* -webkit-filter: blur(8px); */
+  transform: scale(1.05); /* hides the soft blurred edges */
+}
+
+/* keep the content above the video */
+.home-screen > :not(.home-screen-bg) {
+  position: relative;
+  z-index: 1;
 }
 
 .higlight-text {
