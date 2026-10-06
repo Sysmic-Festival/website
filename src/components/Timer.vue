@@ -1,265 +1,106 @@
 <script setup>
-import { onMounted } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
+
+const goalDate = new Date(2026, 9, 30, 20, 0).getTime();
+const display = ref("00D 00H 00M 00S");
+let timerId = null;
+
+const pad = (n) => String(n).padStart(2, "0");
+
+function updateTimer() {
+  const diff = Math.max(0, Math.floor((goalDate - Date.now()) / 1000));
+
+  const d = Math.floor(diff / 86400);
+  const h = Math.floor((diff % 86400) / 3600);
+  const m = Math.floor((diff % 3600) / 60);
+  const s = diff % 60;
+
+  display.value = `${pad(d)}D ${pad(h)}H ${pad(m)}M ${pad(s)}S`;
+}
+
 onMounted(() => {
-  startTimer();
+  updateTimer();
+  timerId = setInterval(updateTimer, 1000);
 });
 
-/* TIMER */
-function startTimer() {
-  var goalDate = new Date(2026, 9, 30, 20, 0).getTime();
-  var curDate = new Date().getTime();
-
-  try {
-    if (goalDate >= curDate) {
-      var diff = (goalDate - curDate) / 1000;
-
-      //console.log(diff)
-
-      var jours = Math.floor(diff / (60 * 60 * 24));
-      diff -= jours * 60 * 60 * 24;
-
-      var heures = Math.floor(diff / (60 * 60));
-      diff -= heures * 60 * 60;
-
-      var minutes = Math.floor(diff / 60);
-      diff -= minutes * 60;
-
-      var secondes = Math.floor(diff);
-
-      document.getElementById("daysBox").innerHTML = jours;
-      document.getElementById("hoursBox").innerHTML = heures;
-      document.getElementById("minutesBox").innerHTML = minutes;
-      document.getElementById("secBox").innerHTML = secondes;
-
-      document.getElementById("labelDay").innerHTML =
-        jours == 1 || jours == 0 ? "Jour" : "Jours";
-      document.getElementById("labelHours").innerHTML =
-        heures == 1 || heures == 0 ? "Heure" : "Heures";
-      document.getElementById("labelMinutes").innerHTML =
-        minutes == 1 || minutes == 0 ? "Minute" : "Minutes";
-      document.getElementById("labelSec").innerHTML =
-        secondes == 1 || secondes == 0 ? "Seconde" : "Secondes";
-    } else {
-      document.getElementById("daysBox").innerHTML = 0;
-      document.getElementById("hoursBox").innerHTML = 0;
-      document.getElementById("minutesBox").innerHTML = 0;
-      document.getElementById("secBox").innerHTML = 0;
-    }
-  } catch (e) {}
-
-  setTimeout(startTimer, 1000);
-}
+onUnmounted(() => clearInterval(timerId));
 </script>
 
 <template>
   <section class="timer-section">
-    <div class="decompte">
-      <div>
-        <div id="daysBox" class="decompteNumber">000</div>
-        <div id="labelDay" class="numberLabel label1">Jours</div>
-      </div>
-      <div>
-        <div id="hoursBox" class="decompteNumber">00</div>
-        <div id="labelHours" class="numberLabel label2">Heures</div>
-      </div>
-      <div>
-        <div id="minutesBox" class="decompteNumber">00</div>
-        <div id="labelMinutes" class="numberLabel label3">Minutes</div>
-      </div>
-      <div>
-        <div id="secBox" class="decompteNumber">00</div>
-        <div id="labelSec" class="numberLabel label4">Secondes</div>
-      </div>
-    </div>
+    <p class="decompte glitch" :data-text="display">{{ display }}</p>
   </section>
 </template>
 
 <style scoped>
-.decompte {
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  text-align: center;
-  /* margin-bottom: 30px; */
-  object-fit: scale-down;
-}
-
-.decompteNumber {
-  opacity: 1;
-
-  max-height: 70px;
-  max-width: 90px;
-  height: 10vw;
-  width: 14vw;
-
-  border-radius: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: var(--white);
-  font-size: 250%;
-  padding-top: 0px;
-  font-weight: bold;
-
-  font-family: Roboto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  /* align-self:center; */
-}
-
-#daysBox {
-  background-color: var(--third);
-  /* max-width: 240px;
-  width: 28vh; */
-  height: 10vh;
-}
-
-#hoursBox {
-  background-color: var(--third);
-  /* width: 20vh; */
-  height: 10vh;
-}
-
-#minutesBox {
-  background-color: var(--third);
-  /* width: 20vh; */
-  height: 10vh;
-}
-
-#secBox {
-  background-color: var(--third);
-  /* width: 20vh; */
-  height: 10vh;
-}
-
-.numberLabel {
-  text-align: left;
-  margin-left: 20px;
-  /* font-size: 3vh; */
-  margin-top: 2px;
-}
-
-.label1 {
-  color: var(--white);
-}
-
-.label2 {
-  color: var(--white);
-}
-
-.label3 {
-  color: var(--white);
-}
-
-.label4 {
-  color: var(--white);
-}
-
-.decompteLine hr {
-  width: 75px;
-  position: relative;
-  top: -17px;
-  border: 1px solid var(--secondary);
-}
-
 .timer-section {
   display: flex;
   align-self: center;
   justify-content: center;
   z-index: 100;
-  max-width: 50%;
-  max-height: 15%;
   padding: 5px;
 }
 
-/* @media only screen and (max-width: 850px) {
-  .decompte {
-    width: 100%;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 10px;
-  }
+.decompte {
+  margin: 0;
+  color: var(--white);
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(1.5rem, 6vw, 3rem);
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
 
-  .decompteNumber {
-    font-size: 8.5vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-  }
+/* GLITCH */
+.glitch {
+  position: relative;
+}
 
-  .decompteLine {
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.glitch::before {
+  color: rgba(0, 255, 234, 0.863);
+  transform: translateX(-2px);
+  animation: glitch-top 2.5s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  color: rgba(225, 0, 255, 0.911);
+  transform: translateX(2px);
+  animation: glitch-bottom 3s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-top {
+  0%, 90%  { clip-path: inset(0 0 100% 0); }
+  92%      { clip-path: inset(10% 0 60% 0); transform: translateX(-4px); }
+  94%      { clip-path: inset(50% 0 20% 0); transform: translateX(3px); }
+  96%      { clip-path: inset(30% 0 40% 0); transform: translateX(-3px); }
+  98%, 100% { clip-path: inset(0 0 100% 0); }
+}
+
+@keyframes glitch-bottom {
+  0%, 85%  { clip-path: inset(100% 0 0 0); }
+  87%      { clip-path: inset(60% 0 10% 0); transform: translateX(4px); }
+  91%      { clip-path: inset(20% 0 50% 0); transform: translateX(-3px); }
+  95%      { clip-path: inset(70% 0 5% 0); transform: translateX(3px); }
+  97%, 100% { clip-path: inset(100% 0 0 0); }
+}
+
+/* Respect users who disable animations */
+@media (prefers-reduced-motion: reduce) {
+  .glitch::before,
+  .glitch::after {
+    animation: none;
     display: none;
   }
-
-  .numberLabel {
-    text-align: center;
-    font-size: 3vw;
-    margin-left: 0;
-  }
-
-  .newsContainer {
-    width: 90vw;
-    margin-left: 4vw;
-  }
-} */
-
-/* @media only screen and (max-height: 1280px) {
-  .timer-section {
-    padding: 0;
-    padding-top: 3px;
-  }
 }
-
-@media only screen and (max-height: 700px) {
-}
-
-@media only screen and (max-width: 700px) {
-  #daysBox {
-    height: 5%;
-    width: 25vw;
-  }
-  #hoursBox {
-    height: 5%;
-    width: 15vw;
-  }
-  #minutesBox {
-    height: 5%;
-    width: 15vw;
-  }
-  #secBox {
-    height: 5%;
-    width: 15vw;
-  }
-  .h2BorderContainer {
-    margin-left: 20px;
-  }
-
-  .newsTitre {
-    font-size: 7vw;
-  }
-
-  .newsSousTitre {
-    font-size: 2.8vw;
-  }
-
-  .newsContainer:hover .newsTitre {
-    font-size: 7vw;
-  }
-
-  .newsContainer:hover .newsSousTitre {
-    font-size: 2.8vw;
-  }
-
-  .mainP {
-    font-size: 8vw;
-  }
-
-  .secondP {
-    font-size: 5vw;
-  }
-
-  .timer-section {
-    padding: 25px;
-  }
-} */
 </style>
