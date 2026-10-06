@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p>© Sysmic 2025</p>
+      <p>© Sysmic 2026</p>
     </div>
   </footer>
 </template>

@@ -84,7 +84,7 @@ function onScroll() {
 
 <style scoped>
 #navbar {
-  z-index: 901;
+  z-index: 9001;
   position: absolute;
   height: calc(var(--navbar-height) + 0.5*var(--global-margin));
   width: 100%;
