@@ -33,19 +33,13 @@ router.beforeEach(() => {
         <div class="line"></div>
         <div class="line"></div>
       </label>
-      <hr id="sidebar-links-hr">
-      <router-link to="/#line-up">Line up</router-link>
-        <hr id="sidebar-links-hr">
-      <router-link to="/#infos">Infos pratiques</router-link>
-        <hr id="sidebar-links-hr">
-      <router-link to="/#association">L'association</router-link>
-      <hr id="sidebar-links-hr" />
-      <router-link to="/portfolio">Portfolio</router-link>
-      <hr id="sidebar-links-hr" />
-      <router-link to="/about-us">À propos</router-link>
-      <hr id="sidebar-links-hr" />
-      <router-link to="/faq">FAQ</router-link>
-      <hr id="sidebar-links-hr" />
+
+      <router-link to="/#line-up" style="--x: 0px">Line up</router-link>
+      <router-link to="/#infos" style="--x: 40px">Infos pratiques</router-link>
+      <router-link to="/#association" style="--x: 10px">L'association</router-link>
+      <router-link to="/portfolio" style="--x: 55px">Portfolio</router-link>
+      <router-link to="/about-us" style="--x: 5px">À propos</router-link>
+      <router-link to="/faq" style="--x: 45px">FAQ</router-link>
     </section>
     <!-- <section id="player-button-section">
       <a href="#" @click="displayPlayer"
@@ -58,49 +52,109 @@ router.beforeEach(() => {
         @displayedUpdated="(val) => (state.playerDisplayed = val)"
       ></Player>
     </section> -->
-</div>
+  </div>
 </template>
 
 <style scoped>
 /* The sidebar menu */
 .sidebar {
   z-index: 9002;
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
+  width: 0;
+  position: fixed;
   top: 0;
   right: 0;
-  background-color: var(--primary); /* Black*/
-  background-position: bottom;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: calc(
-    var(--navbar-height) + 2 * var(--global-margin)
-  ); /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: var(--primary);
+  overflow-x: hidden;
+  padding-top: calc(var(--navbar-height) + 2 * var(--global-margin));
+  transition: 0.5s;
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
 .sidebar.opened {
-  width: calc(min(350px, 100vw));
+  width: calc(min(300px, 100vw));
   box-shadow: 0px 0px 20px 60px rgba(0, 0, 0, 0.1);
 }
 
-/* The sidebar links */
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;                         
+  padding: 0 30px 30px;
+}
+
 .sidebar a {
   white-space: nowrap;
-  overflow: hidden;
-
-  padding: 4px 8px 6px 0px;
-  text-decoration: none;
-  font-size: 25px;
-  color: var(--white);
   display: block;
-  transition: 0.3s;
+  padding: 6px 18px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  text-decoration: none;
+
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: normal;
+  transform: translateX(var(--x, 0) scaleY(0.85));   
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar a:hover {
+  background: #0037ff;
+  color: #fff;
+}
+
+/* current page */
+.sidebar a.router-link-exact-active {
+  background: #0037ff;
+  color: #fff;
+}
+
+/* close button: white square with a cross */
+.cross {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  display: block;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 2px solid #000;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cross:hover {
+  background: #0037ff;
+}
+
+.cross .line {
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  width: 28px;
+  height: 4px;
+  background: #000;
+  transition: background 0.2s;
+}
+.cross:hover .line {
+  background: #fff;
+}
+.cross .line:nth-child(1) {
+  transform: translateY(-50%) rotate(45deg);
+}
+.cross .line:nth-child(2) {
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 #player-button-section {
   display: flex;
+  flex-grow: 1;
+  vertical-align: bottom;
 }
 
 .player-button {
@@ -112,18 +166,6 @@ router.beforeEach(() => {
   transform: scale(1.05);
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: var(--third);
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-/* #main {
-  transition: margin-left .5s;
-  padding: 20px;
-} */
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 400px) {
   .sidebar {
     padding-top: 15px;
@@ -136,72 +178,22 @@ router.beforeEach(() => {
 @media screen and (max-width: 500px) {
   .sidebar.opened {
     width: 100vw;
-    box-shadow: 0px 0px 20px 60px rgba(0, 0, 0, 0.1);
   }
-}
-
-#player-button-section {
-  flex-grow: 1;
-  vertical-align: bottom;
-}
-
-#sidebar-links-hr {
-  width: 80%;
-  border: 1px solid var(--blue);
+  .sidebar-section {
+    padding: 0 20px 30px;
+  }
+  .sidebar a {
+    transform: translateX(calc(var(--x) * 0.5)) scaleY(0.85);
+  }
 }
 
 @media only screen and (max-height: 700px) {
   .sidebar a {
     font-size: 15px;
+    padding: 6px 16px;
   }
-}
-.cross {
-  position: relative;
-  width: 50px;
-  height: 40px;
-  display: block;
-  outline: none;
-  cursor: pointer;
-  left: 75%;
-  top: -5vw;
-}
-.cross .line {
-  position: absolute;
-  left: 10px;
-  width: 30px;
-  height: 4px;
-  background: var(--white);
-  border-radius: 10px;
-  overflow: hidden;
-}
-.cross:hover .line::after {
-  transform: translateX(0);
-  transform: translateY(0);
-}
-.cross .line:nth-child(1) {
-  transform: rotate(45deg);
-  top: 50%;
-}
-
-.cross .line:nth-child(2) {
-  transform: rotate(-45deg);
-  top: 50%;
-}
-
-.cross .line::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--third);
-  transform: translateX(-100%);
-}
-.cross .line:nth-child(1)::after {
-  transition: 0.1s;
-}
-.cross .line:nth-child(2)::after {
-  transition: 0.3s;
+  .sidebar-section {
+    gap: 12px;
+  }
 }
 </style>
