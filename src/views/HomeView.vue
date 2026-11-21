@@ -18,7 +18,19 @@ import FAQRow from "../components/FAQRow.vue";
         playsinline
       ></video>
         <AnimatedLogo id="Logo" />
-      <Timer />
+      <div class="timer-button-row">
+    <Timer />
+    <section class="button-section">
+      <a
+        class="main-page-button"
+        href="https://infomaniak.events/fr-ch/festivals/sysmic-30th-edition/bbee9152-0dfc-4a2e-bc33-658d91e4a538/event/1664799"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        billeterie →
+      </a>
+    </section>
+  </div>
       <div class="sponsors-bar">
         <div class="sponsors-row">
           <div class="sponsor-el">
@@ -93,18 +105,6 @@ import FAQRow from "../components/FAQRow.vue";
     </div>
   </div>
 </section>
-<!--
-  <section class="button-section">
-    <a
-     class="main-page-button"
-     href="https://infomaniak.events/fr-ch/festivals/sysmic-30th-edition/bbee9152-0dfc-4a2e-bc33-658d91e4a538/event/1664799"
-     target="_blank"
-     rel="noopener noreferrer"
-    >
-      ticketerie →
-    </a>
-  </section>
-  -->
           <div class="slider">
         <div class="reverse-slide">
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
@@ -494,6 +494,20 @@ h3 {
 #plan-para {
   height: 100%;
   margin-right: 50px;
+}
+
+.timer-button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* stacks them on narrow screens */
+}
+
+.timer-button-row .button-section {
+  width: auto;
+  padding: 0;
 }
 
 .comite-title {
@@ -1097,24 +1111,24 @@ span {
 
 .comite-member h4 {
   margin: 0;
-  padding: 4px 12px;
+  padding: 3px 8px;
   background: #fff;
   color: #000;
   border: 2px solid #000;
   border-radius: 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   text-align: center;
   letter-spacing: -0.02em;
 }
 
 .comite-member p {
   margin: -2px 0 10px;
-  padding: 2px 12px;
+  padding: 2px 8px;
   background: #fff;
   color: #000;
   border: 2px solid #000;
   border-radius: 0;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -1407,7 +1421,15 @@ span {
   }
 
   .comite-line {
-    width: 100% !important;
+  width: 100% !important;
+  padding: 0;
+  gap: 24px 20px;
+}
+
+  .container-comite {
+    padding: 0 12px;
+    gap: 24px 20px;
+    box-sizing: border-box;
   }
 
   .comite-section-hr {
@@ -1415,9 +1437,8 @@ span {
   }
 
   .comite-member {
-    width: 49% !important;
-  }
-
+  width: calc(50% - 10px) !important;   /* 10px = half of the 20px column gap */
+}
   .comite-member p {
     padding-bottom: 4px;
   }
