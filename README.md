@@ -113,21 +113,21 @@ Ouvrez le fichier `src/router/index.js` et modifiez-le en ajoutant à l'endroit 
 
 ```javascript
 {
-path: '/portfolio/2024',
-component: () => import('../components/portfolio_vues/2024.vue')
+path: '/portfolio/2025',
+component: () => import('../components/portfolio_vues/2025.vue')
 },
 ```
 
 De la même manière, allez dans `src/views/PortfolioView.vue` et ajoutez là où il convient :
 
 ```html
-<router-link to="/portfolio/2024">
+<router-link to="/portfolio/2025">
   <div class="year">
     <img
       class="year_image"
-      src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2024.jpg"
+      src="https://www.sysmic.ch/ressources/portfolio/year_images/thumbnails/thumb2025.jpg"
     />
-    <h4>2024</h4>
+    <h4>2025</h4>
   </div>
 </router-link>
 ```

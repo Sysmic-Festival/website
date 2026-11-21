@@ -64,7 +64,7 @@ function onScroll() {
         <img class="logo" src="@/assets/images/utilitaries/new-logo-name.svg" />
       </router-link>
       <ul :class="fixed ? 'bar-menu fixedOverride' : 'bar-menu'">
-                <li><router-link to="/#line-up">Line up</router-link></li>
+                <li><router-link to="/#lineup">Line up</router-link></li>
                 <li><router-link to="/#infos">Infos pratiques</router-link></li>
 
         <li><router-link to="/#association">L'association</router-link></li>
@@ -84,7 +84,7 @@ function onScroll() {
 
 <style scoped>
 #navbar {
-  z-index: 901;
+  z-index: 9001;
   position: absolute;
   height: calc(var(--navbar-height) + 0.5*var(--global-margin));
   width: 100%;

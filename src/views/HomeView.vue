@@ -9,114 +9,102 @@ import FAQRow from "../components/FAQRow.vue";
 <template>
   <div>
     <div class="home-screen">
-      
-      <div class="home-screen-bg"></div>
+      <video
+        class="home-screen-bg"
+        src="@/assets/images/PhotoGallery/slideshow/fonddeenhaut.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
         <AnimatedLogo id="Logo" />
-      <Timer />
+      <div class="timer-button-row">
+    <Timer />
+    <section class="button-section">
+      <a
+        class="main-page-button"
+        href="https://infomaniak.events/fr-ch/festivals/sysmic-30th-edition/bbee9152-0dfc-4a2e-bc33-658d91e4a538/event/1664799"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        billeterie →
+      </a>
+    </section>
+  </div>
       <div class="sponsors-bar">
         <div class="sponsors-row">
           <div class="sponsor-el">
-            <a href="https://www.swisstech-hotel.com/fr/">
-              <img src="@/assets/images/sponsors/sthotel.png" />
-            </a>
-          </div>
-          <div class="sponsor-el" id="agep">
-            <a href="https://agepoly.ch/en/">
-              <img src="@/assets/images/sponsors/AGEPoly.svg" />
+            <a href="https://www.yuh.com/fr/">
+              <img src="@/assets/images/sponsors/Yuh_Logo_Single_White_RGB.png" />
             </a>
           </div>
           <div class="sponsor-el">
             <a target="_BLANK" href="https://infomaniak.events/fr-ch">
               <img src="@/assets/images/sponsors/infomaniak-sa.png" />
             </a>
+            </div>
+          <div class="sponsor-el" id="agep">
+            <a href="https://agepoly.ch/en/">
+              <img src="@/assets/images/sponsors/AGEPoly.svg" />
+            </a>
           </div>
           <div class="sponsor-el">
-            <a target="_BLANK" href="https://forum-epfl.ch/2025/en/">
-              <img src="@/assets/images/sponsors/forum.png" />
+            <a target="_BLANK" href="https://focuswater.ch/fr/">
+              <img src="@/assets/images/sponsors/FW_White_Red_RGB.png" />
+            </a>
+          </div>
+          <div class="sponsor-el">
+            <a target="_BLANK" href="https://www.impact-vision.ch/">
+              <img src="@/assets/images/sponsors/ImpactV-W.png" />
             </a>
           </div>
         </div>
       </div>
     </div>
-    <div id="line-up" class="line-up">
-      <h1 class="h1-third-background" id="line-up-title"><br>Line-up</h1>
-      <div class="line-up-zone">
-        <div class="line-up-container">
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">AquaBass</h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:45</div>
-                <div class="line-up-name">Quentin Austin</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">22:45</div>
-                <div class="line-up-name">HowsMax</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">23:45</div>
-                <div class="line-up-name">Kodaman</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">0:45</div>
-                <div class="line-up-name">Aho̊ra</div>
-              </div>
-            </div>
-          </div>
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">Bikini Bottom</h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:00</div>
-                <div class="line-up-name">FAUSTINE</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">22:30</div>
-                <div class="line-up-name">Femme Fatale</div>
-              </div>
-
-              <div class="line-up-artist">
-                <div class="line-up-time">0:15</div>
-                <div class="line-up-name">Hypsign</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">1:45</div>
-                <div class="line-up-name">Blaame</div>
-              </div>
-            </div>
-          </div>
-          <div class="line-up-stage">
-            <h2 class="line-up-stagename">
-              Fosse des Mariannes
-            </h2>
-            <div class="line-up-box-1">
-              <div class="line-up-artist">
-                <div class="line-up-time">21:30 - 22:30</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">23:15 - 0:15</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-              <div class="line-up-artist">
-                <div class="line-up-time">1:00 - 2:00</div>
-                <div class="line-up-name">DJ Set</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="button-section">
-        <a
-          class="main-page-button"
-          href="https://open.spotify.com/playlist/6pAAkBwm2N9fkh3OubzAL1?si=Rp6cSPkCQnOhpCUhx3WSkQ&pi=e-F1Ga554EQIiP"
-          target="_blank"
-        >
-          Playlist du Festival →
-        </a>
-      </section>
+    <section id="lineup" class="line-up">
+    <div class="lu-row lu-head">
+    <div class="lu-label lu-title">Line-up</div>
+    <div class="lu-hours">
+      <span style="--h:0">20h00</span>
+      <span style="--h:1">21h00</span>
+      <span style="--h:2">22h00</span>
+      <span style="--h:3">23h00</span>
+      <span style="--h:4">00h00</span>
+      <span style="--h:5">01h00</span>
+      <span style="--h:6">02h00</span>
+      <span style="--h:7">03h00</span>
     </div>
+  </div>
+
+  <div class="lu-row">
+    <div class="lu-label">main nexus</div>
+    <div class="lu-track">
+      <div class="lu-set" style="--s:45;--e:105"><b>TiBolt</b><small>20h45 - 21h45</small></div>
+      <div class="lu-set" style="--s:135;--e:195"><b>RICCIO</b><small>22h15 - 23h15</small></div>
+      <div class="lu-set" style="--s:240;--e:280"><b>kissed</b><small>00h00 - 00h40</small></div>
+      <div class="lu-set" style="--s:325;--e:405"><b>DJ.ALF</b><small>01h25 - 02h45</small></div>
+    </div>
+  </div>
+
+  <div class="lu-row">
+    <div class="lu-label">hit block</div>
+    <div class="lu-track">
+      <div class="lu-set" style="--s:105;--e:165"><b>Fréquence banane</b><small>21h45 - 22h45</small></div>
+      <div class="lu-set" style="--s:195;--e:255"><b>Fréquence banane</b><small>23h15 - 00h15</small></div>
+      <div class="lu-set" style="--s:280;--e:345"><b>Fréquence banane</b><small>00h40 - 01h45</small></div>
+    </div>
+  </div>
+
+  <div class="lu-row">
+    <div class="lu-label">tek bunk'r</div>
+    <div class="lu-track">
+      <div class="lu-set" style="--s:30;--e:90"><b>Michaël Kornbeck</b><small>20h30 - 21h30</small></div>
+      <div class="lu-set" style="--s:120;--e:180"><b>Rys</b><small>22h00 - 23h00</small></div>
+      <div class="lu-set" style="--s:210;--e:270"><b>Klud</b><small>23h30 - 00h30</small></div>
+      <div class="lu-set" style="--s:300;--e:360"><b>Plyometrics</b><small>01h00 - 02h00</small></div>
+    </div>
+  </div>
+</section>
           <div class="slider">
         <div class="reverse-slide">
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
@@ -128,99 +116,56 @@ import FAQRow from "../components/FAQRow.vue";
     </div>
 
     <div id="infos" class="infos">
-      <h1 class="h1-primary-background">Infos pratiques</h1>
-      <div id="infos-container" class="container">
-        <section style="">
-          <h2 class="h2-primary-background">Billetterie</h2>
-          <p>
-            Billet: <span class="higlight-text">15 CHF</span> <br /><br />
-            Vente le <span class="higlight-text">mardi 4 novembre</span> sur la place Ada Lovelace à <span class="higlight-text">12H00</span>
-            <br />
-            Paiement en Camipro, cash, carte, ou Twint. 
-            <br /><br />
-            Le soir même: <span class="higlight-text">20 CHF</span>
-          </p>
-        </section>
-        <hr class="info-section-hr" id="date-hr" />
-        <section style="">
-          <h2 class="h2-primary-background">Date</h2>
-          <p>
-            <span class="higlight-text">7 novembre 2025</span>
-            <br /><br />
-            Début des entrées: <span class="higlight-text">20h</span>
-            <br />
-            Début des concerts: <span class="higlight-text">21h</span>
-            <br />
-            Fin: <span class="higlight-text">03H00</span>
-          </p>
-        </section>
-      </div>
-      <div class="container">
-        <section>
-          <h2 id="se-loger" class="h2-primary-background">Se loger</h2>
-          <p>
-            Pour te loger durant le festival, nous te recommendons notre
-            partenaire le <i>SwissTech Hotel</i>, qui proposera des chambres à
-            tarif fixé pour nos festivalier.e.s ! <br /><br />
-            Situé en plein coeur du campus, à quelques pas de l'entrée du
-            festival, le
-            <i>SwissTech Hotel</i> te permet de profiter de ton séjour dans le
-            confort et la simplicité. <br /><br />
-            Si tu cherches un hébergement pendant la soirée, on te recommande
-            d'aller faire un tour sur leur
-            <a href="https://www.swisstech-hotel.com/fr/">site web</a>.
-          </p>
-        </section>
-      </div>
-      <hr class="mt-hr" style="max-width: 150px" />
-      <hr class="mt-hr" style="max-width: 200px" />
-      <hr class="mt-hr-blue" />
-      <div
-        class="container"
-        style="flex-direction: column; align-items: center; font-weight: 900"
-      >
-        <p>
-          Plus d'infos sur la partie
-          <span style="color: var(--third)">MT</span>
-          <RouterLink
-            to="/faq#micros"
-            style="color: var(--white); text-decoration: underline"
-          >
-            ici</RouterLink
-          >
-          !
-        </p>
-      </div>
-      <hr class="mt-hr-blue" />
-      <hr class="mt-hr" style="max-width: 200px" />
-      <hr class="mt-hr" style="max-width: 150px" />
-      <br />
-      <section
-        style="display: flex; flex-direction: column; align-items: center"
-      >
+<h1 class="h1-primary-background">Infos pratiques</h1>
+
+<div id="infos-container" class="info-board">
+  <div class="info-group">
+    <h2 class="info-label" style="--x:0px;  --r:-2deg">Billetterie</h2>
+    <p class="info-box" style="--x:40px;  --r:1.5deg">Billet : 15 CHF</p>
+    <p class="info-box" style="--x:-10px; --r:-1deg">Vente le 27 et 28 Octobre<br />sur la place Ada Lovelace</p>
+    <p class="info-box" style="--x:70px;  --r:2deg">Paiement en Camipro, cash, carte ou Twint</p>
+    <p class="info-box" style="--x:15px;  --r:-2deg">Le soir même : 20 CHF</p>
+  </div>
+
+  <div class="info-group">
+    <h2 class="info-label" style="--x:50px; --r:2deg">Date</h2>
+    <p class="info-box" style="--x:-20px; --r:-1.5deg">30 octobre 2026</p>
+    <p class="info-box" style="--x:60px;  --r:1deg">Début des entrées : 20h</p>
+    <p class="info-box" style="--x:10px;  --r:-2deg">Début des concerts : 20h30</p>
+    <p class="info-box" style="--x:80px;  --r:1.5deg">Fin : 03h00</p>
+  </div>
+</div>
+      <div class="more-info">
+  <p class="info-box" style="--x:-25px; --r:-1.5deg">
+    Plus d'infos sur la partie MT
+    <RouterLink to="/faq#micros" class="more-info-link">ici →</RouterLink>
+  </p>
+</div>
+      <section class="faq-list" style="display: flex; flex-direction: column; align-items: center">
+
         <FAQRow title="Y a-t-il un vestiaire ?">
-          Oui ! Un vestiaire est disponible gratuitement, cependant nous
+          Oui! Un vestiaire est disponible gratuitement, cependant nous
           déclinons toute responsabilité en cas de perte ou vol.
         </FAQRow>
 
         <FAQRow title="Existe-il des navettes pour le retour ?">
-          Oui ! En plus des transports en commun normaux, il y aura des navettes
+          Oui! En plus des transports en commun normaux, il y aura des navettes
           gratuites. Elles partiront à 01:30, 02:30 et 03:15 de l'arrêt Piccard
           (directement à la sortie du festival).<br />
           <br />
           Les navettes desserviront :<br />
-          Renens, Malley, le Flon.
+          Renens, Malley, St-François et les arrêts entre.
         </FAQRow>
 
         <FAQRow title="Les sacs sont-ils autorisés ?">
-          Non ! Malheureusement, pour des raisons de sécurité, nous n'acceptons
+          Non! Malheureusement, pour des raisons de sécurité, nous n'acceptons
           pas les sacs dans l’enceinte de la manifestation. Nous vous prions de
           venir sans sac à dos.
         </FAQRow>
 
         <FAQRow title="Comment puis-je obtenir un Ticket?">
           Les tickets seront mis en vente sur la place Ada Lovelace de l’EPFL durant la
-          semaine précédant le festival, le mardi 4 novembre à 12:00.
+          semaine précédant le festival.
         </FAQRow>
       </section>
       <section class="button-section">
@@ -228,7 +173,6 @@ import FAQRow from "../components/FAQRow.vue";
           <button class="main-page-button">FAQ →</button>
         </router-link>
       </section>
-      <hr class="comite-section-hr" />
       <div class="slider">
         <div class="slide">
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
@@ -279,9 +223,9 @@ import FAQRow from "../components/FAQRow.vue";
         </div> -->
 
     <div id="association" class="association">
-      <h1 class="h1-primary-background">L'association</h1>
+     <h1 class="h1-primary-background">L'association</h1>
       <div class="container container-vertical-phone">
-        <section style="flex: 3; padding-top: 0">
+        <section style="flex: 3; padding-top: 0; color: aliceblue">
           <p>
             Sysmic est constitué d’un comité de 31 personnes de toutes années et
             sections confondues. Nous travaillons tout au long de l’année afin
@@ -290,7 +234,7 @@ import FAQRow from "../components/FAQRow.vue";
             <br /><br />
             Originellement, l’association est dédiée à la section de
             Microtechnique pour laquelle nous organisons, en parallèle du
-            festival, un apéro dinatoire et un Spectacle !
+            festival, un apéro dinatoire!
             <br /><br />
             Notre plus grande qualité se trouve dans notre détermination à faire
             de Sysmic l’un des meilleurs festivals estudiantins du campus.
@@ -306,23 +250,13 @@ import FAQRow from "../components/FAQRow.vue";
           />
         </section>
       </div>
-      <div class="container">
-        <section>
-          <p style="text-align: center">
-            Si tu veux en savoir plus à propos de l'association, jette un oeil à
-            la page
-            <span
-              ><router-link
-                style="color: var(--white); text-decoration: underline"
-                to="/about-us"
-                >À propos</router-link
-              ></span
-            >
-            !
-          </p>
-        </section>
+        <div class="more-info">
+    <p class="info-box" style="--r:1.5deg">
+      Plus d'infos sur l'association
+      <router-link to="/about-us" class="more-info-link">À propos →</router-link>
+    </p>
+  </div>
       </div>
-      <!-- <hr class="comite-section-hr"> -->
       <div class="slider">
         <div class="reverse-slide">
           <img class="band" src="@/assets/images/utilitaries/long-band-newlogo.svg" />
@@ -330,242 +264,210 @@ import FAQRow from "../components/FAQRow.vue";
       </div>
     </div>
     <div id="comite" class="comite">
-      <h1 class="h1-primary-background comite-title">Comité 2025</h1>
-      <h2 class="h2-primary-background comite-title">Présidence</h2>
+      <h1 class="h1-primary-background comite-title">Comité 2026</h1>
+      <h2 class="pole-title">Présidence</h2>
       <div class="container-comite">
         <section class="comite-line">
-          <div class="comite-member">
-            <h4>Mathieu Bénard</h4>
-            <p>Président</p>
-            <img class="comite-img" src="@/assets/images/comite/matthieu.jpg" />
-          </div>
-        </section>
-      </div>
-      <div class="container-comite">
-        <section class="comite-line">
-          <div class="comite-member">
-            <h4>Roman Paccaud</h4>
-            <p>VP Logistique</p>
-            <img class="comite-img" src="@/assets/images/comite/roman_2.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Talia Meyer</h4>
-            <p>VP Communication</p>
-            <img class="comite-img" src="@/assets/images/comite/talia.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Salomé Grouzinoff</h4>
-            <p>VP Animation</p>
-            <img class="comite-img" src="@/assets/images/comite/salome.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Hector Mir</h4>
-            <p>Trésorier</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/hector_old.jpg"
-            />
-          </div>
-        </section>
-      </div>
-
-      <hr class="comite-section-hr" />
-      <h2 class="h2-primary-background comite-title">Logistique</h2>
-      <div class="container-comite">
-          <div class="comite-member">
-            <h4>Antoine Eisinger</h4>
-            <p>Matériel</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/antoine_matos.jpg"
-            />
-          </div>
           <div class="comite-member">
             <h4>May Dubuy</h4>
-            <p>Décoration</p>
+            <p>Présidente</p>
             <img class="comite-img" src="@/assets/images/comite/may.jpg" />
           </div>
-          <div class="comite-member">
-            <h4>Maria Kyramarios</h4>
-            <p>Décoration</p>
-            <img class="comite-img" src="@/assets/images/comite/maria.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Sophie Beuret</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/sophie2.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Edgar Wolff</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/edgar.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Matej Soumillion</h4>
-            <p>Sécurité</p>
-            <img class="comite-img" src="@/assets/images/comite/absent.png" />
-          </div>
-          <div class="comite-member">
-            <h4>Roman Ostrowsky</h4>
-            <p>Élec/Light</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/roman_autre.jpg"
-            />
-          </div>
-
-
-          <div class="comite-member">
-            <h4>Jonas Blanc</h4>
-            <p>Adjoint à la technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/jonas.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Hadrien Canches</h4>
-            <p>Technique de scène</p>
-            <img class="comite-img" src="@/assets/images/comite/hadrien.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Maxime Coeytaux</h4>
-            <p>RH</p>
-            <img class="comite-img" src="@/assets/images/comite/maxime.jpg" />
-          </div>
-
+        </section>
       </div>
-
-      <hr class="comite-section-hr" />
-      <h2 class="h2-primary-background comite-title">Communication</h2>
-
       <div class="container-comite">
+        <section class="comite-line">
           <div class="comite-member">
-            <h4>Noam Lévy</h4>
-            <p>Community Manager</p>
-            <img class="comite-img" src="@/assets/images/comite/noam.jpg" />
+            <h4>Antoine Eisinger</h4>
+            <p>VP Logistique</p>
+            <img class="comite-img" src="@/assets/images/comite/antoine.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Romain Klein</h4>
-            <p>Vidéaste</p>
-            <img class="comite-img" src="@/assets/images/comite/romain.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Léa Mahfouf</h4>
-            <p>Graphisme</p>
-            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Daniel Krief</h4>
-            <p>IT/Webmaster</p>
-            <img class="comite-img" src="@/assets/images/comite/daniel.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Ulysse Zbinden</h4>
-            <p>Prévention/Durabilité</p>
-            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Mélodie Serreau</h4>
-            <p>Spectacle</p>
-            <img class="comite-img" src="@/assets/images/comite/melodie.jpg" />
-          </div>
-
-      </div>
-
-      <hr class="comite-section-hr" />
-      <h2 class="h2-primary-background comite-title">Animation</h2>
-
-      <div class="container-comite">
-          <div class="comite-member">
-            <h4>Grégoire Gimenez</h4>
-            <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/gregoire.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Alexis Zuber</h4>
-            <p>Bar</p>
-            <img class="comite-img" src="@/assets/images/comite/alexis.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Olivia Robles</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/olivia.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Marc Simon</h4>
-            <p>Programmation</p>
-            <img class="comite-img" src="@/assets/images/comite/marc.jpg" />
-          </div>
-
-          <div class="comite-member">
-            <h4>Dina Azoulay</h4>
-            <p>Catering</p>
-            <img class="comite-img" src="@/assets/images/comite/dina.jpg" />
-          </div>
-          <div class="comite-member">
-            <h4>Antoine Reynaud</h4>
-            <p>Catering</p>
-            <img
-              class="comite-img"
-              src="@/assets/images/comite/antoine_cat.jpg"
-            />
-          </div>
-          <div class="comite-member">
-            <h4>Marie van Rossum</h4>
-            <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/marie.jpg" />
+            <h4>Anthony Magnin</h4>
+            <p>VP Communication</p>
+            <img class="comite-img" src="@/assets/images/comite/anto.jpg" />
           </div>
           <div class="comite-member">
             <h4>Anouck Fazio</h4>
-            <p>Escape Game</p>
-            <img class="comite-img" src="@/assets/images/comite/anouck.jpg" />
+            <p>VP Animation</p>
+            <img class="comite-img" src="@/assets/images/comite/Anouck_2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Philippe Logoz</h4>
+            <p>Trésorier</p>
+            <img
+              class="comite-img"
+              src="@/assets/images/comite/philippe.jpg"
+            />
+          </div>
+        </section>
+      </div>
+
+      
+      <h2 class="pole-title">Logistique</h2>
+      <div class="container-comite">
+          <div class="comite-member">
+            <h4>Taos Drouet</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/taos.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Katarina Licina</h4>
+            <p>Décoration</p>
+            <img class="comite-img" src="@/assets/images/comite/kata.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Léa Françoise</h4>
+            <p>Sécurité</p>
+            <img class="comite-img" src="@/assets/images/comite/lea.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Adrien Lievre</h4>
+            <p>Sécurité</p>
+            <img class="comite-img" src="@/assets/images/comite/adrien_l.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Arthur Busseret</h4>
+            <p>Technique de scène</p>
+            <img class="comite-img" src="@/assets/images/comite/arthur.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Mélodie Serreau</h4>
+            <p>Adjointe au technique de scène</p>
+            <img class="comite-img" src="@/assets/images/comite/melodie_2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Edgar Wolff</h4>
+            <p>Élec/Light</p>
+            <img class="comite-img" src="@/assets/images/comite/edgar.jpg"
+            />
+          </div>
+          <div class="comite-member">
+            <h4>Marìa Mulet</h4>
+            <p>Matériel</p>
+            <img
+              class="comite-img" src="@/assets/images/comite/maria.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Enesa Mazrekaj</h4>
+            <p>RH</p>
+            <img class="comite-img" src="@/assets/images/comite/enesa.jpeg" />
           </div>
 
       </div>
 
-      <hr class="comite-section-hr" />
-      <h2 class="h2-primary-background comite-title">Aide à la Trésorerie</h2>
+      
+      <h2 class="pole-title">Communication</h2>
 
       <div class="container-comite">
           <div class="comite-member">
-            <h4>Felix Elsässer</h4>
-            <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/felix.jpg" />
+            <h4>Solène Dumond</h4>
+            <p>Community Manager</p>
+            <img class="comite-img" src="@/assets/images/comite/solene.jpg" />
           </div>
           <div class="comite-member">
-            <h4>Marina Perez Barrera</h4>
+            <h4>Adrien Barmaz</h4>
+            <p>Vidéaste</p>
+            <img class="comite-img" src="@/assets/images/comite/adrien.b.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Evan Agullo</h4>
+            <p>Graphisme</p>
+            <img class="comite-img" src="@/assets/images/comite/evan.jpeg" />
+          </div>
+          <div class="comite-member">
+            <h4>Audrey Huang</h4>
+            <p>Graphisme</p>
+            <img class="comite-img" src="@/assets/images/comite/audrey.jpeg" />
+          </div>
+          <div class="comite-member">
+            <h4>Thomas Clement</h4>
+            <p>Prévention/Durabilité</p>
+            <img class="comite-img" src="@/assets/images/comite/thomas.jpeg" />
+          </div>
+
+      </div>
+
+      <h2 class="pole-title">Animation</h2>
+
+      <div class="container-comite">
+          <div class="comite-member">
+            <h4>Lea Mahfouf</h4>
+            <p>Bar</p>
+            <img class="comite-img" src="@/assets/images/comite/lea-old.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Antoine Reynaud</h4>
+            <p>Bar</p>
+            <img class="comite-img" src="@/assets/images/comite/antoine_cat.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Solvene De Foucauld</h4>
+            <p>Programmation</p>
+            <img class="comite-img" src="@/assets/images/comite/solvene.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Isak Okanovic</h4>
+            <p>Programmation</p>
+            <img class="comite-img" src="@/assets/images/comite/isak.jpg" />
+          </div>
+
+          <div class="comite-member">
+            <h4>Paolo Festa</h4>
+            <p>Catering</p>
+            <img class="comite-img" src="@/assets/images/comite/paolo_2.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Floriane Baudin</h4>
+            <p>Catering</p>
+            <img class="comite-img" src="@/assets/images/comite/florianne.jpg"/>
+          </div>
+          <div class="comite-member">
+            <h4>Maxime Coeytaux</h4>
+            <p>Escape Game</p>
+            <img class="comite-img" src="@/assets/images/comite/maxime.pasd.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Ulysse Zbinden</h4>
+            <p>Escape Game</p>
+            <img class="comite-img" src="@/assets/images/comite/ulysse.jpg" />
+          </div>
+
+      </div>
+
+      
+        <h2 class="pole-title">Aide à la Trésorerie</h2>
+        <div class="container-comite">
+          <div class="comite-member">
+            <h4>Alice Trignon</h4>
             <p>Sponsoring</p>
-            <img class="comite-img" src="@/assets/images/comite/marina.jpg" />
+            <img class="comite-img" src="@/assets/images/comite/alice.jpg" />
+          </div>
+          <div class="comite-member">
+            <h4>Maxime Dominguez</h4>
+            <p>IT/Ticketing</p>
+            <img class="comite-img" src="@/assets/images/comite/maxime.d_2.jpg" />
           </div>
       </div>
 
-      <!-- <hr class="comite-section-hr"> -->
-      <!-- <h2 class="h2-primary-background comite-title">Membres de soutien</h2> -->
+      
+      <h2 class="pole-title">Membres de soutien</h2>
 
-      <!-- <div class="container-comite">
+      <div class="container-comite">
                 <section class="comite-line">
                     <div class="comite-member">
-                        <h4>Paloma Garcia Moron</h4>
+                        <h4>Romain Klein</h4>
                         <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/paloma.jpg">
+                        <img class="comite-img" src="@/assets/images/comite/romain.jpg">
                     </div>
                     <div class="comite-member">
-                        <h4>Raphaël Pittet</h4>
+                        <h4>Matthieu Bénard</h4>
                         <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/raphael.jpg">
-                    </div>  
-                    <div class="comite-member">
-                        <h4>Eleonore Salin</h4>
-                        <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/eleonore.jpg">
-                    </div> 
-                    <div class="comite-member">
-                        <h4>Sébastien Devaud</h4>
-                        <p>Membre de Soutien</p>
-                        <img class="comite-img" src="@/assets/images/comite/seby.png">
-                    </div> 
+                        <img class="comite-img" src="@/assets/images/comite/matthieu-old.jpg" />
+                    </div>
                 </section>
-            </div> -->
+            </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -594,6 +496,20 @@ h3 {
   margin-right: 50px;
 }
 
+.timer-button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* stacks them on narrow screens */
+}
+
+.timer-button-row .button-section {
+  width: auto;
+  padding: 0;
+}
+
 .comite-title {
   text-align: center;
   margin-bottom: 0;
@@ -608,14 +524,21 @@ h3 {
 }
 
 .main-page-button {
+  display: inline-block;
   margin: 10px;
-  padding: 15px;
+  padding: 22px 48px;
+  font-size: 1.4rem;
   font-weight: bold;
-  color: var(--primary);
-  background-color: var(--white);
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 0;
   cursor: pointer;
-  border-radius: 10px;
-  border: 0;
+  text-decoration: none;
+
+  /* squashed text */
+  transform: scaleY(0.75);
+  letter-spacing: -0.02em;
 }
 
 .info-section-hr {
@@ -651,177 +574,158 @@ span {
   box-shadow: 0 8px 30px -4px black;
 }
 
+
 .line-up {
-  max-width: 100%;
-  padding: 20px;
-  /* padding-top: calc(var(--navbar-height) + var(--global-margin)); */
-  align-items: center;
-  justify-content: space-around;
+  scroll-margin-top: calc(var(--navbar-height) + var(--global-margin));
+  padding-top: calc(var(--navbar-height) + 60px);
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url("@/assets/images/utilitaries/final_logo.png") center / cover no-repeat;
+  --total: 420;           
+  --blue: #0037ff;
+  --label-w: 260px;
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary);
-
-  box-shadow: 0 8px 30px -4px black;
+  gap: 24px;
+  overflow-x: auto;   
+  box-shadow: none;
 }
 
-.line-up img {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.line-up-zone {
-  /* width: 150%; */
-  max-width: 1000px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
-  justify-content: center;
-}
-
-.line-up-container {
-  width: 100%;
-  min-width: 100%;
-  max-width:100%;
-  height: 60%;
-  display: flex;
-  flex-direction: row;
+.lu-row {
+  display: grid;
+  grid-template-columns: var(--label-w) minmax(900px, 1fr);
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 40px;
+  min-width: 1200px;
 }
 
-.line-up-box-1 {
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  background-color: var(--primary);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border: solid 2px var(--blue);
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
-  /* margin-bottom: 25px; */
+.lu-label {
+  justify-self: start;
+  padding: 6px 18px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
 }
+.lu-title { font-size: 3rem; }
 
-.line-up-box-2 {
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  background-color: var(--primary);
-  border: solid 2px var(--blue);
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
-  display: flex-wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 8px;
-
-  /* margin-bottom: 5px; */
-}
-
-.line-up-stage {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  height: 100%;
-  width: 30%;
-}
-
-.line-up-stagename {
-  color: white;
-  text-align: center;
-  font-size: 1.65em;
-}
-.line-up-artist-big {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.line-up-artist {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  padding: 3%;
-}
-
-#loudjack {
+.lu-hours {
   position: relative;
-  height: 90px;
-  top: -33px;
-}
-
-#jardin,
-#jardin2 {
-  height: 60%;
-}
-
-.line-up-time {
-  background-color: var(--third);
-  color: var(--white);
-  font-family: "Roboto";
-  font-size: 1.7em;
-  font-weight: bold;
-  border-radius: 10px;
   height: 40px;
-  width: 180px;
-  display: flex;
-  margin: 5px;
-  align-items: center;
-  justify-content: center;
+  background: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  margin: 0;                 
+  overflow: hidden;          
 }
-.line-up-artist-big .line-up-time {
-  background-color: var(--third);
-  color: var(--white);
-  font-family: "Roboto";
-  font-size: 1.7em;
+
+.lu-hours span {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--h) * 60 / var(--total) * 100%);
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-style: italic;
   font-weight: bold;
-  border-radius: 10px;
-  height: 55px;
-  width: 150px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+
+.lu-hours span:first-child {
+  transform: translate(8px, -50%);      
+}
+.lu-hours span:last-child {
+  transform: translate(calc(-100% - 8px), -50%);  
+}
+
+
+.lu-track {
+  position: relative;
+  height: 150px;
+  background:
+    linear-gradient(var(--blue), var(--blue)) right / 4px 100% no-repeat,
+    repeating-linear-gradient(
+      to right,
+      var(--blue) 0,
+      var(--blue) 4px,
+      transparent 4px,
+      transparent calc(60 / var(--total) * 100%)
+    );
+}
+
+.lu-hours { margin: 0 2px; }  
+
+.lu-set {
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: calc(var(--s) / var(--total) * 100%);
+  width: calc((var(--e) - var(--s)) / var(--total) * 100%);
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 0;
 }
+.lu-set b { font-size: 1.6rem; font-weight: normal; line-height: 1.1; }
+.lu-set small { font-size: 1.1rem; }
 
-.line-up-name {
-  font-family: "Roboto";
-  font-size: 1.7em;
-  font-weight: 800;
-  color: grey;
-  margin-top: 10px;
-}
-.line-up-artist-big .line-up-name {
-  font-family: "Roboto";
-  font-size: 1.7em;
-  font-weight: 800;
-  color: grey;
-  margin-top: 15px;
-}
-
-@media screen and (max-width: 1180px) {
-  .line-up-stagename {
-    font-size: 1.5em;
+@media screen and (max-width: 850px) {
+  .line-up {
+    padding: calc(var(--navbar-height) + 30px) 15px 20px;
+    gap: 28px;
+    overflow-x: visible;
   }
+
+  .lu-row {
+    display: block;
+    min-width: 0;
+  }
+
+  .lu-hours { display: none; }
+
+  /* stage names: smaller boxes, no longer full width */
+  .lu-label {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 12px;
+    padding: 4px 12px;
+    font-size: 1.3rem;
+  }
+  .lu-title { font-size: 2rem; }
+  .lu-row:nth-of-type(odd) .lu-label  { margin-left: 8%; }
+  .lu-row:nth-of-type(even) .lu-label { margin-left: 25%; }
+
+  .lu-track {
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .lu-set {
+    position: static;
+    width: 58%;
+    min-height: 0;
+    padding: 6px 8px;
+    gap: 6px;
+  }
+  .lu-set b     { font-size: 1.1rem; }
+  .lu-set small { font-size: 0.85rem; }
+
+  .lu-set:nth-child(4n + 1) { margin-left: 0; }
+  .lu-set:nth-child(4n + 2) { margin-left: 38%; }
+  .lu-set:nth-child(4n + 3) { margin-left: 12%; }
+  .lu-set:nth-child(4n + 4) { margin-left: 30%; }
 }
-
-/* .band{
-    max-height: 5px;
-    width: 100%;
-    display:none;
-} */
-
-/* .slider {
-  width: 100%;
-  overflow: hidden;
-} */
 
 .slide {
   width: 200%;
@@ -829,8 +733,6 @@ span {
   background-size: contain;
   background-repeat: repeat-x;
   animation: slide 20s linear infinite;
-  /* background-color: rgba(0,0,0,0.2);
-    box-shadow: 0 -2px 10px 5px rgba(0, 0, 0, 0.2); */
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -840,8 +742,6 @@ span {
   background-size: contain;
   background-repeat: repeat-x;
   animation: reverse-slide 20s linear infinite;
-  /* background-color: rgba(0,0,0,0.2); */
-  /* box-shadow: 0 -2px 10px 5px rgba(0, 0, 0, 0.2); */
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -853,7 +753,7 @@ span {
   100% {
     transform: translateX(
       0%
-    ); /* Adjust the percentage based on the width of your image */
+    ); 
   }
 }
 
@@ -864,41 +764,178 @@ span {
   100% {
     transform: translateX(
       -50%
-    ); /* Adjust the percentage based on the width of your image */
+    ); 
   }
 }
 
 .photo-gallery {
-  /* height: 60vh; */
   background-color: var(--primary);
 }
 
 .infos {
-  margin-bottom: 25px;
+  padding-top: 10px;        
+}
+
+.info-group {
+  align-items: center;       
+  flex: 1 1 380px;
+  max-width: 480px;
+}
+
+.info-label,
+.info-box {
+  text-align: center;
+}
+
+.infos .h1-primary-background {
   display: block;
+  width: fit-content;
+  margin: 0 auto 10px;
+  padding: 8px 28px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  letter-spacing: -0.02em;
+}
+
+.info-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-items: flex-start;
+  gap: 2rem 5rem;
   width: 100%;
-  background-color: var(--primary);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+  box-sizing: border-box;
 }
 
-.infos section {
-  display: inline-block;
+.info-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex: 0 0 480px;          
+  max-width: 100%;
+}
+
+.info-label,
+.info-box {
   margin: 0;
+  transform: translateX(var(--x, 0)) rotate(var(--r, 0deg)) scaleY(0.75);
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-justify: auto;
+  border-radius: 0;
 }
 
-.mt-hr {
-  border: 1px solid var(--third);
-  max-width: 300px;
+.info-label {
+  padding: 8px 26px;
+  font-size: 2.2rem;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
 }
-.mt-hr-blue {
-  border: 1px solid var(--blue);
-  max-width: 300px;
+
+.info-box {
+  padding: 14px 22px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  background: #0037ff;
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (max-width: 850px) {
+.infos {
+  padding-top: 50px;
+}
+
+#infos-container.info-board {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 15px;
+}
+
+.info-group {
+  width: 100%;
+  max-width: 420px;
+  align-items: center;
+}
+
+.info-label,
+.info-box {
+  width: fit-content;
+  max-width: 100%;
+  text-align: center !important;
+  transform: translateX(calc(var(--x) * 0.3)) rotate(var(--r)) scaleY(0.75);
+}
+}
+
+.more-info {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 40px;
+}
+
+.more-info .info-box {
+  text-align: center;
+}
+
+.more-info-link {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 10px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+.more-info-link:hover {
+  background: #000;
+  color: #fff;
+}
+
+.faq-list > :nth-child(odd)  { transform: translateX(-30px) rotate(-0.8deg); }
+.faq-list > :nth-child(even) { transform: translateX(30px)  rotate(0.8deg); }
+
+@media screen and (max-width: 850px) {
+  .faq-list > :nth-child(odd)  { transform: translateX(-8px); }
+  .faq-list > :nth-child(even) { transform: translateX(8px); }
+}
+
+.association .h1-primary-background {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 30px;
+  padding: 8px 28px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  letter-spacing: -0.02em;
+}
+.more-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0 40px;
+}
+  .association p {
+    color: #fff;
+  }
+  .more-info .info-box {
+  text-align: center;
+  width: fit-content;
+  max-width: 90%;
 }
 
 .sponsors {
   display: inline-block;
   width: 100%;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
-  /* box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.07); */
   background-color: var(--secondary);
 }
 .sponsors-bar {
@@ -908,13 +945,6 @@ span {
   position: relative;
   max-width: 60%;
   max-height:20%;
-  /* top: calc(5vw + 45vh); 
-  left: 25%;
-  height: 8%;
-  z-index: 101;
-  max-width: 70%;
-  margin: auto;
-  margin-bottom: calc(230px - 10vw); */
 }
 
 .sponsors .sponsors-line {
@@ -1024,74 +1054,120 @@ span {
   background-color: var(--secondary);
 }
 
+/* "Comité 2026": white block like the other section titles */
+.comite .h1-primary-background {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 30px;
+  padding: 8px 28px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  letter-spacing: -0.02em;
+}
+
+/* blue pole titles */
+.pole-title {
+  display: block;
+  width: fit-content;
+  margin: 50px auto 10px;
+  padding: 6px 26px;
+  background: #0037ff;
+  color: #fff;
+  border-radius: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
 .container-comite {
   display: flex;
-  flex-wrap:wrap;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: center;
-  align-content: center;
+  gap: 30px 20px;
   max-width: 1100px;
-  margin: auto;
-  margin-top: 10px;
+  margin: 10px auto 0;
 }
 
 .comite-line {
-  padding: 10px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 20px;
   width: 100%;
-  align-items: center;
+  padding: 10px;
 }
 
 .comite-member {
-  display: inline-block;
-
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 25%;
-  margin-bottom: 50px;
+  width: 22%;
+  margin-bottom: 20px;
 }
 
-.comite-filler {
-  width: 24.5;
+.comite-member h4 {
+  margin: 0;
+  padding: 3px 8px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: -0.02em;
 }
 
 .comite-member p {
+  margin: -2px 0 10px;
+  padding: 2px 8px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  font-size: 0.75rem;
   text-align: center;
-  margin: 0;
-  padding-bottom: 7px;
-  display: flex;
-  flex-direction: column;
 }
 
 .comite-img {
   width: 80%;
+  border: 2px solid #000;
+  border-radius: 0;
 }
 
 .home-screen {
+  position: relative;   
+  overflow: hidden;    
   height: calc(100vh - var(--navbar-height) - var(--global-margin));
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-bottom: 20px;
-  /* overflow: ; */
   background-color: var(--black);
   justify-content: space-around;
 }
 
 .home-screen-bg {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  background-image: url("@/assets/images/PhotoGallery/slideshow/3.jpg");
+  z-index: 0;
+  object-fit: cover;
+  object-position: center;
   opacity: 0.4;
-  /* background-image: url("@/assets/images/PhotoGallery/DSC_8927_final.jpg"); */
-  /* background-color: var(--primary-darker); */
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
   filter: blur(8px);
-  /* -webkit-filter: blur(8px); */
+  transform: scale(1.05); /* hides the soft blurred edges */
+}
+
+/* keep the content above the video */
+.home-screen > :not(.home-screen-bg) {
+  position: relative;
+  z-index: 1;
 }
 
 .higlight-text {
@@ -1121,7 +1197,7 @@ span {
 .sponsor-el {
   /* background-color: chartreuse; */
   flex-grow: 1;
-  z-index: 10000;
+  z-index: 5000;
   max-width: 200px;
   max-height: 100px;
   width: 20%;
@@ -1196,6 +1272,14 @@ span {
   .sponsor-el {
     width: 40vw;
   }
+}
+
+.coming-soon {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--white);
+  padding: 40px 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -1337,7 +1421,15 @@ span {
   }
 
   .comite-line {
-    width: 100% !important;
+  width: 100% !important;
+  padding: 0;
+  gap: 24px 20px;
+}
+
+  .container-comite {
+    padding: 0 12px;
+    gap: 24px 20px;
+    box-sizing: border-box;
   }
 
   .comite-section-hr {
@@ -1345,9 +1437,8 @@ span {
   }
 
   .comite-member {
-    width: 49% !important;
-  }
-
+  width: calc(50% - 10px) !important;   /* 10px = half of the 20px column gap */
+}
   .comite-member p {
     padding-bottom: 4px;
   }
